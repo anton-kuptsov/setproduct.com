@@ -26,7 +26,18 @@
     }
   };
 
+  const shouldDisableForm = (form) => {
+    // Keep CMS filter/search forms working (blog/category filters etc.).
+    if (form.hasAttribute("fs-cmsfilter-element")) return false;
+
+    // Disable only real submission forms (email/contact/textarea flows).
+    const hasEmailField = !!form.querySelector('input[type="email"]');
+    const hasTextarea = !!form.querySelector("textarea");
+    return hasEmailField || hasTextarea;
+  };
+
   const disableForm = (form) => {
+    if (!shouldDisableForm(form)) return;
     form.setAttribute("data-static-mirror-disabled", "true");
     form.setAttribute("action", "javascript:void(0)");
     form.addEventListener("submit", (event) => {
