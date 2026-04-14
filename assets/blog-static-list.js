@@ -33,6 +33,7 @@
   const items = qsa(".blog_list-item");
   const loadMoreButton = qs("#blog-load-more");
   const itemsCount = qs('[fs-cmsload-element="items-count"]');
+  const listContainer = qs(".blog_list.w-dyn-items");
 
   if (!allButton || !items.length) return;
 
@@ -70,7 +71,14 @@
 
   const render = () => {
     const matched = items.filter(matchesCategory);
+    const unmatched = items.filter((item) => !matchesCategory(item));
     const showCount = activeCategory ? matched.length : Math.min(matched.length, visibleLimit);
+
+    // Keep matched cards as first siblings so nth-child layout rules
+    // are applied to the filtered subset exactly like in Webflow CMS view.
+    if (listContainer) {
+      [...matched, ...unmatched].forEach((item) => listContainer.appendChild(item));
+    }
 
     items.forEach((item) => {
       item.style.display = "none";
