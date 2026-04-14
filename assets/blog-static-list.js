@@ -29,7 +29,7 @@
   };
 
   const allButton = qs("#all-button");
-  const categoryLabels = qsa('label.nav_radio[fs-cmsfilter-field="category-2"]');
+  const categoryLabels = qsa(".is-static-filter[data-blog-category]");
   const items = qsa(".blog_list-item");
   const loadMoreButton = qs("#blog-load-more");
   const itemsCount = qs('[fs-cmsload-element="items-count"]');
@@ -47,11 +47,25 @@
   const setActiveControl = () => {
     allButton.classList.toggle("fs-cmsfilter_active", !activeCategory);
     categoryLabels.forEach((label) => {
-      const labelText = normalize(label.textContent);
+      const labelText = normalize(label.getAttribute("data-blog-category") || label.textContent);
       label.classList.toggle("fs-cmsfilter_active", labelText === activeCategory);
-      const input = qs('input[type="radio"]', label);
-      if (input) input.checked = labelText === activeCategory;
     });
+  };
+
+  const extractCategory = (element) => {
+    if (!element) return "";
+    const dataCategory = element.getAttribute && element.getAttribute("data-blog-category");
+    if (dataCategory) return normalize(dataCategory);
+    const href = element.getAttribute && element.getAttribute("href");
+    if (href && href.includes("blog-categories=")) {
+      try {
+        const url = new URL(href, window.location.origin);
+        return normalize(url.searchParams.get("blog-categories") || "");
+      } catch (_) {
+        return "";
+      }
+    }
+    return normalize(element.textContent);
   };
 
   const render = () => {
@@ -87,10 +101,18 @@
     applyCategory("");
   });
 
-  categoryLabels.forEach((label) => {
-    label.addEventListener("click", () => {
-      applyCategory(normalize(label.textContent));
+  categoryLabels.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      applyCategory(extractCategory(link));
     });
+  });
+
+  document.addEventListener("click", (e) => {
+    const control = e.target.closest(".is-static-filter[data-blog-category], a[href*=\"blog-categories=\"]");
+    if (!control) return;
+    e.preventDefault();
+    applyCategory(extractCategory(control));
   });
 
   if (loadMoreButton) {
