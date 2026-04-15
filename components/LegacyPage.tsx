@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PageShell from "./layout/PageShell";
 import type { LegacyPageData } from "../types/legacy";
 
 export default function LegacyPage({
@@ -6,8 +7,11 @@ export default function LegacyPage({
   description,
   canonical,
   inlineStyles = [],
+  contentHtml = "",
   bodyHtml,
 }: LegacyPageData) {
+  const pageContentHtml = contentHtml || bodyHtml;
+
   return (
     <>
       <Head>
@@ -18,7 +22,7 @@ export default function LegacyPage({
           <style dangerouslySetInnerHTML={{ __html: style }} key={`legacy-style-${index}`} />
         ))}
       </Head>
-      <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+      <PageShell contentHtml={pageContentHtml} />
     </>
   );
 }
