@@ -1,5 +1,19 @@
+"use client";
+
+import { type FormEvent, useState } from "react";
+import {
+  DribbbleIcon,
+  LinkedInIcon,
+  MediumIcon,
+  PinterestIcon,
+  RedditIcon,
+  TwitterIcon,
+  type FooterSocialIconComponent,
+} from "./FooterSocialIcons";
+
 type FooterLink = { href: string; label: string; external?: boolean; modal?: boolean };
 type FooterColumn = { title: string; titleHref?: string; links: FooterLink[] };
+type SocialLink = { href: string; label: string; Icon: FooterSocialIconComponent };
 
 const FOOTER_COLUMNS: FooterColumn[] = [
   {
@@ -40,16 +54,47 @@ const FOOTER_COLUMNS: FooterColumn[] = [
   },
 ];
 
-const SOCIAL_LINKS = [
-  { href: "https://dribbble.com/setproduct/shots", label: "Dribbble" },
-  { href: "https://twitter.com/set_product?lang=en", label: "Twitter" },
-  { href: "https://www.reddit.com/r/FigmaDesignSystems/", label: "Reddit" },
-  { href: "https://www.pinterest.com/setproduct/", label: "Pinterest" },
-  { href: "https://kamushken.medium.com/", label: "Medium" },
-  { href: "https://www.linkedin.com/company/setproduct/", label: "LinkedIn" },
+const SOCIAL_LINKS: SocialLink[] = [
+  {
+    href: "https://dribbble.com/setproduct/shots",
+    label: "Dribbble",
+    Icon: DribbbleIcon,
+  },
+  {
+    href: "https://twitter.com/set_product?lang=en",
+    label: "Twitter",
+    Icon: TwitterIcon,
+  },
+  {
+    href: "https://www.reddit.com/r/FigmaDesignSystems/",
+    label: "Reddit",
+    Icon: RedditIcon,
+  },
+  {
+    href: "https://www.pinterest.com/setproduct/",
+    label: "Pinterest",
+    Icon: PinterestIcon,
+  },
+  {
+    href: "https://kamushken.medium.com/",
+    label: "Medium",
+    Icon: MediumIcon,
+  },
+  {
+    href: "https://www.linkedin.com/company/setproduct/",
+    label: "LinkedIn",
+    Icon: LinkedInIcon,
+  },
 ];
 
 export default function SiteFooter() {
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
+  const handleSubscribe = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setIsSubscribed(true);
+  };
+
   return (
     <div className="section">
       <div className="section-padding bottom-80">
@@ -94,16 +139,19 @@ export default function SiteFooter() {
                   <a className="brand-link w-inline-block" href="/" />
                 </div>
                 <div className="footer_cta-wr">
-                  <div className="footer_cta-active">
+                  <div
+                    className="footer_cta-active"
+                    style={{ display: isSubscribed ? "none" : undefined }}
+                  >
                     <p className="heading-style-h4">Subscribe to Setproduct</p>
                     <div className="spacer-12" />
                     <p className="text-size-small">Join our newsletter to stay up to date on features and releases.</p>
                     <div className="spacer-24" />
                     <div className="form-block w-form">
-                      <form className="form-cta" method="get">
+                      <form className="form-cta" method="get" onSubmit={handleSubscribe}>
                         <input className="text-input w-input" maxLength={256} name="Email" placeholder="Enter your email" required type="email" />
                         <div className="button-form-wr">
-                          <input className="button-form w-button" type="submit" value="" />
+                          <input className="hide w-button" type="submit" value="Subscribe" />
                           <a className="button w-inline-block" href="#">
                             <div className="text-size-large text-weight-bold">Subscribe</div>
                           </a>
@@ -111,7 +159,10 @@ export default function SiteFooter() {
                       </form>
                     </div>
                   </div>
-                  <div className="footer_cta-success">
+                  <div
+                    className="footer_cta-success"
+                    style={{ display: isSubscribed ? undefined : "none" }}
+                  >
                     <p className="heading-style-h4">Congratulations!</p>
                     <div className="spacer-12" />
                     <p className="text-size-small">You are in! Expect awesome updates in your inbox</p>
@@ -119,20 +170,21 @@ export default function SiteFooter() {
                   </div>
                 </div>
               </div>
-
-              <div className="footer_credits">
-                <div className="footer_credits-text">
-                  <div className="footer_credits-text-wr">
-                    <div className="text-size-small">© All rights reserved. Setproduct.com</div>
-                  </div>
+            </div>
+            <div className="footer_credits">
+              <div className="footer_credits-text">
+                <div className="footer_credits-text-wr">
+                  <div className="text-size-small">© All rights reserved. Setproduct.com</div>
                 </div>
-                <div className="footer_socials">
-                  {SOCIAL_LINKS.map((social) => (
-                    <a className="link-block footer-social-media w-inline-block" href={social.href} key={social.href} rel="noreferrer" target="_blank">
-                      <div className="text-size-small">{social.label}</div>
-                    </a>
-                  ))}
-                </div>
+              </div>
+              <div className="footer_socials">
+                {SOCIAL_LINKS.map((social) => (
+                  <a className="link-block footer-social-media w-inline-block" href={social.href} key={social.href} rel="noreferrer" target="_blank">
+                    <div className="footer_social-icon w-embed">
+                      <social.Icon height="100%" width="100%" />
+                    </div>
+                  </a>
+                ))}
               </div>
             </div>
           </div>
