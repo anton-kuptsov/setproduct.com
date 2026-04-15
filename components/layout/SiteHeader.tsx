@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 type KitPreview = {
   href: string;
   buyHref: string;
@@ -124,6 +128,14 @@ const KIT_PREVIEWS: KitPreview[] = [
 ];
 
 export default function SiteHeader() {
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
+
+  const isMenuOpen = (menuName: string) => openMenu === menuName;
+
+  const toggleMenu = (menuName: string) => {
+    setOpenMenu((current) => (current === menuName ? null : menuName));
+  };
+
   return (
     <div className="navbar w-nav" role="banner">
       <div className="container">
@@ -140,14 +152,20 @@ export default function SiteHeader() {
                   <div className="text-size-regular">Inspiration</div>
                 </a>
 
-                <div className="nav_dropdown-wr">
-                  <div className="nav_dropdown w-dropdown" data-delay="0" data-hover="true">
-                    <div className="nav_dropdown_toggle w-dropdown-toggle">
+                <div className="nav_dropdown-wr" onMouseEnter={() => setOpenMenu("tutorials")} onMouseLeave={() => setOpenMenu(null)}>
+                  <div className={`nav_dropdown w-dropdown ${isMenuOpen("tutorials") ? "w--open" : ""}`} data-delay="0" data-hover="true">
+                    <div
+                      className={`nav_dropdown_toggle w-dropdown-toggle ${isMenuOpen("tutorials") ? "w--open" : ""}`}
+                      onClick={() => toggleMenu("tutorials")}
+                    >
                       <div className="text-size-regular">Tutorials</div>
                       <div className="icon w-icon-dropdown-toggle" />
                       <a className="nav_dropdown_toggle-link w-inline-block" href="/blog" />
                     </div>
-                    <nav className="nav_dropdown_list w-dropdown-list">
+                    <nav
+                      className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("tutorials") ? "w--open" : ""}`}
+                      style={{ display: isMenuOpen("tutorials") ? "block" : "none" }}
+                    >
                       <div className="container">
                         <div className="form-block w-form">
                           <form method="get" name="email-form-nav-1">
@@ -198,14 +216,20 @@ export default function SiteHeader() {
                   </div>
                 </div>
 
-                <div className="nav_dropdown-wr">
-                  <div className="nav_dropdown w-dropdown" data-delay="0" data-hover="true">
-                    <div className="nav_dropdown_toggle w-dropdown-toggle">
+                <div className="nav_dropdown-wr" onMouseEnter={() => setOpenMenu("designKits")} onMouseLeave={() => setOpenMenu(null)}>
+                  <div className={`nav_dropdown w-dropdown ${isMenuOpen("designKits") ? "w--open" : ""}`} data-delay="0" data-hover="true">
+                    <div
+                      className={`nav_dropdown_toggle w-dropdown-toggle ${isMenuOpen("designKits") ? "w--open" : ""}`}
+                      onClick={() => toggleMenu("designKits")}
+                    >
                       <div className="text-size-regular">Design Kits</div>
                       <div className="icon w-icon-dropdown-toggle" />
                       <a className="nav_dropdown_toggle-link w-inline-block" href="/all" />
                     </div>
-                    <nav className="nav_dropdown_list w-dropdown-list">
+                    <nav
+                      className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("designKits") ? "w--open" : ""}`}
+                      style={{ display: isMenuOpen("designKits") ? "block" : "none" }}
+                    >
                       <div className="container">
                         <div className="form-block w-form">
                           <form method="get" name="email-form-nav-2">
@@ -259,13 +283,19 @@ export default function SiteHeader() {
                   </div>
                 </div>
 
-                <div className="nav_dropdown-wr">
-                  <div className="nav_dropdown w-dropdown" data-delay="0" data-hover="true">
-                    <div className="nav_dropdown_toggle w-dropdown-toggle">
+                <div className="nav_dropdown-wr" onMouseEnter={() => setOpenMenu("information")} onMouseLeave={() => setOpenMenu(null)}>
+                  <div className={`nav_dropdown w-dropdown ${isMenuOpen("information") ? "w--open" : ""}`} data-delay="0" data-hover="true">
+                    <div
+                      className={`nav_dropdown_toggle w-dropdown-toggle ${isMenuOpen("information") ? "w--open" : ""}`}
+                      onClick={() => toggleMenu("information")}
+                    >
                       <div className="text-size-regular">Information</div>
                       <div className="icon w-icon-dropdown-toggle" />
                     </div>
-                    <nav className="nav_dropdown_list w-dropdown-list">
+                    <nav
+                      className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("information") ? "w--open" : ""}`}
+                      style={{ display: isMenuOpen("information") ? "block" : "none" }}
+                    >
                       <div className="container">
                         <div className="nav_dropdown-menu">
                           <div className="nav_dropdown-column information">
