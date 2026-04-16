@@ -1,0 +1,16 @@
+export const BLOG_CATEGORIES = [
+  "Startups & SaaS",
+  "UI Design",
+  "Growth Hacking",
+  "Inspiration",
+  "Resources",
+  "Technology",
+  "Research",
+  "Design Trends",
+  "SEO",
+  "Design & Code",
+  "Typography",
+  "Case Studies",
+  "Presentation",
+  "Career",
+];
