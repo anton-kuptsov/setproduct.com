@@ -17,6 +17,8 @@ export default function MDXImage({
 }: MDXImageProps) {
   if (!src) return null;
 
+  const isExternal = src.startsWith("http://") || src.startsWith("https://");
+
   const imageEl =
     width && height ? (
       <Image
@@ -25,6 +27,7 @@ export default function MDXImage({
         width={width}
         height={height}
         className="rounded-md"
+        unoptimized={isExternal}
       />
     ) : (
       <div className="relative w-full aspect-[16/9] my-4">
@@ -34,6 +37,7 @@ export default function MDXImage({
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 900px"
           className="object-cover rounded-md"
+          unoptimized={isExternal}
         />
       </div>
     );
