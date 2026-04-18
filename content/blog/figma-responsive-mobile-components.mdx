@@ -1,0 +1,75 @@
+---
+title: 'Creating Responsive Mobile Components in Figma: A Step-by-Step Guide'
+description: >-
+  Create elegant and flexible design solutions for your projects in Figma,
+  continually improving with each new endeavor.
+slug: figma-responsive-mobile-components
+date: '2023-10-02'
+author: Roman Kamushken
+coverImage: /blog/covers/figma-responsive-mobile-components.jpg
+coverImageAlt: How to create responsive mobile components in Figma
+tags: []
+canonical: 'https://www.setproduct.com/blog/figma-responsive-mobile-components'
+---
+
+<span class="blog\_big-paragraph">When creating the next design product based on iOS design templates, I decided to experiment with the Tab Bar component. I'd like to remind you that it is the bottom navigation in the iOS guidelines. I wanted its contents to have a logical and optimal behaviour at resizing. I wanted to make it as adaptive as possible for all mobile iOS devices, as far as Figma and constraints allow to make it.</span>
+
+## What does Tab Bar consist of?
+
+_A tab bar appears at the bottom of an app screen and provides the ability to quickly switch between different sections of an app._
+
+## Could we have it responsive?
+
+No tool for interface design allows the full adaptivity so far. Figma is no exception, it uses the classic _Constraints_ approach, but even with it you can do a lot. For example, you can see the perfect and actually adaptive behaviour of the Tab Bar on all devices in the animation below:
+
+![](/blog/assets/figma-responsive-mobile-components/img-1.jpg)
+
+_The elements move proportionally to the indents between them.  
+Below I will tell you how to achieve this behavior in a simple way._
+
+## The problem is the icons
+
+A good design system in Figma necessarily contains an icons library. At least the main system ones. This eliminates the need to import them manually from SVG files every time. Constraints in the Scale mode should be for each icon component, from which you will make a convenient library over time. Then you will get a flexible icon that can be used in any dimensions: 16x16, and 44x44, and so on.
+
+Most likely you will throw such an icon through Figma's left panel inside the Tab Bar and add an inscription when you start creating a component. And the problem is that with such constraints the icon will always be squeezed inside the Tab Bar at resizing if you want to get an adaptive component:
+
+![](/blog/assets/figma-responsive-mobile-components/img-2.jpg)
+
+_There are several methods to solve the problem_
+
+<span class="blog\_subtitle-caps">METHOD 1</span>
+
+## Immediately detach icons
+
+I suggested above that within your design system, all the component icons are in the Scale mode, it means when you create the Tab Bar, you can immediately break the connection with them and assign each icon individual Center constraints. It, in turn, will remain in the frame, which you need to assign the Scale mode.**‍**
+
+**Pros**: speed  
+**Cons**: disconnecting the component from the system
+
+![](/blog/assets/figma-responsive-mobile-components/img-3.jpg)
+
+<span class="blog\_subtitle-caps">METHOD 2</span>
+
+## Keep 2 types of icons in the system
+
+This method may be suitable if there are not so many icons in the project. Just duplicate your entire Scale set, detach, change constraints to Center, re-create the components and submit to a new page with a different name. Recently, I think it's a good idea that several hundred icons in any Figma system can be stored both as Scaleable and as Centered. So, once you dropped a Tab Bar onto your canvas, you just need to swap the icons and you can keep it as the _Instance_ in your project.**‍**
+
+**Pros**: flexibility  
+**Cons**: if there many icons, they are a lot harder to organise
+
+![](/blog/assets/figma-responsive-mobile-components/img-4.jpg)
+
+<span class="blog\_subtitle-caps">METHOD 3</span>
+
+## Add an intermediate component
+
+According to the concept of Atomic design, such a component will be considered a molecule. Pack an icon and an inscription in it, then feel free to put Center constraints to both and put the Scale mode for the molecule itself. After that, put them in your Tab Bar. Thus icon constraints will be ignored and _no squeeze_ happening anymore. In addition, the icon with the inscription is an effective navigation pattern. So why not reuse this component somewhere else in the project?**‍**
+
+**Pros**: efficiency  
+**Cons**: an extra component of the system
+
+https://webflow.com/@foursets
+
+Personally I prefer Method 3. I think it is more elegant and professional. Maybe you have your own methods?
+
+‍_By the way, many components in the Figma iOS toolkit are made according to this method. I recommend you to pay attention if you are prototyping mobile interfaces in Figma or in case your team concentrated on mobile development_.

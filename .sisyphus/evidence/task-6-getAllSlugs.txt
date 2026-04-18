@@ -1,0 +1,19 @@
+node:internal/modules/esm/resolve:313
+  return new ERR_PACKAGE_PATH_NOT_EXPORTED(
+         ^
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/estree-walker/package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:313:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:603:13)
+    at resolveExports (node:internal/modules/cjs/loader:646:36)
+    at Function._findPath (node:internal/modules/cjs/loader:713:31)
+    at node:internal/modules/cjs/loader:1351:27
+    at nextResolveSimple (/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1004)
+    at /Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/tsx/dist/register-D46fvsV_.cjs:3:2630
+    at /Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1542
+    at resolveTsPaths (/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/tsx/dist/register-D46fvsV_.cjs:4:760)
+    at /Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/node_modules/tsx/dist/register-D46fvsV_.cjs:4:1102 {
+  code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+}
+
+Node.js v22.18.0

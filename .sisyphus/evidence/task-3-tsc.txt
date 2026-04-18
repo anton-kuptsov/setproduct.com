@@ -1,0 +1,1 @@
+types/blog.ts(1,47): error TS2307: Cannot find module 'next-mdx-remote' or its corresponding type declarations.

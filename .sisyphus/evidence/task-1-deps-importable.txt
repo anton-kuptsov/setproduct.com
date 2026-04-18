@@ -1,0 +1,14 @@
+=== QA: gray-matter importable ===
+function
+=== QA: reading-time importable ===
+function
+=== QA: next-mdx-remote in package.json ===
+    "next-mdx-remote": "^5.0.0",
+=== QA: all MDX deps in package.json ===
+    "next-mdx-remote": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "reading-time": "^1.5.0",
+    "remark-gfm": "^4.0.0",
+    "rehype-pretty-code": "^0.13.0",
+    "shiki": "^1.22.0",
+    "@tailwindcss/typography": "^0.5.15"

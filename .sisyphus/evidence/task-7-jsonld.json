@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Test Title",
+  "description": "Test desc",
+  "image": "https://setproduct.com/blog/covers/test.jpg",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-01",
+  "author": {
+    "@type": "Person",
+    "name": "Roman Kamushken"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Setproduct",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://setproduct.com/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://setproduct.com/blog/s"
+  },
+  "timeRequired": "PT5M"
+}

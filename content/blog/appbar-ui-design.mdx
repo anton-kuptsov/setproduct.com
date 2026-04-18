@@ -1,0 +1,267 @@
+---
+title: 'App Bar UI Design: Anatomy, Specs, States, Templates'
+description: >-
+  Maximize user navigation with an optimized Application Bar, displaying in-app
+  controls for easy access to different app sections.
+slug: appbar-ui-design
+date: '2023-10-01'
+author: Roman Kamushken
+coverImage: /blog/covers/appbar-ui-design.jpg
+coverImageAlt: 'App Bar UI design exploration — Anatomy, specs, states, templates'
+tags: []
+canonical: 'https://www.setproduct.com/blog/appbar-ui-design'
+---
+
+<span class="blog\_big-paragraph">The **App Bar** serves as a crucial navigation element that remains consistent throughout an application. It allows users to easily switch between screens or access important features, ensuring a seamless and intuitive user experience.</span>
+
+**App Bar** (also known as the [Application Bar](https://m2.material.io/components/app-bars-top) or [Navbar](https://developer.apple.com/design/human-interface-guidelines/navigation-bars)) – is a prominent and persistent UI component located at the top of an application or screen.
+
+Designed to provide consistent navigation and access to essential functions, the App Bar serves as a central hub that allows users to switch between screens, access important features, and maintain contextual awareness throughout their app journey.
+
+Appbar typically includes various interactive elements such as menus, buttons, icons, search bars, and notifications. These elements enable users to perform common actions and navigate to different sections of the application.
+
+Now let's dive deeper into the **App Bar UI design** details ↓  
+
+![Application Bar UI design tutorial](/blog/assets/appbar-ui-design/img-1.jpg)
+
+## Anatomy
+
+Let's review separately the left, center, and right elements of _App Bar._ You may hide unused sections, and implement partial _App Bars_, for example without a title, or no right controls at all.
+
+![Application Bar UI design anatomy](/blog/assets/appbar-ui-design/img-2.jpg)
+
+## Left controls
+
+Sustain any kind of actions at the _App Bar's_ left side you want to focus the user's attention on by keeping them in sight.
+
+System navigation controls are a common choice for most cases and the users are familiar with this pattern.
+
+They may lead to:  
+
+-   Back
+-   Menu
+-   Close
+-   Custom (e.g. settings, profile, etc)
+
+![Application Bar UI design anatomy](/blog/assets/appbar-ui-design/img-3.jpg)
+
+Either, you may use other types of controls, you want to emphasise as attainable on a particular screen.
+
+![Application Bar UI design anatomy](/blog/assets/appbar-ui-design/img-4.jpg)
+
+On the desktop screen you are allowed to compound combinations of elements in order to use more _App Bar_'s space functionally.
+
+Combine logo, search inputs, dropdowns, icons (as buttons) and so on.
+
+![Application Bar UI design desktop](/blog/assets/appbar-ui-design/img-5.jpg)
+
+## Center section
+
+_App Bar_'s middle space is committed to title an application screen mostly. If necessary, you can replace it with additional controls specific to the current app section.
+
+Center may contain:  
+
+-   Title (with possible subtitle)
+-   Userpic (with possible name)
+-   Logo
+-   Segmented controls
+-   Search input
+-   Navigation items (_Tabs_, _Button Group_, _Breadcrumbs_, etc)
+
+### **Title**
+
+You may use a single title for the app section naming or extend to more informational purposes by enabling a sub-title.
+
+![Application Bar UI design anatomy](/blog/assets/appbar-ui-design/img-6.jpg)
+
+Adding a Chevron/Caret item is clearly distinguish there is something to reveal after a title was tapped.
+
+![Application Bar UI design menu](/blog/assets/appbar-ui-design/img-7.jpg)
+
+### **Userpic**
+
+May be used for providing particular user details especially when interacting with Profiles, Messengers, Social apps.
+
+![Application Bar UI design avatar](/blog/assets/appbar-ui-design/img-8.jpg)
+
+### **Logo**
+
+Put a logo into a central part of _App Bar_ to prioritize the brand identity. Fits especially for Home/Start screens where a user's journey usually begins.
+
+![Application Bar UI design logo](/blog/assets/appbar-ui-design/img-9.jpg)
+
+### **Segmented control**
+
+On mobiles place a _Segmented Control_ into _App Bar_ to toggle screen states or content properties within just a single action.
+
+![Application Bar UI design tabs](/blog/assets/appbar-ui-design/img-10.jpg)
+
+### **Search input**
+
+Generally used for desktop _App Bars_, center-based input may be utilized in order to have a search on hand.
+
+On mobiles it usually migrates as the _App Bar's_ second level when resized.
+
+![Application Bar UI design search](/blog/assets/appbar-ui-design/img-11.jpg)
+
+### **Navigation items**
+
+_Tabs, Buttons Group, Breadcrumbs_ are common navigation components to locate at the _App Bar's_ center.
+
+Either as for the previous case, they migrate on a second level when shrunk to the mobile viewport.  
+
+![Application Bar UI design navigation](/blog/assets/appbar-ui-design/img-12.jpg)
+
+## Right controls
+
+Maintain any kind of components on the _App Bar_'s right side. Place a single control or a combination of frequently used, which may be:  
+
+-   Avatar
+-   Icons (as Buttons)
+-   Buttons (Call to action)
+-   Search Input (mostly desktop)
+-   Dropdown (e.g. for an account swap, language)
+
+### **Avatar**
+
+To call out a function related to user properties, place an tappable [Avatar](https://www.setproduct.com/blog/avatar-ui-design) at the top right area of _App Bar_.
+
+A tap may lead to profile settings or reveal popover menu.
+
+![Application Bar UI design anatomy](/blog/assets/appbar-ui-design/img-13.jpg)
+
+### **Icons**
+
+Using icons as Buttons aimed to represent popular in-app actions ergonomically.
+
+Place here the most used controls you want to have permanently on a users' sight.  
+
+![Application Bar UI design icons](/blog/assets/appbar-ui-design/img-14.jpg)
+
+You may hide behind a popping menu all the items used less often. Especially fits for apps with 5 or more independent sections.
+
+Works well when you want your user to have 5+ in-app links on hand.
+
+![Application Bar UI design menu](/blog/assets/appbar-ui-design/img-15.jpg)
+
+### **Buttons**
+
+Place _Buttons_ into the right-sided region to call to action. Use styles and color wisely when having several buttons to distinguish primary and secondary actions associated with the business logic of the app.
+
+You may have a variety of shapes: _Square, Circle, Pill_ buttons. And a variety of styles: _Filled, Raised, Outlined (Ghost), Flat_ and so on depending on a necessity to grab user's attention.
+
+![Application Bar UI design buttons](/blog/assets/appbar-ui-design/img-16.jpg)
+
+### **Search input**
+
+Have a quickly accessible search input by placing it at the right as a single component, or among other controls. Mostly fits desktop cases.
+
+![Application Bar UI design input](/blog/assets/appbar-ui-design/img-17.jpg)
+
+### **Dropdowns**
+
+To toggle users, accounts, languages, etc. use _Dropdown_ nested into _App Bar's_ right section. Applied often for tablet/desktop resolutions.
+
+![Application Bar UI design dropdown](/blog/assets/appbar-ui-design/img-18.jpg)
+
+## Styles & Themes
+
+You can themify _App Bars_ within a variety of styling methods. To match the exterior of your overall in-app UI, you may use the following themes:  
+  
+
+-   Flat
+-   Raised
+-   Shaded
+-   Inverted
+-   Transparent
+
+![Application Bar UI design CSS styles](/blog/assets/appbar-ui-design/img-19.jpg)
+
+### **Flat**
+
+_App Bar's_ flat theme proposes a minimalistic approach with no separation, where the header and background compounding a visually holistic surface.
+
+![Application Bar UI design flat](/blog/assets/appbar-ui-design/img-20.jpg)
+
+### **Raised**
+
+Elevated style proposes to implement a smooth shadow to easily distinguish _App Bar_ hovering over a background.
+
+![Application Bar UI design raised](/blog/assets/appbar-ui-design/img-21.jpg)
+
+### **Shaded**
+
+_App Bar_ filled with solid color with opacity decreased to 8–12%. Thus you may suit an app with the smooth palette of your brand colors.
+
+![Application Bar UI design shaded](/blog/assets/appbar-ui-design/img-22.jpg)
+
+### **Inverted**
+
+Dark version of _App Bar_ you may use to distinguish the header by highlighting with color contrast. It's inverted as it's colored opposite to the overall application theme.
+
+![Application Bar UI design inverted](/blog/assets/appbar-ui-design/img-23.jpg)
+
+### **Transparent**
+
+Mostly used for mobile _App Bars_, this style reveals more space for full-size images in some specific sections (e.g. item details, profiles, deals).
+
+![Application Bar UI design template](/blog/assets/appbar-ui-design/img-24.jpg)
+
+## UX & Usability
+
+Let's review some kinds of behaviour extra special for _App Bars_. There are some cases when the app header can have:  
+
+-   Selected state
+-   Bottom positioning
+-   Shadow on scroll
+-   Blurred background
+-   Hide items on resize
+
+### **Selected state**
+
+_App Bar_ can dynamically swap themes to provide instant user feedback, e.g. when selecting items, events happening, warning states, etc.
+
+![Application Bar UI design usability](/blog/assets/appbar-ui-design/img-25.jpg)
+
+### **Bottom positioning**
+
+On mobile viewports, [you may attach App Bar to the bottom](https://m2.material.io/components/app-bars-bottom). Thus all the primary actions become available within fewer fingers stretching.
+
+![Application Bar UI design bottom](/blog/assets/appbar-ui-design/img-26.jpg)
+
+Conceptually, you may implement the same positioning either for desktop web apps. For example, there is a successfully utilized bottom bar on macOS and Windows and this pattern is familiar to users.
+
+![Application Bar UI design desktop](/blog/assets/appbar-ui-design/img-27.jpg)
+
+### **Shadow on scroll**
+
+_App Bar_ gets elevated when the screen is scrolled. Mostly fits for flat headers.
+
+Emerged shadow emulates the hovering effect which makes it seem in-app environment more natural and logical.
+
+![Application Bar UI design shadow](/blog/assets/appbar-ui-design/img-28.jpg)
+
+### **Blurred background**
+
+This tiny visual effect also makes the overall user experience slicker.
+
+Use a CSS property [backdrop-filter](https://css-tricks.com/almanac/properties/b/backdrop-filter/)_: blur(16px)_; to achieve _App Bar's_ surface transparently blurred.
+
+![Application Bar UI design blur](/blog/assets/appbar-ui-design/img-29.jpg)
+
+### **Hide items on resize**
+
+_App Bar's_ navigation items are sometimes required to collapse and cover behind "More" action (dots), especially when resized from desktop to mobile.
+
+![Application Bar UI design viewports](/blog/assets/appbar-ui-design/img-30.jpg)
+
+This is all you need to know to design better _App Bars_.
+
+Hope this exploration will help you to improve your in-app UX. The next chapter is for _Badges,_ probably. Stay tuned!
+
+## Related links
+
+-   [Navbar component](https://react.setproduct.com/components/navbar) (React)
+-   [Application bar](https://angular.setproduct.com/components/navigation/appbar/examples) (Angular)
+-   [iOS App Bars](https://www.figma.com/file/Stjs7NQdPPiCa4Rv5xrU2P/iOS-design-system-Preview?node-id=29876%3A0) (Figma)
+-   [MobileX App Bars](https://www.figma.com/file/c4iGv9XKGaMyLWWB80D8sT/Mobile-X-design-system-preview?node-id=509%3A58758) (Figma)
