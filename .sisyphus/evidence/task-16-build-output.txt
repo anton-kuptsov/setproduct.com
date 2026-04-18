@@ -1,0 +1,53 @@
+
+> setproduct.com@1.0.0 build
+> next build
+
+▲ Next.js 16.2.3 (Turbopack)
+
+  Running TypeScript ...
+  Finished TypeScript in 1396ms ...
+  Creating an optimized production build ...
+✓ Compiled successfully in 1419ms
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/161) ...
+  Generating static pages using 9 workers (40/161) 
+  Generating static pages using 9 workers (80/161) 
+Warning: data for page "/blog/[slug]" (path "/blog/carousel-ui-design") is 137 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+  Generating static pages using 9 workers (120/161) 
+✓ Generating static pages using 9 workers (161/161) in 1372ms
+  Finalizing page optimization ...
+
+Route (pages)
+┌ ○ /
+├   /_app
+├ ƒ /[slug]
+├ ○ /404 (498 ms)
+├ ○ /all
+├ ○ /blog (500 ms)
+├ ● /blog/[slug] (65927 ms)
+│ ├ /blog/getting-your-first-startup-users (869 ms)
+│ ├ /blog/guest-article-for-web-development (868 ms)
+│ ├ /blog/guest-posting-opportunities (867 ms)
+│ ├ /blog/guest-posts-vs-niche-edits (867 ms)
+│ ├ /blog/hiring-frontlines-to-craft-a-portfolio (866 ms)
+│ ├ /blog/how-to-3d-animate-scroll (866 ms)
+│ ├ /blog/how-to-cancel-adobe-subscription-without-fees (866 ms)
+│ └ [+141 more paths] (avg 425 ms)
+├ ○ /bundle
+├ ○ /code
+├ ƒ /dashboard-templates/[slug]
+├ ○ /dashboards
+├ ○ /dataviz (498 ms)
+├ ○ /freebies
+├ ƒ /freebies/[slug]
+├ ƒ /legal/[slug]
+├ ○ /mobile
+├ ƒ /templates/[slug]
+├ ○ /testimonials (498 ms)
+└ ○ /websites
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
