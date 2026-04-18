@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import type { BreadcrumbItem } from "../../types/data";
 
@@ -6,10 +7,10 @@ type Props = { items: BreadcrumbItem[] };
 export default function Breadcrumbs({ items }: Props) {
   return (
     <div className="section">
-      <div className="container pt-6.5">
-        <div className="inline-flex gap-2 items-center ">
+      <div className="container">
+        <div className="breadcrump-wr">
           {items.map((item, i) => (
-            <div key={i} className="flex gap-2 items-center">
+            <React.Fragment key={i}>
               {i > 0 && (
                 <img
                   alt=""
@@ -19,13 +20,13 @@ export default function Breadcrumbs({ items }: Props) {
                 />
               )}
               {item.href ? (
-                <Link className="text-size-regular" href={item.href}>
-                  {item.label}
+                <Link className="link-block no-margins w-inline-block" href={item.href}>
+                  <div className="text-size-regular">{item.label}</div>
                 </Link>
               ) : (
                 <p className="text-size-regular">{item.label}</p>
               )}
-            </div>
+            </React.Fragment>
           ))}
         </div>
       </div>

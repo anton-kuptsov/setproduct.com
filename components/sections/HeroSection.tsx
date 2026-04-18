@@ -11,7 +11,7 @@ export default function HeroSection({ title, description }: Props) {
           <div className="blog_hero-section">
             <div className="heading-left-text-wr max-width-900">
               <h1 className="heading-style-h1">{title}</h1>
-              <div className="heading-style-h6">
+              <div className="heading-style-h5">
                 {description.split("\n").map((line, i) => (
                   <span key={i}>
                     {line}

@@ -22,7 +22,7 @@ export type Product = {
 
 export type FaqItem = {
   question: string;
-  answer: string;
+  answerHtml: string;
 };
 
 export type CategoryTab = {

@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/658aba9b58b3e7ed39b4c9db_pricing-neolex-01.avif",
     buyHref: "https://gumroad.com/a/582595699/VJynl",
     price: "98",
-    categories: ["dashboards"],
+    categories: [],
   },
   {
     slug: "zeus",
@@ -170,7 +170,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/6582d6545759922537d126f8_pricing-xela-android.avif",
     buyHref: "https://gumroad.com/a/732143539/GLuLk",
     price: "258",
-    categories: ["mobile", "code"],
+    categories: ["code"],
   },
   {
     slug: "xela-flutter",
@@ -179,7 +179,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/6582d6a07bfcba67f994e545_pricing-xela-flutter.avif",
     buyHref: "https://gumroad.com/a/899915699/xotkv",
     price: "258",
-    categories: ["mobile", "code"],
+    categories: ["code"],
   },
   {
     slug: "hyper-charts",
@@ -197,7 +197,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8bb812addc9a0d3b35a4_658183b6699282b25e7a69a7_pricing-md_(1).avif",
     buyHref: "https://setproduct.gumroad.com/l/desktopsystem",
     price: "98",
-    categories: ["dashboards"],
+    categories: [],
   },
   {
     slug: "xela",
@@ -206,7 +206,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8b5f8a49ea44fb75fbf0_6582b761a178823ef0615c22_pricing-xela-01_(1).avif",
     buyHref: "https://gumroad.com/a/471143539/tLrzi",
     price: "128",
-    categories: ["dashboards"],
+    categories: [],
   },
   {
     slug: "full-ios",
@@ -215,7 +215,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8b0fc267346243c34efe_658310f7613e5c9e21f21671_ios-01-min_(1).avif",
     buyHref: "https://gumroad.com/a/1029510259/JAiVk",
     price: "88",
-    categories: ["mobile"],
+    categories: [],
   },
   {
     slug: "xela-react",
@@ -242,7 +242,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/658ade3948a98055580dd504_pricing-ios-old-min.avif",
     buyHref: "https://setproduct.gumroad.com/l/iostoolkit",
     price: "68",
-    categories: ["mobile"],
+    categories: [],
   },
   {
     slug: "s8",
@@ -251,7 +251,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/658ac786f3efd1f4a41fcf76_pricing-s8-01.avif",
     buyHref: "https://setproduct.gumroad.com/l/system8",
     price: "86",
-    categories: ["dashboards", "mobile"],
+    categories: [],
   },
   {
     slug: "most",
@@ -260,7 +260,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8c2d315bdd2ea3cae7e2_658a98a4f1b468de2a40855b_pricing-most-01_(1).avif",
     buyHref: "https://setproduct.gumroad.com/l/figmaios",
     price: "98",
-    categories: ["mobile"],
+    categories: [],
   },
   {
     slug: "oe-enterprise",
@@ -269,7 +269,7 @@ export const PRODUCTS: Product[] = [
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/658ab29a5200ef7c388a9275_pricing-oe-01.avif",
     buyHref: "https://gumroad.com/a/460223603/xfljT",
     price: "149",
-    categories: ["dashboards"],
+    categories: [],
   },
   {
     slug: "website",

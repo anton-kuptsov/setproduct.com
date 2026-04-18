@@ -79,7 +79,7 @@ export default function FreebiesListingPage() {
         <link href={meta.canonical} rel="canonical" />
       </Head>
       <SiteHeader />
-      <main className="mt-18">
+      <main className="mt-22.5">
         {breadcrumbs.length > 0 && <Breadcrumbs items={breadcrumbs} />}
         <div className="section">
           <div className="section-padding top-80 bottom-80">
