@@ -58,7 +58,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     return {
       frontmatter,
       mdxSource,
-      readingTimeText: text,
+      readingTimeText: frontmatter.readingTimeText ?? text,
       readingTimeMinutes: minutes,
       headings,
     };

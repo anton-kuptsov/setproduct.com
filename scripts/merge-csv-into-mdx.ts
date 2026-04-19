@@ -21,6 +21,8 @@ const csvMap = JSON.parse(fs.readFileSync(MAP_PATH, "utf8")) as Record<string, {
   metaTitle?: string;
   cardDescription?: string;
   inlineCta?: { title: string; description: string; buttonText: string; buttonLink: string };
+  date?: string;
+  readingTimeText?: string;
 }>;
 
 const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith(".mdx"));
@@ -45,6 +47,8 @@ for (const file of files) {
       if (csvFields.metaTitle) newFm.metaTitle = csvFields.metaTitle;
       if (csvFields.cardDescription) newFm.cardDescription = csvFields.cardDescription;
       if (csvFields.inlineCta) newFm.inlineCta = csvFields.inlineCta;
+      if (csvFields.date) newFm.date = csvFields.date;
+      if (csvFields.readingTimeText) newFm.readingTimeText = csvFields.readingTimeText;
     } else {
       if (!newFm.category) newFm.category = "tutorials";
       if (verbose) console.log(`[NO CSV MATCH] ${slug} → default category: tutorials`);

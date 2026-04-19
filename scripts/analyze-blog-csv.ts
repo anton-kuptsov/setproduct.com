@@ -27,6 +27,8 @@ interface SlugFields {
   metaTitle?: string;
   cardDescription?: string;
   inlineCta?: InlineCta;
+  date?: string;
+  readingTimeText?: string;
 }
 
 const slugToFields: Record<string, SlugFields> = {};
@@ -49,6 +51,17 @@ for (const row of records) {
   const ctaButtonLink = (row["Section CTA Button link"] || "").trim();
   const author = (row["Author"] || "").trim();
 
+  const publishedDay = (row["Published day"] || "").trim();
+  let isoDate: string | undefined;
+  if (publishedDay) {
+    const d = new Date(publishedDay);
+    if (!isNaN(d.getTime())) {
+      isoDate = d.toISOString().split("T")[0];
+    }
+  }
+
+  const readingTimeText = (row["Duration of reading"] || "").trim();
+
   if (category) categories.add(category);
   if (author) authors.add(author);
 
@@ -64,6 +77,8 @@ for (const row of records) {
     metaTitle: metaTitle || undefined,
     cardDescription: cardDescription || undefined,
     inlineCta,
+    date: isoDate || undefined,
+    readingTimeText: readingTimeText || undefined,
   };
 }
 

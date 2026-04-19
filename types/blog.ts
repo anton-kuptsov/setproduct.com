@@ -32,6 +32,7 @@ export type BlogFrontmatter = {
   metaTitle?: string;
   cardDescription?: string;
   inlineCta?: InlineCta;
+  readingTimeText?: string;
 };
 
 export type BlogHeading = {

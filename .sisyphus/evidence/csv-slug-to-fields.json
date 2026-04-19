@@ -4,28 +4,36 @@
     "subtitle": "We've gathered some inspiring designers and developers, who bootstrapped their side projects to life and succeed.",
     "h1Title": "From zero to hero: 8 stories of Indie Hackers going all-in on their side projects",
     "metaTitle": "8 Designers & Developers Bootstrap a Side Project to Success",
-    "cardDescription": "Discover the inspiring stories of 8 Twitter designers and developers who bootstrapped their side projects to success. Learn how they found success and gain valuable insights ."
+    "cardDescription": "Discover the inspiring stories of 8 Twitter designers and developers who bootstrapped their side projects to success. Learn how they found success and gain valuable insights .",
+    "date": "2022-04-05",
+    "readingTimeText": "6 mins read"
   },
   "accordion-ui-design": {
     "category": "tutorials",
     "subtitle": "The exploration for Accordion component UI design, states, templates and use cases for desktop & mobile viewports.",
     "h1Title": "Accordion UI design",
     "metaTitle": "Accordion UI Design: Styles, States, Usage, Templates",
-    "cardDescription": "Discover our Accordion UI (Expansion panel) for organizing and displaying more content in a vertically stacked list of options."
+    "cardDescription": "Discover our Accordion UI (Expansion panel) for organizing and displaying more content in a vertically stacked list of options.",
+    "date": "2021-09-05",
+    "readingTimeText": "6 mins read"
   },
   "adobe-stealing-designs": {
     "category": "technology",
     "subtitle": "The issue of Adobe Creative Cloud stealing artwork is a serious one and is causing a great deal of concern in the creative community.",
     "h1Title": "Adobe Creative Cloud steals your artwork to train the AI",
     "metaTitle": "Adobe Creative Cloud: AI Training with Stolen UI Designs",
-    "cardDescription": "Learn about the serious issue of Adobe Creative Cloud stealing artwork and causing concern in the creative community. Find out how to protect your work and what steps to take."
+    "cardDescription": "Learn about the serious issue of Adobe Creative Cloud stealing artwork and causing concern in the creative community. Find out how to protect your work and what steps to take.",
+    "date": "2022-01-07",
+    "readingTimeText": "2 mins read"
   },
   "ai-cant-replace-the-real-ux-thinking": {
     "category": "technology",
     "subtitle": "AI can generate hundred designs in a second. But knowing which one actually works? That’s still a human skill. Here are my considerations on UX thinking matters more than ever.",
     "h1Title": "AI can’t replace the real UX thinking",
     "metaTitle": "The value of real UX thinking (so AI can't replace)",
-    "cardDescription": "AI can generate hundred designs in a second. But knowing which one actually works? That’s still a human skill. Here are my considerations on UX thinking matters more than ever."
+    "cardDescription": "AI can generate hundred designs in a second. But knowing which one actually works? That’s still a human skill. Here are my considerations on UX thinking matters more than ever.",
+    "date": "2025-08-08",
+    "readingTimeText": "2 min read"
   },
   "ai-infographics-for-marketing-teams": {
     "category": "presentation",
@@ -38,28 +46,36 @@
       "description": "I can turn your data into publish-ready visuals fast: stat cards, comparisons, simple charts, and carousel frames. Share your metrics and brand kit, and I will reply with scope, deliverables, and a fixed quote. Async only.",
       "buttonText": "Request the Pilot pack",
       "buttonLink": "mailto:hello@setproduct.com"
-    }
+    },
+    "date": "2026-01-02",
+    "readingTimeText": "7 min read"
   },
   "ais-impact-on-graphic-design": {
     "category": "technology",
     "subtitle": "AI tech raises concerns about its impact on graphic design. Adobe's AI tool, Firefly, sparks debates among designers. Let's explore their conclusions.",
     "h1Title": "Designers are worrying about the future: Understanding AI's impact on graphic design",
     "metaTitle": "The Future of Graphic UI Design: Designers Concerned about AI's Impact",
-    "cardDescription": "Discover the impact of AI technology in design with Firefly at Adobe. Explore the opportunities, challenges, and responsible practices that come with this transformative era."
+    "cardDescription": "Discover the impact of AI technology in design with Firefly at Adobe. Explore the opportunities, challenges, and responsible practices that come with this transformative era.",
+    "date": "2023-07-15",
+    "readingTimeText": "2 mins read"
   },
   "appbar-ui-design": {
     "category": "tutorials",
     "subtitle": "Mastering the Appbar: Unlock the anatomy, states, styling, use cases, and usability tips to create a seamless and visually pleasing UX.",
     "h1Title": "App Bar UI design tutorial",
     "metaTitle": "App Bar UI Design: Anatomy, Specs, States, Templates",
-    "cardDescription": "Maximize user navigation with an optimized Application Bar, displaying in-app controls for easy access to different app sections."
+    "cardDescription": "Maximize user navigation with an optimized Application Bar, displaying in-app controls for easy access to different app sections.",
+    "date": "2021-09-28",
+    "readingTimeText": "4 mins read"
   },
   "avatar-ui-design": {
     "category": "tutorials",
     "subtitle": "Designing avatars goes far beyond profile pictures. Our new tutorial shows how to build scalable, accessible, and contextual userpic components with 18 real UI examples.",
     "h1Title": "Userpic UI design guide & best practices",
     "metaTitle": "Userpic UI design: Tutorial for Avatar states, anatomy, usability",
-    "cardDescription": "Userpics are not just decoration. They are a cornerstone of navigation, profiles, and communication. Discover our deep dive into avatar UI design best practices."
+    "cardDescription": "Userpics are not just decoration. They are a cornerstone of navigation, profiles, and communication. Discover our deep dive into avatar UI design best practices.",
+    "date": "2021-08-11",
+    "readingTimeText": "6 mins"
   },
   "badge-ui-design": {
     "category": "tutorials",
@@ -72,7 +88,8 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2022-01-10"
   },
   "benefits-of-dashboards": {
     "category": "optimisation",
@@ -85,13 +102,17 @@
       "description": "Looking to put more oomph in your decision-making? With our customized dashboard solutions, give us a call today. Your company can take action on what it knows, rather than waiting idly by for another report to come due.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-05-30",
+    "readingTimeText": "5 min read"
   },
   "benefits-of-guest-blogging": {
     "category": "research",
     "h1Title": "Guest Blogging Benefits: Unlock SEO Success and Boost Your Brand",
     "metaTitle": "Top Guest Blogging Benefits for SEO & Marketing Success – Setproduct",
-    "cardDescription": "Boost your brand visibility and SEO with guest posting. This article explores how publishing content on authoritative websites can build backlinks, improve rankings, and drive business growth."
+    "cardDescription": "Boost your brand visibility and SEO with guest posting. This article explores how publishing content on authoritative websites can build backlinks, improve rankings, and drive business growth.",
+    "date": "2024-12-24",
+    "readingTimeText": "4 min read"
   },
   "best-analytics-dashboard-examples": {
     "category": "inspiration",
@@ -104,14 +125,18 @@
       "description": "Get us to build your custom dashboard solution! Contact us today, tell us about the project, specify your scope, budget and expectations, and start creating together.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-24",
+    "readingTimeText": "8 min read"
   },
   "best-fonts-pairing": {
     "category": "typography",
     "subtitle": "We have nominated the combination of free fonts Outfit & Spline Sans to use for every project. Whether it's branding, or complex web application development, this is the best choice in 2023. Let's breakdown how this pair looks.",
     "h1Title": "The best fonts pairing for 2023 nominated by Setproduct",
     "metaTitle": "Top 2023 Font Pairings for App Design, Websites, and Presentations",
-    "cardDescription": "Discover the perfect combination of free fonts Outfit & Spline Sans, nominated by Setproduct design studio for use in 2023. For a website or complex dashboard or versatile pair"
+    "cardDescription": "Discover the perfect combination of free fonts Outfit & Spline Sans, nominated by Setproduct design studio for use in 2023. For a website or complex dashboard or versatile pair",
+    "date": "2022-12-28",
+    "readingTimeText": "2 mins read"
   },
   "bitcoin-adoption-today-speculative-reality": {
     "category": "technology",
@@ -124,35 +149,45 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-04-19",
+    "readingTimeText": "9 min read"
   },
   "black-friday-2023": {
     "category": "resources",
     "subtitle": "Take advantage of Black Friday 2023 deals to enhance your design process with premium Figma templates and UI kits. Invest in your toolkit at prices you can't ignore.",
     "h1Title": "Maximize efficiency with Black Friday Specials on Figma templates",
     "metaTitle": "Black Friday 2023: Incredible Discounts on Figma Templates and UI kits",
-    "cardDescription": "Maximize your Black Friday savings with exclusive deals on Figma assets for a more streamlined design workflow. Give your designs the competitive edge they deserve."
+    "cardDescription": "Maximize your Black Friday savings with exclusive deals on Figma assets for a more streamlined design workflow. Give your designs the competitive edge they deserve.",
+    "date": "2023-11-21",
+    "readingTimeText": "2 mins read"
   },
   "breadcrumbs-ui-design": {
     "category": "tutorials",
     "subtitle": "Breadcrumbs design UI/UX tutorial. Anatomy, structure and component usage cases overviewed with other things to consider.",
     "h1Title": "Breadcrumbs UI design tips",
     "metaTitle": "Exploring breadcrumbs UI design: anatomy, UX tips, states & use cases",
-    "cardDescription": "Breadcrumbs are navigational links used to indicate the current position within a website's multi-level structure. They are commonly utilized in web pages & dashboards"
+    "cardDescription": "Breadcrumbs are navigational links used to indicate the current position within a website's multi-level structure. They are commonly utilized in web pages & dashboards",
+    "date": "2025-09-06",
+    "readingTimeText": "6 mins"
   },
   "button-group-guide": {
     "category": "tutorials",
     "subtitle": "I want to present to you an extensive Button Group’s tutorial including fundamental design principles of usability, accessibility, and visual design. So If you need to create effective Button Groups - this tutorial will be extremely helpful.",
     "h1Title": "Button Group UI design guide",
     "metaTitle": "Button Group UI Design Guide: Tips & Best Practices - Setproduct",
-    "cardDescription": "Get the ultimate guide to Button Group design principles, including usability, accessibility, and visual design. Learn how to design Button Groups that boost user engagement and satisfaction"
+    "cardDescription": "Get the ultimate guide to Button Group design principles, including usability, accessibility, and visual design. Learn how to design Button Groups that boost user engagement and satisfaction",
+    "date": "2024-09-18",
+    "readingTimeText": "8 min read"
   },
   "button-ui-design": {
     "category": "inspiration",
     "subtitle": "The in-depth look at the design principles behind creating effective buttons for user interfaces.",
     "h1Title": "Making the most of Buttons UI Design – Tips, states, usability, and inspiration",
     "metaTitle": "Buttons UI design – A complete guide to UX, styles, and usability",
-    "cardDescription": "Create intuitive and accessible buttons that seamlessly enhance user interaction, with a focus on style and feedback. Design with SEO optimization in mind."
+    "cardDescription": "Create intuitive and accessible buttons that seamlessly enhance user interaction, with a focus on style and feedback. Design with SEO optimization in mind.",
+    "date": "2023-01-31",
+    "readingTimeText": "6 mins read"
   },
   "calendar-ui-design": {
     "category": "inspiration",
@@ -165,7 +200,9 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2022-11-07",
+    "readingTimeText": "4 mins read"
   },
   "campaign-marketing-dashboards-guide": {
     "category": "research",
@@ -178,14 +215,18 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-03-18",
+    "readingTimeText": "3 min read"
   },
   "carousel-ui-design": {
     "category": "tutorials",
     "subtitle": "To use a carousel effectively, designers & developers should follow these design tips, including using a clear and slick execution, optimizing content, and using JS libraries or frameworks like React, Vue or even Bootstrap, when aimed to bring this component to life.",
     "h1Title": "Carousel UI design best practices",
     "metaTitle": "Carousel UI Design Best Practices: Types, Tips, & Examples - Setproduct",
-    "cardDescription": "Design accessible slider galleries, usable, and beautiful. Read our detailed guide on Carousel UI Design and learn how to design carousels that engage users."
+    "cardDescription": "Design accessible slider galleries, usable, and beautiful. Read our detailed guide on Carousel UI Design and learn how to design carousels that engage users.",
+    "date": "2024-08-05",
+    "readingTimeText": "10 min read"
   },
   "case-study-design-image-upload-component": {
     "category": "case-studies",
@@ -198,35 +239,45 @@
       "description": "Whether you are saving articles for later, collecting inspiration, or sharing resources, Cleeve makes it easy to keep your bookmarks in perfect order",
       "buttonText": "Explore Cleeve application",
       "buttonLink": "https://cleeve.app/"
-    }
+    },
+    "date": "2025-04-29",
+    "readingTimeText": "5 min read"
   },
   "case-study-gtrendz": {
     "category": "case-studies",
     "subtitle": "The story of a freelancer who purchased our Figma templates and saved time on a redesign of ecommerce project.",
     "h1Title": "Why do we need UI kits: Our customer's redesign case study for «GTrendz» shop",
     "metaTitle": "Why UI Kits are Essential: Ecommerce Redesign Case Study",
-    "cardDescription": "Discover the redesign of GTrendz e-shop seller's panel by talented Indian freelancer Narendra Ram, using our Material-X UI kit. See how his work elevates the user experience."
+    "cardDescription": "Discover the redesign of GTrendz e-shop seller's panel by talented Indian freelancer Narendra Ram, using our Material-X UI kit. See how his work elevates the user experience.",
+    "date": "2021-07-15",
+    "readingTimeText": "5 mins read"
   },
   "case-study-journeyapp": {
     "category": "case-studies",
     "subtitle": "The case story of how a ready-made UI kit with templates helped Luke O'Brien to release the app of his dreams.",
     "h1Title": "The «Journey» from UI kit to live mobile application",
     "metaTitle": "Case Study: Transforming Figma UI Kit into iOS/Android App",
-    "cardDescription": "Discover the power of a pre-made UI kit in Figma and how it enabled the creation of a popular app now thriving in the App Store and Play Market."
+    "cardDescription": "Discover the power of a pre-made UI kit in Figma and how it enabled the creation of a popular app now thriving in the App Store and Play Market.",
+    "date": "2020-07-29",
+    "readingTimeText": "4 mins"
   },
   "checkbox-react-component": {
     "category": "design-code",
     "subtitle": "Modifying Chakra UI styles for a checkbox component to redesign & visually enhance it. This post contains UI design ideas, live components, code samples and some inspiration to assist coders design better.",
     "h1Title": "Styling ideas for React checkbox component",
     "metaTitle": "Checkbox UI Design - Chakra Styled React Component",
-    "cardDescription": "Discover stylish design ideas and code samples for a React checkbox component, designed in Figma and styled in Chakra. Get inspiration and live components to improve your UI design"
+    "cardDescription": "Discover stylish design ideas and code samples for a React checkbox component, designed in Figma and styled in Chakra. Get inspiration and live components to improve your UI design",
+    "date": "2022-10-04",
+    "readingTimeText": "5 mins read"
   },
   "checkbox-ui-design": {
     "category": "tutorials",
     "subtitle": "Ready to create Checkbox components that shine? Join us as we unveil our in-depth tutorial, covering everything from aesthetics to usability.",
     "h1Title": "Checkbox UI design tips",
     "metaTitle": "Checkbox UI Design: Anatomy, UX Tips, and Inspiring Use Cases",
-    "cardDescription": "Get practical solutions for Checkbox design dilemmas, from styling complexity to inclusive user experience, in this dedicated tutorial."
+    "cardDescription": "Get practical solutions for Checkbox design dilemmas, from styling complexity to inclusive user experience, in this dedicated tutorial.",
+    "date": "2023-11-01",
+    "readingTimeText": "5 mins read"
   },
   "chip-ui-design": {
     "category": "tutorials",
@@ -239,27 +290,35 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2023-09-17",
+    "readingTimeText": "6 mins"
   },
   "choosing-right-design-team": {
     "category": "research",
     "subtitle": "A comprehensive guide on how to research about studio's specialty, portfolio, internal processes, and the whole team to help you avoid non-pros.",
     "h1Title": "Tips for selecting the UI / UX agency for application design and development",
     "metaTitle": "Tips for Choosing a UI/UX Agency for App Design & Development",
-    "cardDescription": "Find the perfect web design and development agency for your application to ensure the success of your product. Make the right decision that will have a major impact on business."
+    "cardDescription": "Find the perfect web design and development agency for your application to ensure the success of your product. Make the right decision that will have a major impact on business.",
+    "date": "2023-01-21",
+    "readingTimeText": "3 mins read"
   },
   "choosing-right-ios-kit": {
     "category": "optimisation",
     "subtitle": "If you're a mobile app designer looking to quickly and efficiently create high-quality iOS app designs, incorporating Figma UI kits into your workflow is a great way to achieve your goals.",
     "h1Title": "Countdown to launch: How Figma iOS kits can help design your next mobile app faster",
     "metaTitle": "Expert Tips for Selecting the Best Figma UI Kit for iOS App Design",
-    "cardDescription": "Maximize the consistency and UX of your iOS app by utilizing an iOS UI kit. Our guide highlights the advantages to streamline the mobile app development process."
+    "cardDescription": "Maximize the consistency and UX of your iOS app by utilizing an iOS UI kit. Our guide highlights the advantages to streamline the mobile app development process.",
+    "date": "2023-06-09",
+    "readingTimeText": "4 mins read"
   },
   "dark-side-of-figmas-updates": {
     "category": "research",
     "h1Title": "Figma Fiasco. The Dark Side of Recent Figma Updates.",
     "metaTitle": "The Dark Side of Recent Figma Updates. Config 2024 - Setproduct",
-    "cardDescription": "Get a quick look at the recent changes in Figma and find out why they might not be as effective as you thought."
+    "cardDescription": "Get a quick look at the recent changes in Figma and find out why they might not be as effective as you thought.",
+    "date": "2024-07-30",
+    "readingTimeText": "3 min read"
   },
   "dashboard-design-best-practices-top-dashboard-ui-design-tips": {
     "category": "design-trends",
@@ -272,55 +331,71 @@
       "description": "Whether you're seeking custom dashboards for business analysis or data-driven decision-making, our team is here to help you actualize what matters most to you. We'll work together on creating visually appealing and user-friendly dashboards that help drive your company ahead of the curve in its industry.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-03",
+    "readingTimeText": "8 min read"
   },
   "depth-in-ios-design": {
     "category": "design-trends",
     "subtitle": "Reminiscing on possible future directions for the iOS GUI design, particularly regarding the inclusion of a mix of flat and 3D design features.",
     "h1Title": "Name a bigger downgrade: The absence of depth in iOS UI design",
     "metaTitle": "iOS 17 Design Trends: Better Depth and Shadows in Apple App Interface",
-    "cardDescription": "Experience the enhanced user interface design of iPhones and iPads with iOS 17, featuring increased use of shadows and depth for a more immersive, tactile experience."
+    "cardDescription": "Experience the enhanced user interface design of iPhones and iPads with iOS 17, featuring increased use of shadows and depth for a more immersive, tactile experience.",
+    "date": "2023-06-15",
+    "readingTimeText": "2 mins read"
   },
   "design-career-stagnation": {
     "category": "growth-hacking",
     "subtitle": "In this post, we'll explore the experiences of designers who have felt the need to start over with something new and what they have discovered along the way.",
     "h1Title": "Is your design career stagnating? How to pivot and find your true calling",
     "metaTitle": "Regretting your graphic design career? Discover a path to renewal.",
-    "cardDescription": "Revamp your graphic design portfolio with current industry trends and reignite your passion for your career. Find fulfillment in your work again with a little help and inspiration."
+    "cardDescription": "Revamp your graphic design portfolio with current industry trends and reignite your passion for your career. Find fulfillment in your work again with a little help and inspiration.",
+    "date": "2023-06-14",
+    "readingTimeText": "6 mins read"
   },
   "design-resources-feb-2021": {
     "category": "resources",
     "subtitle": "Icons, Emojis, Free illustrations, New Figma plugins, Design inspiration resources, Enterprise tables tutorials and more.",
     "h1Title": "16 fresh design resources for February 2021",
     "metaTitle": "Top 16 Design Resources for February 2021: Fresh and Inspiring",
-    "cardDescription": "Discover the latest insights on icons, emojis, illustrations, color theory, and enterprise tables, along with effective Figma plugins and sources for inspiration."
+    "cardDescription": "Discover the latest insights on icons, emojis, illustrations, color theory, and enterprise tables, along with effective Figma plugins and sources for inspiration.",
+    "date": "2021-02-27",
+    "readingTimeText": "3 mins read"
   },
   "design-system-for-business": {
     "category": "presentation",
     "subtitle": "Save a huge amount of time, facilitate the transition to development, and make the apps design & user experience more smoother.",
     "h1Title": "Commercial design systems for startups & organisations",
     "metaTitle": "UI Kit & App Templates: Unlock the Power of Design System Features",
-    "cardDescription": "Boost efficiency and save time by investing in a commercial design system for Figma or Sketch. Maximize productivity and streamline processes for your organization."
+    "cardDescription": "Boost efficiency and save time by investing in a commercial design system for Figma or Sketch. Maximize productivity and streamline processes for your organization.",
+    "date": "2020-01-24",
+    "readingTimeText": "4 mins read"
   },
   "design-tricks-for-static-prototypes": {
     "category": "tutorials",
     "subtitle": "8 simple tricks of dynamics addition for a static prototype without animating it.",
     "h1Title": "Visual dynamics for design layouts to make templates more eye-catching",
     "metaTitle": "Boost Prototype Dynamics with 8 Easy UI Design Tricks",
-    "cardDescription": "Master UI techniques to elevate your designs and stand out on Dribbble. Impress customers and design team leaders with your attention to detail and high-quality work."
+    "cardDescription": "Master UI techniques to elevate your designs and stand out on Dribbble. Impress customers and design team leaders with your attention to detail and high-quality work.",
+    "date": "2019-07-16",
+    "readingTimeText": "4 mins read"
   },
   "difficult-design-clients": {
     "category": "growth-hacking",
     "subtitle": "Proven strategies on how to deal with difficult freelance clients and protect yourself from getting into complicated situations in the future.",
     "h1Title": "\"I hate clients\" – How to handle negative feedback and graphic design revisions.",
     "metaTitle": "Tips for Freelancers: Dealing with Challenging Clients & Revisions",
-    "cardDescription": "Learn effective tactics for managing challenging design clients and avoiding unpaid extra revisions. Protect your work and your time with solid strategies."
+    "cardDescription": "Learn effective tactics for managing challenging design clients and avoiding unpaid extra revisions. Protect your work and your time with solid strategies.",
+    "date": "2022-11-20",
+    "readingTimeText": "3 mins read"
   },
   "do-not-design-your-resume-in-figma": {
     "category": "career",
     "h1Title": "The risks of using Figma to build your PDF resume",
     "metaTitle": "Figma resume design in PDF is hurting your job chances",
-    "cardDescription": "Reveal how using Figma to build your PDF resume can strike your job chances. Learn the common mistakes and how to create a job-winning resume."
+    "cardDescription": "Reveal how using Figma to build your PDF resume can strike your job chances. Learn the common mistakes and how to create a job-winning resume.",
+    "date": "2025-01-22",
+    "readingTimeText": "2 min read"
   },
   "dropdown-ui-design": {
     "category": "tutorials",
@@ -333,7 +408,9 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2023-08-16",
+    "readingTimeText": "7 mins read"
   },
   "e-commerce-dashboard-examples": {
     "category": "inspiration",
@@ -346,7 +423,9 @@
       "description": "Get us to customize & develop your E-commerce dashboards! Let's build together. In case you have a project, need to design and develop, just simply get in touch with us and tell us your brief, budget and expectations.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-27",
+    "readingTimeText": "8 min read"
   },
   "effective-dashboard-design-principles": {
     "category": "optimisation",
@@ -359,98 +438,125 @@
       "description": "Reach out and let's discuss customizing dashboard layouts for your unique needs. Transforming numbers into answers through thoughtful design is our specialty; team up with us to illuminate strategic paths ahead from your store of facts.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-07",
+    "readingTimeText": "6 min read"
   },
   "empty-state-ui-design": {
     "category": "tutorials",
     "subtitle": "From onboarding screens to no search results, empty states are more powerful than they seem. In this article, you’ll learn how to craft useful messages, design emotionally smart visuals, and use research-backed strategies to improve UX outcomes.",
     "h1Title": "Empty States UI design. Best Practices for Better UX",
     "metaTitle": "Empty State UI design: From zero to app engagement",
-    "cardDescription": "From onboarding screens to no search results, empty states are more powerful than they seem. In this article, you’ll learn how to craft useful messages, design emotionally smart visuals, and use research-backed strategies to improve UX outcomes."
+    "cardDescription": "From onboarding screens to no search results, empty states are more powerful than they seem. In this article, you’ll learn how to craft useful messages, design emotionally smart visuals, and use research-backed strategies to improve UX outcomes.",
+    "date": "2025-12-16",
+    "readingTimeText": "9 min read"
   },
   "figma-10-tech-companies": {
     "category": "research",
     "subtitle": "How design tool played a decisive role for businesses such as Microsoft, Uber and 8 more well-known companies.",
     "h1Title": "For those 10 companies Figma was a starting point to new heights",
     "metaTitle": "Top 10 Tech Companies Empowered by Figma for Enterprise",
-    "cardDescription": "Discover the proven worth and wide functionality of Figma, the preferred design tool of major companies like Microsoft and Uber."
+    "cardDescription": "Discover the proven worth and wide functionality of Figma, the preferred design tool of major companies like Microsoft and Uber.",
+    "date": "2020-05-18",
+    "readingTimeText": "4 mins read"
   },
   "figma-20-newest-templates": {
     "category": "resources",
     "subtitle": "A curated review of Figma resources recently published by a community. We picked the most useful and well-crafted.",
     "h1Title": "Newest 20 free Figma templates to kickstart your next project",
     "metaTitle": "Top 20 Free Figma Templates for Design System, Dashboard, or App",
-    "cardDescription": "Discover a range of Figma freebies including Ant UX Wireframes, Avatar Illustration System, Brainstorming Design System, Bright Kit, and Browk UI Kit."
+    "cardDescription": "Discover a range of Figma freebies including Ant UX Wireframes, Avatar Illustration System, Brainstorming Design System, Bright Kit, and Browk UI Kit.",
+    "date": "2020-04-15",
+    "readingTimeText": "4 mins read"
   },
   "figma-auto-layout-debate": {
     "category": "research",
     "subtitle": "Is auto-layout in Figma a game-changer or a hindrance? Time to weigh the benefits and drawbacks of this design feature and how it impacts your UI design workflow.",
     "h1Title": "This aged Figma debate reveals pros and cons for auto-layout vs. frames-only design mode",
     "metaTitle": "Figma Auto-Layout vs. Frames-Only: Pros & Cons for UI Design - Setproduct",
-    "cardDescription": "Should you be using auto-layout in Figma? We explore the benefits and drawbacks of this design feature and how it can impact your workflow and design quality."
+    "cardDescription": "Should you be using auto-layout in Figma? We explore the benefits and drawbacks of this design feature and how it can impact your workflow and design quality.",
+    "date": "2024-09-02",
+    "readingTimeText": "3 min read"
   },
   "figma-plugins-productivity-boost": {
     "category": "resources",
     "subtitle": "Manage grid, spacings, create annotations, organise color styles, draw math shapes, spellcheck in Figma and more.",
     "h1Title": "Top 14 Figma latest plugins for a productivity boost while you staying at home",
     "metaTitle": "14 Figma Plugins: Style Fixes, Grid Management, Auto-Layout, Tracking",
-    "cardDescription": "Discover our reviewed plugins for enhancing your design process, including AutoGrid, Tracking, Find and Replace Colors, Spacing Manager, and Geometric."
+    "cardDescription": "Discover our reviewed plugins for enhancing your design process, including AutoGrid, Tracking, Find and Replace Colors, Spacing Manager, and Geometric.",
+    "date": "2020-04-01",
+    "readingTimeText": "2 mins read"
   },
   "figma-plugins-review-2020": {
     "category": "resources",
     "subtitle": "Carefully handpicked plugins to accelerate managing, ordering and developing design system components.",
     "h1Title": "Top 16 underrated Figma plugins to boost ⏱ design systems development",
     "metaTitle": "Top 16 Underrated Figma Plugins for Enhanced Design Workflow in 2020",
-    "cardDescription": "Discover our collection of tools for improving workflow, boosting productivity, and adding joy to the design process. Don't miss out on the fun!"
+    "cardDescription": "Discover our collection of tools for improving workflow, boosting productivity, and adding joy to the design process. Don't miss out on the fun!",
+    "date": "2020-02-24",
+    "readingTimeText": "3 mins read"
   },
   "figma-resources-review-1": {
     "category": "resources",
     "subtitle": "Templates from the Figma community to save your time, boost a productivity and cut costs when designing an application.",
     "h1Title": "Top 15 free Figma resources to kickstart your next project",
     "metaTitle": "Top 15 Free Figma Resources: Design Systems, Apps, Icons & More",
-    "cardDescription": "Discover time-saving and cost-cutting product design templates from the Figma community to enhance productivity. Streamline your workflow and save time with our curated collection."
+    "cardDescription": "Discover time-saving and cost-cutting product design templates from the Figma community to enhance productivity. Streamline your workflow and save time with our curated collection.",
+    "date": "2020-03-07",
+    "readingTimeText": "2 mins read"
   },
   "figma-responsive-mobile-components": {
     "category": "tutorials",
     "subtitle": "Create convenient and flexible design components right in Figma",
     "h1Title": "How to create responsive mobile tab bar in Figma",
     "metaTitle": "Creating Responsive Mobile Components in Figma: A Step-by-Step Guide",
-    "cardDescription": "Create elegant and flexible design solutions for your projects in Figma, continually improving with each new endeavor."
+    "cardDescription": "Create elegant and flexible design solutions for your projects in Figma, continually improving with each new endeavor.",
+    "date": "2018-12-16",
+    "readingTimeText": "4 mins read"
   },
   "figma-stop-taking-my-money": {
     "category": "research",
     "subtitle": "I`m a user of the Figma platform, as you might know. And today I'm really truly furious. You`d ask me: what about? What does it have to do with Figma? My answer is: I`m furious due to the murky scheme they are using for billing. In particular, it's about their charging for the editor seats. It infuriates me!",
     "h1Title": "Figma, stop taking my money",
     "metaTitle": "Unfair Figma Billing? How Editor Fees Hurt Small Businesses - Setproduct",
-    "cardDescription": "Tired of being charged for design seats you don't need? Reveal how Figma's billing model is affecting designers everywhere."
+    "cardDescription": "Tired of being charged for design seats you don't need? Reveal how Figma's billing model is affecting designers everywhere.",
+    "date": "2024-09-23",
+    "readingTimeText": "3 min read"
   },
   "figma-summer-top-15": {
     "category": "resources",
     "subtitle": "Handpicked collection of the newest templates for Figma: UI kits, UX tools, design systems, icons, illustrations, etc.",
     "h1Title": "Summer Top 15 Figma resources released recently",
     "metaTitle": "Best Figma Resources: UI Kit, Design System, Components, Illustrations",
-    "cardDescription": "Discover a curated selection of the latest Figma templates including UI kits, UX tools, design systems, icons, and illustrations, perfect for all your design needs. Explore now!"
+    "cardDescription": "Discover a curated selection of the latest Figma templates including UI kits, UX tools, design systems, icons, and illustrations, perfect for all your design needs. Explore now!",
+    "date": "2022-08-07",
+    "readingTimeText": "3 mins read"
   },
   "figma-tables-data-grid-design": {
     "category": "tutorials",
     "subtitle": "Building a table of components is a task that sooner or later arises for every design systems architect in Figma.",
     "h1Title": "Figma tables: Data grid design by a single cell-component",
     "metaTitle": "Learn How to Design a Table UI in Figma: Single Component Tutorial",
-    "cardDescription": "Learn about the 3 different approaches to table design for creating a flexible data grid using row, column, and cell components. Gain the best practices for developing a web table."
+    "cardDescription": "Learn about the 3 different approaches to table design for creating a flexible data grid using row, column, and cell components. Gain the best practices for developing a web table.",
+    "date": "2019-04-28"
   },
   "figma-to-react-buttons": {
     "category": "inspiration",
     "subtitle": "Styling Material Design components for performance, usability and visual harmony.",
     "h1Title": "From Figma to React: material design buttons",
     "metaTitle": "Designing Buttons with Figma and React Styled Components",
-    "cardDescription": "Enhance Material Design components for improved performance, usability, and visual appeal. Get our expert retouching services for your web design needs."
+    "cardDescription": "Enhance Material Design components for improved performance, usability, and visual appeal. Get our expert retouching services for your web design needs.",
+    "date": "2019-01-19",
+    "readingTimeText": "2 mins read"
   },
   "figma-tutorial-instances-management": {
     "category": "tutorials",
     "subtitle": "Pros and Cons of swapping between hidden layers and detaching a Component into the new Master. Inspired by Userpic design item.",
     "h1Title": "Figma components tutorial: management for Instances",
     "metaTitle": "Learn to Manage Figma Components with our Tutorial on Instances",
-    "cardDescription": "Explore the advantages and limitations of swapping hidden layers and detaching a component for a new master design, inspired by Userpic design item."
+    "cardDescription": "Explore the advantages and limitations of swapping hidden layers and detaching a component for a new master design, inspired by Userpic design item.",
+    "date": "2019-03-11",
+    "readingTimeText": "4 mins read"
   },
   "filter-ui-design": {
     "category": "tutorials",
@@ -463,60 +569,78 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2023-07-13",
+    "readingTimeText": "12 mins read"
   },
   "freelance-hourly-rate": {
     "category": "growth-hacking",
     "subtitle": "How to set a hourly rate to avoid cases where a project with a pre-agreed amount ended up going beyond implementation because of seemingly insignificant changes on the client's side.",
     "h1Title": "Switch from Fixed-Price to an Hourly Rate as a Freelancer",
     "metaTitle": "Switching from Fixed-Price to Hourly Rate: A Freelancer's Guide",
-    "cardDescription": "Set a fair hourly rate to prevent scope creep and ensure projects stay within budget despite client changes."
+    "cardDescription": "Set a fair hourly rate to prevent scope creep and ensure projects stay within budget despite client changes.",
+    "date": "2022-10-12",
+    "readingTimeText": "7 min read"
   },
   "genius-ux-design-inventions": {
     "category": "case-studies",
     "subtitle": "Check out those canonical examples of UX design that have changed the world and transformed industries.",
     "h1Title": "Top 15 Examples of Ingenious User Experience That Helped Humanity to Evolve",
     "metaTitle": "15 Ingenious UX Innovations That Transformed User Experience - Setproduct",
-    "cardDescription": "Get inspired by 15 remarkable examples of UX design that have transformed industries and revolutionized the way we interact with products and services."
+    "cardDescription": "Get inspired by 15 remarkable examples of UX design that have transformed industries and revolutionized the way we interact with products and services.",
+    "date": "2024-08-26",
+    "readingTimeText": "6 min read"
   },
   "getting-your-first-startup-users": {
     "category": "startups-saas",
     "subtitle": "Let's face the truth: the first users of any service or product mark an important point in any startup’s cycle. This figure shows that the project is viable and gives prerequisites for its future growth.",
     "h1Title": "Onboarding your first 1000 users is the most challenging milestone for startup founders",
     "metaTitle": "How to Get Your First 1000 Users: Essential Tips for Startups - Setproduct",
-    "cardDescription": "Learn strategies to get your first 1000 users. Discover proven tips for startup growth, from user acquisition to building a solid UX foundation for lasting success."
+    "cardDescription": "Learn strategies to get your first 1000 users. Discover proven tips for startup growth, from user acquisition to building a solid UX foundation for lasting success.",
+    "date": "2024-09-06",
+    "readingTimeText": "6 min read"
   },
   "guest-article-for-web-development": {
     "category": "presentation",
     "subtitle": "How to create guest articles that produce leads and drive traffic",
     "h1Title": "The Complete Guide to Guest Posting for Web Development Companies",
     "metaTitle": "Guide to Guest Posting for Web Development Companies: Tips & Tricks - Setproduct",
-    "cardDescription": "Guest blogging for web development companies: a comprehensive guide. Learn how to create effective content, build backlinks, and boost your online presence."
+    "cardDescription": "Guest blogging for web development companies: a comprehensive guide. Learn how to create effective content, build backlinks, and boost your online presence.",
+    "date": "2024-08-19",
+    "readingTimeText": "3 min read"
   },
   "guest-posting-opportunities": {
     "category": "research",
     "h1Title": "How to Find Guest Posting Opportunities in 2025: A Comprehensive Guide",
     "metaTitle": "How to Find Guest Posting Opportunities in 2025? - Setproduct",
-    "cardDescription": "Discover how to find guest posting opportunities through competitor analysis, SEO tools, and social media. Enhance your online presence and SEO with strategies that work across industries."
+    "cardDescription": "Discover how to find guest posting opportunities through competitor analysis, SEO tools, and social media. Enhance your online presence and SEO with strategies that work across industries.",
+    "date": "2024-12-09",
+    "readingTimeText": "10 min read"
   },
   "guest-posts-vs-niche-edits": {
     "category": "research",
     "h1Title": "Niche Edits vs Guest Post Links: Choosing the Best Link-Building Strategy",
     "metaTitle": "Guest Posts vs. Niche Edits: Guide for SEO Success (2025) - Setproduct",
-    "cardDescription": "Discover the key differences between niche edits and guest posts in this comprehensive 2025 guide. Learn how to choose the best strategy to boost your SEO and drive results"
+    "cardDescription": "Discover the key differences between niche edits and guest posts in this comprehensive 2025 guide. Learn how to choose the best strategy to boost your SEO and drive results",
+    "date": "2024-12-17",
+    "readingTimeText": "6 min read"
   },
   "hiring-frontlines-to-craft-a-portfolio": {
     "category": "career",
     "h1Title": "Insights from the hiring frontlines to craft a stellar UX portfolio",
     "metaTitle": "Tips from Hiring Managers to Create a Stellar UX UI Graphic Design Portfolio",
-    "cardDescription": "Learn how to create a standout UX design portfolio with expert tips from hiring managers. Discover UX portfolio tips, UI design essentials, and graphic design best practices to land your dream job."
+    "cardDescription": "Learn how to create a standout UX design portfolio with expert tips from hiring managers. Discover UX portfolio tips, UI design essentials, and graphic design best practices to land your dream job.",
+    "date": "2025-01-28",
+    "readingTimeText": "3 min read"
   },
   "how-to-3d-animate-scroll": {
     "category": "tutorials",
     "subtitle": "Apple implemented this effect by using a smart trick. Everything is done with a canvas element supported by JavaScript that writes the path for new images when you scroll.",
     "h1Title": "How to make 3D animation effect (like AirPods website) as you scroll the page",
     "metaTitle": "Creating 3D Animation Effect with HTML & JS: A Step-by-Step Guide",
-    "cardDescription": "Learn how to create a webpage with the same interactive effect as the Apple AirPods page in this tutorial. Get step-by-step instructions for achieving this dynamic design."
+    "cardDescription": "Learn how to create a webpage with the same interactive effect as the Apple AirPods page in this tutorial. Get step-by-step instructions for achieving this dynamic design.",
+    "date": "2022-09-07",
+    "readingTimeText": "4 mins read"
   },
   "how-to-cancel-adobe-subscription-without-fees": {
     "category": "research",
@@ -529,34 +653,44 @@
       "description": "Promote your service, app, MVP in our directory. Get leads, SEO boost, sell more and validate ideas faster.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-07-30",
+    "readingTimeText": "3 min read"
   },
   "how-to-design-a-ui-kit-foundation": {
     "category": "design-code",
     "subtitle": "From foundations to components: clear token roles, predictable states, and contracts engineers can implement.",
     "h1Title": "How to design a UI kit foundation: tokens, states, and component contracts",
     "metaTitle": "Design system UI kit foundation: tokens, theming, style guides",
-    "cardDescription": "A practical UI style guide and UI kit blueprint: semantic tokens, theming, state coverage, and dev-ready component contracts with examples."
+    "cardDescription": "A practical UI style guide and UI kit blueprint: semantic tokens, theming, state coverage, and dev-ready component contracts with examples.",
+    "date": "2026-02-09",
+    "readingTimeText": "8 min read"
   },
   "how-to-design-dialogs": {
     "category": "tutorials",
     "subtitle": "Delete dialogs, update prompts, error alerts. This post shows how to build them all.With clear examples and patterns, it’s your go-to guide for modal components.Plus, it includes AI-generated visuals for faster inspiration.",
     "h1Title": "Dialog windows: a complete tutorial for designers and developers",
     "metaTitle": "How to design dialogs: Error, Delete, Settings, Update",
-    "cardDescription": "Just published: a full-length guide to Dialog UI design.\nIncludes edge cases, layout rules, and UX best practices across devices.\nPerfect for product designers and frontend devs building shared components."
+    "cardDescription": "Just published: a full-length guide to Dialog UI design.\nIncludes edge cases, layout rules, and UX best practices across devices.\nPerfect for product designers and frontend devs building shared components.",
+    "date": "2025-10-21",
+    "readingTimeText": "4 min read"
   },
   "how-to-design-landing": {
     "category": "tutorials",
     "subtitle": "The process of making a high-converting landing page. We've put together design rules and outlined the structure of a successful website.",
     "h1Title": "How to design a landing page to improve conversions",
     "metaTitle": "Designing a High-Converting Landing Page: Tips and Tricks",
-    "cardDescription": "Learn how to create a high-converting landing page with our design rules and website structure guide for a successful website. Boost your SEO and conversion rates now!"
+    "cardDescription": "Learn how to create a high-converting landing page with our design rules and website structure guide for a successful website. Boost your SEO and conversion rates now!",
+    "date": "2022-06-30",
+    "readingTimeText": "5 mins read"
   },
   "how-to-enhance-email-security": {
     "category": "technology",
     "h1Title": "Best practices for keeping your inbox safe and enhance email security",
     "metaTitle": "Top Email Security Best Practices: Keep Your Inbox Safe & Secure - Setproduct",
-    "cardDescription": "Learn essential email security best practices for business to protect inbox from threats. Discover tips on safe email attachments, secure communication, and safeguarding your data."
+    "cardDescription": "Learn essential email security best practices for business to protect inbox from threats. Discover tips on safe email attachments, secure communication, and safeguarding your data.",
+    "date": "2024-09-06",
+    "readingTimeText": "3 min read"
   },
   "how-to-get-better-at-ui-design-by-studying-ai-generated-examples": {
     "category": "inspiration",
@@ -569,13 +703,17 @@
       "description": "Study more component ideas, compare interface directions, and browse a growing library of AI-generated UI references built for designers, founders, and product teams.",
       "buttonText": "Explore the UI library",
       "buttonLink": "https://app.setproduct.com"
-    }
+    },
+    "date": "2026-03-19",
+    "readingTimeText": "12 min read"
   },
   "how-to-get-graphic-design-clients": {
     "category": "growth-hacking",
     "h1Title": "How To Get More Graphic Design Clients: A Step-by-step Guide for Freelancers",
     "metaTitle": "How to Get Graphic Design Clients: A Freelancer's Guide - Setproduct",
-    "cardDescription": "Discover effective strategies for freelancers to attract and secure graphic design clients with this comprehensive guide."
+    "cardDescription": "Discover effective strategies for freelancers to attract and secure graphic design clients with this comprehensive guide.",
+    "date": "2024-11-19",
+    "readingTimeText": "4 min read"
   },
   "how-to-market-your-saas-with-zero-budget": {
     "category": "startups-saas",
@@ -588,28 +726,36 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-03-10",
+    "readingTimeText": "5 min read"
   },
   "how-to-replace-onboarding-with-contextual-help": {
     "category": "growth-hacking",
     "subtitle": "Help users learn by doing with contextual tooltips, gentle nudges, and rescue guidance tied to friction signals.",
     "h1Title": "How to replace onboarding with contextual help, and lift activation",
     "metaTitle": "Progressive onboarding with contextual help to boost activation",
-    "cardDescription": "A practical guide to contextual onboarding: show small hints at friction moments, protect exploration, and lift activation plus time to first value."
+    "cardDescription": "A practical guide to contextual onboarding: show small hints at friction moments, protect exploration, and lift activation plus time to first value.",
+    "date": "2026-02-22",
+    "readingTimeText": "6 min read"
   },
   "how-to-sell-design-system": {
     "category": "inspiration",
     "subtitle": "Your design resource probably could help someone speed up their work and you will get rewarded for it",
     "h1Title": "Your design asset will help someone speed up their work and you will get rewarded for it",
     "metaTitle": "Creating a Global UI Kit: Design System for Worldwide Sales",
-    "cardDescription": "Boost productivity and earn rewards with our design asset that accelerates work processes. Start optimizing your workflow today."
+    "cardDescription": "Boost productivity and earn rewards with our design asset that accelerates work processes. Start optimizing your workflow today.",
+    "date": "2019-09-25",
+    "readingTimeText": "3 mins read"
   },
   "how-to-study-saas-dashboard-in-the-ai-era": {
     "category": "inspiration",
     "subtitle": "AI makes dashboard screens easier to generate. But learning to recognize strong SaaS patterns is still the real skill.",
     "h1Title": "How to study SaaS dashboard UI patterns in the AI era",
     "metaTitle": "SaaS dashboard examples: how to study UI patterns in the AI era",
-    "cardDescription": "AI makes dashboard screens easier to generate. But learning to recognize strong SaaS patterns is still the real skill."
+    "cardDescription": "AI makes dashboard screens easier to generate. But learning to recognize strong SaaS patterns is still the real skill.",
+    "date": "2026-03-24",
+    "readingTimeText": "6 min read"
   },
   "how-to-swap-btc-to-eth-with-thorswap": {
     "category": "technology",
@@ -622,20 +768,26 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-04-09",
+    "readingTimeText": "6 min read"
   },
   "how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly": {
     "category": "inspiration",
     "subtitle": "Learn how to use AI-generated UI inspiration without creating shallow designs. A step-by-step process to choose references, apply constraints, and ship better UI faster.",
     "h1Title": "How to use AI UI inspiration to design faster without copying blindly",
     "metaTitle": "How to use AI inspiration for UI design (practical workflow)",
-    "cardDescription": "Learn how to use AI-generated UI inspiration without creating shallow designs. A step-by-step process to choose references, apply constraints, and ship better UI faster."
+    "cardDescription": "Learn how to use AI-generated UI inspiration without creating shallow designs. A step-by-step process to choose references, apply constraints, and ship better UI faster.",
+    "date": "2026-03-08",
+    "readingTimeText": "4 min read"
   },
   "innovative-ideas-for-video-creation": {
     "category": "research",
     "h1Title": "Innovative Ideas For Video Creation: From Editing To Animation",
     "metaTitle": "Top Creative Video Ideas: Tips for Innovative Video Production - Setproduct",
-    "cardDescription": "Discover innovative ideas for video creation, including advanced editing techniques, seamless VFX integration, and cutting-edge animation strategies to elevate your brand’s visual storytelling and engage your audience effectively."
+    "cardDescription": "Discover innovative ideas for video creation, including advanced editing techniques, seamless VFX integration, and cutting-edge animation strategies to elevate your brand’s visual storytelling and engage your audience effectively.",
+    "date": "2024-08-19",
+    "readingTimeText": "6 min read"
   },
   "input-ui-design": {
     "category": "tutorials",
@@ -648,20 +800,26 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2023-10-09",
+    "readingTimeText": "6 mins read"
   },
   "ios-lock-screen-feature": {
     "category": "technology",
     "subtitle": "Let's breakdown the newest iOS 16 lock screen feature. By combining existing technology, 3D rendering, and a few special touches, they have created a wallpaper that is both visually stunning and cleverly designed.",
     "h1Title": "How is my clock hides behind a mountain?",
     "metaTitle": "Lock Screen: Unveiling the Mystery of My Clock Concealed a Mountain",
-    "cardDescription": "Experience the stunning 3D-rendered mountain scenery created with cutting-edge technology by Apple. Our mountain landscape features lifelike textures, lighting, and shading."
+    "cardDescription": "Experience the stunning 3D-rendered mountain scenery created with cutting-edge technology by Apple. Our mountain landscape features lifelike textures, lighting, and shading.",
+    "date": "2022-12-25",
+    "readingTimeText": "2 min read"
   },
   "know-before-designing-your-website": {
     "category": "research",
     "h1Title": "Conducting Market Research: What to Know Before Designing Your Website",
     "metaTitle": "Role of Market Research in Web Design Process",
-    "cardDescription": "Good market research done before or during the development stage of a website has numerous benefits. Here are the important aspects of it that you should be aware of."
+    "cardDescription": "Good market research done before or during the development stage of a website has numerous benefits. Here are the important aspects of it that you should be aware of.",
+    "date": "2024-12-05",
+    "readingTimeText": "4 min read"
   },
   "landing-page-design-tips-for-startups": {
     "category": "tutorials",
@@ -674,21 +832,27 @@
       "description": "Promote your service, app, MVP in our directory. Get leads, SEO boost, sell more and validate ideas faster.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-07-27",
+    "readingTimeText": "4 min read"
   },
   "latest-18-resources-boost-efficiency": {
     "category": "resources",
     "subtitle": "In today's list, you will find texture and gradient generators, beautiful fonts, Figma plugins, AI tools, icons, illustrations and much more.",
     "h1Title": "Ready to rock in 2023? 18 latest resources that will boost your efficiency",
     "metaTitle": "Boost Productivity & Creativity with 18 Design and Developer Resources",
-    "cardDescription": "Discover a wide range of design resources including texture and gradient generators, beautiful fonts, Figma plugins, AI tools, and much more for all your creative needs."
+    "cardDescription": "Discover a wide range of design resources including texture and gradient generators, beautiful fonts, Figma plugins, AI tools, and much more for all your creative needs.",
+    "date": "2023-01-05",
+    "readingTimeText": "3 mins read"
   },
   "launching-saas-with-zero-investments": {
     "category": "startups-saas",
     "subtitle": "The frugal founder's dilemma - launching a SaaS on a shoestring budget and making it work",
     "h1Title": "How to launch your dream SaaS with $0 investments",
     "metaTitle": "How to Start a SaaS Company with No Money - Setproduct",
-    "cardDescription": "Being a solo founder, you`ve got a lot of roles to play. And if you have the right tools at hand, you can do whatever comes into your creative mind. Have a look at this variety of useful resources which will help you launch and grow your SaaS"
+    "cardDescription": "Being a solo founder, you`ve got a lot of roles to play. And if you have the right tools at hand, you can do whatever comes into your creative mind. Have a look at this variety of useful resources which will help you launch and grow your SaaS",
+    "date": "2024-09-13",
+    "readingTimeText": "7 min read"
   },
   "liftkit-open-source-design-system-for-figma-react": {
     "category": "resources",
@@ -701,20 +865,26 @@
       "description": "Promote your service, app, MVP in our directory. Get leads, SEO boost, sell more and validate ideas faster.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-07-23",
+    "readingTimeText": "2 min read"
   },
   "link-building-for-startups": {
     "category": "growth-hacking",
     "h1Title": "Link Building for Startups: Best Practices to Follow in 2025",
     "metaTitle": "Master Link Building for Startups: Top Strategies in 2025 - Setproduct",
-    "cardDescription": "Learn the top link building strategies for startups in 2025. Discover effective tactics to boost SEO, drive traffic, and enhance your online presence with proven techniques."
+    "cardDescription": "Learn the top link building strategies for startups in 2025. Discover effective tactics to boost SEO, drive traffic, and enhance your online presence with proven techniques.",
+    "date": "2025-01-08",
+    "readingTimeText": "7 min read"
   },
   "liquid-glass-design-explained-a-practical-guide": {
     "category": "design-trends",
     "subtitle": "Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests.",
     "h1Title": "Liquid glass design explained: a practical guide",
     "metaTitle": "Liquid glass design explained: a practical guide",
-    "cardDescription": "Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests."
+    "cardDescription": "Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests.",
+    "date": "2026-01-14",
+    "readingTimeText": "9 min read"
   },
   "marketing-dashboard-examples-templates": {
     "category": "inspiration",
@@ -727,7 +897,9 @@
       "description": "Get in touch with us to begin. If you are looking to build a new dashboard or upgrade an existing dashboard, we aim to help you succeed.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-24",
+    "readingTimeText": "10 min read"
   },
   "marketing-dashboard-ui-design-guide": {
     "category": "inspiration",
@@ -739,55 +911,71 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-03-14",
+    "readingTimeText": "4 min read"
   },
   "mastering-javascript": {
     "category": "design-code",
     "h1Title": "Mastering JavaScript: Essential JavaScript Tricks and Tips For Web Developers",
     "metaTitle": "Top JavaScript Tricks and Tips for Web Developers - Setproduct",
-    "cardDescription": "Discover essential JavaScript tips for web developers, covering key functions, front-end and back-end development, cross-platform applications, and productivity tools. Stay ahead with the latest JavaScript insights and enhance your coding skills."
+    "cardDescription": "Discover essential JavaScript tips for web developers, covering key functions, front-end and back-end development, cross-platform applications, and productivity tools. Stay ahead with the latest JavaScript insights and enhance your coding skills.",
+    "date": "2024-08-19",
+    "readingTimeText": "6 min read"
   },
   "material-design-redesigned": {
     "category": "presentation",
     "subtitle": "Fresh features and UI tricks: here is what's new in our enhanced Material-X design system for Figma",
     "h1Title": "The tiny UI details you won't notice till you get too close",
     "metaTitle": "Material-X: Unveiling the Unnoticed UI Details Up Close",
-    "cardDescription": "Discover the Material-X design system for Figma, featuring fresh and new UI tricks. Keep up with the latest updates and enhancements for a seamless design experience."
+    "cardDescription": "Discover the Material-X design system for Figma, featuring fresh and new UI tricks. Keep up with the latest updates and enhancements for a seamless design experience.",
+    "date": "2021-04-08",
+    "readingTimeText": "4 mins read"
   },
   "material-nextjs-ui-kit": {
     "category": "design-code",
     "subtitle": "Why you should try a UI kit built with NextJS and designed in Figma, including its ease of use, scalability, responsiveness, fast loading times, Material Design 3 nature and SEO friendliness",
     "h1Title": "9 Reasons to invest in a Material You UI kit built with Next.js and Tailwind CSS",
     "metaTitle": "9 Reasons to Choose Material UI Kit for Nextjs, TailwindCSS, and Figma",
-    "cardDescription": "Discover the 9 reasons why our Figma & Next.js library is the best choice for web applications, especially when styled with the trendy Material You design theme."
+    "cardDescription": "Discover the 9 reasons why our Figma & Next.js library is the best choice for web applications, especially when styled with the trendy Material You design theme.",
+    "date": "2023-02-02",
+    "readingTimeText": "2 mins read"
   },
   "monetizing-the-design-one-year": {
     "category": "inspiration",
     "subtitle": "My 15 insights of successful digital product essentials and how I turned making a design into a steady growing business.",
     "h1Title": "Monetizing the design: what I learned after a year of non-stop UI grinding",
     "metaTitle": "Maximizing Design Monetization: Insights from a Year of UI Efforts",
-    "cardDescription": "Discover 15 key insights for successful digital products, from a UI designer who took matters into his own hands to create innovative designs for everyone."
+    "cardDescription": "Discover 15 key insights for successful digital products, from a UI designer who took matters into his own hands to create innovative designs for everyone.",
+    "date": "2019-01-21",
+    "readingTimeText": "6 mins read"
   },
   "most-stressful-design-phrases": {
     "category": "growth-hacking",
     "subtitle": "This post explains how to manage those demands, setting boundaries and establishing clear communication strategies to keep the client's project on track.",
     "h1Title": "Stressed out: Managing demands from unreasonable clients in graphic design",
     "metaTitle": "Hated Graphic Design Client Phrases: Dealing with Stress",
-    "cardDescription": "Learn how to manage client demands, set boundaries, and establish clear communication strategies to keep your design projects on track."
+    "cardDescription": "Learn how to manage client demands, set boundaries, and establish clear communication strategies to keep your design projects on track.",
+    "date": "2023-06-10",
+    "readingTimeText": "4 mins read"
   },
   "my-ux-career-mistakes": {
     "category": "career",
     "subtitle": "While sitting and reflecting on my path as a UX designer, in my head emerged the lessons I had received along the way.",
     "h1Title": "My Biggest UX Career Mistakes and Lessons Learned",
     "metaTitle": "Top Career Mistakes UX Designers Make & How to Avoid Them - Setproduct",
-    "cardDescription": "UX design lessons learned the hard way: Read my story and avoid making the same mistakes in your own career."
+    "cardDescription": "UX design lessons learned the hard way: Read my story and avoid making the same mistakes in your own career.",
+    "date": "2024-08-15",
+    "readingTimeText": "3 min read"
   },
   "navigating-the-job-market-storm": {
     "category": "career",
     "subtitle": "Every designer and developer faces challenges, but there are ways to turn the tide. Follow a true story that empowers with tips and tactics for weathering the stormy phases of a tech career while anticipating the dawn of brighter days.",
     "h1Title": "My Journey Through Tech's Changing Tides",
     "metaTitle": "Navigating Job Market Storm: Web Development Professional's Insights",
-    "cardDescription": "Discover how a developer's layoff led to a successful transition into UX/UI design. Learn about their journey and insights into the job market."
+    "cardDescription": "Discover how a developer's layoff led to a successful transition into UX/UI design. Learn about their journey and insights into the job market.",
+    "date": "2023-11-28",
+    "readingTimeText": "4 mins read"
   },
   "nocra-ui-kit-the-ai-design-system-with-templates": {
     "category": "resources",
@@ -800,7 +988,9 @@
       "description": "Nocra Figma UI kit for AI products delivers 44+ purpose-built screens and 1200+ scalable components. From asset libraries to model selectors, solve real AI apps design challenges without reinventing the wheel.",
       "buttonText": "Purchase on Gumroad",
       "buttonLink": "https://gumroad.com/a/530945235/uocxtg"
-    }
+    },
+    "date": "2025-06-30",
+    "readingTimeText": "4 min read"
   },
   "notifications-ui-design": {
     "category": "tutorials",
@@ -813,19 +1003,25 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2023-09-29",
+    "readingTimeText": "8 mins read"
   },
   "optimizing-digital-marketing": {
     "category": "optimisation",
     "h1Title": "Optimizing Digital Marketing Through Comprehensive Strategies",
     "metaTitle": "The Best Digital Marketing Strategies for Online Success - Setproduct",
-    "cardDescription": "Stay ahead in 2024 with cutting-edge digital marketing strategies. Explore trends in AI, personalization, digital identity, and more to enhance your brand’s online presence and engagement."
+    "cardDescription": "Stay ahead in 2024 with cutting-edge digital marketing strategies. Explore trends in AI, personalization, digital identity, and more to enhance your brand’s online presence and engagement.",
+    "date": "2024-08-19",
+    "readingTimeText": "5 min read"
   },
   "overcome-middle-age-burnout": {
     "category": "growth-hacking",
     "h1Title": "Life after 40: finding new energy and motivation",
     "metaTitle": "​​Overcome middle age burnout and get back to work with energy",
-    "cardDescription": "Middle age doesn't have to mean a decline in energy and motivation. Learn how to overcome midlife crisis and find a new lease on life."
+    "cardDescription": "Middle age doesn't have to mean a decline in energy and motivation. Learn how to overcome midlife crisis and find a new lease on life.",
+    "date": "2024-12-01",
+    "readingTimeText": "5 min read"
   },
   "pagination-ui-design": {
     "category": "tutorials",
@@ -838,35 +1034,45 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-04-02",
+    "readingTimeText": "10 min read"
   },
   "pricing-ui-design": {
     "category": "tutorials",
     "subtitle": "Create intuitive pricing pages that drive conversion. Understand user behavior and design for transparency. Apply those insights to various SaaS niches and crush your MRR.",
     "h1Title": "Pricing section UI design guide",
     "metaTitle": "Pricing UI Design: Expert tips on app price section that converts",
-    "cardDescription": "Extensive tutorial how to design a pricing section that drives sales and conversions. Learn about types, anatomy, and usability best practices."
+    "cardDescription": "Extensive tutorial how to design a pricing section that drives sales and conversions. Learn about types, anatomy, and usability best practices.",
+    "date": "2024-12-04",
+    "readingTimeText": "6 min read"
   },
   "quality-control-and-assurance-difference": {
     "category": "research",
     "subtitle": "QC versus QA: Understanding the essential contrasts and highlighting their crucial importance in enriching product and service excellence.",
     "h1Title": "Difference between Quality Control and Quality Assurance",
     "metaTitle": "Quality Control vs Quality Assurance: Understanding Key Differences",
-    "cardDescription": "Discover the differences between quality control and quality assurance and how they impact product and service excellence."
+    "cardDescription": "Discover the differences between quality control and quality assurance and how they impact product and service excellence.",
+    "date": "2023-07-12",
+    "readingTimeText": "3 mins read"
   },
   "real-ux-work-in-tech-companies": {
     "category": "career",
     "subtitle": "Behind every polished UI is a mess of meetings, politics, and quiet battles for alignment. This publication breaks down the part of UX that bootcamps never teach, and why it wears so many of us down.",
     "h1Title": "Pixels are easy. Navigating bullshit is the real UX.",
     "metaTitle": "What nobody tells you about real UX work in tech companies",
-    "cardDescription": "Behind every polished UI is a mess of meetings, politics, and quiet battles for alignment. This publication breaks down the part of UX that bootcamps never teach, and why it wears so many of us down."
+    "cardDescription": "Behind every polished UI is a mess of meetings, politics, and quiet battles for alignment. This publication breaks down the part of UX that bootcamps never teach, and why it wears so many of us down.",
+    "date": "2025-08-17",
+    "readingTimeText": "5 min read"
   },
   "remote-productivity": {
     "category": "research",
     "subtitle": "A few simple rules to seriously increase your effectiveness and help you manage time wisely.",
     "h1Title": "Remote and stuck. 9 tips to manage time and be more productive @ home",
     "metaTitle": "Boost Productivity at Home: 9 Time Management Tips for Remote Work",
-    "cardDescription": "Learn effective time management techniques to increase your productivity and efficiency. Follow our simple rules for better time management."
+    "cardDescription": "Learn effective time management techniques to increase your productivity and efficiency. Follow our simple rules for better time management.",
+    "date": "2020-06-14",
+    "readingTimeText": "5 mins read"
   },
   "saas-dashboard-examples": {
     "category": "inspiration",
@@ -878,13 +1084,17 @@
       "description": "Reach out to us today and let us know about the dashboard design project that excites you! Whether it be for strengthened performance tracking, advanced user success metrics and engagement data itself or more flexibility in your analytical research - we are an adept development team that works accordingly. Then show up with your project and we will help create a Dashboard to drive the success of your business!",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-27",
+    "readingTimeText": "11 min read"
   },
   "seo-strategies-to-make-your-graphic-design-business-stand-out": {
     "category": "optimisation",
     "h1Title": "SEO Strategies to Make Your Graphic Design Business Stand Out",
     "metaTitle": "SEO strategies to make your graphic design business stand out",
-    "cardDescription": "Boost your graphic design business's visibility with these expert SEO strategies. Learn how to optimize your website, target the right audience, and attract more clients online."
+    "cardDescription": "Boost your graphic design business's visibility with these expert SEO strategies. Learn how to optimize your website, target the right audience, and attract more clients online.",
+    "date": "2025-01-20",
+    "readingTimeText": "3 min read"
   },
   "seo-tools-compared": {
     "category": "optimisation",
@@ -897,21 +1107,27 @@
       "description": "Promote your service, app, MVP in our directory. Get leads, SEO boost, sell more and validate ideas faster.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com"
-    }
+    },
+    "date": "2025-07-18",
+    "readingTimeText": "4 min read"
   },
   "settings-ui-design": {
     "category": "tutorials",
     "subtitle": "Unlock the secrets of designing a user-friendly Settings section! Dive into the anatomy, explore real-world use cases, discover layout types, and reveal essential usability tips.",
     "h1Title": "Settings UI design tutorial",
     "metaTitle": "App Settings UI Design: Usability Tips & Best Practices",
-    "cardDescription": "Learn about key design patterns and elements for settings apps to enhance user experience and accessibility in your own app's settings section."
+    "cardDescription": "Learn about key design patterns and elements for settings apps to enhance user experience and accessibility in your own app's settings section.",
+    "date": "2023-08-24",
+    "readingTimeText": "9 mins read"
   },
   "side-income-for-designers-and-developers": {
     "category": "research",
     "subtitle": "By launching your own side project, you have a great chance to make it your core business.",
     "h1Title": "6 ways to generate side income for designers and developers",
     "metaTitle": "Boost Your Earnings: 6 Side Income Ideas for Designers & Developers",
-    "cardDescription": "Discover the potential of turning your side project into a successful business with Setproduct. Learn how this side project became the main source of income within just 2 months."
+    "cardDescription": "Discover the potential of turning your side project into a successful business with Setproduct. Learn how this side project became the main source of income within just 2 months.",
+    "date": "2020-09-28",
+    "readingTimeText": "6 mins"
   },
   "slider-ui-design": {
     "category": "tutorials",
@@ -924,7 +1140,9 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-11-07",
+    "readingTimeText": "6 mins read"
   },
   "solcard-review-usdt-crypto-card-that-actually-helps-pay-for-online-subscriptions": {
     "category": "technology",
@@ -937,7 +1155,9 @@
       "description": "Need a crypto funded virtual card for subscriptions and online services like ChatGPT? Top up with USDT or USDC and pay wherever cards are accepted. Start small and keep only what you plan to spend.",
       "buttonText": "Create your SolCard today!",
       "buttonLink": "https://solcard.cc/r/setproduct"
-    }
+    },
+    "date": "2026-01-10",
+    "readingTimeText": "4 min read"
   },
   "start-a-saas-business-with-no-money": {
     "category": "startups-saas",
@@ -950,7 +1170,9 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-07-12",
+    "readingTimeText": "5 min read"
   },
   "startup-niches-always-money-printing": {
     "category": "startups-saas",
@@ -963,41 +1185,53 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-02-28",
+    "readingTimeText": "3 min read"
   },
   "state-of-crypto-2025": {
     "category": "technology",
     "subtitle": "The “State of Crypto” report from a16z makes big claims. But behind the charts and hype, there’s a lot it doesn’t say. Let’s unpack it.",
     "h1Title": "State of crypto 2025 by a16z. And a closer look at what they’re not telling you.",
     "metaTitle": "State of crypto 2025 - A critical breakdown of a16z report",
-    "cardDescription": "The “State of Crypto” report from a16z makes big claims. But behind the charts and hype, there’s a lot it doesn’t say. Let’s unpack it."
+    "cardDescription": "The “State of Crypto” report from a16z makes big claims. But behind the charts and hype, there’s a lot it doesn’t say. Let’s unpack it.",
+    "date": "2025-11-08",
+    "readingTimeText": "3 min read"
   },
   "stepper-ui-design": {
     "category": "tutorials",
     "subtitle": "This guide breaks down how to build precise, accessible, and flexible increment/decrement controls. Includes all states, edge cases, and mobile-first patterns.",
     "h1Title": "Stepper Input UI design tutorial",
     "metaTitle": "Stepper UI design: States, behavior, and best practices",
-    "cardDescription": "This guide breaks down how to build precise, accessible, and flexible increment/decrement controls. Includes all states, edge cases, and mobile-first patterns."
+    "cardDescription": "This guide breaks down how to build precise, accessible, and flexible increment/decrement controls. Includes all states, edge cases, and mobile-first patterns.",
+    "date": "2025-09-10",
+    "readingTimeText": "6 min read"
   },
   "steps-ui-design": {
     "category": "tutorials",
     "subtitle": "A great Steps UI guides users, reduces drop-offs, and removes friction. Learn the rules that make it work across desktop and mobile.",
     "h1Title": "Steps UI design tutorial. Build better flows through visual guidance",
     "metaTitle": "Steps UI design tutorial for better multi-step UX",
-    "cardDescription": "A great Steps UI guides users, reduces drop-offs, and removes friction. Learn the rules that make it work across desktop and mobile."
+    "cardDescription": "A great Steps UI guides users, reduces drop-offs, and removes friction. Learn the rules that make it work across desktop and mobile.",
+    "date": "2025-12-09",
+    "readingTimeText": "7 min read"
   },
   "streamlining-website-development": {
     "category": "resources",
     "h1Title": "Streamlining Website Development: Essential Tools For Agency Management",
     "metaTitle": "The Best Software Development Project Management Tools - Setproduct",
-    "cardDescription": "Discover the top tools for managing web development projects in 2024. From CRM solutions like Salesforce and HubSpot to project management tools like Jira and ClickUp, streamline your agency's workflow and enhance collaboration with these essential tools."
+    "cardDescription": "Discover the top tools for managing web development projects in 2024. From CRM solutions like Salesforce and HubSpot to project management tools like Jira and ClickUp, streamline your agency's workflow and enhance collaboration with these essential tools.",
+    "date": "2024-08-19",
+    "readingTimeText": "8 min read"
   },
   "strikethrough-text-deserves-more-love-in-ui": {
     "category": "tutorials",
     "subtitle": "A simple line through text can enhance UX for real. Understand the role of strikethrough in e-commerce, productivity apps, and beyond.",
     "h1Title": "Strikethrough text deserves more love in UI",
     "metaTitle": "The underrated UX power of strikethrough text",
-    "cardDescription": "A simple line through text can enhance UX for real. Understand the role of strikethrough in e-commerce, productivity apps, and beyond."
+    "cardDescription": "A simple line through text can enhance UX for real. Understand the role of strikethrough in e-commerce, productivity apps, and beyond.",
+    "date": "2025-09-16",
+    "readingTimeText": "3 min read"
   },
   "submit-a-guest-post": {
     "category": "presentation",
@@ -1009,14 +1243,18 @@
       "description": "Submit your offer using the contact form and enter the community of experts!",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-07-24",
+    "readingTimeText": "4 min read"
   },
   "tables-design-system": {
     "category": "tutorials",
     "subtitle": "How to create multiple data grid styles by a single cell-component and declare specs for a design system.",
     "h1Title": "Tables for a design system. Cell-component from Figma to React Storybook",
     "metaTitle": "Figma Design System: React Tables UI",
-    "cardDescription": "Learn how to create and implement tables in the Figma design system with the help of Storybook. Perfect for designers and developers looking to build design systems."
+    "cardDescription": "Learn how to create and implement tables in the Figma design system with the help of Storybook. Perfect for designers and developers looking to build design systems.",
+    "date": "2019-05-23",
+    "readingTimeText": "5 mins read"
   },
   "tabs-ui-design": {
     "category": "tutorials",
@@ -1029,14 +1267,18 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-03-26",
+    "readingTimeText": "8 min read"
   },
   "the-art-of-logo-design": {
     "category": "inspiration",
     "subtitle": "How to design a logo which is something unique and emotive giving to the people a reason to care about the brand.",
     "h1Title": "The Art of logo design: Strategies for crafting a lasting visual identity",
     "metaTitle": "Logo Design Ideas for a Lasting Visual Identity",
-    "cardDescription": "Create an effective logo with our guide, perfect for graphic designers, marketing professionals, and brand design agencies. Capture the essence of any brand with design principles."
+    "cardDescription": "Create an effective logo with our guide, perfect for graphic designers, marketing professionals, and brand design agencies. Capture the essence of any brand with design principles.",
+    "date": "2023-02-28",
+    "readingTimeText": "2 mins read"
   },
   "the-ui-designer-who-built-a-50k-month-template-store": {
     "category": "startups-saas",
@@ -1049,7 +1291,9 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-06-16",
+    "readingTimeText": "8 min read"
   },
   "toggle-switch-ui-design": {
     "category": "tutorials",
@@ -1062,7 +1306,9 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-11-04",
+    "readingTimeText": "4 mins read"
   },
   "tooltip-ui-design": {
     "category": "tutorials",
@@ -1075,14 +1321,18 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-11-12",
+    "readingTimeText": "7 min read"
   },
   "top-20-recent-design-resources": {
     "category": "resources",
     "subtitle": "Today's list includes a bunch of cool icons, powerful UI kits, great collections and tools, even a history of user interfaces, and so much more.",
     "h1Title": "Top 20 recent must-have design resources of this quarter everyone needs to try",
     "metaTitle": "Top 20 Design Resources for Startups, Developers, and Designers",
-    "cardDescription": "Explore a diverse collection of cool icons, powerful UI kits, and tools, along with a fascinating history of user interfaces on today's list."
+    "cardDescription": "Explore a diverse collection of cool icons, powerful UI kits, and tools, along with a fascinating history of user interfaces on today's list.",
+    "date": "2022-08-08",
+    "readingTimeText": "3 mins read"
   },
   "top-dashboard-design-examples-ideas": {
     "category": "inspiration",
@@ -1095,35 +1345,45 @@
       "description": "Our solutions are customizable for business analytics and to monitor project progress. Get in touch with us if you would like to discuss how we can transform your data into actionable insights.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-21",
+    "readingTimeText": "10 min read"
   },
   "top-design-releases-2020": {
     "category": "resources",
     "subtitle": "Reminiscing and summing up the results of 2020, where we have collected for you the top events from the design world.",
     "h1Title": "Significant releases of 2020 on a UI/UX design scene",
     "metaTitle": "Top UI Design Releases of 2020: Unveiling the Year's Most Innovations",
-    "cardDescription": "Discover the major design world events of 2020 in our comprehensive summary, highlighting the significant changes and trends that shaped the year."
+    "cardDescription": "Discover the major design world events of 2020 in our comprehensive summary, highlighting the significant changes and trends that shaped the year.",
+    "date": "2021-01-08",
+    "readingTimeText": "3 mins read"
   },
   "top-design-resources-jan-2021": {
     "category": "resources",
     "subtitle": "Various generators, Cool sources for your inspiration, Stylish icons, Best from PH 2020, animation tools & GIFs, and more.",
     "h1Title": "14 recent useful design resources in January 2021",
     "metaTitle": "Top 14 UI Design Resources: Handpicked for January 2021",
-    "cardDescription": "Explore today's release featuring a wide selection of generators, inspiration sources, stylish icons, top 2020 products, and tools for exporting animations and GIFs."
+    "cardDescription": "Explore today's release featuring a wide selection of generators, inspiration sources, stylish icons, top 2020 products, and tools for exporting animations and GIFs.",
+    "date": "2021-01-15",
+    "readingTimeText": "2 mins read"
   },
   "top-design-tools": {
     "category": "resources",
     "subtitle": "We've reviewed the most popular launches on ProductHunt after the first quarter of 2022 and here is what we discovered.",
     "h1Title": "Top 11 recent tools, apps and technologies to kickstart your sideproject",
     "metaTitle": "11 Essential Design Tools & Resources to Jumpstart Your Project",
-    "cardDescription": "Discover the top ProductHunt launches of 2022's first quarter in our review of the most popular products."
+    "cardDescription": "Discover the top ProductHunt launches of 2022's first quarter in our review of the most popular products.",
+    "date": "2022-03-06",
+    "readingTimeText": "4 mins read"
   },
   "top-tips-for-new-businesses-looking-to-strengthen-their-online-presence": {
     "category": "optimisation",
     "subtitle": "A practical guide to SEO, content, social media and email for building visibility from day one",
     "h1Title": "Top tips for new businesses looking to strengthen their online presence",
     "metaTitle": "How new businesses can strengthen their online presence and rank higher",
-    "cardDescription": "Want your new business to get discovered online? Here are the core tactics that make the biggest difference early on."
+    "cardDescription": "Want your new business to get discovered online? Here are the core tactics that make the biggest difference early on.",
+    "date": "2026-03-18",
+    "readingTimeText": "3 min read"
   },
   "types-of-dashboards-main-categories": {
     "category": "resources",
@@ -1136,21 +1396,27 @@
       "description": "Let us design and build the best dashboard solution to suit your business process. Reach out to us today with your project brief, budget, and your requirements, we can create the future of tomorrow. Contact us through our contact form today!",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-13",
+    "readingTimeText": "8 min read"
   },
   "unpaid-design-work": {
     "category": "growth-hacking",
     "subtitle": "Every year web designers and web developers are losing millions to unpaid projects",
     "h1Title": "I Fell Victim to Unpaid Web Design Work",
     "metaTitle": "Protect Your Design Payments: Tips to Prevent Client Ghosting - Setproduct",
-    "cardDescription": "I'll never forget the first time a web design client refused to pay for my work - here's what I learned from the experience."
+    "cardDescription": "I'll never forget the first time a web design client refused to pay for my work - here's what I learned from the experience.",
+    "date": "2024-08-12",
+    "readingTimeText": "4 min read"
   },
   "useful-design-resources-fall-2020": {
     "category": "resources",
     "subtitle": "Resources that are trendy in the design industry to help you get some inspiration and speed up your workflow.",
     "h1Title": "13 fresh and useful design resources of outgoing fall",
     "metaTitle": "Top 13 Design Resources for Fall 2020: Fresh and Useful",
-    "cardDescription": "Discover top design industry resources for inspiration and workflow efficiency. Stay trendy with the best links handpicked just for you."
+    "cardDescription": "Discover top design industry resources for inspiration and workflow efficiency. Stay trendy with the best links handpicked just for you.",
+    "date": "2020-11-24",
+    "readingTimeText": "2 mins read"
   },
   "user-profile-templates": {
     "category": "resources",
@@ -1163,7 +1429,9 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-02-25",
+    "readingTimeText": "6 min read"
   },
   "using-quickbooks-to-calculate-saas-growth": {
     "category": "startups-saas",
@@ -1176,7 +1444,9 @@
       "description": "Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services. We offer three distinct plans to cater to your diverse needs and budget. Choose the free plan that aligns with your goals",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-03-27",
+    "readingTimeText": "7 min read"
   },
   "venice-ai-tool-private-uncensored": {
     "category": "technology",
@@ -1188,25 +1458,33 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-02-12",
+    "readingTimeText": "4 min read"
   },
   "visual-elements-in-email-marketing": {
     "category": "research",
     "h1Title": "Top Email Marketing Visuals: Types, Tips, and Examples for the Best Visual Email Designs",
     "metaTitle": "Top Email Marketing Visuals: Best Types, Tips, & Design Examples - Setproduct",
-    "cardDescription": "Are visual elements important in email campaigns, and how to craft the best emails? Let’s dive into the world of the best email designs!"
+    "cardDescription": "Are visual elements important in email campaigns, and how to craft the best emails? Let’s dive into the world of the best email designs!",
+    "date": "2024-07-22",
+    "readingTimeText": "5 min read"
   },
   "white-label-seo-reseller-platforms": {
     "category": "optimisation",
     "h1Title": "White label SEO reseller platforms: Comparing customer support, tools, and resources",
     "metaTitle": "White label SEO reseller platforms: Top options for agencies in 2025",
-    "cardDescription": "Compare the best white label SEO reseller platforms for agencies in 2025. Explore customer support, tools, and resources from AgencyPlatform, SEOReseller, FatJoe, and more to find the ideal fit for your business."
+    "cardDescription": "Compare the best white label SEO reseller platforms for agencies in 2025. Explore customer support, tools, and resources from AgencyPlatform, SEOReseller, FatJoe, and more to find the ideal fit for your business.",
+    "date": "2025-01-23",
+    "readingTimeText": "3 min read"
   },
   "why-apps-ux-is-getting-worse": {
     "category": "research",
     "h1Title": "Why your favorite apps UX is getting worse",
     "metaTitle": "The apps enshittification: Consequences of ignoring UX design principles",
-    "cardDescription": "Explore the decline in user experience of popular apps like Google Maps, Spotify, and Amazon, and discover the reasons behind this trend. Learn about enshittification and its impact on app quality."
+    "cardDescription": "Explore the decline in user experience of popular apps like Google Maps, Spotify, and Amazon, and discover the reasons behind this trend. Learn about enshittification and its impact on app quality.",
+    "date": "2025-02-03",
+    "readingTimeText": "4 min read"
   },
   "why-are-dashboards-important": {
     "category": "optimisation",
@@ -1219,7 +1497,9 @@
       "description": "Get in touch if you would like to find out how our tailor-made dashboards could form the answer to your business operation problems, today! Tell what your project is, and we will help make a custom dashboard that fits you and helps you succeed.",
       "buttonText": "",
       "buttonLink": ""
-    }
+    },
+    "date": "2024-06-14",
+    "readingTimeText": "6 min read"
   },
   "why-designers-are-loosing-motivation": {
     "category": "career",
@@ -1231,20 +1511,26 @@
       "description": "We can write research, case study, and even UX roast to promote your product in Setproduct blog. Increase your online visibility, drive targeted traffic, and boost your website's SEO with our guest blogging services.",
       "buttonText": "See Prices",
       "buttonLink": "https://publish.setproduct.com/"
-    }
+    },
+    "date": "2025-02-10",
+    "readingTimeText": "4 min read"
   },
   "why-landing-page-optimization-is-essential": {
     "category": "optimisation",
     "h1Title": "Why landing page optimization is essential for online success",
     "metaTitle": "Landing Page Optimization: Key to Achieving Online Success",
-    "cardDescription": "Learn how landing page optimization can bring exceptional business results, helping brands covert failed leads and streamline campaigns' revenue stream."
+    "cardDescription": "Learn how landing page optimization can bring exceptional business results, helping brands covert failed leads and streamline campaigns' revenue stream.",
+    "date": "2025-01-27",
+    "readingTimeText": "5 min read"
   },
   "why-some-designers-dislike-ai": {
     "category": "technology",
     "subtitle": "The issue is not whether AI belongs in design. The issue is where it belongs, what it accelerates well, and what it quietly takes away when designers stop wrestling with the hard parts.",
     "h1Title": "Why some designers dislike AI, and why they may be right",
     "metaTitle": "Designers and AI: why resistance can be a smart signal",
-    "cardDescription": "Not every hesitation around AI is conservative thinking. Sometimes it is a rational response to a workflow that makes output easier while making deeper design decisions shallower."
+    "cardDescription": "Not every hesitation around AI is conservative thinking. Sometimes it is a rational response to a workflow that makes output easier while making deeper design decisions shallower.",
+    "date": "2026-03-25",
+    "readingTimeText": "4 min read"
   },
   "your-startups-user-persona-is-probably-wrong": {
     "category": "research",
@@ -1257,6 +1543,8 @@
       "description": "I’ll personally turn your answers into a founder-grade customer persona in PDF format.\nThis is a paid, manual service without AI fluff and guessing. Just clear positioning and insights.",
       "buttonText": "Let's get in touch!",
       "buttonLink": "https://tally.so/r/woP9AP"
-    }
+    },
+    "date": "2025-08-14",
+    "readingTimeText": "2 min read"
   }
 }
