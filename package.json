@@ -10,7 +10,8 @@
     "lint": "next lint",
     "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts",
     "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts",
-    "merge:blog-csv": "tsx scripts/merge-csv-into-mdx.ts"
+    "merge:blog-csv": "tsx scripts/merge-csv-into-mdx.ts",
+    "extract:related-slugs": "tsx scripts/extract-related-slugs.ts"
   },
   "repository": {
     "type": "git",

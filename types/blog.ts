@@ -33,6 +33,7 @@ export type BlogFrontmatter = {
   cardDescription?: string;
   inlineCta?: InlineCta;
   readingTimeText?: string;
+  relatedSlugs?: string[];
 };
 
 export type BlogHeading = {

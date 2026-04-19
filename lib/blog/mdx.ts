@@ -89,8 +89,23 @@ export function getAllBlogPostsMeta(): BlogPostMeta[] {
 export function getRelatedPosts(
   currentSlug: string,
   category: string | undefined,
-  limit = 3
+  limit = 3,
+  relatedSlugs?: string[]
 ): BlogPostMeta[] {
+  if (relatedSlugs && relatedSlugs.length > 0) {
+    const all = getAllBlogPostsMeta();
+    const metaMap = new Map(all.map(p => [p.frontmatter.slug, p]));
+    const result: BlogPostMeta[] = [];
+    for (const slug of relatedSlugs) {
+      const meta = metaMap.get(slug);
+      if (meta && slug !== currentSlug) {
+        result.push(meta);
+        if (result.length >= limit) break;
+      }
+    }
+    if (result.length > 0) return result;
+  }
+
   const all = getAllBlogPostsMeta();
   const sameCategory = category
     ? all.filter(
@@ -103,6 +118,5 @@ export function getRelatedPosts(
     (p) =>
       p.frontmatter.slug !== currentSlug && !sameCategory.includes(p)
   );
-  const combined = [...sameCategory, ...others];
-  return combined.slice(0, limit);
+  return [...sameCategory, ...others].slice(0, limit);
 }
