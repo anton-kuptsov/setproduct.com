@@ -55,8 +55,7 @@ export default function BlogPostLayout({ post, relatedPosts, postUrl }: BlogPost
       <main>
         <BlogHero
           title={frontmatter.title}
-          articleTitle={frontmatter.articleTitle}
-          subtitle={frontmatter.subtitle ?? frontmatter.description}
+          subtitle={frontmatter.subtitle || frontmatter.description}
           coverImage={frontmatter.coverImage}
           coverImageAlt={frontmatter.coverImageAlt}
           date={frontmatter.date}
