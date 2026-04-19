@@ -21,7 +21,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next-mdx-remote": "^5.0.0",
+    "next-mdx-remote": "^6.0.0",
     "gray-matter": "^4.0.3",
     "reading-time": "^1.5.0",
     "remark-gfm": "^4.0.0",
