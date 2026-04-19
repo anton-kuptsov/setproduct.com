@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts",
-    "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts"
+    "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts",
+    "merge:blog-csv": "tsx scripts/merge-csv-into-mdx.ts"
   },
   "repository": {
     "type": "git",
