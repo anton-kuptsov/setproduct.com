@@ -1,5 +1,6 @@
 {
   "8-designers-developers-success": {
+    "articleTitle": "8 designers and developers bootstrapped a side project to success",
     "category": "inspiration",
     "subtitle": "We've gathered some inspiring designers and developers, who bootstrapped their side projects to life and succeed.",
     "h1Title": "From zero to hero: 8 stories of Indie Hackers going all-in on their side projects",
@@ -7,6 +8,7 @@
     "cardDescription": "Discover the inspiring stories of 8 Twitter designers and developers who bootstrapped their side projects to success. Learn how they found success and gain valuable insights ."
   },
   "accordion-ui-design": {
+    "articleTitle": "Accordion UI design exploration — Styles, states, usage, templates",
     "category": "tutorials",
     "subtitle": "The exploration for Accordion component UI design, states, templates and use cases for desktop & mobile viewports.",
     "h1Title": "Accordion UI design",
@@ -14,6 +16,7 @@
     "cardDescription": "Discover our Accordion UI (Expansion panel) for organizing and displaying more content in a vertically stacked list of options."
   },
   "adobe-stealing-designs": {
+    "articleTitle": "Adobe Creative Cloud is stealing UI designs to train the AI",
     "category": "technology",
     "subtitle": "The issue of Adobe Creative Cloud stealing artwork is a serious one and is causing a great deal of concern in the creative community.",
     "h1Title": "Adobe Creative Cloud steals your artwork to train the AI",
@@ -21,6 +24,7 @@
     "cardDescription": "Learn about the serious issue of Adobe Creative Cloud stealing artwork and causing concern in the creative community. Find out how to protect your work and what steps to take."
   },
   "ai-cant-replace-the-real-ux-thinking": {
+    "articleTitle": "AI can’t replace the real UX thinking",
     "category": "technology",
     "subtitle": "AI can generate hundred designs in a second. But knowing which one actually works? That’s still a human skill. Here are my considerations on UX thinking matters more than ever.",
     "h1Title": "AI can’t replace the real UX thinking",
@@ -28,6 +32,7 @@
     "cardDescription": "AI can generate hundred designs in a second. But knowing which one actually works? That’s still a human skill. Here are my considerations on UX thinking matters more than ever."
   },
   "ai-infographics-for-marketing-teams": {
+    "articleTitle": "AI infographics for marketing teams",
     "category": "presentation",
     "subtitle": "A practical approach to generate consistent, readable infographics for marketing teams, with controlled variation and quick selection.",
     "h1Title": "How to create marketing infographics with AI. A practical Venice.ai workflow that sells and ships fast",
@@ -41,6 +46,7 @@
     }
   },
   "ais-impact-on-graphic-design": {
+    "articleTitle": "Designers are worrying about the future: AI's impact on graphic UI design",
     "category": "technology",
     "subtitle": "AI tech raises concerns about its impact on graphic design. Adobe's AI tool, Firefly, sparks debates among designers. Let's explore their conclusions.",
     "h1Title": "Designers are worrying about the future: Understanding AI's impact on graphic design",
@@ -48,6 +54,7 @@
     "cardDescription": "Discover the impact of AI technology in design with Firefly at Adobe. Explore the opportunities, challenges, and responsible practices that come with this transformative era."
   },
   "appbar-ui-design": {
+    "articleTitle": "App Bar UI design exploration — Anatomy, specs, states, templates",
     "category": "tutorials",
     "subtitle": "Mastering the Appbar: Unlock the anatomy, states, styling, use cases, and usability tips to create a seamless and visually pleasing UX.",
     "h1Title": "App Bar UI design tutorial",
@@ -55,6 +62,7 @@
     "cardDescription": "Maximize user navigation with an optimized Application Bar, displaying in-app controls for easy access to different app sections."
   },
   "avatar-ui-design": {
+    "articleTitle": "Userpic UI design: Tutorial for Avatar states, anatomy, usability",
     "category": "tutorials",
     "subtitle": "Designing avatars goes far beyond profile pictures. Our new tutorial shows how to build scalable, accessible, and contextual userpic components with 18 real UI examples.",
     "h1Title": "Userpic UI design guide & best practices",
@@ -62,6 +70,7 @@
     "cardDescription": "Userpics are not just decoration. They are a cornerstone of navigation, profiles, and communication. Discover our deep dive into avatar UI design best practices."
   },
   "badge-ui-design": {
+    "articleTitle": "Badge UI design exploration — Tips & tricks, usability, and use cases review",
     "category": "tutorials",
     "subtitle": "Badge design UI/UX tips. Purposes, use-cases, UX patterns reviewed, and other things to consider.",
     "h1Title": "Badges UI design research",
@@ -75,6 +84,7 @@
     }
   },
   "benefits-of-dashboards": {
+    "articleTitle": "What Are the Benefits of Dashboards for Businesses?",
     "category": "optimisation",
     "subtitle": "In this article, we will describe the benefits of dashboards for businesses, highlighting how they improve decision-making, improve efficiency, and provide real-time insights.",
     "h1Title": "What Are the Benefits of Dashboards for Businesses?",
@@ -88,12 +98,14 @@
     }
   },
   "benefits-of-guest-blogging": {
+    "articleTitle": "Guest Blogging Benefits: Unlock SEO Success and Boost Your Brand",
     "category": "research",
     "h1Title": "Guest Blogging Benefits: Unlock SEO Success and Boost Your Brand",
     "metaTitle": "Top Guest Blogging Benefits for SEO & Marketing Success – Setproduct",
     "cardDescription": "Boost your brand visibility and SEO with guest posting. This article explores how publishing content on authoritative websites can build backlinks, improve rankings, and drive business growth."
   },
   "best-analytics-dashboard-examples": {
+    "articleTitle": "Best Analytics Dashboard Examples",
     "category": "inspiration",
     "subtitle": "In this article, we delve into the top analytics dashboard examples and best practices to enhance your data analytics strategy.",
     "h1Title": "Best Analytics Dashboard Examples & Best Practices",
@@ -107,6 +119,7 @@
     }
   },
   "best-fonts-pairing": {
+    "articleTitle": "The best 2023 fonts pairing for app design, website, or presentation",
     "category": "typography",
     "subtitle": "We have nominated the combination of free fonts Outfit & Spline Sans to use for every project. Whether it's branding, or complex web application development, this is the best choice in 2023. Let's breakdown how this pair looks.",
     "h1Title": "The best fonts pairing for 2023 nominated by Setproduct",
@@ -114,6 +127,7 @@
     "cardDescription": "Discover the perfect combination of free fonts Outfit & Spline Sans, nominated by Setproduct design studio for use in 2023. For a website or complex dashboard or versatile pair"
   },
   "bitcoin-adoption-today-speculative-reality": {
+    "articleTitle": "What is broken with Bitcoin? A path from P2P dream to speculative reality",
     "category": "technology",
     "subtitle": "How Bitcoin has transitioned from a utility-focused digital currency to a speculative investment. This post highlights the trend of diminishing returns in Bitcoin's price cycles and the impact of political factors on its value.",
     "h1Title": "What is broken with Bitcoin? A shift from P2P dream to speculative reality",
@@ -127,6 +141,7 @@
     }
   },
   "black-friday-2023": {
+    "articleTitle": "Black Friday 2023: Unbeatable Deals on Figma Templates for Designers!",
     "category": "resources",
     "subtitle": "Take advantage of Black Friday 2023 deals to enhance your design process with premium Figma templates and UI kits. Invest in your toolkit at prices you can't ignore.",
     "h1Title": "Maximize efficiency with Black Friday Specials on Figma templates",
@@ -134,6 +149,7 @@
     "cardDescription": "Maximize your Black Friday savings with exclusive deals on Figma assets for a more streamlined design workflow. Give your designs the competitive edge they deserve."
   },
   "breadcrumbs-ui-design": {
+    "articleTitle": "Breadcrumbs UI design exploration: Anatomy, UX tips, use cases overview",
     "category": "tutorials",
     "subtitle": "Breadcrumbs design UI/UX tutorial. Anatomy, structure and component usage cases overviewed with other things to consider.",
     "h1Title": "Breadcrumbs UI design tips",
@@ -141,6 +157,7 @@
     "cardDescription": "Breadcrumbs are navigational links used to indicate the current position within a website's multi-level structure. They are commonly utilized in web pages & dashboards"
   },
   "button-group-guide": {
+    "articleTitle": "Button Group UI design guide",
     "category": "tutorials",
     "subtitle": "I want to present to you an extensive Button Group’s tutorial including fundamental design principles of usability, accessibility, and visual design. So If you need to create effective Button Groups - this tutorial will be extremely helpful.",
     "h1Title": "Button Group UI design guide",
@@ -148,6 +165,7 @@
     "cardDescription": "Get the ultimate guide to Button Group design principles, including usability, accessibility, and visual design. Learn how to design Button Groups that boost user engagement and satisfaction"
   },
   "button-ui-design": {
+    "articleTitle": "Buttons UI design – Comprehensive tutorial on UX, styles and usability",
     "category": "inspiration",
     "subtitle": "The in-depth look at the design principles behind creating effective buttons for user interfaces.",
     "h1Title": "Making the most of Buttons UI Design – Tips, states, usability, and inspiration",
@@ -155,6 +173,7 @@
     "cardDescription": "Create intuitive and accessible buttons that seamlessly enhance user interaction, with a focus on style and feedback. Design with SEO optimization in mind."
   },
   "calendar-ui-design": {
+    "articleTitle": "Calendar UI design – Date picker best practices & inspiration",
     "category": "inspiration",
     "subtitle": "Calendars and date pickers use cases, anatomy, and samples. States, ranges, timelines, and managing event patterns are now studied and explained. Enjoy, steal, and remake with this Figma calendar template.",
     "h1Title": "Calendar UI design best practices & Datepicker inspiration",
@@ -168,6 +187,7 @@
     }
   },
   "campaign-marketing-dashboards-guide": {
+    "articleTitle": "Campaign marketing dashboards designed right. Know who cares, where they live, and why they click",
     "category": "research",
     "subtitle": "A designer’s guide to ethical, privacy-focused campaign analytics templates.",
     "h1Title": "Campaign marketing dashboards designed right. Know who cares, where they live, and why they click",
@@ -181,6 +201,7 @@
     }
   },
   "carousel-ui-design": {
+    "articleTitle": "Carousel UI design best practices",
     "category": "tutorials",
     "subtitle": "To use a carousel effectively, designers & developers should follow these design tips, including using a clear and slick execution, optimizing content, and using JS libraries or frameworks like React, Vue or even Bootstrap, when aimed to bring this component to life.",
     "h1Title": "Carousel UI design best practices",
@@ -188,6 +209,7 @@
     "cardDescription": "Design accessible slider galleries, usable, and beautiful. Read our detailed guide on Carousel UI Design and learn how to design carousels that engage users."
   },
   "case-study-design-image-upload-component": {
+    "articleTitle": "Case study: Design iterations for Cleeve's image upload component",
     "category": "case-studies",
     "subtitle": "A detailed look at the design iterations for an image upload UI for Cleeve app. You will discover the steps of successful upload UI design, including layout optimization, visual appeal, and balancing hierarchy. The case study offers a real-world example of how iterative design can lead to a polished component.",
     "h1Title": "Case study: Design iterations for Cleeve's image upload component",
@@ -201,6 +223,7 @@
     }
   },
   "case-study-gtrendz": {
+    "articleTitle": "Why do we need UI kits: Our customer's redesign case study for ecommerce",
     "category": "case-studies",
     "subtitle": "The story of a freelancer who purchased our Figma templates and saved time on a redesign of ecommerce project.",
     "h1Title": "Why do we need UI kits: Our customer's redesign case study for «GTrendz» shop",
@@ -208,6 +231,7 @@
     "cardDescription": "Discover the redesign of GTrendz e-shop seller's panel by talented Indian freelancer Narendra Ram, using our Material-X UI kit. See how his work elevates the user experience."
   },
   "case-study-journeyapp": {
+    "articleTitle": "iOS / Android app case study — From Figma UI kit to application release",
     "category": "case-studies",
     "subtitle": "The case story of how a ready-made UI kit with templates helped Luke O'Brien to release the app of his dreams.",
     "h1Title": "The «Journey» from UI kit to live mobile application",
@@ -215,6 +239,7 @@
     "cardDescription": "Discover the power of a pre-made UI kit in Figma and how it enabled the creation of a popular app now thriving in the App Store and Play Market."
   },
   "checkbox-react-component": {
+    "articleTitle": "Checkbox UI design – React component styled in Chakra",
     "category": "design-code",
     "subtitle": "Modifying Chakra UI styles for a checkbox component to redesign & visually enhance it. This post contains UI design ideas, live components, code samples and some inspiration to assist coders design better.",
     "h1Title": "Styling ideas for React checkbox component",
@@ -222,6 +247,7 @@
     "cardDescription": "Discover stylish design ideas and code samples for a React checkbox component, designed in Figma and styled in Chakra. Get inspiration and live components to improve your UI design"
   },
   "checkbox-ui-design": {
+    "articleTitle": "Checkbox UI design – Unlocking anatomy, proven UX tips, and inspiring use cases",
     "category": "tutorials",
     "subtitle": "Ready to create Checkbox components that shine? Join us as we unveil our in-depth tutorial, covering everything from aesthetics to usability.",
     "h1Title": "Checkbox UI design tips",
@@ -229,6 +255,7 @@
     "cardDescription": "Get practical solutions for Checkbox design dilemmas, from styling complexity to inclusive user experience, in this dedicated tutorial."
   },
   "chip-ui-design": {
+    "articleTitle": "Chips UI Design – An essential tutorial for optimal UX & usability",
     "category": "tutorials",
     "subtitle": "Upgrade your UI/UX skills with a stylish journey into Chip design: Uncover anatomy, states management, styling effects, and usability tips.",
     "h1Title": "Chips UI design guide",
@@ -242,6 +269,7 @@
     }
   },
   "choosing-right-design-team": {
+    "articleTitle": "Tips for selecting the UI / UX agency for application design and development",
     "category": "research",
     "subtitle": "A comprehensive guide on how to research about studio's specialty, portfolio, internal processes, and the whole team to help you avoid non-pros.",
     "h1Title": "Tips for selecting the UI / UX agency for application design and development",
@@ -249,6 +277,7 @@
     "cardDescription": "Find the perfect web design and development agency for your application to ensure the success of your product. Make the right decision that will have a major impact on business."
   },
   "choosing-right-ios-kit": {
+    "articleTitle": "Expert advice: Choosing right Figma UI kit for iOS mobile app design",
     "category": "optimisation",
     "subtitle": "If you're a mobile app designer looking to quickly and efficiently create high-quality iOS app designs, incorporating Figma UI kits into your workflow is a great way to achieve your goals.",
     "h1Title": "Countdown to launch: How Figma iOS kits can help design your next mobile app faster",
@@ -256,12 +285,14 @@
     "cardDescription": "Maximize the consistency and UX of your iOS app by utilizing an iOS UI kit. Our guide highlights the advantages to streamline the mobile app development process."
   },
   "dark-side-of-figmas-updates": {
+    "articleTitle": "Figma Fiasco. The Dark Side of Recent Figma Updates.",
     "category": "research",
     "h1Title": "Figma Fiasco. The Dark Side of Recent Figma Updates.",
     "metaTitle": "The Dark Side of Recent Figma Updates. Config 2024 - Setproduct",
     "cardDescription": "Get a quick look at the recent changes in Figma and find out why they might not be as effective as you thought."
   },
   "dashboard-design-best-practices-top-dashboard-ui-design-tips": {
+    "articleTitle": "Dashboard Design Best Practices. Top Dashboard UI Design Tips",
     "category": "design-trends",
     "subtitle": "Improve user experience with our complete guide to creating well-designed dashboard templates. Make it visually accessible and efficient to boost performance and usability of data visualization.",
     "h1Title": "Dashboard Design Best Practices. Top Dashboard UI Design Tips",
@@ -275,6 +306,7 @@
     }
   },
   "depth-in-ios-design": {
+    "articleTitle": "iOS 17 design trends: More depth and shadows in Apple's mobile GUI",
     "category": "design-trends",
     "subtitle": "Reminiscing on possible future directions for the iOS GUI design, particularly regarding the inclusion of a mix of flat and 3D design features.",
     "h1Title": "Name a bigger downgrade: The absence of depth in iOS UI design",
@@ -282,6 +314,7 @@
     "cardDescription": "Experience the enhanced user interface design of iPhones and iPads with iOS 17, featuring increased use of shadows and depth for a more immersive, tactile experience."
   },
   "design-career-stagnation": {
+    "articleTitle": "Do you regret your career in graphic design? Let's find a renewal",
     "category": "growth-hacking",
     "subtitle": "In this post, we'll explore the experiences of designers who have felt the need to start over with something new and what they have discovered along the way.",
     "h1Title": "Is your design career stagnating? How to pivot and find your true calling",
@@ -289,6 +322,7 @@
     "cardDescription": "Revamp your graphic design portfolio with current industry trends and reignite your passion for your career. Find fulfillment in your work again with a little help and inspiration."
   },
   "design-resources-feb-2021": {
+    "articleTitle": "16 fresh design resources of February 2021",
     "category": "resources",
     "subtitle": "Icons, Emojis, Free illustrations, New Figma plugins, Design inspiration resources, Enterprise tables tutorials and more.",
     "h1Title": "16 fresh design resources for February 2021",
@@ -296,6 +330,7 @@
     "cardDescription": "Discover the latest insights on icons, emojis, illustrations, color theory, and enterprise tables, along with effective Figma plugins and sources for inspiration."
   },
   "design-system-for-business": {
+    "articleTitle": "Design system features - Start with the UI kit & app templates",
     "category": "presentation",
     "subtitle": "Save a huge amount of time, facilitate the transition to development, and make the apps design & user experience more smoother.",
     "h1Title": "Commercial design systems for startups & organisations",
@@ -303,6 +338,7 @@
     "cardDescription": "Boost efficiency and save time by investing in a commercial design system for Figma or Sketch. Maximize productivity and streamline processes for your organization."
   },
   "design-tricks-for-static-prototypes": {
+    "articleTitle": "8 simple UI design tricks for more dynamics in static prototypes",
     "category": "tutorials",
     "subtitle": "8 simple tricks of dynamics addition for a static prototype without animating it.",
     "h1Title": "Visual dynamics for design layouts to make templates more eye-catching",
@@ -310,6 +346,7 @@
     "cardDescription": "Master UI techniques to elevate your designs and stand out on Dribbble. Impress customers and design team leaders with your attention to detail and high-quality work."
   },
   "difficult-design-clients": {
+    "articleTitle": "Freelance designer tips: Difficult clients & endless design revisions",
     "category": "growth-hacking",
     "subtitle": "Proven strategies on how to deal with difficult freelance clients and protect yourself from getting into complicated situations in the future.",
     "h1Title": "\"I hate clients\" – How to handle negative feedback and graphic design revisions.",
@@ -317,12 +354,14 @@
     "cardDescription": "Learn effective tactics for managing challenging design clients and avoiding unpaid extra revisions. Protect your work and your time with solid strategies."
   },
   "do-not-design-your-resume-in-figma": {
+    "articleTitle": "The risks of using Figma to build your PDF resume",
     "category": "career",
     "h1Title": "The risks of using Figma to build your PDF resume",
     "metaTitle": "Figma resume design in PDF is hurting your job chances",
     "cardDescription": "Reveal how using Figma to build your PDF resume can strike your job chances. Learn the common mistakes and how to create a job-winning resume."
   },
   "dropdown-ui-design": {
+    "articleTitle": "Dropdown UI design – A guide for Anatomy, UX tips, and Use cases",
     "category": "tutorials",
     "subtitle": "Design compelling Dropdowns with clear instructions. Customize themes, improve usability, and ensure accessibility. Elevate user experience with captivating design. Ready to get started? Let's go!",
     "h1Title": "Dropdown UI design guide",
@@ -336,6 +375,7 @@
     }
   },
   "e-commerce-dashboard-examples": {
+    "articleTitle": "Best E-Commerce Dashboard Templates & Examples",
     "category": "inspiration",
     "subtitle": "Find out the state of top-notch E-commerce dashboards with our selected examples and design tips. Learn how these tools can convert raw data into intelligent inputs with a few simple steps specific to digital retail commerce.",
     "h1Title": "Best E-Commerce Dashboard Templates with Examples",
@@ -349,6 +389,7 @@
     }
   },
   "effective-dashboard-design-principles": {
+    "articleTitle": "Effective Dashboard Design Principles",
     "category": "optimisation",
     "subtitle": "This article introduces the essential principles of effective dashboard design and provides interactive design examples that are visually attractive and ensure business success.",
     "h1Title": "Dashboard Design Principles: Crafting Effective and User-Friendly Dashboards",
@@ -362,6 +403,7 @@
     }
   },
   "empty-state-ui-design": {
+    "articleTitle": "Empty state UI design: From zero to app engagement",
     "category": "tutorials",
     "subtitle": "From onboarding screens to no search results, empty states are more powerful than they seem. In this article, you’ll learn how to craft useful messages, design emotionally smart visuals, and use research-backed strategies to improve UX outcomes.",
     "h1Title": "Empty States UI design. Best Practices for Better UX",
@@ -369,6 +411,7 @@
     "cardDescription": "From onboarding screens to no search results, empty states are more powerful than they seem. In this article, you’ll learn how to craft useful messages, design emotionally smart visuals, and use research-backed strategies to improve UX outcomes."
   },
   "figma-10-tech-companies": {
+    "articleTitle": "Figma for enterprise: Top 10 tech companies where design tool helped to grow",
     "category": "research",
     "subtitle": "How design tool played a decisive role for businesses such as Microsoft, Uber and 8 more well-known companies.",
     "h1Title": "For those 10 companies Figma was a starting point to new heights",
@@ -376,6 +419,7 @@
     "cardDescription": "Discover the proven worth and wide functionality of Figma, the preferred design tool of major companies like Microsoft and Uber."
   },
   "figma-20-newest-templates": {
+    "articleTitle": "Best 20 free Figma templates for your Design system, Dashboard or Application",
     "category": "resources",
     "subtitle": "A curated review of Figma resources recently published by a community. We picked the most useful and well-crafted.",
     "h1Title": "Newest 20 free Figma templates to kickstart your next project",
@@ -383,6 +427,7 @@
     "cardDescription": "Discover a range of Figma freebies including Ant UX Wireframes, Avatar Illustration System, Brainstorming Design System, Bright Kit, and Browk UI Kit."
   },
   "figma-auto-layout-debate": {
+    "articleTitle": "Figma auto-layout debate: Benefits, drawbacks, and best practices",
     "category": "research",
     "subtitle": "Is auto-layout in Figma a game-changer or a hindrance? Time to weigh the benefits and drawbacks of this design feature and how it impacts your UI design workflow.",
     "h1Title": "This aged Figma debate reveals pros and cons for auto-layout vs. frames-only design mode",
@@ -390,6 +435,7 @@
     "cardDescription": "Should you be using auto-layout in Figma? We explore the benefits and drawbacks of this design feature and how it can impact your workflow and design quality."
   },
   "figma-plugins-productivity-boost": {
+    "articleTitle": "Top 14 Figma plugins for fixing styles, manage grid, auto-layout, run tracking and more",
     "category": "resources",
     "subtitle": "Manage grid, spacings, create annotations, organise color styles, draw math shapes, spellcheck in Figma and more.",
     "h1Title": "Top 14 Figma latest plugins for a productivity boost while you staying at home",
@@ -397,6 +443,7 @@
     "cardDescription": "Discover our reviewed plugins for enhancing your design process, including AutoGrid, Tracking, Find and Replace Colors, Spacing Manager, and Geometric."
   },
   "figma-plugins-review-2020": {
+    "articleTitle": "Figma plugins review — Best 16 underrated plugins to speed up design workflow at the beginning of 2020",
     "category": "resources",
     "subtitle": "Carefully handpicked plugins to accelerate managing, ordering and developing design system components.",
     "h1Title": "Top 16 underrated Figma plugins to boost ⏱ design systems development",
@@ -404,6 +451,7 @@
     "cardDescription": "Discover our collection of tools for improving workflow, boosting productivity, and adding joy to the design process. Don't miss out on the fun!"
   },
   "figma-resources-review-1": {
+    "articleTitle": "Free Figma resources — Best 15 templates of design systems, applications, icons and more",
     "category": "resources",
     "subtitle": "Templates from the Figma community to save your time, boost a productivity and cut costs when designing an application.",
     "h1Title": "Top 15 free Figma resources to kickstart your next project",
@@ -411,6 +459,7 @@
     "cardDescription": "Discover time-saving and cost-cutting product design templates from the Figma community to enhance productivity. Streamline your workflow and save time with our curated collection."
   },
   "figma-responsive-mobile-components": {
+    "articleTitle": "How to create responsive mobile components in Figma",
     "category": "tutorials",
     "subtitle": "Create convenient and flexible design components right in Figma",
     "h1Title": "How to create responsive mobile tab bar in Figma",
@@ -418,6 +467,7 @@
     "cardDescription": "Create elegant and flexible design solutions for your projects in Figma, continually improving with each new endeavor."
   },
   "figma-stop-taking-my-money": {
+    "articleTitle": "Figma, stop taking my money",
     "category": "research",
     "subtitle": "I`m a user of the Figma platform, as you might know. And today I'm really truly furious. You`d ask me: what about? What does it have to do with Figma? My answer is: I`m furious due to the murky scheme they are using for billing. In particular, it's about their charging for the editor seats. It infuriates me!",
     "h1Title": "Figma, stop taking my money",
@@ -425,6 +475,7 @@
     "cardDescription": "Tired of being charged for design seats you don't need? Reveal how Figma's billing model is affecting designers everywhere."
   },
   "figma-summer-top-15": {
+    "articleTitle": "Top 15 Figma resources: UI kit, design system, components, illustrations",
     "category": "resources",
     "subtitle": "Handpicked collection of the newest templates for Figma: UI kits, UX tools, design systems, icons, illustrations, etc.",
     "h1Title": "Summer Top 15 Figma resources released recently",
@@ -432,6 +483,7 @@
     "cardDescription": "Discover a curated selection of the latest Figma templates including UI kits, UX tools, design systems, icons, and illustrations, perfect for all your design needs. Explore now!"
   },
   "figma-tables-data-grid-design": {
+    "articleTitle": "Table UI design tutorial – Figma data grid within single cell-component",
     "category": "tutorials",
     "subtitle": "Building a table of components is a task that sooner or later arises for every design systems architect in Figma.",
     "h1Title": "Figma tables: Data grid design by a single cell-component",
@@ -439,6 +491,7 @@
     "cardDescription": "Learn about the 3 different approaches to table design for creating a flexible data grid using row, column, and cell components. Gain the best practices for developing a web table."
   },
   "figma-to-react-buttons": {
+    "articleTitle": "Buttons UI design - Figma to React styled components",
     "category": "inspiration",
     "subtitle": "Styling Material Design components for performance, usability and visual harmony.",
     "h1Title": "From Figma to React: material design buttons",
@@ -446,6 +499,7 @@
     "cardDescription": "Enhance Material Design components for improved performance, usability, and visual appeal. Get our expert retouching services for your web design needs."
   },
   "figma-tutorial-instances-management": {
+    "articleTitle": "Figma components tutorial: the management for Instances",
     "category": "tutorials",
     "subtitle": "Pros and Cons of swapping between hidden layers and detaching a Component into the new Master. Inspired by Userpic design item.",
     "h1Title": "Figma components tutorial: management for Instances",
@@ -453,6 +507,7 @@
     "cardDescription": "Explore the advantages and limitations of swapping hidden layers and detaching a component for a new master design, inspired by Userpic design item."
   },
   "filter-ui-design": {
+    "articleTitle": "Filter UI Design: Tips and best practices for filtering UX flow",
     "category": "tutorials",
     "subtitle": "Uncover essential usability tips for designing filters that users will find intuitive and enjoyable. Harness the power of clear feedback, optimized exterior, and consistent layout to build filters that go beyond create memorable user experiences.",
     "h1Title": "Filters UI Design tutorial",
@@ -466,6 +521,7 @@
     }
   },
   "freelance-hourly-rate": {
+    "articleTitle": "Freelancer guide: how to switch from Fixed-Price to a Hourly Rate",
     "category": "growth-hacking",
     "subtitle": "How to set a hourly rate to avoid cases where a project with a pre-agreed amount ended up going beyond implementation because of seemingly insignificant changes on the client's side.",
     "h1Title": "Switch from Fixed-Price to an Hourly Rate as a Freelancer",
@@ -473,6 +529,7 @@
     "cardDescription": "Set a fair hourly rate to prevent scope creep and ensure projects stay within budget despite client changes."
   },
   "genius-ux-design-inventions": {
+    "articleTitle": "Genius UX Inventions: 15 Incredible Design Cases as User Experience Evolution",
     "category": "case-studies",
     "subtitle": "Check out those canonical examples of UX design that have changed the world and transformed industries.",
     "h1Title": "Top 15 Examples of Ingenious User Experience That Helped Humanity to Evolve",
@@ -480,6 +537,7 @@
     "cardDescription": "Get inspired by 15 remarkable examples of UX design that have transformed industries and revolutionized the way we interact with products and services."
   },
   "getting-your-first-startup-users": {
+    "articleTitle": "Onboarding your first 1000 users is the most challenging milestone for startup founders",
     "category": "startups-saas",
     "subtitle": "Let's face the truth: the first users of any service or product mark an important point in any startup’s cycle. This figure shows that the project is viable and gives prerequisites for its future growth.",
     "h1Title": "Onboarding your first 1000 users is the most challenging milestone for startup founders",
@@ -487,6 +545,7 @@
     "cardDescription": "Learn strategies to get your first 1000 users. Discover proven tips for startup growth, from user acquisition to building a solid UX foundation for lasting success."
   },
   "guest-article-for-web-development": {
+    "articleTitle": "The Complete Guide to Guest Posting for Web Development Companies",
     "category": "presentation",
     "subtitle": "How to create guest articles that produce leads and drive traffic",
     "h1Title": "The Complete Guide to Guest Posting for Web Development Companies",
@@ -494,24 +553,28 @@
     "cardDescription": "Guest blogging for web development companies: a comprehensive guide. Learn how to create effective content, build backlinks, and boost your online presence."
   },
   "guest-posting-opportunities": {
+    "articleTitle": "How to Find Guest Posting Opportunities in 2025: A Comprehensive Guide",
     "category": "research",
     "h1Title": "How to Find Guest Posting Opportunities in 2025: A Comprehensive Guide",
     "metaTitle": "How to Find Guest Posting Opportunities in 2025? - Setproduct",
     "cardDescription": "Discover how to find guest posting opportunities through competitor analysis, SEO tools, and social media. Enhance your online presence and SEO with strategies that work across industries."
   },
   "guest-posts-vs-niche-edits": {
+    "articleTitle": "Niche Edits vs Guest Post Links: Choosing the Best Link-Building Strategy",
     "category": "research",
     "h1Title": "Niche Edits vs Guest Post Links: Choosing the Best Link-Building Strategy",
     "metaTitle": "Guest Posts vs. Niche Edits: Guide for SEO Success (2025) - Setproduct",
     "cardDescription": "Discover the key differences between niche edits and guest posts in this comprehensive 2025 guide. Learn how to choose the best strategy to boost your SEO and drive results"
   },
   "hiring-frontlines-to-craft-a-portfolio": {
+    "articleTitle": "Insights from the hiring frontlines to craft a stellar UX portfolio",
     "category": "career",
     "h1Title": "Insights from the hiring frontlines to craft a stellar UX portfolio",
     "metaTitle": "Tips from Hiring Managers to Create a Stellar UX UI Graphic Design Portfolio",
     "cardDescription": "Learn how to create a standout UX design portfolio with expert tips from hiring managers. Discover UX portfolio tips, UI design essentials, and graphic design best practices to land your dream job."
   },
   "how-to-3d-animate-scroll": {
+    "articleTitle": "How to make 3D animation effect on page scroll HTML & JS",
     "category": "tutorials",
     "subtitle": "Apple implemented this effect by using a smart trick. Everything is done with a canvas element supported by JavaScript that writes the path for new images when you scroll.",
     "h1Title": "How to make 3D animation effect (like AirPods website) as you scroll the page",
@@ -519,6 +582,7 @@
     "cardDescription": "Learn how to create a webpage with the same interactive effect as the Apple AirPods page in this tutorial. Get step-by-step instructions for achieving this dynamic design."
   },
   "how-to-cancel-adobe-subscription-without-fees": {
+    "articleTitle": "How to cancel Adobe subscription without fees",
     "category": "research",
     "subtitle": "The frustrations of a long-time Adobe user who's had enough of the subscription model, bloated software, and sneaky cancellation fees. Get ready to vent and find out why it's time to explore alternatives.",
     "h1Title": "Adobe is not a design tool anymore. It’s a monthly ransom. Here’s how I escaped and cancelled my subscription without fees.",
@@ -532,6 +596,7 @@
     }
   },
   "how-to-design-a-ui-kit-foundation": {
+    "articleTitle": "How to design a UI kit styleguides: tokens, states, and component contracts",
     "category": "design-code",
     "subtitle": "From foundations to components: clear token roles, predictable states, and contracts engineers can implement.",
     "h1Title": "How to design a UI kit foundation: tokens, states, and component contracts",
@@ -539,6 +604,7 @@
     "cardDescription": "A practical UI style guide and UI kit blueprint: semantic tokens, theming, state coverage, and dev-ready component contracts with examples."
   },
   "how-to-design-dialogs": {
+    "articleTitle": "How to design dialogs",
     "category": "tutorials",
     "subtitle": "Delete dialogs, update prompts, error alerts. This post shows how to build them all.With clear examples and patterns, it’s your go-to guide for modal components.Plus, it includes AI-generated visuals for faster inspiration.",
     "h1Title": "Dialog windows: a complete tutorial for designers and developers",
@@ -546,6 +612,7 @@
     "cardDescription": "Just published: a full-length guide to Dialog UI design.\nIncludes edge cases, layout rules, and UX best practices across devices.\nPerfect for product designers and frontend devs building shared components."
   },
   "how-to-design-landing": {
+    "articleTitle": "How to design a landing page to improve conversions",
     "category": "tutorials",
     "subtitle": "The process of making a high-converting landing page. We've put together design rules and outlined the structure of a successful website.",
     "h1Title": "How to design a landing page to improve conversions",
@@ -553,12 +620,14 @@
     "cardDescription": "Learn how to create a high-converting landing page with our design rules and website structure guide for a successful website. Boost your SEO and conversion rates now!"
   },
   "how-to-enhance-email-security": {
+    "articleTitle": "Best practices for keeping your inbox safe and enhance email security",
     "category": "technology",
     "h1Title": "Best practices for keeping your inbox safe and enhance email security",
     "metaTitle": "Top Email Security Best Practices: Keep Your Inbox Safe & Secure - Setproduct",
     "cardDescription": "Learn essential email security best practices for business to protect inbox from threats. Discover tips on safe email attachments, secure communication, and safeguarding your data."
   },
   "how-to-get-better-at-ui-design-by-studying-ai-generated-examples": {
+    "articleTitle": "How to get better at UI design by studying AI-generated examples",
     "category": "inspiration",
     "subtitle": "A component-by-component breakdown of the visual decisions worth stealing, redrawing in Figma, and adapting to real products.",
     "h1Title": "How to extract useful design ideas from AI-generated interfaces",
@@ -572,12 +641,14 @@
     }
   },
   "how-to-get-graphic-design-clients": {
+    "articleTitle": "How To Get More Graphic Design Clients: A Step-by-step Guide for Freelancers",
     "category": "growth-hacking",
     "h1Title": "How To Get More Graphic Design Clients: A Step-by-step Guide for Freelancers",
     "metaTitle": "How to Get Graphic Design Clients: A Freelancer's Guide - Setproduct",
     "cardDescription": "Discover effective strategies for freelancers to attract and secure graphic design clients with this comprehensive guide."
   },
   "how-to-market-your-saas-with-zero-budget": {
+    "articleTitle": "How to market your SaaS with zero budget",
     "category": "startups-saas",
     "subtitle": "Let’s cut the fluff. You’re building a SaaS. You’re broke. Investors laugh at your “vision.” Your marketing budget? A sad $0. But traction is non-negotiable. After analyzing dozens of Reddit threads and scaling my own tools, here’s your survival guide.",
     "h1Title": "How to market your SaaS with zero budget",
@@ -591,6 +662,7 @@
     }
   },
   "how-to-replace-onboarding-with-contextual-help": {
+    "articleTitle": "How to replace onboarding with contextual help, and lift activation",
     "category": "growth-hacking",
     "subtitle": "Help users learn by doing with contextual tooltips, gentle nudges, and rescue guidance tied to friction signals.",
     "h1Title": "How to replace onboarding with contextual help, and lift activation",
@@ -598,6 +670,7 @@
     "cardDescription": "A practical guide to contextual onboarding: show small hints at friction moments, protect exploration, and lift activation plus time to first value."
   },
   "how-to-sell-design-system": {
+    "articleTitle": "How to create UI kit - Design system to sell worldwide",
     "category": "inspiration",
     "subtitle": "Your design resource probably could help someone speed up their work and you will get rewarded for it",
     "h1Title": "Your design asset will help someone speed up their work and you will get rewarded for it",
@@ -605,6 +678,7 @@
     "cardDescription": "Boost productivity and earn rewards with our design asset that accelerates work processes. Start optimizing your workflow today."
   },
   "how-to-study-saas-dashboard-in-the-ai-era": {
+    "articleTitle": "How to study SaaS dashboard in the AI era",
     "category": "inspiration",
     "subtitle": "AI makes dashboard screens easier to generate. But learning to recognize strong SaaS patterns is still the real skill.",
     "h1Title": "How to study SaaS dashboard UI patterns in the AI era",
@@ -612,6 +686,7 @@
     "cardDescription": "AI makes dashboard screens easier to generate. But learning to recognize strong SaaS patterns is still the real skill."
   },
   "how-to-swap-btc-to-eth-with-thorswap": {
+    "articleTitle": "How to swap BTC to ETH without KYC while staying decentralized",
     "category": "technology",
     "subtitle": "This post explains the problems with traditional methods for large cryptocurrency swaps, such as limited liquidity and smart contract risks. Readers will find out how Thorswap provides a fast, secure, and private way to swap BTC to ETH.",
     "h1Title": "How to swap BTC to ETH without KYC while staying decentralized",
@@ -625,6 +700,7 @@
     }
   },
   "how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly": {
+    "articleTitle": "How to use AI UI inspiration to design faster without copying blindly",
     "category": "inspiration",
     "subtitle": "Learn how to use AI-generated UI inspiration without creating shallow designs. A step-by-step process to choose references, apply constraints, and ship better UI faster.",
     "h1Title": "How to use AI UI inspiration to design faster without copying blindly",
@@ -632,12 +708,14 @@
     "cardDescription": "Learn how to use AI-generated UI inspiration without creating shallow designs. A step-by-step process to choose references, apply constraints, and ship better UI faster."
   },
   "innovative-ideas-for-video-creation": {
+    "articleTitle": "Innovative Ideas For Video Creation: From Editing To Animation",
     "category": "research",
     "h1Title": "Innovative Ideas For Video Creation: From Editing To Animation",
     "metaTitle": "Top Creative Video Ideas: Tips for Innovative Video Production - Setproduct",
     "cardDescription": "Discover innovative ideas for video creation, including advanced editing techniques, seamless VFX integration, and cutting-edge animation strategies to elevate your brand’s visual storytelling and engage your audience effectively."
   },
   "input-ui-design": {
+    "articleTitle": "Input UI Design – Optimize data forms UX with expertly crafted text fields",
     "category": "tutorials",
     "subtitle": "Discover the different types and states of Input fields, along with styling techniques and usability tips for designing flawless user experiences.",
     "h1Title": "Inputs UI design exploration",
@@ -651,6 +729,7 @@
     }
   },
   "ios-lock-screen-feature": {
+    "articleTitle": "How is my clock hides behind a mountain? iOS 16 lock screen feature",
     "category": "technology",
     "subtitle": "Let's breakdown the newest iOS 16 lock screen feature. By combining existing technology, 3D rendering, and a few special touches, they have created a wallpaper that is both visually stunning and cleverly designed.",
     "h1Title": "How is my clock hides behind a mountain?",
@@ -658,12 +737,14 @@
     "cardDescription": "Experience the stunning 3D-rendered mountain scenery created with cutting-edge technology by Apple. Our mountain landscape features lifelike textures, lighting, and shading."
   },
   "know-before-designing-your-website": {
+    "articleTitle": "Conducting Market Research: What to Know Before Designing Your Website",
     "category": "research",
     "h1Title": "Conducting Market Research: What to Know Before Designing Your Website",
     "metaTitle": "Role of Market Research in Web Design Process",
     "cardDescription": "Good market research done before or during the development stage of a website has numerous benefits. Here are the important aspects of it that you should be aware of."
   },
   "landing-page-design-tips-for-startups": {
+    "articleTitle": "Landing page design tips for startups to product market fit",
     "category": "tutorials",
     "subtitle": "Learn how to structure high-converting landing pages for your product market fit using a proven EPRC method designed for clarity, trust, and results.",
     "h1Title": "Battle-tested landing page structure guide for (not only) startups and MVPs",
@@ -677,6 +758,7 @@
     }
   },
   "latest-18-resources-boost-efficiency": {
+    "articleTitle": "18 design & developer resources to boost your productivity and creativity",
     "category": "resources",
     "subtitle": "In today's list, you will find texture and gradient generators, beautiful fonts, Figma plugins, AI tools, icons, illustrations and much more.",
     "h1Title": "Ready to rock in 2023? 18 latest resources that will boost your efficiency",
@@ -684,6 +766,7 @@
     "cardDescription": "Discover a wide range of design resources including texture and gradient generators, beautiful fonts, Figma plugins, AI tools, and much more for all your creative needs."
   },
   "launching-saas-with-zero-investments": {
+    "articleTitle": "How to launch your dream SaaS with $0 investments",
     "category": "startups-saas",
     "subtitle": "The frugal founder's dilemma - launching a SaaS on a shoestring budget and making it work",
     "h1Title": "How to launch your dream SaaS with $0 investments",
@@ -691,6 +774,7 @@
     "cardDescription": "Being a solo founder, you`ve got a lot of roles to play. And if you have the right tools at hand, you can do whatever comes into your creative mind. Have a look at this variety of useful resources which will help you launch and grow your SaaS"
   },
   "liftkit-open-source-design-system-for-figma-react": {
+    "articleTitle": "LiftKit: Open source design system for Figma & React",
     "category": "resources",
     "subtitle": "A new open-source design system has taken the community by storm. LiftKit, created by freelance DBA Chainlift, has quickly gained traction for its unique approach to making UI components feel oddly satisfying.",
     "h1Title": "LiftKit: a free Figma UI kit made by a design nerd obsessed with spacing",
@@ -704,12 +788,14 @@
     }
   },
   "link-building-for-startups": {
+    "articleTitle": "Link Building for Startups: Best Practices to Follow in 2025",
     "category": "growth-hacking",
     "h1Title": "Link Building for Startups: Best Practices to Follow in 2025",
     "metaTitle": "Master Link Building for Startups: Top Strategies in 2025 - Setproduct",
     "cardDescription": "Learn the top link building strategies for startups in 2025. Discover effective tactics to boost SEO, drive traffic, and enhance your online presence with proven techniques."
   },
   "liquid-glass-design-explained-a-practical-guide": {
+    "articleTitle": "Liquid glass design explained: a practical guide",
     "category": "design-trends",
     "subtitle": "Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests.",
     "h1Title": "Liquid glass design explained: a practical guide",
@@ -717,6 +803,7 @@
     "cardDescription": "Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests."
   },
   "marketing-dashboard-examples-templates": {
+    "articleTitle": "Marketing Dashboard Examples & Templates",
     "category": "inspiration",
     "subtitle": "Explore the top marketing dashboard examples and templates, understand their benefits, and learn best design practices to enhance your data visualization and decision-making processes.",
     "h1Title": "Marketing Dashboard Examples & Templates. Marketing Dashboard Best Practices",
@@ -730,6 +817,7 @@
     }
   },
   "marketing-dashboard-ui-design-guide": {
+    "articleTitle": "Marketing dashboard UI design guide: Layouts, chart types, and mobile optimization",
     "category": "inspiration",
     "h1Title": "Marketing dashboard UI design guide: Layouts, chart types, and mobile optimization",
     "metaTitle": "Examples of marketing dashboard design: Anatomy, Charts, Templates",
@@ -742,12 +830,14 @@
     }
   },
   "mastering-javascript": {
+    "articleTitle": "Mastering JavaScript: Essential JavaScript Tricks and Tips For Web Developers",
     "category": "design-code",
     "h1Title": "Mastering JavaScript: Essential JavaScript Tricks and Tips For Web Developers",
     "metaTitle": "Top JavaScript Tricks and Tips for Web Developers - Setproduct",
     "cardDescription": "Discover essential JavaScript tips for web developers, covering key functions, front-end and back-end development, cross-platform applications, and productivity tools. Stay ahead with the latest JavaScript insights and enhance your coding skills."
   },
   "material-design-redesigned": {
+    "articleTitle": "Material–X: The tiny UI details you won't notice till you get too close",
     "category": "presentation",
     "subtitle": "Fresh features and UI tricks: here is what's new in our enhanced Material-X design system for Figma",
     "h1Title": "The tiny UI details you won't notice till you get too close",
@@ -755,6 +845,7 @@
     "cardDescription": "Discover the Material-X design system for Figma, featuring fresh and new UI tricks. Keep up with the latest updates and enhancements for a seamless design experience."
   },
   "material-nextjs-ui-kit": {
+    "articleTitle": "9 reasons to use Material UI kit for Next.js, TailwindCSS and Figma",
     "category": "design-code",
     "subtitle": "Why you should try a UI kit built with NextJS and designed in Figma, including its ease of use, scalability, responsiveness, fast loading times, Material Design 3 nature and SEO friendliness",
     "h1Title": "9 Reasons to invest in a Material You UI kit built with Next.js and Tailwind CSS",
@@ -762,6 +853,7 @@
     "cardDescription": "Discover the 9 reasons why our Figma & Next.js library is the best choice for web applications, especially when styled with the trendy Material You design theme."
   },
   "monetizing-the-design-one-year": {
+    "articleTitle": "Monetizing the design: what I learned after a year of non-stop UI grinding",
     "category": "inspiration",
     "subtitle": "My 15 insights of successful digital product essentials and how I turned making a design into a steady growing business.",
     "h1Title": "Monetizing the design: what I learned after a year of non-stop UI grinding",
@@ -769,6 +861,7 @@
     "cardDescription": "Discover 15 key insights for successful digital products, from a UI designer who took matters into his own hands to create innovative designs for everyone."
   },
   "most-stressful-design-phrases": {
+    "articleTitle": "Stressful phrases from clients in graphic design hated by designers",
     "category": "growth-hacking",
     "subtitle": "This post explains how to manage those demands, setting boundaries and establishing clear communication strategies to keep the client's project on track.",
     "h1Title": "Stressed out: Managing demands from unreasonable clients in graphic design",
@@ -776,6 +869,7 @@
     "cardDescription": "Learn how to manage client demands, set boundaries, and establish clear communication strategies to keep your design projects on track."
   },
   "my-ux-career-mistakes": {
+    "articleTitle": "My Biggest UX Career Mistakes and Lessons Learned",
     "category": "career",
     "subtitle": "While sitting and reflecting on my path as a UX designer, in my head emerged the lessons I had received along the way.",
     "h1Title": "My Biggest UX Career Mistakes and Lessons Learned",
@@ -783,6 +877,7 @@
     "cardDescription": "UX design lessons learned the hard way: Read my story and avoid making the same mistakes in your own career."
   },
   "navigating-the-job-market-storm": {
+    "articleTitle": "Navigating the job market storm: A webdev professional's tale",
     "category": "career",
     "subtitle": "Every designer and developer faces challenges, but there are ways to turn the tide. Follow a true story that empowers with tips and tactics for weathering the stormy phases of a tech career while anticipating the dawn of brighter days.",
     "h1Title": "My Journey Through Tech's Changing Tides",
@@ -790,6 +885,7 @@
     "cardDescription": "Discover how a developer's layoff led to a successful transition into UX/UI design. Learn about their journey and insights into the job market."
   },
   "nocra-ui-kit-the-ai-design-system-with-templates": {
+    "articleTitle": "Nocra UI kit: The AI design system with templates",
     "category": "resources",
     "subtitle": "NOCRA UI Kit — built specifically for startups harnessing AI generation: images, video, audio, music, prompts, and beyond. Save countless hours with ready-made components, intuitive screens, and stunning animations.",
     "h1Title": "Nocra: A design system built for AI Startups (And why you’ll want to use it)",
@@ -803,6 +899,7 @@
     }
   },
   "notifications-ui-design": {
+    "articleTitle": "Notifications UI Design: Best practices, UX tips and popular use cases",
     "category": "tutorials",
     "subtitle": "Gain design secrets of of in-app notifications and discover proven strategies to captivate and engage your users like never before.",
     "h1Title": "Notification UI design guide",
@@ -816,18 +913,21 @@
     }
   },
   "optimizing-digital-marketing": {
+    "articleTitle": "Optimizing Digital Marketing Through Comprehensive Strategies",
     "category": "optimisation",
     "h1Title": "Optimizing Digital Marketing Through Comprehensive Strategies",
     "metaTitle": "The Best Digital Marketing Strategies for Online Success - Setproduct",
     "cardDescription": "Stay ahead in 2024 with cutting-edge digital marketing strategies. Explore trends in AI, personalization, digital identity, and more to enhance your brand’s online presence and engagement."
   },
   "overcome-middle-age-burnout": {
+    "articleTitle": "Life after 40: finding new energy and motivation",
     "category": "growth-hacking",
     "h1Title": "Life after 40: finding new energy and motivation",
     "metaTitle": "​​Overcome middle age burnout and get back to work with energy",
     "cardDescription": "Middle age doesn't have to mean a decline in energy and motivation. Learn how to overcome midlife crisis and find a new lease on life."
   },
   "pagination-ui-design": {
+    "articleTitle": "Pagination UI design tutorial",
     "category": "tutorials",
     "subtitle": "This tutorial provides a comprehensive guide to designing UX-friendly pagination systems, covering anatomy, states, and variations like offset and keyset pagination. It includes actionable advice for tables, e-commerce, and search results, paired with usability and accessibility best practices.",
     "h1Title": "Pagination UI design best practices",
@@ -841,6 +941,7 @@
     }
   },
   "pricing-ui-design": {
+    "articleTitle": "Pricing section UI design guide",
     "category": "tutorials",
     "subtitle": "Create intuitive pricing pages that drive conversion. Understand user behavior and design for transparency. Apply those insights to various SaaS niches and crush your MRR.",
     "h1Title": "Pricing section UI design guide",
@@ -848,6 +949,7 @@
     "cardDescription": "Extensive tutorial how to design a pricing section that drives sales and conversions. Learn about types, anatomy, and usability best practices."
   },
   "quality-control-and-assurance-difference": {
+    "articleTitle": "Difference Between Quality Control And Quality Assurance",
     "category": "research",
     "subtitle": "QC versus QA: Understanding the essential contrasts and highlighting their crucial importance in enriching product and service excellence.",
     "h1Title": "Difference between Quality Control and Quality Assurance",
@@ -855,6 +957,7 @@
     "cardDescription": "Discover the differences between quality control and quality assurance and how they impact product and service excellence."
   },
   "real-ux-work-in-tech-companies": {
+    "articleTitle": "Real UX work in tech companies",
     "category": "career",
     "subtitle": "Behind every polished UI is a mess of meetings, politics, and quiet battles for alignment. This publication breaks down the part of UX that bootcamps never teach, and why it wears so many of us down.",
     "h1Title": "Pixels are easy. Navigating bullshit is the real UX.",
@@ -862,6 +965,7 @@
     "cardDescription": "Behind every polished UI is a mess of meetings, politics, and quiet battles for alignment. This publication breaks down the part of UX that bootcamps never teach, and why it wears so many of us down."
   },
   "remote-productivity": {
+    "articleTitle": "Remote work: 9 tips to manage your time and get more productivity at home",
     "category": "research",
     "subtitle": "A few simple rules to seriously increase your effectiveness and help you manage time wisely.",
     "h1Title": "Remote and stuck. 9 tips to manage time and be more productive @ home",
@@ -869,6 +973,7 @@
     "cardDescription": "Learn effective time management techniques to increase your productivity and efficiency. Follow our simple rules for better time management."
   },
   "saas-dashboard-examples": {
+    "articleTitle": "Best SaaS Dashboard Examples. Dashboard Design Templates for SaaS Companies",
     "category": "inspiration",
     "h1Title": "Best SaaS Dashboard Examples. Dashboard Design Templates for SaaS Companies",
     "metaTitle": "Best SaaS Dashboard Examples. Dashboard Design Templates for SaaS Companies - Setproduct",
@@ -881,12 +986,14 @@
     }
   },
   "seo-strategies-to-make-your-graphic-design-business-stand-out": {
+    "articleTitle": "SEO Strategies to Make Your Graphic Design Business Stand Out",
     "category": "optimisation",
     "h1Title": "SEO Strategies to Make Your Graphic Design Business Stand Out",
     "metaTitle": "SEO strategies to make your graphic design business stand out",
     "cardDescription": "Boost your graphic design business's visibility with these expert SEO strategies. Learn how to optimize your website, target the right audience, and attract more clients online."
   },
   "seo-tools-compared": {
+    "articleTitle": "SEO tools compared: What I learned after quitting Semrush",
     "category": "optimisation",
     "subtitle": "After a decade using Semrush, I tested some competing and fresh SEO alternatives. Today you're about to discover a deep dive into real-world pros, cons, and UX for startup founders and indie devs.",
     "h1Title": "How I left Semrush for these 6 tools and never looked back",
@@ -900,6 +1007,7 @@
     }
   },
   "settings-ui-design": {
+    "articleTitle": "Creating app settings UI design: Usability tips and best practices",
     "category": "tutorials",
     "subtitle": "Unlock the secrets of designing a user-friendly Settings section! Dive into the anatomy, explore real-world use cases, discover layout types, and reveal essential usability tips.",
     "h1Title": "Settings UI design tutorial",
@@ -907,6 +1015,7 @@
     "cardDescription": "Learn about key design patterns and elements for settings apps to enhance user experience and accessibility in your own app's settings section."
   },
   "side-income-for-designers-and-developers": {
+    "articleTitle": "6 ways to generate side income for designers and developers",
     "category": "research",
     "subtitle": "By launching your own side project, you have a great chance to make it your core business.",
     "h1Title": "6 ways to generate side income for designers and developers",
@@ -914,6 +1023,7 @@
     "cardDescription": "Discover the potential of turning your side project into a successful business with Setproduct. Learn how this side project became the main source of income within just 2 months."
   },
   "slider-ui-design": {
+    "articleTitle": "Slider UI design – A tutorial with UX, states, usability & styling tips",
     "category": "tutorials",
     "subtitle": "Useful for UI/UX designers, frontend developers, and product folks who want to make sliders that feel as good as they look. With illustrations, live usability tips, and handoff-ready insights.",
     "h1Title": "Slider UI design guide",
@@ -927,6 +1037,7 @@
     }
   },
   "solcard-review-usdt-crypto-card-that-actually-helps-pay-for-online-subscriptions": {
+    "articleTitle": "SolCard review: USDT crypto card that actually helps pay for online subscriptions",
     "category": "technology",
     "subtitle": "I am testing SolCard for subscriptions: A practical guide for paying ChatGPT and other services using USDT on Solana.",
     "h1Title": "SolCard review: a USDT virtual card for fast online payments",
@@ -940,6 +1051,7 @@
     }
   },
   "start-a-saas-business-with-no-money": {
+    "articleTitle": "Start a SaaS business with no money – UX tips for solo founders",
     "category": "startups-saas",
     "subtitle": "Starting a SaaS business with no money isn’t glamorous. It’s grinding on Reddit, begging strangers for feedback, and building something that looks like it’s held together by duct tape. But if you follow these steps: validate first, build barebones, prioritize core features, and grow organically; you’ll avoid the #1 mistake founders make: building something nobody wants.",
     "h1Title": "How to start a SaaS business with no money (and keep your sanity)",
@@ -953,6 +1065,7 @@
     }
   },
   "startup-niches-always-money-printing": {
+    "articleTitle": "Boring startup industries, but printing cash",
     "category": "startups-saas",
     "subtitle": "Why AI won’t kill these evergreen markets. Cybersecurity, rentals, and beauty niches with 100% human demand. Pivot here for lifelong revenue.",
     "h1Title": "Boring startup industries, but printing cash",
@@ -966,6 +1079,7 @@
     }
   },
   "state-of-crypto-2025": {
+    "articleTitle": "State of crypto 2025 - A closer look at what they’re not telling you",
     "category": "technology",
     "subtitle": "The “State of Crypto” report from a16z makes big claims. But behind the charts and hype, there’s a lot it doesn’t say. Let’s unpack it.",
     "h1Title": "State of crypto 2025 by a16z. And a closer look at what they’re not telling you.",
@@ -973,6 +1087,7 @@
     "cardDescription": "The “State of Crypto” report from a16z makes big claims. But behind the charts and hype, there’s a lot it doesn’t say. Let’s unpack it."
   },
   "stepper-ui-design": {
+    "articleTitle": "Stepper UI design tips and best practices",
     "category": "tutorials",
     "subtitle": "This guide breaks down how to build precise, accessible, and flexible increment/decrement controls. Includes all states, edge cases, and mobile-first patterns.",
     "h1Title": "Stepper Input UI design tutorial",
@@ -980,6 +1095,7 @@
     "cardDescription": "This guide breaks down how to build precise, accessible, and flexible increment/decrement controls. Includes all states, edge cases, and mobile-first patterns."
   },
   "steps-ui-design": {
+    "articleTitle": "Steps UI design best practices",
     "category": "tutorials",
     "subtitle": "A great Steps UI guides users, reduces drop-offs, and removes friction. Learn the rules that make it work across desktop and mobile.",
     "h1Title": "Steps UI design tutorial. Build better flows through visual guidance",
@@ -987,12 +1103,14 @@
     "cardDescription": "A great Steps UI guides users, reduces drop-offs, and removes friction. Learn the rules that make it work across desktop and mobile."
   },
   "streamlining-website-development": {
+    "articleTitle": "Streamlining Website Development: Essential Tools For Agency Management",
     "category": "resources",
     "h1Title": "Streamlining Website Development: Essential Tools For Agency Management",
     "metaTitle": "The Best Software Development Project Management Tools - Setproduct",
     "cardDescription": "Discover the top tools for managing web development projects in 2024. From CRM solutions like Salesforce and HubSpot to project management tools like Jira and ClickUp, streamline your agency's workflow and enhance collaboration with these essential tools."
   },
   "strikethrough-text-deserves-more-love-in-ui": {
+    "articleTitle": "Strikethrough text deserves more love in UI",
     "category": "tutorials",
     "subtitle": "A simple line through text can enhance UX for real. Understand the role of strikethrough in e-commerce, productivity apps, and beyond.",
     "h1Title": "Strikethrough text deserves more love in UI",
@@ -1000,6 +1118,7 @@
     "cardDescription": "A simple line through text can enhance UX for real. Understand the role of strikethrough in e-commerce, productivity apps, and beyond."
   },
   "submit-a-guest-post": {
+    "articleTitle": "Submit a Guest Post to Our Blog",
     "category": "presentation",
     "h1Title": "Submit a Guest Post to Our Blog",
     "metaTitle": "Submit a Guest Post to Our Blog. Guest Post Guidelines - Setproduct",
@@ -1012,6 +1131,7 @@
     }
   },
   "tables-design-system": {
+    "articleTitle": "React Tables UI for a design system in Figma",
     "category": "tutorials",
     "subtitle": "How to create multiple data grid styles by a single cell-component and declare specs for a design system.",
     "h1Title": "Tables for a design system. Cell-component from Figma to React Storybook",
@@ -1019,6 +1139,7 @@
     "cardDescription": "Learn how to create and implement tables in the Figma design system with the help of Storybook. Perfect for designers and developers looking to build design systems."
   },
   "tabs-ui-design": {
+    "articleTitle": "Tabs UI design – A guide for anatomy, UX tips, and use cases",
     "category": "tutorials",
     "subtitle": "Design your ideal Tabs with clear instructions. Customize styles, improve usability, and ensure easy tabbed navigation. Bring smooth user experience to your dashboard design. Ready to get started? Let's go!",
     "h1Title": "Tabs UI design guide",
@@ -1032,6 +1153,7 @@
     }
   },
   "the-art-of-logo-design": {
+    "articleTitle": "Logo design ideas for creating a lasting visual identity",
     "category": "inspiration",
     "subtitle": "How to design a logo which is something unique and emotive giving to the people a reason to care about the brand.",
     "h1Title": "The Art of logo design: Strategies for crafting a lasting visual identity",
@@ -1039,6 +1161,7 @@
     "cardDescription": "Create an effective logo with our guide, perfect for graphic designers, marketing professionals, and brand design agencies. Capture the essence of any brand with design principles."
   },
   "the-ui-designer-who-built-a-50k-month-template-store": {
+    "articleTitle": "The UI designer who built a $50K-month template store (and burned it all down)",
     "category": "startups-saas",
     "subtitle": "Startup founders: don’t repeat this. I bet my career on Figma templates until their updates made my product invisible. Here’s what I missed and how I failed after the overnight success.",
     "h1Title": "The UI designer who built a $50K-month template empire (and burned it all down)",
@@ -1052,6 +1175,7 @@
     }
   },
   "toggle-switch-ui-design": {
+    "articleTitle": "Toggle Switch UI design – A guide for Anatomy, UX tips, and Use cases",
     "category": "tutorials",
     "subtitle": "A toggle switch is a binary UI control that allows users to turn a setting or feature on or off. It’s most commonly used to control system settings, feature access, privacy preferences, or notifications.",
     "h1Title": "Toggle UI design guide",
@@ -1065,6 +1189,7 @@
     }
   },
   "tooltip-ui-design": {
+    "articleTitle": "Tooltip UI design – A tutorial with anatomy, usability tips, and when to use",
     "category": "tutorials",
     "subtitle": "Tooltips are a small component with a big impact on usability. Our new complete guide breaks down the technical and UX aspects of tooltip design, including accessibility (ARIA), timing, and how to choose between a tooltip and a popover.",
     "h1Title": "Tooltip UI design: The complete guide",
@@ -1078,6 +1203,7 @@
     }
   },
   "top-20-recent-design-resources": {
+    "articleTitle": "Best 20 design resources for startups, developers and designers",
     "category": "resources",
     "subtitle": "Today's list includes a bunch of cool icons, powerful UI kits, great collections and tools, even a history of user interfaces, and so much more.",
     "h1Title": "Top 20 recent must-have design resources of this quarter everyone needs to try",
@@ -1085,6 +1211,7 @@
     "cardDescription": "Explore a diverse collection of cool icons, powerful UI kits, and tools, along with a fascinating history of user interfaces on today's list."
   },
   "top-dashboard-design-examples-ideas": {
+    "articleTitle": "Top Dashboard Design Examples & Ideas. Dashboard Inspiration",
     "category": "inspiration",
     "subtitle": "This article explores dashboard design examples and best practices that will help you create effective dashboard layout and implement data visualization for business success.",
     "h1Title": "Top Dashboard Design Examples & Ideas. Dashboard Inspiration",
@@ -1098,6 +1225,7 @@
     }
   },
   "top-design-releases-2020": {
+    "articleTitle": "The most significant releases of 2020 on a UI design scene",
     "category": "resources",
     "subtitle": "Reminiscing and summing up the results of 2020, where we have collected for you the top events from the design world.",
     "h1Title": "Significant releases of 2020 on a UI/UX design scene",
@@ -1105,6 +1233,7 @@
     "cardDescription": "Discover the major design world events of 2020 in our comprehensive summary, highlighting the significant changes and trends that shaped the year."
   },
   "top-design-resources-jan-2021": {
+    "articleTitle": "14 useful UI design resources handpicked. January 2021",
     "category": "resources",
     "subtitle": "Various generators, Cool sources for your inspiration, Stylish icons, Best from PH 2020, animation tools & GIFs, and more.",
     "h1Title": "14 recent useful design resources in January 2021",
@@ -1112,6 +1241,7 @@
     "cardDescription": "Explore today's release featuring a wide selection of generators, inspiration sources, stylish icons, top 2020 products, and tools for exporting animations and GIFs."
   },
   "top-design-tools": {
+    "articleTitle": "Top 11 design tools and resources to kickstart your project",
     "category": "resources",
     "subtitle": "We've reviewed the most popular launches on ProductHunt after the first quarter of 2022 and here is what we discovered.",
     "h1Title": "Top 11 recent tools, apps and technologies to kickstart your sideproject",
@@ -1119,6 +1249,7 @@
     "cardDescription": "Discover the top ProductHunt launches of 2022's first quarter in our review of the most popular products."
   },
   "top-tips-for-new-businesses-looking-to-strengthen-their-online-presence": {
+    "articleTitle": "Top tips for new businesses looking to strengthen their online presence",
     "category": "optimisation",
     "subtitle": "A practical guide to SEO, content, social media and email for building visibility from day one",
     "h1Title": "Top tips for new businesses looking to strengthen their online presence",
@@ -1126,6 +1257,7 @@
     "cardDescription": "Want your new business to get discovered online? Here are the core tactics that make the biggest difference early on."
   },
   "types-of-dashboards-main-categories": {
+    "articleTitle": "Types of Dashboards. Main Categories",
     "category": "resources",
     "subtitle": "Discover the main categories of dashboards: operational, analytical, and strategic, and learn how each type enhances data visualization and decision-making.",
     "h1Title": "Types of Dashboards. Main Categories Explained",
@@ -1139,6 +1271,7 @@
     }
   },
   "unpaid-design-work": {
+    "articleTitle": "I Fell Victim to Unpaid Web Design Work",
     "category": "growth-hacking",
     "subtitle": "Every year web designers and web developers are losing millions to unpaid projects",
     "h1Title": "I Fell Victim to Unpaid Web Design Work",
@@ -1146,6 +1279,7 @@
     "cardDescription": "I'll never forget the first time a web design client refused to pay for my work - here's what I learned from the experience."
   },
   "useful-design-resources-fall-2020": {
+    "articleTitle": "13 fresh and useful design resources of outgoing fall 2020",
     "category": "resources",
     "subtitle": "Resources that are trendy in the design industry to help you get some inspiration and speed up your workflow.",
     "h1Title": "13 fresh and useful design resources of outgoing fall",
@@ -1153,6 +1287,7 @@
     "cardDescription": "Discover top design industry resources for inspiration and workflow efficiency. Stay trendy with the best links handpicked just for you."
   },
   "user-profile-templates": {
+    "articleTitle": "User profile design masterclass. From Figma templates to live implementation",
     "category": "resources",
     "subtitle": "How developers and UX teams can ship profile sections 3x faster using community resources",
     "h1Title": "User profile design masterclass. From Figma templates to live implementation",
@@ -1166,6 +1301,7 @@
     }
   },
   "using-quickbooks-to-calculate-saas-growth": {
+    "articleTitle": "Using QuickBooks to calculate ROI on organic SaaS growth strategies",
     "category": "startups-saas",
     "subtitle": "Buried in the finance stack, dismissed as a mundane number-cruncher, an unassuming tool holds the key to unlocking organic growth’s best-kept secret. Paid ads dazzle with instant metrics, clicks, impressions, and spikes in traffic, but their glow fades as quickly as it ignites. Meanwhile, organic strategies like SEO, content hubs, and community forums smolder quietly, nurturing customer loyalty that outlasts quarterly budgets.",
     "h1Title": "Using QuickBooks to calculate ROI on organic SaaS growth strategies",
@@ -1179,6 +1315,7 @@
     }
   },
   "venice-ai-tool-private-uncensored": {
+    "articleTitle": "Venice.ai: The designer’s and developer’s guide to uncensored and private AI tools",
     "category": "technology",
     "h1Title": "Venice.ai: The designer’s and developer’s guide to uncensored and private AI tools",
     "metaTitle": "Uncensored AI tools for UI/UX: Guide to build with Venice.ai",
@@ -1191,24 +1328,28 @@
     }
   },
   "visual-elements-in-email-marketing": {
+    "articleTitle": "Top Email Marketing Visuals: Types, Tips, and Examples for the Best Visual Email Designs",
     "category": "research",
     "h1Title": "Top Email Marketing Visuals: Types, Tips, and Examples for the Best Visual Email Designs",
     "metaTitle": "Top Email Marketing Visuals: Best Types, Tips, & Design Examples - Setproduct",
     "cardDescription": "Are visual elements important in email campaigns, and how to craft the best emails? Let’s dive into the world of the best email designs!"
   },
   "white-label-seo-reseller-platforms": {
+    "articleTitle": "White label SEO reseller platforms: Comparing customer support, tools, and resources",
     "category": "optimisation",
     "h1Title": "White label SEO reseller platforms: Comparing customer support, tools, and resources",
     "metaTitle": "White label SEO reseller platforms: Top options for agencies in 2025",
     "cardDescription": "Compare the best white label SEO reseller platforms for agencies in 2025. Explore customer support, tools, and resources from AgencyPlatform, SEOReseller, FatJoe, and more to find the ideal fit for your business."
   },
   "why-apps-ux-is-getting-worse": {
+    "articleTitle": "Why your favorite apps UX is getting worse",
     "category": "research",
     "h1Title": "Why your favorite apps UX is getting worse",
     "metaTitle": "The apps enshittification: Consequences of ignoring UX design principles",
     "cardDescription": "Explore the decline in user experience of popular apps like Google Maps, Spotify, and Amazon, and discover the reasons behind this trend. Learn about enshittification and its impact on app quality."
   },
   "why-are-dashboards-important": {
+    "articleTitle": "Why are Dashboards Important? Purpose of Dashboards",
     "category": "optimisation",
     "subtitle": "In this article, we will delve into the pivotal role of dashboards in modern business operations, exploring their types, benefits, design considerations, and strategic purposes.",
     "h1Title": "What is the Purpose of Dashboards?",
@@ -1222,6 +1363,7 @@
     }
   },
   "why-designers-are-loosing-motivation": {
+    "articleTitle": "Why designers are losing motivation and how to fix it",
     "category": "career",
     "h1Title": "Why designers are losing motivation and how to fix it",
     "metaTitle": "UX UI designer motivation crisis and how to reclaim passion",
@@ -1234,12 +1376,14 @@
     }
   },
   "why-landing-page-optimization-is-essential": {
+    "articleTitle": "Why landing page optimization is essential for online success",
     "category": "optimisation",
     "h1Title": "Why landing page optimization is essential for online success",
     "metaTitle": "Landing Page Optimization: Key to Achieving Online Success",
     "cardDescription": "Learn how landing page optimization can bring exceptional business results, helping brands covert failed leads and streamline campaigns' revenue stream."
   },
   "why-some-designers-dislike-ai": {
+    "articleTitle": "Why some designers dislike AI, and why they may be right",
     "category": "technology",
     "subtitle": "The issue is not whether AI belongs in design. The issue is where it belongs, what it accelerates well, and what it quietly takes away when designers stop wrestling with the hard parts.",
     "h1Title": "Why some designers dislike AI, and why they may be right",
@@ -1247,6 +1391,7 @@
     "cardDescription": "Not every hesitation around AI is conservative thinking. Sometimes it is a rational response to a workflow that makes output easier while making deeper design decisions shallower."
   },
   "your-startups-user-persona-is-probably-wrong": {
+    "articleTitle": "Your startup’s user persona is probably wrong (and it’s costing you)",
     "category": "research",
     "subtitle": "Most founders I meet can describe their product in 30 seconds… but freeze when I ask: Who exactly is buying it, and why?",
     "h1Title": "Your startup’s user persona is costing you",

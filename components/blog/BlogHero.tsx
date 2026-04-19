@@ -3,6 +3,7 @@ import Link from "next/link";
 
 type BlogHeroProps = {
   title: string;
+  articleTitle?: string;
   subtitle?: string;
   coverImage?: string;
   coverImageAlt?: string;
@@ -21,15 +22,28 @@ function formatDate(isoDate: string): string {
 }
 
 function categoryLabel(cat: string): string {
-  return cat
-    .split("-")
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ")
-    .replace("And", "&");
+  const labels: Record<string, string> = {
+    tutorials: "Tutorials",
+    technology: "Technology",
+    "startups-saas": "Startups & SaaS",
+    "growth-hacking": "Growth Hacking",
+    inspiration: "Inspiration",
+    resources: "Resources",
+    research: "Research",
+    career: "Career",
+    "case-studies": "Case Studies",
+    "design-code": "Design & Code",
+    "design-trends": "Design Trends",
+    optimisation: "Optimisation",
+    presentation: "Presentation",
+    typography: "Typography",
+  };
+  return labels[cat] ?? cat;
 }
 
 export default function BlogHero({
   title,
+  articleTitle,
   subtitle,
   coverImage,
   coverImageAlt,
@@ -84,16 +98,22 @@ export default function BlogHero({
             </div>
             <div className="spacer-40" />
             <div className="blogpost_hero-breadcrump-wr">
-              <Link href="/blog" className="link-block no-margins w-inline-block">
-                <div className="text-size-regular">Blog</div>
-              </Link>
+              {category ? (
+                <Link href={`/blog?category=${category}`} className="link-block no-margins w-inline-block">
+                  <div className="text-size-regular">{categoryLabel(category)}</div>
+                </Link>
+              ) : (
+                <Link href="/blog" className="link-block no-margins w-inline-block">
+                  <div className="text-size-regular">Blog</div>
+                </Link>
+              )}
               <img
                 src="/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65cdfb7d6149e6e6dd43d92e_Icon.svg"
                 loading="lazy"
                 alt=""
                 className="breadcrump-icon"
               />
-              <p className="text-size-regular">{title}</p>
+              <p className="text-size-regular">{articleTitle ?? title}</p>
             </div>
           </div>
         </div>

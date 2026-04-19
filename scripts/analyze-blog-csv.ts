@@ -21,6 +21,7 @@ interface InlineCta {
 }
 
 interface SlugFields {
+  articleTitle?: string;
   category?: string;
   subtitle?: string;
   h1Title?: string;
@@ -38,6 +39,7 @@ for (const row of records) {
   const slug = (row["Slug"] || "").trim();
   if (!slug) continue;
 
+  const articleTitle = (row["Article Title"] || "").trim();
   const category = (row["Category"] || "").trim().toLowerCase().replace(/\s+/g, "-").replace(/[&]/g, "and");
   const subtitle = (row["Blog post Subtitle"] || "").trim();
   const h1Title = (row["Blog post Title - Heading H1"] || "").trim();
@@ -58,6 +60,7 @@ for (const row of records) {
   if (inlineCta) inlineCtaCount++;
 
   slugToFields[slug] = {
+    articleTitle: articleTitle || undefined,
     category: category || undefined,
     subtitle: subtitle || undefined,
     h1Title: h1Title || undefined,
