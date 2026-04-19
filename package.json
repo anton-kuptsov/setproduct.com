@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts"
+    "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts",
+    "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts"
   },
   "repository": {
     "type": "git",
@@ -18,16 +19,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "gray-matter": "^4.0.3",
     "next": "latest",
+    "next-mdx-remote": "^6.0.0",
     "react": "latest",
     "react-dom": "latest",
-    "next-mdx-remote": "^6.0.0",
-    "gray-matter": "^4.0.3",
     "reading-time": "^1.5.0",
-    "remark-gfm": "^4.0.0",
     "rehype-pretty-code": "^0.13.0",
-    "shiki": "^1.22.0",
-    "@tailwindcss/typography": "^0.5.15"
+    "remark-gfm": "^4.0.0",
+    "shiki": "^1.22.0"
   },
   "bugs": {
     "url": "https://github.com/anton-kuptsov/setproduct.com/issues"
@@ -36,16 +37,17 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "^25.6.0",
+    "@types/node-fetch": "^2.6.11",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "postcss": "^8.5.10",
-    "tailwindcss": "^4.2.2",
-    "typescript": "^6.0.2",
-    "turndown": "^7.2.0",
     "@types/turndown": "^5.0.5",
     "cheerio": "^1.0.0",
-    "tsx": "^4.19.0",
+    "csv-parse": "^6.2.1",
     "node-fetch": "^3.3.2",
-    "@types/node-fetch": "^2.6.11"
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.19.0",
+    "turndown": "^7.2.0",
+    "typescript": "^6.0.2"
   }
 }
