@@ -28,7 +28,6 @@ export type BlogFrontmatter = {
   tags?: string[];
   canonical?: string;
   category?: BlogCategory;
-  articleTitle?: string;
   subtitle?: string;
   metaTitle?: string;
   cardDescription?: string;

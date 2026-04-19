@@ -24,26 +24,3 @@ body {
     height: calc(100dvh - 70em);
   }
 }
-
-/* Blog Related Posts grid — first item spans both rows like original Webflow */
-.main_blog-liist1-item:nth-child(3n+1) {
-  grid-row: span 2;
-}
-.main_blog-liist1-item:nth-child(3n+1) .main_blog-liist1-item-wr {
-  flex-direction: column;
-}
-.main_blog-liist1-item:nth-child(3n+1) .main_blog-liist1-item-img-wr {
-  height: 60%;
-  min-width: unset;
-}
-.main_blog-liist1-item:nth-child(3n+1) .heading-style-h5 {
-  font-size: 32em;
-}
-.main_blog-liist1-item:nth-child(3n+1) .blog-list1-txt-bigger {
-  font-size: 16em;
-}
-
-/* Fixed navbar compensation */
-main {
-  padding-top: 70px;
-}

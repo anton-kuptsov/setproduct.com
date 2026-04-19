@@ -15,7 +15,6 @@ if (process.argv.includes("--help")) {
 }
 
 const csvMap = JSON.parse(fs.readFileSync(MAP_PATH, "utf8")) as Record<string, {
-  articleTitle?: string;
   category?: string;
   subtitle?: string;
   h1Title?: string;
@@ -40,7 +39,6 @@ for (const file of files) {
     const newFm = { ...parsed.data };
 
     if (csvFields) {
-      if (csvFields.articleTitle) newFm.articleTitle = csvFields.articleTitle;
       if (csvFields.h1Title) newFm.title = csvFields.h1Title;
       if (csvFields.category) newFm.category = csvFields.category;
       if (csvFields.subtitle) newFm.subtitle = csvFields.subtitle;

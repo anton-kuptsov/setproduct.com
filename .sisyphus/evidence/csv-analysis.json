@@ -1,0 +1,38 @@
+{
+  "totalRows": 145,
+  "uniqueCategories": [
+    "career",
+    "case-studies",
+    "design-code",
+    "design-trends",
+    "growth-hacking",
+    "inspiration",
+    "optimisation",
+    "presentation",
+    "research",
+    "resources",
+    "startups-saas",
+    "technology",
+    "tutorials",
+    "typography"
+  ],
+  "uniqueAuthors": [
+    "connor-patterson",
+    "elen-mesropyan",
+    "jamichael-mitchell",
+    "jamshed-kasimov",
+    "jeff-flipper",
+    "kari-nelson",
+    "nick-rybak",
+    "roman-kamushken",
+    "william-james"
+  ],
+  "inlineCtaCount": 45,
+  "sampleSlugs": [
+    "8-designers-developers-success",
+    "accordion-ui-design",
+    "adobe-stealing-designs",
+    "ai-cant-replace-the-real-ux-thinking",
+    "ai-infographics-for-marketing-teams"
+  ]
+}
