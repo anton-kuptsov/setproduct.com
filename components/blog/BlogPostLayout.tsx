@@ -86,9 +86,9 @@ export default function BlogPostLayout({ post, relatedPosts, postUrl }: BlogPost
           </div>
         </div>
         {frontmatter.inlineCta && <BlogInlineCta cta={frontmatter.inlineCta} />}
+        <BlogRelatedPosts posts={relatedPosts} />
         <CtaSubscribe />
         <TemplateShowcase />
-        <BlogRelatedPosts posts={relatedPosts} />
       </main>
       <SiteFooter />
       <ScrollUpButton />
