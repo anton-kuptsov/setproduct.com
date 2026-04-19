@@ -4,10 +4,29 @@ import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import remarkGfm from "remark-gfm";
 import rehypePrettyCode from "rehype-pretty-code";
-import type { BlogFrontmatter, BlogPost, BlogPostMeta } from "../../types/blog";
+import type { BlogFrontmatter, BlogHeading, BlogPost, BlogPostMeta } from "../../types/blog";
 import { computeReadingTime } from "./reading-time";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
+
+function extractHeadings(content: string): BlogHeading[] {
+  const headings: BlogHeading[] = [];
+  const lines = content.split("\n");
+  for (const line of lines) {
+    const h3 = line.match(/^###\s+(.+)$/);
+    const h2 = !h3 && line.match(/^##\s+(.+)$/);
+    if (h3) {
+      const text = h3[1].trim();
+      const id = text.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+      headings.push({ id, text, level: 3 });
+    } else if (h2) {
+      const text = h2[1].trim();
+      const id = text.toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+      headings.push({ id, text, level: 2 });
+    }
+  }
+  return headings;
+}
 
 export function getAllBlogSlugs(): string[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
@@ -34,13 +53,14 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     });
 
     const { text, minutes } = computeReadingTime(content);
+    const headings = extractHeadings(content);
 
     return {
       frontmatter,
       mdxSource,
       readingTimeText: text,
       readingTimeMinutes: minutes,
-      headings: [],
+      headings,
     };
   } catch {
     return null;
@@ -64,4 +84,25 @@ export function getAllBlogPostsMeta(): BlogPostMeta[] {
       }
     })
     .filter((post): post is BlogPostMeta => post !== null);
+}
+
+export function getRelatedPosts(
+  currentSlug: string,
+  category: string | undefined,
+  limit = 3
+): BlogPostMeta[] {
+  const all = getAllBlogPostsMeta();
+  const sameCategory = category
+    ? all.filter(
+        (p) =>
+          p.frontmatter.category === category &&
+          p.frontmatter.slug !== currentSlug
+      )
+    : [];
+  const others = all.filter(
+    (p) =>
+      p.frontmatter.slug !== currentSlug && !sameCategory.includes(p)
+  );
+  const combined = [...sameCategory, ...others];
+  return combined.slice(0, limit);
 }
