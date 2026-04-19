@@ -50,12 +50,16 @@ export default function BlogPostLayout({ post }: BlogPostLayoutProps) {
       </Head>
       <SiteHeader />
       <main>
+        <BlogHero
+          title={frontmatter.title}
+          subtitle={frontmatter.description}
+          coverImage={frontmatter.coverImage}
+          coverImageAlt={frontmatter.coverImageAlt}
+          date={frontmatter.date}
+          readingTimeText={readingTimeText}
+          category={frontmatter.category}
+        />
         <article className="max-w-3xl mx-auto px-4 py-12">
-          <BlogHero
-            title={frontmatter.title}
-            coverImage={frontmatter.coverImage}
-            coverImageAlt={frontmatter.coverImageAlt}
-          />
           <BlogMeta
             author={frontmatter.author}
             date={frontmatter.date}
