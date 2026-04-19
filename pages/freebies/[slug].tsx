@@ -1,4 +1,4 @@
-import type { GetServerSideProps } from "next";
+import type { GetStaticPaths, GetStaticProps } from "next";
 import FreebieDetailPage from "../../components/pages/FreebieDetailPage";
 import { FREEBIE_PRODUCTS } from "../../data/freebies-listing";
 import type { FreebieItem } from "../../types/data";
@@ -7,24 +7,19 @@ type PageProps = {
   item: FreebieItem;
 };
 
-type SlugParams = {
-  slug: string;
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: FREEBIE_PRODUCTS.map((p) => ({ params: { slug: p.slug } })),
+    fallback: false,
+  };
 };
 
-export const getServerSideProps: GetServerSideProps<PageProps, SlugParams> = async ({ params }) => {
-  if (!params?.slug) {
-    return { notFound: true };
-  }
+export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
+  const item = FREEBIE_PRODUCTS.find((p) => p.slug === params?.slug);
 
-  const item = FREEBIE_PRODUCTS.find((product) => product.slug === params.slug);
+  if (!item) return { notFound: true };
 
-  if (!item) {
-    return { notFound: true };
-  }
-
-  return {
-    props: { item },
-  };
+  return { props: { item } };
 };
 
 export default function FreebieDetailRoute({ item }: PageProps) {

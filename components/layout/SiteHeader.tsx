@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { BLOG_POSTS } from "../../data/blog-listing";
 
 type KitPreview = {
   href: string;
@@ -11,13 +12,13 @@ type KitPreview = {
   description: string;
 };
 
-const BLOG_CATEGORIES = [
-  { href: "/blog", label: "All topics" },
-  { href: "/blog?blog-categories=Startups+%26+Saas", label: "Startups & SaaS" },
-  { href: "/blog?blog-categories=Tutorials", label: "UI Design" },
-  { href: "/blog?blog-categories=Growth+Hacking", label: "Growth Hacking" },
-  { href: "/blog?blog-categories=Inspiration", label: "Inspiration" },
-  { href: "/blog?blog-categories=Resources", label: "Resources" },
+const NAV_BLOG_CATEGORIES: Array<{ label: string; category: string | null }> = [
+  { label: "All topics", category: null },
+  { label: "Startups & SaaS", category: "Startups & SaaS" },
+  { label: "UI Design", category: "UI Design" },
+  { label: "Growth Hacking", category: "Growth Hacking" },
+  { label: "Inspiration", category: "Inspiration" },
+  { label: "Resources", category: "Resources" },
 ];
 
 const DESIGN_KITS = [
@@ -37,44 +38,7 @@ const INFORMATION_LINKS = [
   { href: "#", label: "Contact us", modal: true },
 ];
 
-const BLOG_PREVIEWS = [
-  {
-    href: "/blog/pay-for-claude-pro-with-usdt",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69e0bb5319a6fd901c20640f_buy-claude-with-solana-virtual-card-cover.webp",
-    title: "Pay for Claude Pro with USDT, USDC, or SOL",
-    description: "Step-by-step guide to purchasing Claude Pro subscriptions using USDT, USDC, or SOL. No KYC required.",
-  },
-  {
-    href: "/blog/why-some-designers-dislike-ai-and-why-they-shouldnt",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69c4169f4f3002866a23d841_designers-dislike-AI-cover10.webp",
-    title: "Why some designers dislike AI, and why they should not",
-    description: "Not every hesitation around AI is conservative thinking.",
-  },
-  {
-    href: "/blog/how-to-study-saas-dashboard-in-the-ai-era",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69c14e644a7066257a987e6e_ai-dashboards-cover1.webp",
-    title: "How to study SaaS dashboard in the AI era",
-    description: "AI makes dashboard screens easier to generate.",
-  },
-  {
-    href: "/blog/top-tips-for-new-businesses-looking-to-get-discovered-online",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69ba588c5fdbfb2b34124c64_setproduct.com-119891-cover.webp",
-    title: "Top tips for new businesses looking to get discovered online",
-    description: "Core tactics that make the biggest difference early on.",
-  },
-  {
-    href: "/blog/how-to-get-better-at-ui-design-by-studying-ai-generated-ui",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69bbd19737dd75b75e75cb02_ai-insp-cover.webp",
-    title: "How to get better at UI design by studying AI-generated UI",
-    description: "A practical breakdown through real AI-generated UI examples.",
-  },
-  {
-    href: "/blog/how-to-use-ai-ui-inspiration-to-design-faster",
-    image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/69adae13e37367688e4c0980_cover-ai-insp-1.webp",
-    title: "How to use AI UI inspiration to design faster",
-    description: "A step-by-step process to choose references and iterate.",
-  },
-];
+const NAV_BLOG_PREVIEW_COUNT = 6;
 
 const KIT_PREVIEWS: KitPreview[] = [
   {
@@ -129,12 +93,18 @@ const KIT_PREVIEWS: KitPreview[] = [
 
 export default function SiteHeader() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [activeBlogCategory, setActiveBlogCategory] = useState<string | null>(null);
 
   const isMenuOpen = (menuName: string) => openMenu === menuName;
 
   const toggleMenu = (menuName: string) => {
     setOpenMenu((current) => (current === menuName ? null : menuName));
   };
+
+  const filteredBlogPreviews = (activeBlogCategory
+    ? BLOG_POSTS.filter((p) => p.category === activeBlogCategory)
+    : BLOG_POSTS
+  ).slice(0, NAV_BLOG_PREVIEW_COUNT);
 
   return (
     <div className="navbar w-nav" role="banner">
@@ -175,36 +145,42 @@ export default function SiteHeader() {
                                   <div className="text-size-regular">Categories</div>
                                 </div>
                                 <div className="nav-links is-1-column">
-                                  {BLOG_CATEGORIES.map((link) => (
-                                    <a className="nav_radio w-inline-block" href={link.href} key={link.href}>
-                                      <p className="text-size-regular">{link.label}</p>
-                                    </a>
-                                  ))}
-                                </div>
+                                   {NAV_BLOG_CATEGORIES.map((item) => (
+                                     <button
+                                       className={`nav_radio w-inline-block${activeBlogCategory === item.category ? " w--current" : ""}`}
+                                       key={item.label}
+                                       type="button"
+                                       onClick={() => setActiveBlogCategory(item.category)}
+                                       style={{ background: "none", border: "none", cursor: "pointer", textAlign: "left", width: "100%" }}
+                                     >
+                                       <p className={`text-size-regular${activeBlogCategory === item.category ? " text-color-primary" : ""}`}>{item.label}</p>
+                                     </button>
+                                   ))}
+                                 </div>
                               </div>
                               <div className="nav_dropdown-list-wr">
                                 <div className="nav_tabs-list-wr w-dyn-list">
                                   <div className="nav_tabs-list w-dyn-items w-row" role="list">
-                                    {BLOG_PREVIEWS.map((item) => (
-                                      <div className="nav_tabs-list-item w-dyn-item w-col w-col-6" key={item.href} role="listitem">
-                                        <div className="nav_tabs-list-item-wr">
-                                          <a className="nav_tabs-list-item-img-wr w-inline-block" href={item.href}>
-                                            <img alt="" className="image-cover" loading="lazy" src={item.image} />
-                                          </a>
-                                          <div className="nav_tabs-list-item-info-wr">
-                                            <a className="w-inline-block" href={item.href}>
-                                              <p className="text-size-regular text-weight-semibold text-color-dark-primary text-style-1line">{item.title}</p>
-                                            </a>
-                                            <p className="text-size-tiny text-style-3lines">{item.description}</p>
-                                            <div className="nav_tabs-list-item-btn-wr">
-                                              <a className="button-x-small is-text w-inline-block" href={item.href}>
-                                                <div className="text-size-regular text-weight-bold">Read more</div>
-                                              </a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    ))}
+                                    {filteredBlogPreviews.map((item) => (
+                                       <div className="nav_tabs-list-item w-dyn-item w-col w-col-6" key={item.slug} role="listitem">
+                                         <div className="nav_tabs-list-item-wr">
+                                           <a className="nav_tabs-list-item-img-wr w-inline-block" href={`/blog/${item.slug}`}>
+                                             <img alt="" className="image-cover" loading="lazy" src={item.image} />
+                                           </a>
+                                           <div className="nav_tabs-list-item-info-wr">
+                                             <a className="w-inline-block" href={`/blog/${item.slug}`}>
+                                               <p className="text-size-regular text-weight-semibold text-color-dark-primary text-style-1line">{item.title}</p>
+                                             </a>
+                                             <p className="text-size-tiny text-style-3lines">{item.description}</p>
+                                             <div className="nav_tabs-list-item-btn-wr">
+                                               <a className="button-x-small is-text w-inline-block" href={`/blog/${item.slug}`}>
+                                                 <div className="text-size-regular text-weight-bold">Read more</div>
+                                               </a>
+                                             </div>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     ))}
                                   </div>
                                 </div>
                               </div>
