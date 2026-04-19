@@ -1,0 +1,1 @@
+{"hasFM":true,"hasMDX":true,"rtText":"1 min read","rtMin":1}

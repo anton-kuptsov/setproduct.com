@@ -1,0 +1,350 @@
+---
+title: Chips UI design guide
+description: >-
+  Delve into the chip design with our comprehensive tutorial, covering chip
+  anatomy, states, use cases, and usability tips. Master the step-by-step
+  process of component design
+slug: chip-ui-design
+date: '2023-09-17'
+author: Roman Kamushken
+coverImage: /blog/covers/chip-ui-design.jpg
+coverImageAlt: Chips UI Design – An essential tutorial for optimal UX & usability
+tags: []
+canonical: 'https://www.setproduct.com/blog/chip-ui-design'
+category: tutorials
+subtitle: >-
+  Upgrade your UI/UX skills with a stylish journey into Chip design: Uncover
+  anatomy, states management, styling effects, and usability tips.
+metaTitle: Optimize UX & Usability with Essential Chips UI Design Tutorial
+cardDescription: >-
+  Delve into the chip design with our comprehensive tutorial, covering chip
+  anatomy, states, use cases, and usability tips. Master the step-by-step
+  process of component design
+inlineCta:
+  title: Submit your guest post to Setproduct
+  description: >-
+    Increase your online visibility, drive targeted traffic, and boost your
+    website's SEO with our guest blogging services. We offer three distinct
+    plans to cater to your diverse needs and budget. Choose the free plan that
+    aligns with your goals
+  buttonText: See Prices
+  buttonLink: 'https://publish.setproduct.com/'
+readingTimeText: 6 mins
+relatedSlugs:
+  - empty-state-ui-design
+  - steps-ui-design
+  - tooltip-ui-design
+---
+
+
+
+
+
+<span class="blog\_big-paragraph">Throughout this series, I'm going to cover various topics, including **the Chips UX**, different states they can have, how to stylize them, and common use cases where Chips are employed in UX patterns.</span>
+
+**_Chip_** — is a small, interactive component that serves as a visual representation of a specific input of attribute or an action. Also known as a [Tag](https://materialx.crionic.net/components/tag) or [Badge](https://www.setproduct.com/blog/badge-ui-design), a Chip typically consists of a simple shape or container with succinct text or an icon, often accompanied by additional visual cues or status indicators.
+
+Chips are commonly used to showcase various types of content, such as categories, labels, status tags, or product attributes. By allowing users to click or tap on them, Chips can trigger actions, facilitate [filtering options](https://www.setproduct.com/blog/filter-ui-design), or display more item's details.
+
+By the end of this **UI design tutorial**, you will have a solid understanding of how to create visually appealing and user-friendly Chip components that enhance the overall experience of your application.
+
+## Chips Anatomy
+
+### **Chip Container**
+
+![Chips UI UX design tutorial – Chip Container](/blog/assets/chip-ui-design/img-1.jpg)
+
+_Definition_: The outer boundary or container that encapsulates the Chip's content, including the label, icon, and other optional elements._‍_
+
+_Purpose_: The container provides a visual frame around the Chip, separating it from other elements on the UI. It creates a distinct visual presence for the Chip and ensures its content stays contained within a designated space.
+
+✍ _Design tip:_ Ensure that the container has sufficient padding around the Chip's content, allowing it to breathe and not feel cramped. Proper spacing adds visual balance and readability to the overall Chip design.
+
+### **Label**
+
+![Chips UI UX design tutorial – Label](/blog/assets/chip-ui-design/img-2.jpg)
+
+_Definition_: The primary text or label that represents the content or category associated with the Chip._‍_
+
+_Purpose_: The label provides information about the Chip's context, allowing users to quickly identify the purpose or meaning of the component.
+
+✍ Choose a font and its size that is legible, considering factors such as readability at different sizes and alignment with the overall design system. Additionally, pay attention to the color contrast between the label and the Chip's container BG color to ensure accessibility.
+
+### **Border**
+
+![Chips UI UX design tutorial – Border](/blog/assets/chip-ui-design/img-3.jpg)
+
+‍_Definition_: A visible line or stroke around the Chip's container, separating it from the surrounding interface elements._‍_
+
+_Purpose_: The border helps define the boundaries of the Chip visually. It provides a clear separation between the Chip and other adjacent elements, improving its visibility and ensuring a visually consistent layout.
+
+✍ Experiment with border thickness and color to find the right balance. Opt for subtle borders that don't overpower the overall Chip design. Consider using different border styles, such as dashed or dotted stroke, to add a touch of elegance or match the UI visual style.  
+
+### **Icon**
+
+![Chips UI UX design tutorial – Icon](/blog/assets/chip-ui-design/img-4.jpg)
+
+_Definition_: An optional visual element that accompanies the label, typically represented as a small symbol or image._‍_
+
+_Purpose_: Icons can enhance Chip's visual representation, providing additional context or reinforcing the label's meaning. They can be used to convey information quickly and enhance the overall visual design.
+
+✍ Use icons that are clear, simple, and easily recognizable. Avoid overly complex or abstract icons that could confuse users. Consistency in icon style throughout the interface ensures a cohesive visual language.
+
+### **Close/Remove Button**
+
+![Chips UI UX design tutorial – Close/Remove Button](/blog/assets/chip-ui-design/img-5.jpg)
+
+_Definition_: A small clickable element, often represented by an "x" symbol, placed within or close to the Chip._‍_
+
+_Purpose_: The close or remove button allows users to remove/delete the Chip. It provides a convenient way to deselected the Chip, especially in scenarios where multiple Chips can be selected and deselected.
+
+✍ Ensure the close/remove button is visually distinguishable from the rest of the Chip. Use appropriate sizing, color, and hover state to make sure it stands out as an interactive element.
+
+### **Userpic**
+
+![Chips UI UX design tutorial – Userpic](/blog/assets/chip-ui-design/img-6.jpg)
+
+_Definition_: An optional visual element that represents an [avatar](https://www.setproduct.com/blog/avatar-ui-design) or profile picture associated with the Chip._‍_
+
+_Purpose_: Userpics personalize the Chip and can provide additional context or identification for the content represented by the Chip.
+
+✍ Pay attention to the size and positioning of the [userpic](https://www.setproduct.com/blog/avatar-ui-design) within the Chip. Ensure that the userpic is visually aligned with other elements and appropriately sized to maintain visual balance. Consider using circular or rounded userpics to match the Chip's overall visual style.
+
+### **Counter**
+
+![Chips UI UX design tutorial – Counter](/blog/assets/chip-ui-design/img-7.jpg)
+
+_Definition_: An optional visual element that displays a numerical value or count associated with the Chip._‍_
+
+_Purpose_: [Counters](https://react.setproduct.com/components/counter) can provide additional information or contextualize the content represented by the Chip, such as showing the number of unread notifications or items selected.
+
+✍ Make sure the counter is legible and easily visible within the Chip. Choose an appropriate font size, color, and BG contrast to ensure the counter stands out without overwhelming Chip's content.
+
+## Chip States
+
+### **Default State**
+
+![Chips UI UX design tutorial – Default State](/blog/assets/chip-ui-design/img-8.jpg)
+
+The default state of a Chip represents its normal, unselected state and is used to display tags or labels for categorization or filtering options._‍_
+
+_Recommendations_:  
+
+-   Ensure visual distinction from other states.
+-   Use a solid background color or outline.
+-   Include appropriate typography and iconography.
+
+### **Hover State**
+
+![Chips UI UX design tutorial – Hover State](/blog/assets/chip-ui-design/img-9.jpg)
+
+The hover state of a Chip provides clear feedback when users hover over it, enhancing the user experience by indicating an interactive element._‍_
+
+_Recommendations_:  
+
+-   Triggered when users hover over the Chip.
+-   Implement a subtle visual change to indicate interactivity.
+-   Change the background color, add shadow effect, or increase brightness.
+
+### **Selected State**
+
+![Chips UI UX design tutorial – Selected State](/blog/assets/chip-ui-design/img-10.jpg)
+
+The selected state of a Chip indicates that the user has interacted with it. Use Case: Indicating active filters or selected options in a search/filter system._‍_
+
+_Recommendations_:  
+
+-   Consider using a different background color.
+-   Add a checkmark or icon overlay to highlight selection.
+-   Change border or outline style to indicate active state.
+
+### **Disabled State**
+
+![Chips UI UX design tutorial – Disabled State](/blog/assets/chip-ui-design/img-11.jpg)
+
+The disabled state temporarily disables the Chip based on certain conditions. Use Case: Indicating that a Chip is inactive or unavailable for interaction._‍_
+
+_Recommendations_:  
+
+-   Visually respond to indicate inaccessibility.
+-   Use a muted color palette or reduced opacity.
+-   Implement a specific disabled state icon.
+-   Provide tooltip to explain the reason for the disabled state.
+
+### **Active State**
+
+![Chips UI UX design tutorial – Active State](/blog/assets/chip-ui-design/img-12.jpg)
+
+The active state differentiates Chips that are actively selected or focused. Use Case: Facilitating multi-select functionality or indicating current user input._‍_
+
+_Recommendations_:  
+
+-   Highlight actively selected or focused Chips.
+-   Use a brighter color or increased border thickness.
+-   Include an active state icon or indicator.
+
+## Chips Customization
+
+### **Background Fill**
+
+![Chips UI UX design tutorial – Background Fill](/blog/assets/chip-ui-design/img-13.jpg)
+
+_Purpose_: Background fill refers to changing the color or pattern of the Chip's background. By customizing the background fill, graphic designers can achieve visual coherence, draw attention, or create contrast._‍_
+
+_Goals_: The goal of customizing the BG of a Chip is to establish visual hierarchy and enhance its prominence. By selecting a contrasting color or specific fill for the background layer, designers can make Chips stand out and draw attention to important information or actions._‍_
+
+_Risks_❗ Using a background fill that is too vibrant or distracting can overwhelm the UI and hinder overall readability. It's essential to maintain a balance between the Chip's appearance and its functional purpose.
+
+### **Border Style**
+
+![Chips UI UX design tutorial – Border Style](/blog/assets/chip-ui-design/img-14.jpg)
+
+_Purpose_: Border style customization involves modifying the thickness, color, and border radius of the Chip. By adjusting it, designers can add meaning, indicate purpose or state, and a touch of elegance to Chips._‍_
+
+_Goals_: Customizing the border style of a Chip allows to define its shape and provide a distinct visual representation. By choosing different border thicknesses, styles, or opacity, designers can create Chips that convey specific conditions or contexts.
+
+❗Overemphasizing the border style may result in a visually heavy or busy appearance that distracts from the Chip's content. Strike a balance between the border style and the Chip's functionality to ensure usability.
+
+### **Corner Radius**
+
+![Chips UI UX design tutorial – Corner Radius](/blog/assets/chip-ui-design/img-15.jpg)
+
+_Purpose_: Corner radius customization involves adjusting the roundness of a Chip's corners. By modifying the radius, designers can create a softer, approachable visual style to align with the whole UI's theme._‍_
+
+_Goals_: Adjusting the Chip's corner radius allows designers to create different visual personalities, from sharp and angular to soft and rounded. This styling method helps to align it with the app's design language.
+
+❗ Extreme corner radius values can result in visually unbalanced Chips that feel out of place within the UI. It's important to maintain consistency and coherence throughout the design when tuning corner radius.  
+
+### **Using Shadows**
+
+![Chips UI UX design tutorial – Using Shadows](/blog/assets/chip-ui-design/img-16.jpg)
+
+_Purpose_: Attaching shadows to Chips can create depth, hierarchy, and elevation effect. Shadows provide an illusion of soaring and enhance the overall Chips exterior._‍_
+
+_Goals_: Adding shadows to chips helps create visual separation between the component and surrounding space. This effect can enhance the Chip's position and afford a more tactile and interactive feeling.
+
+❗ Overusing shadows or applying them incorrectly can result in a cluttered or confusing interface. Choose wisely the size, intensity, and positioning of shadows to achieve the desired effect without overpowering the chip's content.
+
+### **Adding Gradients**
+
+![Chips UI UX design tutorial – Adding Gradients](/blog/assets/chip-ui-design/img-17.jpg)
+
+_Purpose_: Introducing gradients to Chips can add depth, visual dynamics, and a touch of sophistication to their appearance. Gradients can be used to capture attention, convey emotion, and harmonize with the UI design._‍_
+
+_Goals_: Incorporating gradients into Chips allows to add depth, dimension, and visual interest. Gradients can create a sense of energy or vitality, making chips visually engaging the overall aesthetic appeal.
+
+❗ Using gradients excessively or applying them inappropriately result in a chaotic UI. Maintain a balanced and harmonious composition, ensuring that gradients support the Chip's purpose instead of overpowering it.
+
+## Chips Use Cases
+
+### **Content Filtering**
+
+_Purpose_: Chips can be used for filtering content by allowing users to select multiple filter options at once, providing a visual representation of the selected filters._‍_
+
+_Example_: In a booking app, users may be able to filter accommodation options based on amenities like free Wi-Fi, pool, gym, parking, etc. Each amenity can be represented as a Chip, and users can select or deselect each item to refine their search results.  
+
+![Chips UI UX design tutorial – Content Filtering](/blog/assets/chip-ui-design/img-18.jpg)
+
+### **Multi-select Forms**
+
+_Purpose_: Chips can be used for multi-selection scenarios where users need to choose multiple options from a predefined set._‍_
+
+_Example_: UI design software application that allows users to select multiple colors for a graphic design project. In this case, the user needs to choose from a range of colors to represent the Chips in the design.  
+
+### **Tagging**
+
+_Purpose_: Chips can be used as tags to categorize or identify content. They provide a visual representation of attributes associated with the content._‍_
+
+_Example_: A task management application where users can tag their tasks with labels like "Important," "Urgent," or "Completed." Each tag is represented as a Chip, allowing users to easily identify and manage their tasks.  
+
+![Chips UI UX design tutorial – Tagging](/blog/assets/chip-ui-design/img-19.jpg)
+
+### **Product Attributes**
+
+_Purpose_: Chips can be used to display and highlight various attributes or specifications of a product, helping users make informed decisions during the selection process._‍_
+
+_Example_: An e-commerce website section that showcases different product attributes, such as "Camera Quality," "Battery Life," and "Storage Capacity." Each attribute is represented as a Chip, allowing users to compare and prioritize their preferences.  
+
+![Chips UI UX design tutorial – Product Attributes](/blog/assets/chip-ui-design/img-20.jpg)
+
+### **Autocomplete**
+
+_Purpose_: Chips can be used to display autocomplete suggestions as users type in a form field._‍_
+
+_Example_: A search engine utilizes autocomplete to suggest search queries as users start typing. As users types, a dropdown appears with a list of related search queries based on popular or trending searches, assisting users in finding faster.  
+
+![Chips UI UX design tutorial – Autocomplete](/blog/assets/chip-ui-design/img-21.jpg)
+
+### **Marketing Purposes**
+
+_Purpose_: Chips can be used for marketing purposes to highlight specific attributes, promotions, or features of a product or service. They serve as attention-grabbing visual cues that can entice users to explore or engage further._‍_
+
+_Example_: A subscription-based streaming service that offers different pricing tiers, such as basic, standard, and premium. Each pricing plan offer represented as a Chip, displaying the social proof, or drawing attention to discounts or exclusive benefits.  
+
+![Chips UI UX design tutorial – Marketing Purposes](/blog/assets/chip-ui-design/img-22.jpg)
+
+### **Multiple Recipients**
+
+_Purpose_: Chips can be used to display multiple recipients in email composition interfaces, making it easy for users to manage and remove recipients._‍_
+
+_Example_: An email client where users can add multiple recipients while composing an email. Each recipient's name or email address is converted into a Chip, allowing users to edit or remove recipients individually.  
+
+![Chips UI UX design tutorial – Multiple Recipients](/blog/assets/chip-ui-design/img-23.jpg)
+
+## UX & Usability Tips
+
+### **Size and Spacing**
+
+![Chips UI UX design tutorial – Size and Spacing](/blog/assets/chip-ui-design/img-24.jpg)
+
+_UX Problem_: Chips that are too small or closely spaced can lead to difficulties in interacting with them, especially on touch devices._‍_
+
+_Solution_: Ensure an adequate size and spacing for chips, allowing users to easily tap or click on them. Maintain a consistent size across different screen resolutions to maintain usability.
+
+### **Use Hover & Active States**
+
+![Chips UI UX design tutorial – Use Hover & Active States](/blog/assets/chip-ui-design/img-25.jpg)
+
+_UX Problem_: Lack of visual feedback when hovering over or interacting with Chips can make the interface feel unresponsive._‍_
+
+_Solution_: Implement Chip hover and active states to provide visual feedback by changing the background color or applying a subtle animation, when users interact. This reinforces the clickable Chip nature.
+
+### **Clear Selection State**
+
+![Chips UI UX design tutorial – Clear Selection State](/blog/assets/chip-ui-design/img-26.jpg)
+
+_UX Problem_: Unclear selection states can create confusion and lead to users accidentally selecting or deselecting chips._‍_
+
+_Solution_: Clearly indicate the selected state of chips using visual cues, such as changing the border color, using checkmarks or highlighting the BG. Ensure that it's easy to distinguish between selected and unselected Chips.  
+
+### **Enable Chip Removal**
+
+![Chips UI UX design tutorial – Enable Chip Removal](/blog/assets/chip-ui-design/img-27.jpg)
+
+_UX Problem_: Users may struggle to remove unwanted Chips or feel frustrated when they mistakenly select a Chip._‍_
+
+_Solution_: Include a clear and accessible close button or an ❌ icon next to each Chip (on hover state), allowing users to easily remove unwanted selections. Consider providing additional confirmation if permanent removal is required to prevent accidental deletions.
+
+### **Use Micro-interactions**
+
+![Chips UI UX design tutorial – Use Micro-interactions](/blog/assets/chip-ui-design/img-28.jpg)
+
+_UX Problem_: Lack of UI animation when users interact with Chips can leave them uncertain about the actions they have triggered._‍_
+
+_Solution_: Provide visual feedback on Chip selection, hover, or tap through animations, color changes, or subtle micro-interactions to affirm user actions and enhance an interface response.  
+
+### **Multiline Chip Handling**
+
+![Chips UI UX design tutorial – Multiline Chip Handling](/blog/assets/chip-ui-design/img-29.jpg)
+
+_UX Problem_: Long labels or excessive content in chips can cause layout issues or readability problems._‍_
+
+_Solution_: Implement clear and consistent rules for handling multiline chips. Use truncation, tooltips, or ellipses to indicate that the content exceeds the available space. Consider responsive design approaches to accommodate different screen sizes.
+
+## Related links
+
+-   Chips in [Figma React UI kit](https://react.setproduct.com/components/chips)
+-   Tags in [Materail X Angular](https://materialx.crionic.net/components/tag)
+-   Chips in [Material You Design System](https://www.figma.com/file/aNN74suNWBb0uFGW3lxV7Q/Material-Me-\(preview\)?type=design&node-id=10404%3A286525&mode=design&t=ok1KriwbvAcC4T62-1)
+-   Chips in [Xela UI kit](https://www.figma.com/file/qDGAvlYUmgigmxU1VTfibw/XELA---Design-System-\(SwiftUI\)?type=design&node-id=1121%3A144633&mode=design&t=ok1KriwbvAcC4T62-1)
+-   Chips in [iOS app design](https://www.figma.com/file/Stjs7NQdPPiCa4Rv5xrU2P/iOS-design-system-\(Preview\)?type=design&node-id=29872%3A1427&mode=design&t=ok1KriwbvAcC4T62-1)

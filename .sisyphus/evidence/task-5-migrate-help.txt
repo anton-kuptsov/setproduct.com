@@ -1,0 +1,20 @@
+
+> setproduct.com@1.0.0 migrate:blog
+> tsx scripts/migrate-blog-html-to-mdx.ts --help
+
+migrate-blog-html-to-mdx — Convert legacy Webflow HTML blog posts to MDX
+
+Usage:
+  npm run migrate:blog [-- <flags>]
+
+Flags:
+  --dry-run       Preview only, do not write any files
+  --slug=<slug>   Process only the specific post with this slug
+  --overwrite     Re-migrate even if target .mdx already exists
+  --verbose       Show detailed per-file logging
+  --help, -h      Show this help message
+
+Examples:
+  npm run migrate:blog -- --dry-run
+  npm run migrate:blog -- --slug=accordion-ui-design --verbose
+  npm run migrate:blog -- --overwrite

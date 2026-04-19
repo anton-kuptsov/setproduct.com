@@ -1,0 +1,469 @@
+---
+title: Tabs UI design guide
+description: >-
+  Optimize Tabs for your dashboard. Learn Tab theming options and accessibility
+  best practices. Create perfect user experiences and enhance tabs navigation
+  with this tutorial..
+slug: tabs-ui-design
+date: '2025-03-26'
+author: Roman Kamushken
+coverImage: /blog/covers/tabs-ui-design.jpg
+coverImageAlt: 'Tabs UI design – A guide for anatomy, UX tips, and use cases'
+tags: []
+canonical: 'https://www.setproduct.com/blog/tabs-ui-design'
+category: tutorials
+subtitle: >-
+  Design your ideal Tabs with clear instructions. Customize styles, improve
+  usability, and ensure easy tabbed navigation. Bring smooth user experience to
+  your dashboard design. Ready to get started? Let's go!
+metaTitle: 'Tabs UI design: Anatomy, UX, and use cases - A comprehensive guide'
+cardDescription: >-
+  Optimize Tabs for your dashboard. Learn Tab theming options and accessibility
+  best practices. Create perfect user experiences and enhance tabs navigation
+  with this tutorial..
+inlineCta:
+  title: 'Got a product, app or service? Promote in our blog'
+  description: >-
+    We can write research, case study, and even UX roast to promote your product
+    in Setproduct blog. Increase your online visibility, drive targeted traffic,
+    and boost your website's SEO with our guest blogging services.
+  buttonText: See Prices
+  buttonLink: 'https://publish.setproduct.com/'
+readingTimeText: 8 min read
+relatedSlugs:
+  - empty-state-ui-design
+  - steps-ui-design
+  - tooltip-ui-design
+---
+
+
+
+
+
+This documentation provides an exhaustive guide to designing effective Tabs UI components. It explores anatomical elements, interaction states, theming strategies, and real-world applications - all while prioritizing usability and accessibility.
+
+Designers and developers will learn to create tab systems that balance visual appeal with functional precision.
+
+**Tabs** – are navigation elements that organize content into separate views without reloading the page. They allow users to switch between related contexts while maintaining mental context.
+
+They solve spatial constraints by vertically/horizontally stacking contextual sections while maintaining rapid navigational access.
+
+Unlike [dropdowns](https://www.setproduct.com/blog/dropdown-ui-design), tabs persistently expose available categories, reducing cognitive load through constant visual hierarchy.
+
+## Tabs Anatomy
+
+### **Container**
+
+**‍_Definition_**: The wrapper holding all tab elements and content panels._‍_
+
+**_Critical function_**: Establishes spatial boundaries and visual relationship between active/inactive states._‍_
+
+**_Design imperative_**: Implement subtle background differentiation from surrounding UI. For web, consider 1px border with #F5F5F5 fill. Mobile apps benefit from full-bleach containers with dynamic height adaptation.
+
+### **Active tab**
+
+![Active navigation tabs from Material X UI kit for Figma](/blog/assets/tabs-ui-design/img-1.jpg)
+
+[Tabs components](https://www.figma.com/design/w6E8nDfjxYpQHq4x5GtYJx/Material-X-v7?node-id=1082-1277&t=AxCH0VEV4CBVUvFy-1) included in Material-X UI kit for Figma
+
+**‍_Definition_**: The currently selected navigation element and its associated content pane._‍_
+
+**_Behavioral nuance_**: Must present 3x higher visual weight than inactive tabs through combined techniques: bold labels, accent borders, fill colors._‍_
+
+**_Common pitfall_**: Designers often overemphasize active states, causing visual vibration. Counter with graduated transitions - e.g., animate underline from 1px to 3px over 200ms.
+
+### **Inactive tabs**
+
+**‍_Definition_**: Non-selected navigation elements awaiting interaction._‍_
+
+**_Interaction clarity_**: Maintain 40% opacity reduction compared to active state. Hover effects should amplify contrast by 15-20% without mimicking selection._‍_
+
+**_Spatial grouping_**: Ensure inactive tabs have consistent 4-8px spacing between labels and container edges. Never let inactive tabs shrink below 80px width – truncate labels with ellipsis instead.
+
+### **Icons (Optional)**_‍_
+
+**_State-driven glyph behavior_**: Design icon transformations that mirror tab interactions. For inactive tabs, use outlined icons at 80% opacity. During activation, morph to filled variants via 150ms linear path animation (e.g., SVG stroke-dashoffset)._‍_
+
+**_Failure protocol_**: If unrecognized, supplement with microcopy tooltips that activate after 400ms hover (disable on touch devices).
+
+### **Labels**
+
+![Different Tabs styles and variations by Praveen Juge](/blog/assets/tabs-ui-design/img-2.jpg)
+
+[Different Tabs styles](https://dribbble.com/shots/23978536-Different-Tabs) and variations by Praveen Juge
+
+**‍_Typography rules_**: Use medium font weight (500-600) for active labels, regular (400) for inactive. Never compress typefaces - maintain minimum 2px tracking._‍_
+
+**_Localization impact_**: German labels average 30% longer than English. Design containers with 20% width buffer for text expansion.
+
+### **Indicator**_‍_
+
+**_Dynamic feedback_**: The visual marker denoting active selection (commonly underline/highlight)._‍_
+
+**_Motion design_**: Implement spring physics (damping: 0.7, stiffness: 150) for indicator transitions. Avoid linear movement - it feels artificial._‍_
+
+**_Technical note_**: CSS _transform: scaleX()_ yields smoother animations than width transitions.
+
+### **Scroll controls**
+
+**_Definition_**: Arrows or chevrons for navigating overflow tabs._‍_
+
+**_Use case_**: Manages space constraints in responsive layouts._‍_
+
+**_Design tips_**: Reveal scroll controls only on hover to reduce visual noise. Use 45% opacity for inactive arrows, increasing to 90% on hover. For touch devices, implement swipe gestures but retain arrow controls—20% of users still expect them.
+
+### **Content pane**_‍_
+
+**_Context preservation_**: Maintain persistent vertical position during tab switching to prevent user disorientation.
+
+‍**_Loading strategy_**: For heavy content, implement skeleton screens with 150ms delay before full render. Never show blank panes.
+
+## Types of Tabs
+
+### **Standard horizontal tabs**
+
+![Material design Tab Bar Navigation](/blog/assets/tabs-ui-design/img-3.jpg)
+
+[Variations of navigation Tabs](https://www.figma.com/design/Tp6rUcouQbl31zSoBEFG2P/Figma-Material-Design-System-v3_1-preview?node-id=0-657&t=yjdhFVv6R9JfP360-1) from Material Design System
+
+**‍_Ideal scenario_**: 2-5 categories needing equal visual prominence.
+
+**‍_Layout formula_**: Container width ÷ number of tabs = individual tab width. Never let tabs shrink below 96px.
+
+‍**_Mobile adaptation_**: Below 480px, switch to scrollable tab bar with 16px horizontal padding.
+
+### **Vertical tabs**
+
+**‍_Data-intensive use_**: When categorization requires multi-level nesting (e.g., enterprise dashboards).
+
+‍**_Navigation depth_**: Support 3 levels maximum. Third-level tabs should collapse into [dropdowns](https://www.setproduct.com/blog/dropdown-ui-design).
+
+‍**_Ergonomic placement_**: Position vertical tabs 72px from left edge for F-shaped reading patterns.
+
+### **Icon-only tabs**
+
+**‍_Space-constrained UI_**: Mobile apps, wearable interfaces, kiosk systems.
+
+‍**_Universal design_**: Combine tooltips on hover and ARIA labels for accessibility.
+
+‍**_Size minimums_**: 48x48px touch target with 24-32px icon sizing.
+
+### ‍**Segmented control tabs**
+
+![iOS segmented controls variations included in Figma iOS UI kit](/blog/assets/tabs-ui-design/img-4.jpg)
+
+[iOS segmented controls](https://www.figma.com/design/tQ8etHCaJYFiMTlaQsUv4J/iOS-13-Design-System?node-id=2096-431096&t=MwQwAcg6HSqMcOLe-1) variations included in Figma iOS UI kit
+
+**‍_Mutual exclusivity_**: When options represent binary or ternary states.
+
+‍**_Visual treatment_**: Use filled segments with 8px corner radius. Differentiate active state with inverted colors.
+
+‍**_Copywriting_**: Limit labels to 2-3 words. "Dark Mode" becomes "Dark" in segmented contexts.
+
+### ‍**Scrollable tabs**
+
+**‍_Content overflow solution_**: For 6+ categories needing equal hierarchy.
+
+**‍_Navigation affordances_**: Show 20% of the next tab's edge. Implement momentum scrolling with snap points.
+
+‍**_Edge case_**: Arabic interfaces require right-to-left scroll direction with mirrored chevrons.
+
+### **Dynamic tabs**
+
+**‍_User-generated content_**: Browser-style tabs allowing manual opening/closing.
+
+‍**_Interaction model_**: Provide "+" button with 8px separation from last tab. Closed tabs should animate deletion with 90ms duration.
+
+**‍_State recovery_**: Store recently closed tabs in temporary memory (last 5 items).
+
+![Stratis UI tabs from task management dashboard by Monty Hayton](/blog/assets/tabs-ui-design/img-5.jpg)
+
+[Stratis UI tabs](https://dribbble.com/shots/21914058-Stratis-UI-Task-list) from task management dashboard by Monty Hayton
+
+## Tabs States
+
+### **Default state**_‍_
+
+**_Initial render_**: First tab active by default unless user context suggests otherwise._‍_
+
+**_Exception handling_**: In multi-page forms, preserve active tab through navigation._‍_
+
+**_Design fault_**: Avoid "ghost tabs" - every tab must have associated content.
+
+### **Hover state**_‍_
+
+![Interactive tabs in action. Components included in Figma React UI kit](/blog/assets/tabs-ui-design/img-6.jpg)
+
+Interactive tabs in action. Components included in [Figma React UI kit](https://react.setproduct.com/components/tabs)
+
+**_Discoverability boost_**: Reveal 6% container elevation with box-shadow._‍_
+
+**_Microcopy opportunity_**: For icon tabs, display tooltip after 400ms hover duration._‍_
+
+**_Accessibility parallel_**: Match hover styles with keyboard focus states.
+
+### **Active state**
+
+**‍_Visual hierarchy_**: Combine 3 techniques minimum - color change, indicator movement, typographic shift.
+
+‍**_Content transition_**: Cross-fade panes over 300ms with 100ms overlap. Never use slide animations - causes spatial disorientation.
+
+### **Disabled state**
+
+**‍_Temporal restriction_**: When tabs require prior actions (e.g., payment completed).
+
+‍**_Visual treatment_**: 50% opacity with diagonal strikethrough (45° angle, #FF4444 color).
+
+‍**_User guidance_**: On disabled tab click, display toast message explaining requirements.
+
+### **Focus state**
+
+![](/blog/assets/tabs-ui-design/img-7.jpg)
+
+[Segmented controls](https://www.figma.com/design/OEmjKyp62DPePMl9yIDuR5/Figma-React-UI-kit-\(Preview\)?node-id=8522-0&t=HHWIwHcnbjFvzcrs-1) in action. Outline theme included in Figma React UI kit
+
+**‍_Keyboard navigation_**: 3px blue outline (#007AFF) with 2:1 contrast ratio.
+
+‍**_Screen reader sync_**: ARIA selected attribute must update within 50ms of visual change.
+
+‍**_Advanced technique_**: Programmatic focus follows natural tab sequence, ignoring disabled elements.
+
+### **Error state**
+
+**‍_Validation feedback_**: When tab content contains invalid entries or requires user attention.
+
+‍**_Visual signal_**: Pulse tab label 3 times at 2Hz frequency using #FF4444. Pair with persistent notification badge (e.g., red dot with 8px diameter). For severe errors, animate the entire tab container with 5° horizontal shake (duration: 400ms).
+
+‍**_Accessibility layer_**: Trigger ARIA live regions to announce errors immediately. Combine with _aria-invalid="true"_ on the tab element.
+
+### **Loading state**_‍_
+
+**_Content fetching_**: When tab data requires asynchronous loading.
+
+‍**_Perceived performance_**: Implement shimmer effect on content pane (linear gradient animation at 15° angle). Display progress ring (40px diameter) centered if load time exceeds 800ms.
+
+‍**_Fallback strategy_**: After 3 seconds, show partial content with the "Load More" button. Never block tab switching - allow access to pre-loaded sections.
+
+## Tabs Theming
+
+### Rounded tabs
+
+![Rounded tabs UI design theme by Erdem](/blog/assets/tabs-ui-design/img-8.jpg)
+
+[Rounded tabs](https://dribbble.com/shots/21169942-Dashboard-Navigation) UI design theme by Erdem
+
+‍**_Visual signature_**: Softened corners (4-12px radius) with filled backgrounds.**_‍_**
+
+**_Best for_**: Brand-forward apps, wellness platforms, and interfaces targeting younger demographics.**_‍_**
+
+**_Styling parameters_**:
+
+-   Active tab: 8px radius, #2A2A2A fill, 1px inset shadow
+-   Inactive tabs: 4px radius, #F8F8F8 fill with 0.8 opacity
+-   Transition: Radius morphs from 4px→8px over 200ms
+
+**_Why it works_**: Rounded shapes evoke approachability, making them ideal for onboarding flows and mental health apps. The morphing radius subtly directs attention to selections without aggressive animations.
+
+### **Underlined tabs**
+
+![Underline tabs UI design theme by Sebastiano Guerriero](/blog/assets/tabs-ui-design/img-9.jpg)
+
+[Underline tabs](https://dribbble.com/shots/24971443-Boring-Settings-Page) UI design theme by Sebastiano Guerriero
+
+‍**_Visual signature_**: Minimalist text labels with dynamic underlines.**_‍_**
+
+**_Best for_**: Content-heavy interfaces (CMS, documentation portals) where screen real estate is precious.**_‍_**
+
+**_Styling parameters_**:
+
+-   Active underline: 3px height, animated from left-to-right
+-   Inactive state: 1px #EEE underline (visible on hover only)
+-   Typography: 16px system font with 500 weight for active
+
+**_Why it works_**: The animated underline creates a "progress bar" effect, subconsciously guiding users through navigation steps. Its simplicity prevents visual competition with content.
+
+### **Segmented control tabs**
+
+![Segmented control tabs UI design theme by Pixsellz](/blog/assets/tabs-ui-design/img-10.jpg)
+
+[Segmented control](https://dribbble.com/shots/25044492-Segmented-Control) tabs UI design theme by Pixsellz
+
+‍**_Visual signature_**: iOS-style pill-shaped containers with filled segments.**_‍_**
+
+**_Best for_**: Mobile-first experiences, settings panels, and binary choices (e.g., light/dark mode).**_‍_**
+
+**_Styling parameters_**:
+
+-   Container: 8px radius, #F3F3F3 background
+-   Active segment: #FFFFFF fill with 2px border
+-   Spacing: 2px gap between segments
+
+**_Why it works_**: Mimics native OS patterns, reducing cognitive load. The filled segment acts as a physical "slider," reinforcing mutual exclusivity of options.
+
+### **Elevated tabs (Material X)**
+
+![Elevated tabs UI design theme from Material-X UI kit for Figma](/blog/assets/tabs-ui-design/img-11.jpg)
+
+Elevated tabs UI design theme from [Material-X UI kit for Figma](https://www.figma.com/design/w6E8nDfjxYpQHq4x5GtYJx/Material-X-v7?node-id=687-125&t=7UXXMet5Fz1OdKuO-1)
+
+‍**_Visual signature_**: Floating tabs with shadow elevation and iconography.**_‍_**
+
+**_Best for_**: Data dashboards, enterprise software with complex navigation.**_‍_**
+
+**_Styling parameters_**:
+
+-   Active tab: 8dp elevation, 12px icon padding
+-   Inactive tabs: 1dp elevation, 60% opacity
+-   Indicator: Floating underline detached from text
+
+**_Why it works_**: Shadows create z-axis depth, helping users mentally map hierarchical relationships between tabs and content. The upward lift on active states mimics physical button presses.
+
+### **Borderless tabs**
+
+![Borderless tabs UI design theme by Jon Moore](/blog/assets/tabs-ui-design/img-12.jpg)
+
+[Borderless tabs](https://dribbble.com/shots/15250098-Page-Headers) UI design theme by Jon Moore
+
+‍**_Visual signature_**: Seamless integration with background, using color shifts only.**_‍_**
+
+**_Best for_**: Minimalist portfolios, artist websites, and interfaces with full-bleach imagery.**_‍_**
+
+**_Styling parameters_**:
+
+-   Active tab: 400% font weight increase, 0.2 opacity background
+-   Hover effect: 0.05 opacity overlay
+-   Divider: 1px dashed line between tabs
+
+**_Why it works_**: Eliminates visual clutter, allowing imagery/typography to dominate. The weight transition (via variable fonts) maintains hierarchy without traditional UI chrome.
+
+## Tabs Use Cases
+
+#### **Dashboard navigation (Google Analytics 4)**
+
+![Learn how to design the ideal dashboard navigation by applying Tabs nested into the Application bar](/blog/assets/tabs-ui-design/img-13.jpg)
+
+Learn how to design the ideal dashboard navigation by applying [Tabs nested into the Application bar](https://setproduct.com/blog/appbar-ui-design)
+
+**_Problem_**: Users get lost in complex metric trees._‍_
+
+**_Solution_**: Three-tier tab system:
+
+1.  Primary tabs (Reports, Explore, Configure) – Fixed top bar
+2.  Secondary tabs (Real-time, Audience, Acquisition) – Underlined style
+3.  Tertiary date filters – Segmented control  
+    _Result_: 23% faster task completion in usability tests
+
+#### **E-Commerce filtering (Amazon product search)**
+
+‍**_Problem_**: Overwhelming product options._‍_
+
+**_Solution_**: Hybrid scrollable tabs:
+
+-   Default visible: "Department", "Price", "Rating"
+-   Hidden behind "More" tab: "Sustainability", "Certifications"
+-   _Innovation_: Auto-expand "More" tab after 3 seconds of inactivity
+
+#### **Mobile app navigation (Instagram stories)**
+
+‍**_Problem_**: Content overload in Stories feed._‍_
+
+**_Solution_**: Icon-only circular tabs:
+
+-   Active story: Radial progress indicator
+-   Viewed story: 50% opacity + checkmark overlay
+-   _Engagement boost_: 40% higher story completion rate
+
+#### **Enterprise settings (Slack workspace admin)**
+
+![The app settings section is a designated area where users can customize and adjust various preferences, options, or configurations](/blog/assets/tabs-ui-design/img-14.jpg)
+
+[The app settings tutorial](https://setproduct.com/blog/settings-ui-design) is a designated area where users can customize and adjust various preferences, options, or configurations
+
+**_Problem_**: Buried configuration options._‍_
+
+**_Solution_**: Vertical nested tabs:
+
+-   Parent tabs ([Settings](https://www.setproduct.com/blog/settings-ui-design), Permissions, Billing) – Left rail
+-   Child tabs (Channel Defaults, Member Roles) – Indented + smaller font
+-   _Efficiency gain_: 58% reduction in support tickets
+
+#### **Media consumption (Netflix profile selection)**
+
+**_Problem_**: Accidental profile switches._‍_
+
+**_Solution_**: Hover-activated tab cards:
+
+-   Resting state: Profile icons only
+-   Hover: Animated expansion with name + watch progress_‍_
+-   _Error Reduction_: 91% decrease in mistaken profile clicks
+
+## UX & Usability Tips
+
+#### **Purposeful micro-animations**
+
+![Tabs component from Figma & React library. Ready-to-use components styled and UI matches with code](/blog/assets/tabs-ui-design/img-15.jpg)
+
+Tabs component from [Figma & React library](https://www.figma.com/design/OEmjKyp62DPePMl9yIDuR5/Figma-React-UI-kit-\(Preview\)?node-id=8668-200657&t=NhA0g01pnF7p8fxU-1). Ready-to-use components styled and UI matches with code
+
+**_Problem_**: Abrupt tab transitions disorient users.  
+**_Solution_**: Use animations to bridge visual gaps between states.  
+**_Example_**: Figma’s prototype panel employs a 250ms _slide-and-fade_ effect when switching between "Design" and "Code" tabs, creating spatial awareness.  
+**_Design tips_**:
+
+-   Animate the active indicator with _transform: translateX()_ for horizontal tabs.
+-   For vertical tabs, slide content panels upward/downward with ease-in-out timing.
+-   Avoid over-animating; keep durations under 300ms to prevent perceived lag.
+
+#### **Granular keyboard navigation**
+
+**_Problem_**: Keyboard users struggle to navigate tabs with nested menus.  
+**_Solution_**: Map complex hierarchies to intuitive key combinations.  
+**_Example_**: Gmail’s settings tabs use **Arrow keys →/←** for parent tabs and **↑/↓** to navigate sub-tabs like "Themes" or "Inbox."  
+**_Design tips_**:
+
+-   Assign aria-controls to link tabs to their content panels for screen readers.
+-   Let users press _Tab_ to jump between interactive elements _within_ a tab’s content.
+-   Add :focus-visible styles to avoid intrusive outlines for mouse users.
+
+#### **Overflow logic & scroll controls**
+
+**_Problem_**: Hidden tabs frustrate users who can’t find rarely used options.  
+**_Solution_**: Dynamically adjust overflow based on viewport size and user behavior.  
+**_Example_**: Notion’s database tabs show _horizontal scroll arrows_ only when content overflows, with a gradient fade at the container’s edge to hint at more options.  
+**_Design tips_**:
+
+-   Use Intersection Observer API to detect overflow and render scroll controls.
+-   For touch devices, enable _swipe gestures_ but keep arrows for discoverability.
+-   Prioritize "pinned" tabs (e.g., frequently used) in auto-collapse algorithms.
+
+#### **Smart badges for multi-layer events**
+
+![Example of how smart badges could be applied with Tabs. Learn more in Notifications tutorial](/blog/assets/tabs-ui-design/img-16.jpg)
+
+Example of how smart badges could be applied with Tabs. Learn more in [Notifications tutorial](https://setproduct.com/blog/notifications-ui-design)
+
+‍**_Problem_**: Users miss time-sensitive actions buried in sub-tabs.  
+**_Solution_**: Cascade badge notifications across parent and child tabs.  
+**_Example_**: Slack’s workspace tabs show red badges for unread channels, while nested thread tabs display a _dot indicator_ for new replies.  
+**_Design tips_**:
+
+-   Use tiered badge styles: _numbers_ for parent tabs, _dots_ for child tabs.
+-   Automatically clear badges when users view the parent tab (even if sub-tabs remain unopened).
+-   For GDPR compliance, avoid badges based on sensitive data (e.g., "3 new messages").
+
+#### **Contextual tooltips for icon-only tabs**
+
+![](/blog/assets/tabs-ui-design/img-17.jpg)
+
+Variation of a Tooltip popping out after onHover. [Check this dashboard template](https://www.figma.com/design/w6E8nDfjxYpQHq4x5GtYJx/Material-X-v7?node-id=1676-107973&t=rXbiuTtMdt5HW14K-1) by Material-X for Figma
+
+**_Problem_**: Abstract icons confuse users unfamiliar with the interface.  
+**_Solution_**: Display tooltips on hover/focus to clarify tab functions.  
+**_Example_**: Microsoft Teams’ vertical sidebar shows _text labels_ on hover for tabs like "Activity" (bell icon) or "Files" (folder icon).  
+**_Design tips_**:
+
+-   Delay tooltips by 500ms to avoid accidental triggers.
+-   For touch devices, show labels after a _long press_ (1+ second).
+-   Use aria-label for screen readers to announce tab purpose without visual clutter.
+
+‍

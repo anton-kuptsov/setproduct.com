@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-04-18T21:43:15.521Z",
+  "posts": [
+    {
+      "slug": "accordion-ui-design",
+      "url": "http://localhost:3000/blog/accordion-ui-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Accordion UI Design: Styles, States, Usage, Templates",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/accordion-ui-design.png",
+      "pass": true
+    },
+    {
+      "slug": "button-ui-design",
+      "url": "http://localhost:3000/blog/button-ui-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Buttons UI design – A complete guide to UX, styles, and usability",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/button-ui-design.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/antonkuptsov/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/27/yk6br4zn3ls18hl8jx63d0vc0000gn/T/playwright_chromiumdev_profile-4KE8MI --remote-debugging-pipe --no-startup-window\n<launched> pid=65134\n[pid=65134][err] [0419/004323.120247:INFO:CONSOLE:28005] \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (28005)\n[pid=65134][err] [0419/004323.172590:INFO:CONSOLE:28] \"[HMR] connected\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/shared/forward-logs-shared.js (28)\n[pid=65134][err] [0419/004323.233357:INFO:CONSOLE:71] \"Invalid DOM property `%s`. Did you mean `%s`? class className\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65134][err] [0419/004323.234116:INFO:CONSOLE:71] \"In HTML, %s cannot be a descendant of <%s>.\n[pid=65134][err] This will cause a hydration error.%s <div> p \n[pid=65134][err] \n[pid=65134][err]   ...\n[pid=65134][err]     <App pageProps={{post:{...}}} __N_SSG={true} Component={function BlogArticlePage} err={undefined} ...>\n[pid=65134][err]       <BlogArticlePage post={{...}}>\n[pid=65134][err]         <BlogPostLayout post={{...}}>\n[pid=65134][err]           <Head>\n[pid=65134][err]           <SiteHeader>\n[pid=65134][err]           <main>\n[pid=65134][err]             <article className=\"max-w-3xl ...\">\n[pid=65134][err]               <BlogHero>\n[pid=65134][err]               <BlogMeta>\n[pid=65134][err]               <div className=\"prose pros...\">\n[pid=65134][err]                 <MDXRemote compiledSource={\"\\\"use st...\"} frontmatter={{}} scope={{}} components={{...}}>\n[pid=65134][err]                   <MDXProvider components={{...}}>\n[pid=65134][err]                     <MDXContent>\n[pid=65134][err]                       <span>\n[pid=65134][err]                       <p>\n[pid=65134][err]                       <p>\n[pid=65134][err]                       <p>\n[pid=65134][err]                       <p>\n[pid=65134][err]                       <h2>\n[pid=65134][err]                       <h3>\n[pid=65134][err]                       <p>\n[pid=65134][err] >                     <p>\n[pid=65134][err]                         <img src=\"/blog/asse...\" alt=\"Button UI ...\">\n[pid=65134][err]                           <MDXImage src=\"/blog/asse...\" alt=\"Button UI ...\" width={undefined} height={undefined}>\n[pid=65134][err] >                           <div className=\"relative w-full aspect-[16/9] my-4\">\n[pid=65134][err]                       ...\n[pid=65134][err]           ...\n[pid=65134][err]     ...\n[pid=65134][err] \", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65134][err] [0419/004323.234197:INFO:CONSOLE:71] \"<%s> cannot contain a nested %s.\n[pid=65134][err] See this log for the ancestor stack trace. p <div>\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65134][err] [0419/004323.256562:INFO:CONSOLE:5239] \"Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n[pid=65134][err] \n[pid=65134][err] - A server/client branch `if (typeof window !== 'undefined')`.\n[pid=65134][err] - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n[pid=65134][err] - Date formatting in a user's locale which doesn't match the server.\n[pid=65134][err] - External changing data without sending a snapshot of it along with the HTML.\n[pid=65134][err] - Invalid HTML tag nesting.\n[pid=65134][err] \n[pid=65134][err] It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n[pid=65134][err] \n[pid=65134][err] https://react.dev/link/hydration-mismatch\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (5239)\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "how-to-design-landing",
+      "url": "http://localhost:3000/blog/how-to-design-landing",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Designing a High-Converting Landing Page: Tips and Tricks",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/how-to-design-landing.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/antonkuptsov/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/27/yk6br4zn3ls18hl8jx63d0vc0000gn/T/playwright_chromiumdev_profile-HbwPp8 --remote-debugging-pipe --no-startup-window\n<launched> pid=65155\n[pid=65155][err] [0419/004325.123292:INFO:CONSOLE:28005] \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (28005)\n[pid=65155][err] [0419/004325.173421:INFO:CONSOLE:28] \"[HMR] connected\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/shared/forward-logs-shared.js (28)\n[pid=65155][err] [0419/004325.212689:INFO:CONSOLE:71] \"Invalid DOM property `%s`. Did you mean `%s`? class className\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65155][err] [0419/004325.213527:INFO:CONSOLE:71] \"In HTML, %s cannot be a descendant of <%s>.\n[pid=65155][err] This will cause a hydration error.%s <div> p \n[pid=65155][err] \n[pid=65155][err]   ...\n[pid=65155][err]     <App pageProps={{post:{...}}} __N_SSG={true} Component={function BlogArticlePage} err={undefined} ...>\n[pid=65155][err]       <BlogArticlePage post={{...}}>\n[pid=65155][err]         <BlogPostLayout post={{...}}>\n[pid=65155][err]           <Head>\n[pid=65155][err]           <SiteHeader>\n[pid=65155][err]           <main>\n[pid=65155][err]             <article className=\"max-w-3xl ...\">\n[pid=65155][err]               <BlogHero>\n[pid=65155][err]               <BlogMeta>\n[pid=65155][err]               <div className=\"prose pros...\">\n[pid=65155][err]                 <MDXRemote compiledSource={\"\\\"use st...\"} frontmatter={{}} scope={{}} components={{...}}>\n[pid=65155][err]                   <MDXProvider components={{...}}>\n[pid=65155][err]                     <MDXContent>\n[pid=65155][err]                       <h2>\n[pid=65155][err]                       <span>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <h2>\n[pid=65155][err]                       <p>\n[pid=65155][err]                       <p>\n[pid=65155][err] >                     <p>\n[pid=65155][err]                         <img src=\"/blog/asse...\" alt=\"How to des...\">\n[pid=65155][err]                           <MDXImage src=\"/blog/asse...\" alt=\"How to des...\" width={undefined} height={undefined}>\n[pid=65155][err] >                           <div className=\"relative w-full aspect-[16/9] my-4\">\n[pid=65155][err]                       ...\n[pid=65155][err]           ...\n[pid=65155][err]     ...\n[pid=65155][err] \", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65155][err] [0419/004325.213611:INFO:CONSOLE:71] \"<%s> cannot contain a nested %s.\n[pid=65155][err] See this log for the ancestor stack trace. p <div>\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65155][err] [0419/004325.233683:INFO:CONSOLE:5239] \"Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n[pid=65155][err] \n[pid=65155][err] - A server/client branch `if (typeof window !== 'undefined')`.\n[pid=65155][err] - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n[pid=65155][err] - Date formatting in a user's locale which doesn't match the server.\n[pid=65155][err] - External changing data without sending a snapshot of it along with the HTML.\n[pid=65155][err] - Invalid HTML tag nesting.\n[pid=65155][err] \n[pid=65155][err] It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n[pid=65155][err] \n[pid=65155][err] https://react.dev/link/hydration-mismatch\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (5239)\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "figma-tables-data-grid-design",
+      "url": "http://localhost:3000/blog/figma-tables-data-grid-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Learn How to Design a Table UI in Figma: Single Component Tutorial",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/figma-tables-data-grid-design.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "dashboard-design-best-practices-top-dashboard-ui-design-tips",
+      "url": "http://localhost:3000/blog/dashboard-design-best-practices-top-dashboard-ui-design-tips",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Dashboard Design Best Practices. Top Dashboard UI Design Tips - Setpro",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/dashboard-design-best-practices-top-dashboard-ui-design-tips.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/antonkuptsov/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/27/yk6br4zn3ls18hl8jx63d0vc0000gn/T/playwright_chromiumdev_profile-1ylsGq --remote-debugging-pipe --no-startup-window\n<launched> pid=65218\n[pid=65218][err] [0419/004329.465846:INFO:CONSOLE:28005] \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (28005)\n[pid=65218][err] [0419/004329.517052:INFO:CONSOLE:28] \"[HMR] connected\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/shared/forward-logs-shared.js (28)\n[pid=65218][err] [0419/004329.558024:INFO:CONSOLE:71] \"In HTML, %s cannot be a descendant of <%s>.\n[pid=65218][err] This will cause a hydration error.%s <div> p \n[pid=65218][err] \n[pid=65218][err]   ...\n[pid=65218][err]     <App pageProps={{post:{...}}} __N_SSG={true} Component={function BlogArticlePage} err={undefined} ...>\n[pid=65218][err]       <BlogArticlePage post={{...}}>\n[pid=65218][err]         <BlogPostLayout post={{...}}>\n[pid=65218][err]           <Head>\n[pid=65218][err]           <SiteHeader>\n[pid=65218][err]           <main>\n[pid=65218][err]             <article className=\"max-w-3xl ...\">\n[pid=65218][err]               <BlogHero>\n[pid=65218][err]               <BlogMeta>\n[pid=65218][err]               <div className=\"prose pros...\">\n[pid=65218][err]                 <MDXRemote compiledSource={\"\\\"use st...\"} frontmatter={{}} scope={{}} components={{...}}>\n[pid=65218][err]                   <MDXProvider components={{...}}>\n[pid=65218][err]                     <MDXContent>\n[pid=65218][err]                       <p>\n[pid=65218][err]                       <p>\n[pid=65218][err]                       <h2>\n[pid=65218][err]                       <p>\n[pid=65218][err]                       <h2>\n[pid=65218][err]                       <p>\n[pid=65218][err] >                     <p>\n[pid=65218][err]                         <img src=\"/blog/asse...\" alt=\"\">\n[pid=65218][err]                           <MDXImage src=\"/blog/asse...\" alt=\"\" width={undefined} height={undefined}>\n[pid=65218][err] >                           <div className=\"relative w-full aspect-[16/9] my-4\">\n[pid=65218][err]                       ...\n[pid=65218][err]           ...\n[pid=65218][err]     ...\n[pid=65218][err] \", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65218][err] [0419/004329.558115:INFO:CONSOLE:71] \"<%s> cannot contain a nested %s.\n[pid=65218][err] See this log for the ancestor stack trace. p <div>\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65218][err] [0419/004329.577343:INFO:CONSOLE:5239] \"Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n[pid=65218][err] \n[pid=65218][err] - A server/client branch `if (typeof window !== 'undefined')`.\n[pid=65218][err] - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n[pid=65218][err] - Date formatting in a user's locale which doesn't match the server.\n[pid=65218][err] - External changing data without sending a snapshot of it along with the HTML.\n[pid=65218][err] - Invalid HTML tag nesting.\n[pid=65218][err] \n[pid=65218][err] It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n[pid=65218][err] \n[pid=65218][err] https://react.dev/link/hydration-mismatch\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (5239)\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "tabs-ui-design",
+      "url": "http://localhost:3000/blog/tabs-ui-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Tabs UI design: Anatomy, UX, and use cases - A comprehensive guide",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/tabs-ui-design.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/antonkuptsov/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/27/yk6br4zn3ls18hl8jx63d0vc0000gn/T/playwright_chromiumdev_profile-rThoBI --remote-debugging-pipe --no-startup-window\n<launched> pid=65239\n[pid=65239][err] [0419/004331.500533:INFO:CONSOLE:28005] \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (28005)\n[pid=65239][err] [0419/004331.554272:INFO:CONSOLE:28] \"[HMR] connected\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/shared/forward-logs-shared.js (28)\n[pid=65239][err] [0419/004331.632847:INFO:CONSOLE:71] \"In HTML, %s cannot be a descendant of <%s>.\n[pid=65239][err] This will cause a hydration error.%s <div> p \n[pid=65239][err] \n[pid=65239][err]   ...\n[pid=65239][err]     <App pageProps={{post:{...}}} __N_SSG={true} Component={function BlogArticlePage} err={undefined} ...>\n[pid=65239][err]       <BlogArticlePage post={{...}}>\n[pid=65239][err]         <BlogPostLayout post={{...}}>\n[pid=65239][err]           <Head>\n[pid=65239][err]           <SiteHeader>\n[pid=65239][err]           <main>\n[pid=65239][err]             <article className=\"max-w-3xl ...\">\n[pid=65239][err]               <BlogHero>\n[pid=65239][err]               <BlogMeta>\n[pid=65239][err]               <div className=\"prose pros...\">\n[pid=65239][err]                 <MDXRemote compiledSource={\"\\\"use st...\"} frontmatter={{}} scope={{}} components={{...}}>\n[pid=65239][err]                   <MDXProvider components={{...}}>\n[pid=65239][err]                     <MDXContent>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <h2>\n[pid=65239][err]                       <h3>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <p>\n[pid=65239][err]                       <h3>\n[pid=65239][err] >                     <p>\n[pid=65239][err]                         <img src=\"/blog/asse...\" alt=\"Active nav...\">\n[pid=65239][err]                           <MDXImage src=\"/blog/asse...\" alt=\"Active nav...\" width={undefined} height={undefined}>\n[pid=65239][err] >                           <div className=\"relative w-full aspect-[16/9] my-4\">\n[pid=65239][err]                       ...\n[pid=65239][err]           ...\n[pid=65239][err]     ...\n[pid=65239][err] \", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65239][err] [0419/004331.632949:INFO:CONSOLE:71] \"<%s> cannot contain a nested %s.\n[pid=65239][err] See this log for the ancestor stack trace. p <div>\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65239][err] [0419/004331.664063:INFO:CONSOLE:5239] \"Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n[pid=65239][err] \n[pid=65239][err] - A server/client branch `if (typeof window !== 'undefined')`.\n[pid=65239][err] - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n[pid=65239][err] - Date formatting in a user's locale which doesn't match the server.\n[pid=65239][err] - External changing data without sending a snapshot of it along with the HTML.\n[pid=65239][err] - Invalid HTML tag nesting.\n[pid=65239][err] \n[pid=65239][err] It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n[pid=65239][err] \n[pid=65239][err] https://react.dev/link/hydration-mismatch\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (5239)\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "toggle-switch-ui-design",
+      "url": "http://localhost:3000/blog/toggle-switch-ui-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "Toggle UI design: Anatomy, UX, and Use cases - A comprehensive Switches guide",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/toggle-switch-ui-design.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "slug": "settings-ui-design",
+      "url": "http://localhost:3000/blog/settings-ui-design",
+      "status": 200,
+      "h1Visible": true,
+      "h1Text": "App Settings UI Design: Usability Tips & Best Practices",
+      "headerVisible": true,
+      "footerVisible": true,
+      "ogType": true,
+      "ogTitle": true,
+      "ogImage": true,
+      "twitterCard": true,
+      "jsonLd": true,
+      "jsonLdType": true,
+      "canonical": true,
+      "consoleErrors": [
+        "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:"
+      ],
+      "screenshot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com/.sisyphus/evidence/final-qa/settings-ui-design.png",
+      "pass": true,
+      "screenshotError": "page.screenshot: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/antonkuptsov/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/27/yk6br4zn3ls18hl8jx63d0vc0000gn/T/playwright_chromiumdev_profile-R7XtZN --remote-debugging-pipe --no-startup-window\n<launched> pid=65306\n[pid=65306][err] [0419/004335.879497:INFO:CONSOLE:28005] \"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (28005)\n[pid=65306][err] [0419/004335.934384:INFO:CONSOLE:28] \"[HMR] connected\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/shared/forward-logs-shared.js (28)\n[pid=65306][err] [0419/004335.993852:INFO:CONSOLE:71] \"Invalid DOM property `%s`. Did you mean `%s`? class className\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65306][err] [0419/004335.994889:INFO:CONSOLE:71] \"In HTML, %s cannot be a descendant of <%s>.\n[pid=65306][err] This will cause a hydration error.%s <div> p \n[pid=65306][err] \n[pid=65306][err]   ...\n[pid=65306][err]     <App pageProps={{post:{...}}} __N_SSG={true} Component={function BlogArticlePage} err={undefined} ...>\n[pid=65306][err]       <BlogArticlePage post={{...}}>\n[pid=65306][err]         <BlogPostLayout post={{...}}>\n[pid=65306][err]           <Head>\n[pid=65306][err]           <SiteHeader>\n[pid=65306][err]           <main>\n[pid=65306][err]             <article className=\"max-w-3xl ...\">\n[pid=65306][err]               <BlogHero>\n[pid=65306][err]               <BlogMeta>\n[pid=65306][err]               <div className=\"prose pros...\">\n[pid=65306][err]                 <MDXRemote compiledSource={\"\\\"use st...\"} frontmatter={{}} scope={{}} components={{...}}>\n[pid=65306][err]                   <MDXProvider components={{...}}>\n[pid=65306][err]                     <MDXContent>\n[pid=65306][err]                       <span>\n[pid=65306][err]                       <p>\n[pid=65306][err]                       <p>\n[pid=65306][err]                       <p>\n[pid=65306][err]                       <ul>\n[pid=65306][err]                       <h2>\n[pid=65306][err]                       <h3>\n[pid=65306][err] >                     <p>\n[pid=65306][err]                         <img src=\"/blog/asse...\" alt=\"Settings U...\">\n[pid=65306][err]                           <MDXImage src=\"/blog/asse...\" alt=\"Settings U...\" width={undefined} height={undefined}>\n[pid=65306][err] >                           <div className=\"relative w-full aspect-[16/9] my-4\">\n[pid=65306][err]                       ...\n[pid=65306][err]           ...\n[pid=65306][err]     ...\n[pid=65306][err] \", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65306][err] [0419/004335.994966:INFO:CONSOLE:71] \"<%s> cannot contain a nested %s.\n[pid=65306][err] See this log for the ancestor stack trace. p <div>\", source: webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js (71)\n[pid=65306][err] [0419/004336.030489:INFO:CONSOLE:5239] \"Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n[pid=65306][err] \n[pid=65306][err] - A server/client branch `if (typeof window !== 'undefined')`.\n[pid=65306][err] - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n[pid=65306][err] - Date formatting in a user's locale which doesn't match the server.\n[pid=65306][err] - External changing data without sending a snapshot of it along with the HTML.\n[pid=65306][err] - Invalid HTML tag nesting.\n[pid=65306][err] \n[pid=65306][err] It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n[pid=65306][err] \n[pid=65306][err] https://react.dev/link/hydration-mismatch\", source: webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js (5239)\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    }
+  ],
+  "edgeCases": {
+    "notFound": {
+      "url": "http://localhost:3000/blog/nonexistent-xyz-123456",
+      "status": 404,
+      "pass": true
+    },
+    "figmaTablesFixed": {
+      "status": 200,
+      "pass": true
+    }
+  },
+  "summary": {
+    "urlsPass": "8/8",
+    "ogPass": "8/8",
+    "jsonLdPass": "8/8",
+    "screenshots": "8 saved",
+    "notFoundTest": "PASS",
+    "figmaTablesStatus": 200,
+    "consoleErrors": [
+      "[accordion-ui-design] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[button-ui-design] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[how-to-design-landing] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[figma-tables-data-grid-design] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[dashboard-design-best-practices-top-dashboard-ui-design-tips] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[tabs-ui-design] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[toggle-switch-ui-design] Hydration failed because the server rendered HTML didn't match the client. As a ",
+      "[settings-ui-design] Hydration failed because the server rendered HTML didn't match the client. As a "
+    ],
+    "verdict": "APPROVE"
+  }
+}

@@ -1,0 +1,176 @@
+---
+title: Accordion UI design
+description: >-
+  Discover our Accordion UI (Expansion panel) for organizing and displaying more
+  content in a vertically stacked list of options.
+slug: accordion-ui-design
+date: '2021-09-05'
+author: Roman Kamushken
+coverImage: /blog/covers/accordion-ui-design.jpg
+coverImageAlt: 'Accordion UI design exploration — Styles, states, usage, templates'
+tags: []
+canonical: 'https://www.setproduct.com/blog/accordion-ui-design'
+category: tutorials
+subtitle: >-
+  The exploration for Accordion component UI design, states, templates and use
+  cases for desktop & mobile viewports.
+metaTitle: 'Accordion UI Design: Styles, States, Usage, Templates'
+cardDescription: >-
+  Discover our Accordion UI (Expansion panel) for organizing and displaying more
+  content in a vertically stacked list of options.
+readingTimeText: 6 mins read
+relatedSlugs:
+  - empty-state-ui-design
+  - steps-ui-design
+  - tooltip-ui-design
+---
+
+
+
+
+
+## Heya! Roman's here.
+
+<span class="blog\_big-paragraph">I am a UI designer, maker, and seller. It's been already 3+ years passed since I started to make [templates for Figma](https://www.setproduct.com/) and founded Setproduct to help startups and individuals save on design and release their apps faster.</span>
+
+Working for 20+ years in graphic design, last years I've been browsing thousands of apps, screens, components, and layouts almost DAILY to gather the most complete ebook of how to design components, templates, and entire apps.
+
+Fortunately, I've started with the 1st chapter related to the [State of Avatar](https://www.setproduct.com/blog/avatar-ui-design). Glad I was listed on some popular design resources and got a bunch of retweets and mentions. Which makes me decide to continue my explorations, so meet the research aimed to explain on how to design Accordions.
+
+## What is Accordion?
+
+**_Accordion_** _(aka_ [Expansion panel](https://material.angular.io/components/expansion/overview)_)_ — vertically stacked list of options that can expand/collapse to reveal or hide more associated content.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-1.jpg)
+
+## Anatomy
+
+### **States**
+
+Default states for _Accordion_ are:  
+
+-   collapsed
+-   expanded
+-   onhovered
+-   focused
+-   disabled
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-2.jpg)
+
+### **Chevrons placement**
+
+Chevron icon represents the opportunity to expand/collapse _Accordion_ item. Once _Accordion_ was clicked, the chevron rotates to indicate the successful expansion. Further collapse returns the chevron to a previous position.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-3.jpg)
+
+Instead of a chevron, you may use the following symbols:  
+
+-   Up / down caret
+-   Plus / Minus
+-   Up / down arrow
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-4.jpg)
+
+### **Additional icon**
+
+In the case of right-sided _Accordion_, you may place additional icons to strengthen the meaning. Use wisely not to overload the component.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-5.jpg)
+
+In some cases, you may apply colors to visually separate the items:
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-6.jpg)
+
+## Styles & Themes
+
+### **Expanded item**
+
+Highlight expanded state to let a user recognize what is opened in case of multiple _Accordions_. There are several possible styles for the highlighting:  
+
+-   Elevation shadow
+-   Background fill
+-   Outline stroke
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-7.jpg)
+
+While the elevation works well on both smooth grey and white surfaces, you may fill the _Accordion_ expanded item's background with 8–12% opacity fill. Fits good for white surfaces. Add outline stroke, if necessary.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-8.jpg)
+
+### **Contained Accordion**
+
+Use contained _Accordion_ for most of the cases. Separate its items by a slightly visible divider. This placement either saves some vertical space.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-9.jpg)
+
+### **Separated Accordion**
+
+There are some cases when you can separate _Accordions_ with whitespace. Use this method to divide when it's needless to save vertical space.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-10.jpg)
+
+## Accordion UX & Usability
+
+### **Subtitle to pre-know**
+
+Enable a subtitle to inform your users about what to expect when _Accordion_ expands. This either helps to display the user's pick when everything is collapsed.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-11.jpg)
+
+### **Badge to pre-know**
+
+Either use a badge to indicate the selection hastily, while _Accordion_ is collapsed.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-12.jpg)
+
+### **Helper text**
+
+Enable a helper text for _Accordion_ to ergonomically show up a user's pick when collapsed, especially for mobile viewports.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-13.jpg)
+
+## Mobile patterns
+
+### **Full-width usage**
+
+On mobile devices use only full-width _Accordions_.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-14.jpg)
+
+### **Side menu**
+
+Implement _Accordions_ into the navigation drawer to reveal submenu items.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-15.jpg)
+
+### **Filters**
+
+Use side panels with _Accordions_ to utilize multiple filters, properties, etc.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-16.jpg)
+
+## Desktop patterns
+
+### **Side menu**
+
+Analogous as mobiles, you may implement _Accordion_\-driven side navigation for desktop apps, dashboards, etc.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-17.jpg)
+
+### **Filters**
+
+Depending on the desktop layout structure, _Accordions_ (e.g. as Filters) could be placed as both left or right-sided.
+
+![Accordion UI design tips](/blog/assets/accordion-ui-design/img-18.jpg)
+
+This is all you need to know to design better _Accordions_.
+
+Hope this exploration will help you to improve your in-app UX. The next chapter is for the _App Bars,_ probably. Stay tuned!
+
+  
+
+### Related links
+
+-   [Accordion component](https://chakra-ui.com/docs/components/accordion) (React)
+-   [Accordions as Expansion panels](https://angular.setproduct.com/components/layout/accordion/examples) (Angular)
+-   [Material-X accordions](https://www.figma.com/file/bBEef35QRWh4sWrbKlME40/Material-X-Preview-v5?node-id=1089%3A52740) (Figma)

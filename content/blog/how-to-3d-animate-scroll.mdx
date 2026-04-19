@@ -1,0 +1,157 @@
+---
+title: How to make 3D animation effect (like AirPods website) as you scroll the page
+description: >-
+  Learn how to create a webpage with the same interactive effect as the Apple
+  AirPods page in this tutorial. Get step-by-step instructions for achieving
+  this dynamic design.
+slug: how-to-3d-animate-scroll
+date: '2022-09-07'
+author: Jamshed Kasimov
+coverImage: /blog/covers/how-to-3d-animate-scroll.jpg
+coverImageAlt: How to make 3D animation effect on page scroll HTML & JS
+tags: []
+canonical: 'https://www.setproduct.com/blog/how-to-3d-animate-scroll'
+category: tutorials
+subtitle: >-
+  Apple implemented this effect by using a smart trick. Everything is done with
+  a canvas element supported by JavaScript that writes the path for new images
+  when you scroll.
+metaTitle: 'Creating 3D Animation Effect with HTML & JS: A Step-by-Step Guide'
+cardDescription: >-
+  Learn how to create a webpage with the same interactive effect as the Apple
+  AirPods page in this tutorial. Get step-by-step instructions for achieving
+  this dynamic design.
+readingTimeText: 4 mins read
+relatedSlugs:
+  - empty-state-ui-design
+  - steps-ui-design
+  - tooltip-ui-design
+---
+
+
+
+
+
+## Why to animate on scroll
+
+<span class="blog\_big-paragraph">Scroll-triggered animation is an elegant effect that grabs attention and makes the person/company stand out. If the scroll-triggered animations are well-thought, then the users' attention will be captured very quickly, engulfing them in intriguing content that follows their scrolling pace.</span>
+
+This technique is called «scrollytelling». 3D graphics play an important role here. The digital experience becomes way more interactive and immersive than just a static webpage and Apple is one of the flagships in this field.[‍](https://www.apple.com/airpods-pro/)
+
+[AirPods page with 3D animation](https://www.apple.com/airpods-pro/) is truly impressive. Beautiful transitions create a narrative while maintaining the user's attention. And for e-commerce, the biggest obstacle is purchasing something we haven't seen in person. That's why the most effective technique to foster a physical discovery experience and boost sales is through interactive product presentation.
+
+In this guide, we'll take the Apple AirPods page as an example and show you how to get this effect if you want to create a webpage with the same effect.
+
+## The basic concept of such animation
+
+So, before actually diving into the process of making such animation, let's first understand the magic behind it.
+
+Apple implemented this effect by using a smart trick. Everything is done with a canvas element supported by JavaScript that writes the path for new images when you scroll.
+
+What they did is they pre-downloaded hundreds of images and when you scroll them - these images will load one frame at a time.
+
+![](/blog/assets/how-to-3d-animate-scroll/img-1.jpg)
+
+As a result, the behavior of the page is as follows:  
+
+-   The body of a page is very long, but the elements stay in the same spot on the screen rather than moving vertically with the scroll.
+
+-   Animations occur when the user scrolls, and pause when he/she stops scrolling.
+
+-   If you scroll up – you have the previous animations coming back.
+
+-   Some animations keep playing after the user stops scrolling or when the scroll position reaches a specific point.
+
+-   Headlines and text body appear and disappear as you scroll.
+
+## Step 1. It all starts with the canvas
+
+The core of everything in this tutorial is the canvas element. This is where all the main processes will take place, including rendering the animation (with JavaScript). Let's go into the HTML where we'll write a couple of lines of code and provide our canvas with a class 'animation-scrolling'. Also, let's write the path for our JavaScript file.
+
+_HTML code_
+
+So far this is the only code that we will need inside HTML. Now let's go to CSS.We'll set the height of a page to be 100vh (viewport height), and the body will be 400vh. This will give us enough room to work with.We will also set the canvas properties, where it will be positioned at the center, its maximum width and height will be limited to ensure that they do not exceed the viewport's boundaries.
+
+_CSS code_
+
+## Step 2. Adding images with JS
+
+### **Substep 1. Getting the right images**
+
+First, let's create variables to get our HTML file and canvas, as well as create the context for the canvas element.
+
+_JavaScript code_
+
+Now, we'll create a function for our current frame that returns the file path and file number of the desired image file. Assuming that the file names are numbered sequentially in ascending order within the same directory (i.e. 0001.jpg, 0002.jpg, etc.), we want to change those numbers dynamically using JavaScript.Since the image number is an integer, we need to convert it to a string and prepend zeros to the front of our index until it reaches four digits to match our file names. This may be done by using _padStart(4, '0')_.
+
+_JavaScript code_ [_#_](/external/www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/0001.jpg)
+
+Thanks to this code, the static file will be updated in accordance with the user's scroll position.Next, we need to create a variable for the still images that we are going to have, as well as the code that will generate the images on the canvas.
+
+_JavaScript code_
+
+### **Substep 2. Tying images to user scroll progress**
+
+In this phase, we need to make sure that when we scroll, we are changing the image. We will add an event listener for this.
+
+_JavaScript code_
+
+Let's break down what's going on at this stage with the code above.
+
+We'll use _scrollTop_ to determine the element's vertical scroll position, which in this case is the top of the document. Subtracting the window height from the document scroll height gives us the end (or maximum) value. The user's scroll progress is then determined by dividing the _scrollTop_ value by the highest number the user may scroll down.
+
+The right image must then be returned to that place by converting the scroll progress into an index number that matches the image numbering sequence. This can be accomplished by dividing the progress value by the number of frames (images) available.
+
+To ensure that it never surpasses the total number of frames, we'll use _Math.floor()_ to round that number down and wrap it in _Math.min()_ with our maximum frame count.  
+
+### **Substep 3. Putting the right image in canvas**
+
+The _requestAnimationFrame_ function (in the last code from Substep 2) will make sure that there are no image flashes as we make transitions from one frame to another.
+
+Although the image sequence begins at 0001.jpg, our scroll progress computation actually begins at 0, therefore we are increasing the _frameIndex_ by 1. The two values are always in line thanks to this.
+
+Next and the last thing to do here is to create a function that will update the image. Basically, we are adding an index to the image source that helps us to draw again. So, every time an image is updating, it's going to render again and again inside canvas.
+
+_JavaScript code_
+
+## Step 3. The final touch –Preloading images
+
+In this final step let's add softness and smoothness to this effect. Since we scroll the page quickly, there may be a slight delay between images. This is because each new image sends a new network request for a new download. You need to make sure that each image is already preloaded. This way, transitions will be much faster and smoother.
+
+_JavaScript code_
+
+And voila, we're done. That's how you create scroll-triggered animations for your website. The final result will look like this:
+
+![](/blog/assets/how-to-3d-animate-scroll/img-2.jpg)
+
+## Images or video?
+
+There is a perception that instead of using hundreds of pictures, a single video file could be a better approach. If we talk about it globally, then yes, it is doable. However, there are several factors to consider:  
+
+-   If you want the animation to function appropriately, then it must be encoded and formatted correctly. The experience can be ruined if you use the wrong format and only a few frames of the video might be shown
+-   You might experience some problems in searching the specific keyframe when utilizing a video because different browsers' implementations depend on the platform and codec being used. On lots of gadgets, it won't look as smooth.  
+    
+-   The video quality is substantially lower, and there isn't much support for codecs other than h264.  
+    
+
+From a code and dependability perspective, using images is a much simpler approach. The only drawback here is that occasionally, images are larger from the size perspective than well-compressed videos.
+
+However, if you think the video approach is the most appropriate idea for you then definitely go for it. In [this amazing and very interactive tutorial](https://www.youtube.com/watch?v=wLUJ9VNzZXo) by Dev Ed, you'll get all the instructions needed.
+
+## So is this effect worth it?
+
+In general: yes, it's worth it. Essentially, you are making a complete product/service presentation movie. But it's more interactive, because you give the visitor control, which enables him to explore the product at his own pace and rhythm.
+
+And especially If your business is design-oriented, or if you provide products that need to be promoted with high-quality and large images, then this effect on the website would be a huge plus. Your job as a business owner or service provider is to stand out and create a wow effect by giving a visual experience to the users, almost having them feel the product.
+
+However, take into account that availability and performance may be affected. We are talking about the 50+ Mb of downloaded data, it's a pressure for browser resources. That may be acceptable for customers with a high-speed internet connection, but not for those who don't have such luxuries. So, if the page loads slower, resulting in website abandonment and lost sales, you've made the situation worse for yourself.
+
+Also, keep in mind that people access websites from mobile devices. Thus, it's better to find some creative solutions for such scenarios. That's why Apple created the option of replacing the entire image sequence with a single fallback image.
+
+## Conclusion
+
+In summary, what at first glance seems like magic is an interesting and cool trick that will bring life and creativity to your web page. This effect is extremely versatile and practical and can be used on a wide variety of projects. So definitely consider this option too. Because as we can see, the web continues to evolve, becoming more interactive and its potential continues to expand.
+
+Hopefully, this guide was useful for you. Now that you know how to create 3D animations just like Apple's AirPods website, go ahead and try something cool yourself. And if you need help in custom design and development - we are [here](https://www.setproduct.com/) for you!
+
+See it live on [Codepen](https://codepen.io/j-v-w/pen/ZEbGzyv) →

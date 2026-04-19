@@ -1,0 +1,628 @@
+---
+title: Notification UI design guide
+description: >-
+  Learn how to create visually appealing and easily dismissible in-app
+  notifications with our UX/UI design techniques. Optimize your app experiences
+  with our guidance.
+slug: notifications-ui-design
+date: '2023-09-29'
+author: Roman Kamushken
+coverImage: /blog/covers/notifications-ui-design.jpg
+coverImageAlt: 'Notifications UI Design: Best practices, UX tips and popular use cases'
+tags: []
+canonical: 'https://www.setproduct.com/blog/notifications-ui-design'
+category: tutorials
+subtitle: >-
+  Gain design secrets of of in-app notifications and discover proven strategies
+  to captivate and engage your users like never before.
+metaTitle: 'Best Practices for Notifications UI Design: UX Tips, Popular Use Cases'
+cardDescription: >-
+  Learn how to create visually appealing and easily dismissible in-app
+  notifications with our UX/UI design techniques. Optimize your app experiences
+  with our guidance.
+inlineCta:
+  title: Submit your guest post to Setproduct
+  description: >-
+    Increase your online visibility, drive targeted traffic, and boost your
+    website's SEO with our guest blogging services. We offer three distinct
+    plans to cater to your diverse needs and budget. Choose the free plan that
+    aligns with your goals
+  buttonText: See Prices
+  buttonLink: 'https://publish.setproduct.com/'
+readingTimeText: 8 mins read
+relatedSlugs:
+  - empty-state-ui-design
+  - steps-ui-design
+  - tooltip-ui-design
+---
+
+
+
+
+
+<span class="blog\_big-paragraph">**App notifications** are interactive messages that are delivered within the context of an application. They serve to inform, update, or engage users by providing timely and relevant information, alerts, or calls to action.</span>
+
+**Notifications UI design** typically includes a combination of textual content, icons, imagery, and sometimes even sound or vibration effects. They are designed to grab the user's attention and provide valuable and timely information.
+
+Notifications can vary in purpose, such as delivering personalized messages, notifying about new content, indicating system status or updates, requesting user actions, or providing reminders.**‍**
+
+**Today you will learn:**  
+
+-   _Understand notification components_: Learn about toasts, popovers, dialogs, and action buttons in notifications and how they contribute to effective communication.
+-   _Types of notifications_: Gain insight into system-generated, user-triggered, personalized, promotional notifications, exploring various contexts for its usage.
+-   _Design best practices_: Guidelines for attention-grabbing notifications that balance text and visuals, convey information effectively through tone, animation, sound.
+-   _Usability tips_: Techniques to ensure user-friendly notifications, avoiding overload, maintaining consistency, timeliness, relevance, and providing control over settings.
+-   _Practical use cases_: Explore onboarding, user engagement, account activity, transactional, and reminder notifications, understanding how they enhance UX.
+
+## Notification Components
+
+### **Badge**
+
+![Notifications UI UX design – Badge usage](/blog/assets/notifications-ui-design/img-1.jpg)
+
+[Notification badge](https://codepen.io/ykosinets/pen/eYYEMpR) @ Codepen
+
+_Definition_: A [badge](https://www.setproduct.com/blog/badge-ui-design) is a visual indicator, typically represented by a number or small icon, that appears on app icons or within the app interface itself._‍_
+
+_Purpose_: Badges notify users of new or relevant updates, notifications, or actions associated with specific app features or content.  
+
+**Badge design tips:**  
+
+1.  Use badges sparingly and only for important or time-sensitive notifications.
+2.  Ensure that badges are visually distinctive and easily noticeable.
+3.  Use micro-animations to add an element of delight to the [badge design](https://www.setproduct.com/blog/badge-ui-design).
+
+### **Toast/Snackbar**
+
+![Notifications UI UX design – Toast and Snackbar](/blog/assets/notifications-ui-design/img-2.jpg)
+
+[Toast components](https://dribbble.com/shots/21382856-Toasts-Snackbars-Components) by Bertrand
+
+_Definition_: A [toast](https://react.setproduct.com/components/toast) (or snackbar) is a brief, transient message that appears at the bottom center or top of the screen corners to display non-interruptive updates or notifications._‍_
+
+_Purpose_: Toasts are used to inform users about a successful action, system message, or non-critical alerts.  
+
+**Toast design tips:**  
+
+1.  Use a short and clear message to convey the information effectively.
+2.  Ensure sufficient contrast between the toast and the background for easy visibility.
+3.  Provide a clear indication of how long the toast will remain visible.
+
+### **Dialog/Modal**
+
+![Notifications UI UX design – Dialog and Modal windows](/blog/assets/notifications-ui-design/img-3.jpg)
+
+Dialog/Modal components by [Material X UI kit](https://www.setproduct.com/templates/material-x)
+
+_Definition_: A [dialog](https://react.setproduct.com/components/dialog) or modal is a temporary overlay that requires user interaction to resolve or acknowledge a notification or prompt._‍_
+
+_Purpose_: Dialogs prompt users to confirm decisions, show additional information, or acquire specific input before proceeding.  
+
+**Dialog design tips:**  
+
+1.  Clearly indicate the primary action(s) users should take within the dialog/modal.
+2.  Use clear and intuitive visual cues (e.g., icons, buttons or background color) to indicate the purpose or outcome of each dialog option.
+3.  Avoid overcrowding the dialog/modal with excessive information or options, as this can overwhelm users.
+
+### **Popover**
+
+![Notifications UI UX design – Popover template](/blog/assets/notifications-ui-design/img-4.jpg)
+
+[Popover component](https://blueprintjs.com/docs/#core/components/popover) by BlueprintJS
+
+_Definition_: A popover is a small overlay or tooltip-style UI component that provides additional information or actions related to a specific element._‍_
+
+_Purpose_: Popovers offer users quick access to contextual information or supplementary options without disrupting the main UI.  
+
+**Popover design tips:**  
+
+1.  Make the trigger easily identifiable and accessible, such as using a question mark icon or an "i" icon.
+2.  Provide visual cues (e.g., icons, arrows, or color) to indicate a popover is available.
+3.  Use microinteractions to draw attention to the popover or its associated elements.
+4.  Allow users to dismiss popovers easily to regain focus on the primary UI.
+
+### **Tooltip**
+
+![Notifications UI UX design – Using tooltips](/blog/assets/notifications-ui-design/img-5.jpg)
+
+[Tooltips for notifications](https://codepen.io/prvnbist/pen/ZyMvYd) @ Codepen
+
+_Definition_: A [tooltip](https://react.setproduct.com/components/tooltip) is a small, contextual UI element that appears when users hover over or tap on an item, providing additional information or clarifying the purpose of the item._‍_
+
+_Purpose_: Tooltips enhance the user understanding of complex or unfamiliar elements, offering brief explanations or guidance.  
+
+**Tooltip design tips:**  
+
+1.  Use tooltips sparingly and only for critical or less obvious features.
+2.  Provide a small delay before showing the tooltip to prevent accidental triggering.
+3.  Fading in/out or sliding animations can help draw attention to the tooltip without being too distracting.
+
+### **Banner**
+
+![Notifications UI UX design – Banner guidelines](/blog/assets/notifications-ui-design/img-6.jpg)
+
+[Banner Alerts](https://spectrum.adobe.com/page/alert-banner/) by Adobe Spectrum
+
+_Definition_: A banner is a prominent, horizontal UI element that appears at the top or bottom of the screen to convey important announcements, alerts, or notifications._‍_
+
+_Purpose_: Banners capture user attention with important or time-sensitive information, often prompting immediate action or acknowledgment.  
+
+**Banner design tips:**  
+
+1.  Make sure the banner stands out from the rest of UI by using contrasting colors.
+2.  Ensure banners have a clear call-to-action and can be easily dismissed or closed.
+3.  Ensure that the banner scales appropriately and remains legible on various devices.
+4.  Include a clear and visually distinguishable call-to-action (CTA) button or link.
+
+### **Progress Indicator**
+
+![Notifications UI UX design – Progress bar](/blog/assets/notifications-ui-design/img-7.jpg)
+
+[Progress bar with Toast](https://codepen.io/gatoledo1/pen/mdXLReX) @ Codepen
+
+_Definition_: [Progress indicators](https://react.setproduct.com/components/progress-bar) visually represent the completion status or ongoing progress of a task or process._‍_
+
+_Purpose_: Progress indicators keep users informed and alleviate uncertainty by conveying the current status of a time-consuming or complex action.  
+
+**Progress design tips:**  
+
+1.  Use progress indicators for time-consuming operations or actions that require background processing.
+2.  Provide clear visual cues to indicate the progress status and estimated time remaining (if applicable).
+3.  Combine progress indicators with informative messages to provide additional context and reassurance.
+
+### **Sound Notifications**
+
+![Notifications UI UX design – Using sounds](/blog/assets/notifications-ui-design/img-8.jpg)
+
+[Sound notifications guidelines](https://m2.material.io/design/sound/applying-sound-to-ui.html)
+
+_Definition_: [Sound notifications](https://mixkit.co/free-sound-effects/interface/) are auditory cues or alerts that accompany visual notifications to capture user attention._‍_
+
+_Purpose_: Sound notifications help users notice and respond to important information or events, even when they are not actively looking at the screen.  
+
+**Sounds design tips:**  
+
+1.  Provide users with the option to customize or mute the sound notifications based on their preferences.
+2.  Select sounds that align with the purpose and context of the notification.
+3.  Ensure the sound is not too loud or distracting, but still noticeable enough to capture the user's attention.
+
+### **Push Notifications**
+
+![Notifications UI UX design – Push notifications for mobile, desktop and web](/blog/assets/notifications-ui-design/img-9.jpg)
+
+[Push notifications](https://www.figma.com/community/file/852038744760148547/push-notification-ui-kit-ios-android-chrome-firefox-windows) for Figma
+
+_Definition_: Push notifications are messages or alerts delivered directly to users' mobile devices or desktops outside of the app's interface._‍_
+
+_Purpose_: Push notifications are used to engage and re-engage users by delivering timely, relevant, and personalized information or updates.  
+
+**Push design tips:**  
+
+1.  Offer clear opt-in and opt-out options for push notifications to respect user privacy and preferences.
+2.  Provide customization options that allow users to control the types and frequency of push notifications they receive.
+3.  Consider using intelligent scheduling strategies (use metrics, data tracking), such as sending notifications during preferred times or when the user is most likely to engage with them.
+
+## Notification Types
+
+### **Informational Notifications**
+
+_Purpose_: Informational notifications aim to keep users informed about relevant updates and important news related to their app or user account. They provide timely information to enhance user engagement and awareness.
+
+⬛⬜⬜ **Low** **Priority**: These notifications provide non-critical information and do not require immediate user attention, but they are still valuable for user engagement and awareness.  
+
+![Types of Notification UI – Informational Notifications](/blog/assets/notifications-ui-design/img-10.jpg)
+
+[Account Activity Inspiration](https://dribbble.com/shots/18364347-Notifications) by Craftwork
+
+‍**Examples:  
+**
+
+-   _Account Activity_: Notifying users about recent activity on their accounts, such as successful logins, password changes, or suspicious login attempts.
+-   _App Updates_: Informing users about new features, bug fixes, or enhancements through release notes.
+-   _News and Updates_: Sharing relevant news or announcements related to the app or its industry.
+
+**Design considerations:  
+**
+
+-   _Timing and Context_: Deliver informational notifications at appropriate times and within relevant contexts to increase their usefulness and relevancy to the user.
+-   _Actionable Content_: Include appropriate and meaningful actions within the notification to allow to take immediate action without navigating through the app.
+-   _Personalization_: Tailor the content of the notification to match the user's preferences, location, or previous interactions to enhance relevance and engagement.
+
+### **Transactional Notifications**
+
+_Purpose_: Transactional notifications are triggered based on specific user actions or events within the app. They provide immediate feedback, confirmation, or status updates related to user transactions..
+
+⬛⬛⬜ **Medium Priority**: These notifications are more time-sensitive and require users' attention to ensure they stay up-to-date with important transactional information.  
+
+![Types of Notification UI – Transactional Notifications](/blog/assets/notifications-ui-design/img-11.jpg)
+
+[Order Status Inspiration](https://www.figma.com/community/file/1203724645713134219) from Pigma Community
+
+‍**Examples:  
+**
+
+-   _Order Status_: Informing users about the status updates of their orders, such as order confirmation, shipped status, or delivery updates.
+-   _Payment Confirmation_: Notifying users about successful payments, failed transactions, or pending payment reminders.
+-   _Booking Confirmation_: Informing users about successful bookings, reservations, or ticket purchases.
+
+**Design considerations:  
+**
+
+-   _Be Transparent with Timing_: Clearly communicate any time-sensitive information, such as cutoff times, deadlines, or expected response times.  
+    
+-   _Use Visual Cues_: Utilize icons, colors, or progress indicators to visually represent the status or outcome of transactions within the notification.
+-   _Provide Feedback and Confirmation_: Once users complete the transaction-related action, provide immediate feedback or confirmation to reassure them that their action was successful.
+
+### **Feedback Notifications**
+
+_Purpose_: Feedback notifications are designed to inform users about the outcome or status of their interactions with the app. They aim to provide feedback, acknowledgement, or error alerts related to user actions.
+
+⬛⬛⬜ **Medium Priority**: These notifications are important for user feedback and may require user attention to address errors or provide additional information.  
+
+![Types of Notification UI – Feedback Notifications](/blog/assets/notifications-ui-design/img-12.jpg)
+
+[Rating and Reviews Inspiration](https://dribbble.com/shots/14022470-Feedback-UI-Design) by IIdiko Gaspar
+
+‍**Examples:  
+**
+
+-   _Form Submission_: Notifying users about the success or failure of submitting a form, ensuring they are aware of the outcome.
+-   _Error Alerts_: Alerting users to errors or issues encountered during their interactions, such as invalid inputs, network errors, or server maintenance.
+-   _Ratings and Reviews_: Prompting users to provide feedback, ratings, or reviews about the app or specific features.
+
+**Design considerations:  
+**
+
+-   _Positive reinforcement_: Whenever possible, provide positive feedback or acknowledge progress made by the user.
+-   _Timely delivery_: Send feedback notifications in a timely manner, when the user is actively engaged with the app or after they have completed a serious task.
+-   _User-friendly dismiss actions_: Provide simple and intuitive ways for users to dismiss or clear feedback notifications if they are not interested.
+
+### **Error/Success Notifications**
+
+_Purpose_: Error and success notifications inform users about successful actions or identify errors or failures associated with a user's interactions within the app.
+
+⬛⬛⬛ **High Priority**: These notifications require immediate user attention, as they indicate important outcomes or errors.  
+
+![Types of Notification UI – Error/Success States](/blog/assets/notifications-ui-design/img-13.jpg)
+
+[Error/Success Notifications](https://dribbble.com/shots/18766631-Snackbars-and-alerts) by Katya Dryazgina
+
+‍**Examples:  
+**
+
+-   _Successful Registration_: Notifying users about the successful creation of their account or registration process.
+-   _Password Reset_: Confirming to users that their password reset has been successful.
+-   _Invalid Input_: Alerting users about errors in form submissions due to missing or incorrect inputs.
+
+**Design considerations:  
+**
+
+-   _Visual Clarity_: Utilize visual cues such as icons or color coding to quickly convey the nature of the notification.
+-   _Error Reporting_: Provide users with the means to easily report errors, ensuring that their feedback is properly recorded and addressed.
+-   _Contextual Help_: Include links or resources in error/success notifications that can provide users with additional context or assistance.
+
+### **Actionable Notifications**
+
+_Purpose_: Actionable notifications allow users to take immediate action from within the notification itself, without the need to open the app. They enhance user convenience and efficiency.
+
+⬛⬛⬛ **High Priority**: Actionable notifications require immediate user attention as they enable to take direct actions or perform tasks without navigating to the app.  
+
+![Types of Notification UI – Actionable Notifications iOS](/blog/assets/notifications-ui-design/img-14.jpg)
+
+[Actionable Notification iOS](https://developer.apple.com/documentation/usernotifications/declaring-your-actionable-notification-types) Inspiration by Apple
+
+‍**Examples:  
+**
+
+-   _Reply to Messages_: Allowing users to respond to messages or conversations directly from the notification, saving them time and effort.
+-   _Social Media Interactions_: Enabling users to like, comment, or share posts directly from the notification without opening the social media app.
+-   _Task Completion_: Providing users with the ability to mark tasks as complete, snooze reminders, or perform necessary actions without opening the app.
+
+**Design considerations:  
+**
+
+-   _Prioritize Actions_: If there are multiple actions possible, prioritize them based on user needs and preferences. Make it easy for users to understand the most relevant or frequently used actions.
+-   _Deep Linking_: Utilize deep linking within your actionable notifications to take users directly to specific content or actions within your app.
+-   _Confirmation Notifications_: Send a follow-up notification or visual confirmation within the app to inform users that their action has been successfully completed.
+
+### **System Notifications**
+
+_Purpose_: System notifications are sent by the operating system or device. They inform users about important device updates, settings, or actions outside of the app
+
+⬜⬜ **Low Priority**: System notifications are often essential but do not require the same level of attention as other types of notifications.  
+
+![Types of Notification UI – Battery Notification Ideas](/blog/assets/notifications-ui-design/img-15.jpg)
+
+[Battery Notification Ideas](https://ui-lovelace-minimalist.github.io/UI/usage/cards/card_battery/) by UI Lovelace Minimalist
+
+‍**Examples:  
+**
+
+-   _Software Updates_: Notifying about available software updates for their device.
+-   _Battery Level_: Alerting users about low battery or when the device is fully charged.
+-   _Do Not Disturb Mode_: Informing users when device behavior is set to silent mode.
+
+**Design considerations:  
+**
+
+-   _Short and Actionable Text_: Keep the notification message short, using action-oriented language to guide users on what to do next
+-   _Use Appropriate System Icons_: Utilize recognizable system icons to enhance understandability and familiarity.
+-   _Minimal Disruption_: System notifications should not disrupt the user experience within the app, but instead provide valuable information or settings.
+
+### **Reminders and Alerts**
+
+_Purpose_: Reminders and alerts prompt users about tasks, events, or time-sensitive actions that they need to take or be aware of within the app.
+
+⬛⬛⬜ **Medium Priority**: These notifications require users' attention as they serve as time-sensitive reminders or alerts for important actions or events.  
+
+![Types of Notification UI – Task & Appointment reminders](/blog/assets/notifications-ui-design/img-16.jpg)
+
+[Task & Appointment Reminders](https://dribbble.com/shots/22184608-Caleican-Modern-Calendar-Web-App-Saas-Dashboard-Components) Inspiration by Keitoto
+
+‍**Examples:  
+**
+
+-   _Appointment Reminders_: Notifying users about upcoming appointments, scheduled meetings, or events they have on their calendar.
+-   _Task Reminders_: Reminding users about pending tasks, deadlines, or important to-do items within their task management app.
+-   _Subscription Renewal_: Prompting users to renew or upgrade their subscriptions, ensuring timely action to avoid interruption of services.
+
+**Design considerations:  
+**
+
+-   _Timing and Frequency_: Deliver reminder notifications at appropriate times and limit the frequency to avoid annoying or overwhelming the user.
+-   _Opt-out or Snooze Options_: Provide users with the ability to snooze or opt-out of receiving reminder notifications if they no longer require them or prefer a different mode of receiving reminders.
+-   _Contextual Information_: Include relevant details within the notification, such as event location, task description, or subscription details, to provide context.
+
+### **Location-based Notifications**
+
+_Purpose_: Location-based notifications leverage a user's geographical location to provide targeted and relevant information.
+
+⬛⬛⬜ **Medium Priority**: Location-based notifications are time-sensitive and require user attention, especially when they offer contextually relevant information.  
+
+![Types of Notification UI – Alerts on Map](/blog/assets/notifications-ui-design/img-17.jpg)
+
+[**Geofencing Alerts**](https://www.figma.com/file/zbKbDJmTleKgwP47ApVJf2/Orion-UI-kit-\(preview\)?type=design&node-id=7198%3A121595&mode=design&t=3zN0ZBO1Tlczs5Rt-1) on Map by [Orion UI kit](https://www.setproduct.com/templates/orion)
+
+‍**Examples:  
+**
+
+-   _Store Promotions_: Notifying users of nearby stores offering discounts or promotions based on their location.
+-   _Event Recommendations_: Alerting users about events taking place nearby based on their current location.
+-   _Geofencing Alerts_: Sending notifications when a user enters or exits a specific geographic area.
+
+**Design considerations:  
+**
+
+-   _Opt-in and Privacy_: Clearly communicate and obtain user consent for accessing location information, while ensuring the privacy and security of user data.
+-   _Proximity Awareness_: Utilize proximity-based triggers to deliver notifications based on nearby points of interest or relevant locations to drive engagement.
+-   _Visual cues_: Incorporate maps, markers, or pin icons to provide users with a clear understanding of their current location in relation to the notification's content.
+
+## Notifications Usability Tips
+
+### **Placement & Visibility**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-18.jpg)
+
+_Purpose_: Ensure notifications are placed in a prominent location and easily visible to users, enhancing their discoverability._‍_
+
+_Benefit_: Users can quickly and effortlessly notice notifications, leading to improved engagement and user satisfaction._‍_
+
+_Example_: YouTube places notifications in the top right corner of the app, ensuring that users can easily access them while browsing videos.
+
+### **Allow Personalization**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-19.jpg)
+
+_Purpose_: Give users the ability to customize notification preferences, allowing them to control what information they receive and when._‍_
+
+_Benefit_: Personalization enhances UX by providing relevant and meaningful notifications, reducing unnecessary interruptions._‍_
+
+_Example_: Twitter allows users to choose which types of notifications they want to receive (e.g., new followers, likes, mentions)
+
+### **Use Meaningful Icons**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-20.jpg)
+
+_Purpose_: Utilize icons in notifications to provide visual cues that convey information quickly and effectively._‍_
+
+_Benefit_: Icons help users understand the context of the notification, making it easier to grasp the content at a glance._‍_
+
+_Example_: Instagram employs icons like a heart for likes, a speech bubble for comments, and a tag for post tags.
+
+### **Timing & Frequency**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-21.jpg)
+
+_Purpose_: Timely delivery and controlling the frequency of notifications prevent overwhelming users or interrupting their tasks._‍_
+
+_Benefit_: Well-timed and appropriately spaced notifications improve user engagement and minimize annoyance._‍_
+
+_Example_: LinkedIn carefully times notifications on job opportunities, connection requests, and industry insights, ensuring users stay connected without excessive interruptions.
+
+### **Give a Feedback**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-22.jpg)
+
+[Like animation](https://dribbble.com/shots/3818902-Like-Notifications-Animation) by Shakuro
+
+_Purpose_: Offer clear and concise feedback within notifications to inform users about the status, action required, or any errors._‍_
+
+_Benefit_: Feedback ensures users are aware of the outcome or next steps, reducing confusion and improving overall usability._‍_
+
+_Example_: Instagram displays a heart animation and sound when a user likes a post and acknowledges the action
+
+### **Utilize UI Animation**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-23.jpg)
+
+_Purpose_: Implement animations within notifications to enhance their visibility, draw attention, or provide a delightful experience._‍_
+
+_Benefit_: Well-designed animations contribute to a more engaging and visually appealing notification interface._‍_
+
+_Example_: Slack uses a sliding animation when new messages arrive, attracting the user's attention.
+
+## Notification Use Cases
+
+### **Social Interactions**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-24.jpg)
+
+[Push animation](https://dribbble.com/shots/5371029-Notification) by Arthur Arapov
+
+_User Story_: Sarah receives a push notification on her phone that she has a new message from her friend Lisa on a social media app. Sarah taps on the notification, which opens the app and takes her directly to the chat screen, where she can engage in a conversation with Lisa.  
+
+_User steps_:  
+
+1.  Sarah receives a push notification on her phone about a new message from Lisa.
+2.  She taps on the notification, which opens the chat app.
+3.  The app takes Sarah directly to the chat screen, where Lisa's new message is displayed.
+4.  She reads the message and can reply or engage in a conversation with Lisa.
+5.  After interacting with the message, Sarah can continue using other features of the chat app.
+
+_Suggested component_: Direct Notification (Banner or Push Notification)_‍_
+
+_Explanation_: Direct notifications are suitable for real-time social interactions as they deliver immediate information and encourage users to take action.
+
+### **Promotional/Marketing**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-25.jpg)
+
+[Badged message](https://dribbble.com/shots/6242469-Notification-Badge-III) by Oleg Frolov
+
+_User Story_: John receives a notification featuring a visually appealing image of a limited-time discount for his favorite online clothing store. Intrigued, he taps on the notification, which opens the app's product page showcasing the discounted items, leading to an increased chance of making a purchase.
+
+_User steps_:  
+
+1.  John receives a push notification with a promotional offer from his favorite online clothing store.
+2.  He taps on the notification, which opens the shopping app.
+3.  The app displays the promotional content, showcasing the discounted items or time-limited offer.
+4.  John can browse the promoted items, add them to the cart, or proceed with the promotional offer.
+5.  After completing the desired actions or exploring further, he can continue using the app and make a purchase if desired.
+
+_Suggested component_: Rich Media Notification (with an image or video)_‍_
+
+_Explanation_: Rich media notifications with eye-catching visuals are more likely to grab users' attention and effectively convey promotional messages.
+
+### **User Feedback**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-26.jpg)
+
+[Success animation](https://dribbble.com/shots/4814257-Icon-animation-for-Prio-app) by Miguel Serra
+
+_User Story_: Emily submits a form on a banking app to report a fraudulent transaction. She instantly receives a toast notification confirming the successful submission, allowing her to continue her banking activities uninterrupted while having peace of mind.
+
+_User steps_:  
+
+1.  Emily submits a form on a banking app to report a fraudulent transaction.
+2.  She instantly receives a toast notification confirming the successful submission.
+3.  Emily acknowledges the notification and continues with her banking activities.
+4.  The notification may include additional information or instructions related to the submission if necessary.
+5.  She can proceed with her activities while remaining informed about the feedback or action status.
+
+_Suggested component_: Toast Notification_‍_
+
+_Explanation_: Toasts are non-intrusive, temporary messages that provide feedback to users without interrupting their current task.
+
+### **Permission Requests**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-27.jpg)
+
+[File fetching animation](https://dribbble.com/shots/4819804-File-fetching-animation) by Vinoth
+
+_User Story_: Alex opens a photo editing app and attempts to access his photo gallery for editing. The app sends a system-level notification requesting access to his photos. Once Alex grants permission, he can seamlessly edit and save his photos.
+
+_User steps_:  
+
+1.  Alex opens a photo editing app and attempts to access his photo gallery for editing.
+2.  The app sends a system-level notification requesting access to his photos.
+3.  Alex reads the notification, which explains the reason for the permission request and its implications.
+4.  He chooses to grant permission, allowing the app to access his photos for editing.
+5.  With the granted permission, Alex can seamlessly edit and save his photos using the app.
+
+_Suggested component_: System-Level Notification (Permission Dialog)_‍_
+
+_Explanation_: Permission dialogs, are crucial for gaining users' consent when requesting access to sensitive device features or personal information.
+
+### **Onboarding/Welcome**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-28.jpg)
+
+[Onboarding animation](https://www.behance.net/gallery/76810073/Onboarding-Animation-Mobile-App) by Nata
+
+_User Story_: Kate installs a productivity app for the first time and opens it. A popover component appears, guiding her through the app's key features and providing a brief tutorial on how to get started. She can easily dismiss the window once she feels confident navigating the app.
+
+_User steps_:  
+
+1.  Kate installs a productivity app and opens it.
+2.  A popover appears, introducing the key features and purpose of the each significant in-app control.
+3.  The popover provides a brief tutorial or interactive elements to guide Kate through the app's initial setup.
+4.  She dismisses the popover once she feels comfortable navigating the app.
+5.  After the onboarding process, Kate gains a basic understanding of the app and can start using its features.
+
+_Suggested component_: Popover Component_‍_
+
+_Explanation_: In-app popovers are effective for providing onboarding or welcome messages as they draw users' focus to a specific spot and allow for interactive content.
+
+### **Progress/Completion**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-29.jpg)
+
+[Image upload](https://dribbble.com/shots/8297994-ikas-Dashboard-Image-Upload-Animation) by Oğuz Kara
+
+_User Story_: Mark initiates a photo upload on a cloud storage app to backup his pictures. He receives a progress bar notification that displays the upload percentage, giving him a sense of progress and assurance that his photos are being securely stored in the cloud.
+
+_User steps_:  
+
+1.  Mark initiates a photo upload on a cloud storage app to backup his pictures.
+2.  He receives a progress bar notification illustrating the upload percentage.
+3.  The notification visually shows the progress of the upload.
+4.  Mark can continue using the app while keeping track of the progress.
+5.  Once the upload reaches completion, Mark may receive a completion notification or can simply proceed with other tasks or actions.
+
+_Suggested component_: Progress Bar_‍_
+
+_Explanation_: Progress bar notifications visually indicate the progress of a task, reassuring users that their action is being processed.
+
+### **Update Available**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-30.jpg)
+
+_User Story_: Jessica sees a small red notification badge on the app icon of her favorite news app. Curious, she taps on the app and finds a notification listing new articles in various categories that she can explore at her convenience.
+
+_User steps_:  
+
+1.  Jessica sees a red notification badge on the app icon of her favorite news app.
+2.  She taps on the app icon to open the news app.
+3.  The app displays a notification listing new articles in various categories that Jessica can explore.
+4.  She chooses to read the articles of interest or explore further details about specific news items.
+5.  After staying updated and reading the news, Jessica can continue using the app and exploring more articles or topics.
+
+_Suggested component_: App Icon Badge  
+  
+_Explanation_: App icon badges are a subtle yet effective way to inform users about available updates without interrupting their current activities.
+
+### **Upcoming Event**
+
+![Notifications UI UX design tutorial and best practices](/blog/assets/notifications-ui-design/img-31.jpg)
+
+[Screen notifications](https://dribbble.com/shots/4671807-Notification-pop-up) by Ashraf
+
+_User Story_: Sarah's favorite band announces a surprise concert near her location, and she receives a lock screen notification with details about the event. Even with her phone locked, she can quickly see the notification and tap on it to purchase tickets and secure her spot at the concert.
+
+_User steps_:  
+
+1.  Sarah receives a lock screen notification about a surprise concert by her favorite band.
+2.  She taps on the notification to view more details about the concert.
+3.  The app provides additional information about the event, including location, time, and ticket availability.
+4.  Sarah can purchase tickets, set reminders, or save the event for future reference.
+5.  After interacting with the event notification, she can continue using the app or attend the concert as scheduled.
+
+_Suggested component_: Lock Screen Notification_‍_
+
+_Explanation_: Lock screen notifications are highly visible and suitable for time-sensitive events or reminders that users should be aware of at a glance.
+
+### **Average Statistics for In-App Notifications**
+
+These figures are for reference purposes only and can vary depending on factors such as the app's industry, target audience, **notification UI design**, and other contextual factors. It's advisable to conduct user research and analyze app-specific data to get more accurate benchmarks for your particular app or project.
+
+Cover Image Credit © [Unread notifications](https://dribbble.com/shots/5415345-Unread-Notifications) ([Codepen](https://codepen.io/joeydesignsstuff/pen/gBezzr)) by _Joey Stevens_
