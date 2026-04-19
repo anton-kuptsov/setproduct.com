@@ -4,20 +4,26 @@ import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import BlogHero from "./BlogHero";
-import BlogMeta from "./BlogMeta";
+import BlogAuthor from "./BlogAuthor";
+import BlogSidebar from "./BlogSidebar";
+import BlogInlineCta from "./BlogInlineCta";
+import BlogRelatedPosts from "./BlogRelatedPosts";
+import CtaSubscribe from "../sections/CtaSubscribe";
+import TemplateShowcase from "../sections/TemplateShowcase";
 import { blogMdxComponents } from "./mdx-components";
 import { buildBlogPostingJsonLd } from "../../lib/blog/schema";
 import { SITE_URL } from "../../lib/blog/site-config";
-import type { BlogPost } from "../../types/blog";
+import type { BlogPost, BlogPostMeta } from "../../types/blog";
 
 type BlogPostLayoutProps = {
   post: BlogPost;
+  relatedPosts: BlogPostMeta[];
+  postUrl: string;
 };
 
-export default function BlogPostLayout({ post }: BlogPostLayoutProps) {
-  const { frontmatter, mdxSource, readingTimeText, readingTimeMinutes } = post;
-  const canonical =
-    frontmatter.canonical ?? `${SITE_URL}/blog/${frontmatter.slug}`;
+export default function BlogPostLayout({ post, relatedPosts, postUrl }: BlogPostLayoutProps) {
+  const { frontmatter, mdxSource, readingTimeText, readingTimeMinutes, headings } = post;
+  const canonical = frontmatter.canonical ?? `${SITE_URL}/blog/${frontmatter.slug}`;
   const absoluteCoverUrl = frontmatter.coverImage?.startsWith("http")
     ? frontmatter.coverImage
     : `${SITE_URL}${frontmatter.coverImage ?? ""}`;
@@ -26,23 +32,20 @@ export default function BlogPostLayout({ post }: BlogPostLayoutProps) {
   return (
     <>
       <Head>
-        <title>{frontmatter.title} | Setproduct Blog</title>
+        <title>{frontmatter.metaTitle ?? frontmatter.title} | Setproduct Blog</title>
         <meta name="description" content={frontmatter.description} />
         <link rel="canonical" href={canonical} />
-        {/* Open Graph */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:title" content={frontmatter.metaTitle ?? frontmatter.title} />
         <meta property="og:description" content={frontmatter.description} />
         <meta property="og:image" content={absoluteCoverUrl} />
         <meta property="og:url" content={canonical} />
         <meta property="article:published_time" content={frontmatter.date} />
         <meta property="article:author" content={frontmatter.author} />
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={frontmatter.title} />
+        <meta name="twitter:title" content={frontmatter.metaTitle ?? frontmatter.title} />
         <meta name="twitter:description" content={frontmatter.description} />
         <meta name="twitter:image" content={absoluteCoverUrl} />
-        {/* JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -52,23 +55,40 @@ export default function BlogPostLayout({ post }: BlogPostLayoutProps) {
       <main>
         <BlogHero
           title={frontmatter.title}
-          subtitle={frontmatter.description}
+          subtitle={frontmatter.subtitle}
           coverImage={frontmatter.coverImage}
           coverImageAlt={frontmatter.coverImageAlt}
           date={frontmatter.date}
           readingTimeText={readingTimeText}
           category={frontmatter.category}
         />
-        <article className="max-w-3xl mx-auto px-4 py-12">
-          <BlogMeta
-            author={frontmatter.author}
-            date={frontmatter.date}
-            readingTimeText={readingTimeText}
-          />
-          <div className="prose prose-lg max-w-none">
-            <MDXRemote {...mdxSource} components={blogMdxComponents} />
+        <div className="section">
+          <div className="section-padding bottom-112">
+            <div className="container">
+              <div className="blogpost_content-section">
+                <BlogSidebar
+                  headings={headings}
+                  postUrl={postUrl}
+                  postTitle={frontmatter.title}
+                />
+                <div
+                  id="w-node-content"
+                  className="blogpost_content-column2"
+                >
+                  <BlogAuthor authorSlug={frontmatter.author} />
+                  <div className="spacer-16" />
+                  <div className="rich-text-18 w-richtext">
+                    <MDXRemote {...mdxSource} components={blogMdxComponents} />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </article>
+        </div>
+        {frontmatter.inlineCta && <BlogInlineCta cta={frontmatter.inlineCta} />}
+        <CtaSubscribe />
+        <TemplateShowcase />
+        <BlogRelatedPosts posts={relatedPosts} />
       </main>
       <SiteFooter />
       <ScrollUpButton />
