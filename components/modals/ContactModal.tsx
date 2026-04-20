@@ -1,5 +1,3 @@
-"use client";
-
 import { type FormEvent, useEffect, useRef, useState } from "react";
 
 type ContactModalProps = {
@@ -11,15 +9,21 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [csrf, setCsrf] = useState<{ token: string; timestamp: number } | null>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+      fetch("/api/csrf")
+        .then(res => res.json())
+        .then(data => setCsrf(data))
+        .catch(() => {});
     } else {
       document.body.style.overflow = "";
       setIsSubmitted(false);
       setErrorMessage(null);
+      setCsrf(null);
     }
     return () => {
       document.body.style.overflow = "";
@@ -34,12 +38,19 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     const formData = new FormData(event.currentTarget);
     const email = formData.get("Email") as string;
     const message = formData.get("Message") as string;
+    const website = formData.get("website") as string;
 
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, message }),
+        body: JSON.stringify({
+          email,
+          message,
+          website,
+          _token: csrf?.token,
+          _timestamp: csrf?.timestamp,
+        }),
       });
 
       const data = await response.json();
@@ -100,6 +111,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             <div className="modal_form-block w-form">
               {!isSubmitted ? (
                 <form className="modal_form" onSubmit={handleSubmit}>
+                  <input name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
                   <div className="modal_form-item">
                     <p className="text-size-regular">Email</p>
                     <input

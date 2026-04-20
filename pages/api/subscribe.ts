@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Resend } from "resend";
-import ContactEmail from "../../emails/ContactEmail";
+import SubscribeEmail from "../../emails/SubscribeEmail";
 import { rateLimit, getClientIp } from "../../lib/rateLimit";
 import { verifyToken } from "../../lib/csrf";
 
@@ -36,7 +36,7 @@ export default async function handler(
     return res.status(429).json({ error: limit.reason });
   }
 
-  const { email, message, website, _token, _timestamp } = req.body;
+  const { email, website, _token, _timestamp } = req.body;
 
   if (website) {
     return res.status(400).json({ error: "Invalid submission" });
@@ -51,21 +51,17 @@ export default async function handler(
     return res.status(400).json({ error: "Email is required" });
   }
 
-  if (!message || typeof message !== "string") {
-    return res.status(400).json({ error: "Message is required" });
-  }
-
   try {
     await resend.emails.send({
-      from: "Setproduct Contact <contact@setproduct.com>",
-      to: "hello@setproduct.com",
-      subject: `Contact form: ${email}`,
-      react: ContactEmail({ email, message }),
+      from: "Setproduct <contact@setproduct.com>",
+      to: "steambot33+sub@gmail.com",
+      subject: `New subscriber: ${email}`,
+      react: SubscribeEmail({ email }),
     });
 
     return res.status(200).json({ success: true });
   } catch (error) {
-    console.error("Email send error:", error);
-    return res.status(500).json({ error: "Failed to send email" });
+    console.error("Subscribe email error:", error);
+    return res.status(500).json({ error: "Failed to send notification" });
   }
 }

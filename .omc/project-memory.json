@@ -304,6 +304,18 @@
   },
   "hotPaths": [
     {
+      "path": "components/layout/SiteFooter.tsx",
+      "accessCount": 22,
+      "lastAccessed": 1776685751045,
+      "type": "file"
+    },
+    {
+      "path": "components/modals/ContactModal.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1776685751578,
+      "type": "file"
+    },
+    {
       "path": "components/layout/SiteHeader.tsx",
       "accessCount": 10,
       "lastAccessed": 1776666097437,
@@ -316,15 +328,21 @@
       "type": "file"
     },
     {
-      "path": "components/modals/ContactModal.tsx",
-      "accessCount": 9,
-      "lastAccessed": 1776683823813,
+      "path": "pages/api/contact.ts",
+      "accessCount": 7,
+      "lastAccessed": 1776685116457,
       "type": "file"
     },
     {
-      "path": "components/layout/SiteFooter.tsx",
-      "accessCount": 8,
-      "lastAccessed": 1776666135966,
+      "path": "pages/api/subscribe.ts",
+      "accessCount": 7,
+      "lastAccessed": 1776685116591,
+      "type": "file"
+    },
+    {
+      "path": "components/sections/CtaSubscribe.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1776686232154,
       "type": "file"
     },
     {
@@ -332,6 +350,12 @@
       "accessCount": 6,
       "lastAccessed": 1776666186619,
       "type": "directory"
+    },
+    {
+      "path": "components/blog/BlogSidebar.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1776685751398,
+      "type": "file"
     },
     {
       "path": "css",
@@ -352,6 +376,24 @@
       "type": "file"
     },
     {
+      "path": "lib/rateLimit.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776684869446,
+      "type": "file"
+    },
+    {
+      "path": "hooks/useSubscribe.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776685717398,
+      "type": "file"
+    },
+    {
+      "path": "css/setproduct.webflow.css",
+      "accessCount": 2,
+      "lastAccessed": 1776686224712,
+      "type": "directory"
+    },
+    {
       "path": "pages/legal/refunds-policy.tsx",
       "accessCount": 1,
       "lastAccessed": 1776665539867,
@@ -367,12 +409,6 @@
       "path": "",
       "accessCount": 1,
       "lastAccessed": 1776665871467,
-      "type": "directory"
-    },
-    {
-      "path": "css/setproduct.webflow.css",
-      "accessCount": 1,
-      "lastAccessed": 1776665878233,
       "type": "directory"
     },
     {
@@ -394,16 +430,40 @@
       "type": "file"
     },
     {
-      "path": "pages/api/contact.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776683797117,
-      "type": "file"
-    },
-    {
       "path": ".env.example",
       "accessCount": 1,
       "lastAccessed": 1776683832362,
       "type": "file"
+    },
+    {
+      "path": "emails/SubscribeEmail.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776684318730,
+      "type": "file"
+    },
+    {
+      "path": "lib/csrf.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776685089344,
+      "type": "file"
+    },
+    {
+      "path": "pages/api/csrf.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776685089503,
+      "type": "file"
+    },
+    {
+      "path": "components/pages",
+      "accessCount": 1,
+      "lastAccessed": 1776685343781,
+      "type": "directory"
+    },
+    {
+      "path": "components/pages/FreebiesListingPage.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776685353745,
+      "type": "directory"
     }
   ],
   "userDirectives": []
