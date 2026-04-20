@@ -118,7 +118,6 @@ export default function TermsOfPaidPostsPage() {
             </div>
           </div>
         </div>
-        </div>
         <TemplateShowcase />
       </main>
       <SiteFooter />
