@@ -89,4 +89,28 @@ export const PAGE_META: Record<string, PageMeta> = {
       "/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65a66f06e0e919d7d7e3e8d5_setproduct2.jpg",
     canonical: "https://www.setproduct.com/testimonials",
   },
+  "license": {
+    title: "Setproduct licensing agreement",
+    description:
+      "Choose an Individual license for single use or a Business license for unlimited users. Get the right license for your needs and make the most of our products.",
+    ogImage:
+      "/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65a66f06e0e919d7d7e3e8d5_setproduct2.jpg",
+    canonical: "https://www.setproduct.com/legal/license",
+  },
+  "refunds-policy": {
+    title: "Refunds policy - Setproduct UI kits and design systems",
+    description:
+      "Our refund policy ensures 100% customer satisfaction. Learn more about our easy and hassle-free refund process here.",
+    ogImage:
+      "/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65a66f06e0e919d7d7e3e8d5_setproduct2.jpg",
+    canonical: "https://www.setproduct.com/legal/refunds-policy",
+  },
+  "terms-of-paid-posts": {
+    title: "Terms of Service for Advertisement Paid Posts on Setproduct Design Blog",
+    description:
+      "By utilizing the Advertisement Paid Post feature on Setproduct Design Blog, you agree to the terms outlined below.",
+    ogImage:
+      "/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65a66f06e0e919d7d7e3e8d5_setproduct2.jpg",
+    canonical: "https://www.setproduct.com/legal/terms-of-paid-posts",
+  },
 };
