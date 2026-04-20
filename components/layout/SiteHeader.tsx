@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { BLOG_POSTS } from "../../data/blog-listing";
+import { useContactModal } from "../modals/ContactModalContext";
 
 type KitPreview = {
   href: string;
@@ -94,6 +95,7 @@ const KIT_PREVIEWS: KitPreview[] = [
 export default function SiteHeader() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [activeBlogCategory, setActiveBlogCategory] = useState<string | null>(null);
+  const { openContactModal } = useContactModal();
 
   const isMenuOpen = (menuName: string) => openMenu === menuName;
 
@@ -282,9 +284,9 @@ export default function SiteHeader() {
                               {INFORMATION_LINKS.map((link) => (
                                 <a
                                   className="link-block w-inline-block"
-                                  data-remodal-target={link.modal ? "modal2" : undefined}
                                   href={link.href}
                                   key={link.label}
+                                  onClick={link.modal ? (e) => { e.preventDefault(); openContactModal(); } : undefined}
                                 >
                                   <div className="text-size-regular">{link.label}</div>
                                 </a>
@@ -303,7 +305,7 @@ export default function SiteHeader() {
               </div>
 
               <div className="nav-menu-mob-btn-wr">
-                <a className="button-small w-inline-block" data-remodal-target="modal2" href="#">
+                <a className="button-small w-inline-block" href="#" onClick={(e) => { e.preventDefault(); openContactModal(); }}>
                   <div className="text-size-medium text-weight-bold">Get a Quote</div>
                 </a>
               </div>

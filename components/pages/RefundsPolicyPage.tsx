@@ -1,12 +1,16 @@
+"use client";
+
 import Head from "next/head";
 import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
+import { useContactModal } from "../modals/ContactModalContext";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
 
 export default function RefundsPolicyPage() {
+  const { openContactModal } = useContactModal();
   const meta = PAGE_META["refunds-policy"];
   const breadcrumbs = PAGE_BREADCRUMBS["refunds-policy"] ?? [];
 
@@ -27,9 +31,9 @@ export default function RefundsPolicyPage() {
                 <div className="rich-text-18 w-richtext">
                   <h1 >Refunds policy</h1>
 
-                  <p className="pt-5.5">
+                  <p className="pt-8">
                     If you&apos;re not satisfied with the product you&apos;ve purchased —{" "}
-                    <a data-remodal-target="modal2" href="#">
+                    <a href="#" onClick={(e) => { e.preventDefault(); openContactModal(); }}>
                       contact us
                     </a>{" "}
                     and provide a trustworthy explanation of why you changed your mind. We do not

@@ -9,6 +9,7 @@ import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
 import TemplateShowcase from "../sections/TemplateShowcase";
+import { useContactModal } from "../modals/ContactModalContext";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
 
@@ -64,6 +65,7 @@ export default function TestimonialsPage() {
   const breadcrumbs = PAGE_BREADCRUMBS.testimonials ?? [];
   const [visiblePages, setVisiblePages] = useState(1);
   const [lightboxIndex, setLightboxIndex] = useState(-1);
+  const { openContactModal } = useContactModal();
 
   const visiblePhotos = TESTIMONIAL_PAGES.slice(0, visiblePages)
     .flat()
@@ -162,8 +164,8 @@ export default function TestimonialsPage() {
                       We design in Figma &amp; Webflow using the top-notch UX expertise and lay down the lines of code in React, Vue, Angular, Flutter and Swift.
                     </div>
                   </div>
-                  <div data-remodal-target="modal2" className="btn-link-align-center">
-                    <a data-remodal-target="modal2" href="#" className="button w-inline-block">
+                  <div className="btn-link-align-center">
+                    <a href="#" className="button w-inline-block" onClick={(e) => { e.preventDefault(); openContactModal(); }}>
                       <div className="text-size-large text-weight-bold">Let&rsquo;s connect</div>
                     </a>
                   </div>

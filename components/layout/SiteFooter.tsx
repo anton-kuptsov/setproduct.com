@@ -10,6 +10,7 @@ import {
   TwitterIcon,
   type FooterSocialIconComponent,
 } from "./FooterSocialIcons";
+import { useContactModal } from "../modals/ContactModalContext";
 
 type FooterLink = { href: string; label: string; external?: boolean; modal?: boolean };
 type FooterColumn = { title: string; titleHref?: string; links: FooterLink[] };
@@ -89,6 +90,7 @@ const SOCIAL_LINKS: SocialLink[] = [
 
 export default function SiteFooter() {
   const [isSubscribed, setIsSubscribed] = useState(false);
+  const { openContactModal } = useContactModal();
 
   const handleSubscribe = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -119,9 +121,9 @@ export default function SiteFooter() {
                       {column.links.map((link) => (
                         <a
                           className="link-block w-inline-block"
-                          data-remodal-target={link.modal ? "modal2" : undefined}
                           href={link.href}
                           key={link.href}
+                          onClick={link.modal ? (e) => { e.preventDefault(); openContactModal(); } : undefined}
                           rel={link.external ? "noreferrer" : undefined}
                           target={link.external ? "_blank" : undefined}
                         >

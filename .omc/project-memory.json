@@ -1,0 +1,380 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776665387923,
+  "projectRoot": "/Users/antonkuptsov/code/setproduct_web/downloaded-site/setproduct.com",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "latest",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "latest",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "latest",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev --webpack",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts",
+      "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts",
+      "merge:blog-csv": "tsx scripts/merge-csv-into-mdx.ts",
+      "extract:related-slugs": "tsx scripts/extract-related-slugs.ts"
+    }
+  },
+  "conventions": {
+    "namingStyle": "camelCase",
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "components",
+      "lib",
+      "pages",
+      "public",
+      "scripts"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 5,
+      "lastAccessed": 1776665387900,
+      "keyFiles": [
+        "all-kits-load-more.js",
+        "blog-static-list.js",
+        "collection-load-more.js",
+        "home-kits-load-more.js",
+        "non-functional-forms.js"
+      ]
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 1,
+      "lastAccessed": 1776665387900,
+      "keyFiles": [
+        "LegacyPage.tsx"
+      ]
+    },
+    "content": {
+      "path": "content",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776665387903,
+      "keyFiles": []
+    },
+    "css": {
+      "path": "css",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1776665387903,
+      "keyFiles": [
+        "normalize.css",
+        "setproduct.webflow.css",
+        "setproduct.webflow.shared.css",
+        "webflow.css"
+      ]
+    },
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 10,
+      "lastAccessed": 1776665387904,
+      "keyFiles": [
+        "blog-categories.ts",
+        "blog-listing.ts",
+        "breadcrumbs.ts",
+        "bundles.ts",
+        "categories.ts"
+      ]
+    },
+    "external": {
+      "path": "external",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776665387904,
+      "keyFiles": []
+    },
+    "fonts": {
+      "path": "fonts",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1776665387904,
+      "keyFiles": [
+        "UncutSans-Bold.otf",
+        "UncutSans-Light.otf",
+        "UncutSans-Medium.otf",
+        "UncutSans-Regular.otf",
+        "UncutSans-RegularItalic.otf"
+      ]
+    },
+    "images": {
+      "path": "images",
+      "purpose": null,
+      "fileCount": 4561,
+      "lastAccessed": 1776665387915,
+      "keyFiles": [
+        "002-twitter.svg",
+        "008-linkedin-1.svg",
+        "01-1-p-500.png",
+        "01-1-p-800.png",
+        "01-1.png"
+      ]
+    },
+    "js": {
+      "path": "js",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776665387915,
+      "keyFiles": [
+        "webflow.js"
+      ]
+    },
+    "legacy-pages": {
+      "path": "legacy-pages",
+      "purpose": null,
+      "fileCount": 23,
+      "lastAccessed": 1776665387916,
+      "keyFiles": [
+        "404.html",
+        "all.html",
+        "blog.html",
+        "bundle.html",
+        "code.html"
+      ]
+    },
+    "legal": {
+      "path": "legal",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1776665387916,
+      "keyFiles": [
+        "license.html",
+        "refunds-policy.html",
+        "terms-of-paid-posts.html"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 2,
+      "lastAccessed": 1776665387916,
+      "keyFiles": [
+        "legacy-collections.ts",
+        "legacy-page.ts"
+      ]
+    },
+    "pages": {
+      "path": "pages",
+      "purpose": "Page components",
+      "fileCount": 15,
+      "lastAccessed": 1776665387917,
+      "keyFiles": [
+        "404.tsx",
+        "[slug].tsx",
+        "_app.tsx",
+        "_document.tsx",
+        "all.tsx"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1776665387917,
+      "keyFiles": [
+        "robots.txt",
+        "sitemap.xml"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 4,
+      "lastAccessed": 1776665387917,
+      "keyFiles": [
+        "analyze-blog-csv.ts",
+        "extract-related-slugs.ts",
+        "merge-csv-into-mdx.ts",
+        "migrate-blog-html-to-mdx.ts"
+      ]
+    },
+    "styles": {
+      "path": "styles",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776665387917,
+      "keyFiles": [
+        "globals.css"
+      ]
+    },
+    "templates": {
+      "path": "templates",
+      "purpose": null,
+      "fileCount": 32,
+      "lastAccessed": 1776665387917,
+      "keyFiles": [
+        "android-ui-kit.html",
+        "appka-ios-ui-kit.html",
+        "charts.html",
+        "eclipse.html",
+        "full-ios.html"
+      ]
+    },
+    "types": {
+      "path": "types",
+      "purpose": "Type definitions",
+      "fileCount": 3,
+      "lastAccessed": 1776665387918,
+      "keyFiles": [
+        "blog.ts",
+        "data.ts",
+        "legacy.ts"
+      ]
+    },
+    "components/pages": {
+      "path": "components/pages",
+      "purpose": "Page components",
+      "fileCount": 13,
+      "lastAccessed": 1776665387918,
+      "keyFiles": [
+        "BlogListingPage.module.css",
+        "BlogListingPage.tsx",
+        "BundlePage.tsx"
+      ]
+    },
+    "public/assets": {
+      "path": "public/assets",
+      "purpose": "Static assets",
+      "fileCount": 5,
+      "lastAccessed": 1776665387923,
+      "keyFiles": [
+        "all-kits-load-more.js",
+        "blog-static-list.js",
+        "collection-load-more.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "components/layout/SiteHeader.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1776666097437,
+      "type": "file"
+    },
+    {
+      "path": "components/pages/RefundsPolicyPage.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1776666225944,
+      "type": "file"
+    },
+    {
+      "path": "components/layout/SiteFooter.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1776666135966,
+      "type": "file"
+    },
+    {
+      "path": "components/pages/TestimonialsPage.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1776666186619,
+      "type": "directory"
+    },
+    {
+      "path": "components/modals/ContactModal.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1776665927879,
+      "type": "file"
+    },
+    {
+      "path": "css",
+      "accessCount": 3,
+      "lastAccessed": 1776665802926,
+      "type": "directory"
+    },
+    {
+      "path": "pages/_app.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776666041807,
+      "type": "file"
+    },
+    {
+      "path": "pages/legal/refunds-policy.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776665539867,
+      "type": "file"
+    },
+    {
+      "path": "legacy-pages/legal/refunds-policy.html",
+      "accessCount": 1,
+      "lastAccessed": 1776665561776,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1776665871467,
+      "type": "directory"
+    },
+    {
+      "path": "css/setproduct.webflow.css",
+      "accessCount": 1,
+      "lastAccessed": 1776665878233,
+      "type": "directory"
+    },
+    {
+      "path": "components/modals/ContactModalContext.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776666029732,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
