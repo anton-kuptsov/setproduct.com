@@ -1,5 +1,3 @@
-"use client";
-
 import { type FormEvent, useEffect, useRef, useState } from "react";
 
 type ContactModalProps = {
@@ -8,24 +6,65 @@ type ContactModalProps = {
 };
 
 export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [csrf, setCsrf] = useState<{ token: string; timestamp: number } | null>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
+      fetch("/api/csrf")
+        .then(res => res.json())
+        .then(data => setCsrf(data))
+        .catch(() => {});
     } else {
       document.body.style.overflow = "";
       setIsSubmitted(false);
+      setErrorMessage(null);
+      setCsrf(null);
     }
     return () => {
       document.body.style.overflow = "";
     };
   }, [isOpen]);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setIsSubmitted(true);
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    const formData = new FormData(event.currentTarget);
+    const email = formData.get("Email") as string;
+    const message = formData.get("Message") as string;
+    const website = formData.get("website") as string;
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          message,
+          website,
+          _token: csrf?.token,
+          _timestamp: csrf?.timestamp,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to send message");
+      }
+
+      setIsSubmitted(true);
+    } catch (error) {
+      setErrorMessage(error instanceof Error ? error.message : "Something went wrong");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
@@ -72,10 +111,12 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             <div className="modal_form-block w-form">
               {!isSubmitted ? (
                 <form className="modal_form" onSubmit={handleSubmit}>
+                  <input name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
                   <div className="modal_form-item">
                     <p className="text-size-regular">Email</p>
                     <input
                       className="text-input w-input"
+                      disabled={isSubmitting}
                       maxLength={256}
                       name="Email"
                       placeholder="Whats your e-mail"
@@ -87,15 +128,29 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                     <p className="text-size-regular">Message</p>
                     <textarea
                       className="textarea-input w-input"
+                      disabled={isSubmitting}
                       maxLength={5000}
                       name="Message"
                       placeholder="Type your message..."
+                      required
                     />
                   </div>
+                  {errorMessage && (
+                    <div className="error-message" style={{ display: "block", marginBottom: "16px" }}>
+                      <div className="text-size-small">{errorMessage}</div>
+                    </div>
+                  )}
                   <div className="modal_button-wr">
                     <div className="button-form-wr">
-                      <button className="button w-inline-block" type="submit">
-                        <div className="text-size-large text-weight-bold">Send your Message</div>
+                      <button
+                        className="button w-inline-block"
+                        disabled={isSubmitting}
+                        style={{ opacity: isSubmitting ? 0.7 : 1 }}
+                        type="submit"
+                      >
+                        <div className="text-size-large text-weight-bold">
+                          {isSubmitting ? "Sending..." : "Send your Message"}
+                        </div>
                       </button>
                     </div>
                   </div>

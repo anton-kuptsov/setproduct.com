@@ -1,6 +1,3 @@
-"use client";
-
-import { type FormEvent, useState } from "react";
 import {
   DribbbleIcon,
   LinkedInIcon,
@@ -11,6 +8,7 @@ import {
   type FooterSocialIconComponent,
 } from "./FooterSocialIcons";
 import { useContactModal } from "../modals/ContactModalContext";
+import { useSubscribe } from "../../hooks/useSubscribe";
 
 type FooterLink = { href: string; label: string; external?: boolean; modal?: boolean };
 type FooterColumn = { title: string; titleHref?: string; links: FooterLink[] };
@@ -89,13 +87,8 @@ const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export default function SiteFooter() {
-  const [isSubscribed, setIsSubscribed] = useState(false);
+  const { isSubscribed, isSubmitting, handleSubscribe } = useSubscribe();
   const { openContactModal } = useContactModal();
-
-  const handleSubscribe = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setIsSubscribed(true);
-  };
 
   return (
     <div className="section">
@@ -150,13 +143,13 @@ export default function SiteFooter() {
                     <p className="text-size-small">Join our newsletter to stay up to date on features and releases.</p>
                     <div className="spacer-24" />
                     <div className="form-block w-form">
-                      <form className="form-cta" method="get" onSubmit={handleSubscribe}>
-                        <input className="text-input w-input" maxLength={256} name="Email" placeholder="Enter your email" required type="email" />
+                      <form className="form-cta" onSubmit={handleSubscribe}>
+                        <input name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+                        <input className="text-input w-input" disabled={isSubmitting} maxLength={256} name="Email" placeholder="Enter your email" required type="email" />
                         <div className="button-form-wr">
-                          <input className="hide w-button" type="submit" value="Subscribe" />
-                          <a className="button w-inline-block" href="#">
-                            <div className="text-size-large text-weight-bold">Subscribe</div>
-                          </a>
+                          <button className="button w-inline-block" disabled={isSubmitting} style={{ opacity: isSubmitting ? 0.7 : 1 }} type="submit">
+                            <div className="text-size-large text-weight-bold">{isSubmitting ? "..." : "Subscribe"}</div>
+                          </button>
                         </div>
                       </form>
                     </div>
