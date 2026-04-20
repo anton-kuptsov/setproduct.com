@@ -103,7 +103,7 @@ export default function TestimonialsPage() {
                     ))}
                   </div>
                   {hasMore && (
-                    <div role="navigation" aria-label="List" className="w-pagination-wrapper">
+                    <div style={{ display: "flex", justifyContent: "center", marginTop: "32px" }}>
                       <a
                         href="#"
                         aria-label="Next Page"
@@ -111,9 +111,9 @@ export default function TestimonialsPage() {
                           e.preventDefault();
                           setVisiblePages((p) => p + 1);
                         }}
-                        className="w-pagination-next button secondary button-small"
+                        className="button secondary w-inline-block"
                       >
-                        <div className="text-size-medium text-weight-bold w-inline-block">Load more</div>
+                        <div className="text-size-large text-weight-bold">Load more</div>
                       </a>
                     </div>
                   )}
