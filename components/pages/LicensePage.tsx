@@ -1,14 +1,49 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
+import TemplateShowcase from "../sections/TemplateShowcase";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
+
+const TOC_ITEMS = [
+  { id: "end-product", label: "An end product is one of the following" },
+  { id: "you-are-allowed-to", label: "You are allowed to" },
+  { id: "you-are-not-allowed-to", label: "You are not allowed to" },
+  { id: "other-license-terms", label: "Other license terms" },
+  { id: "individual-license", label: "Individual (Single license)" },
+  { id: "business-license", label: "Business (Unlimited)" },
+];
 
 export default function LicensePage() {
   const meta = PAGE_META["license"];
   const breadcrumbs = PAGE_BREADCRUMBS["license"] ?? [];
+  const [activeId, setActiveId] = useState<string>(TOC_ITEMS[0].id);
+
+  useEffect(() => {
+    const headings = TOC_ITEMS.map((item) => document.getElementById(item.id)).filter(
+      (el): el is HTMLElement => el !== null,
+    );
+    if (headings.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length > 0) {
+          setActiveId(visible[0].target.id);
+        }
+      },
+      { rootMargin: "-20% 0px -70% 0px", threshold: 0 },
+    );
+
+    for (const heading of headings) observer.observe(heading);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <Head>
@@ -34,36 +69,18 @@ export default function LicensePage() {
                   </div>
                   <div className="spacer-16 hide-on-mobile"></div>
                   <div className="blogpost_navigation-wr">
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#end-product">
-                        <p>An end product is one of the following</p>
-                      </a>
-                    </div>
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#you-are-allowed-to">
-                        <p>You are allowed to</p>
-                      </a>
-                    </div>
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#you-are-not-allowed-to">
-                        <p>You are not allowed to</p>
-                      </a>
-                    </div>
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#other-license-terms">
-                        <p>Other license terms</p>
-                      </a>
-                    </div>
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#individual-license">
-                        <p>Individual (Single license)</p>
-                      </a>
-                    </div>
-                    <div className="blogpost_navigation-link-wr">
-                      <a className="blogpost_navigation-link w-inline-block" href="#business-license">
-                        <p>Business (Unlimited)</p>
-                      </a>
-                    </div>
+                    {TOC_ITEMS.map((item) => (
+                      <div key={item.id} className="blogpost_navigation-link-wr">
+                        <a
+                          className={`blogpost_navigation-link w-inline-block${
+                            activeId === item.id ? " fs-cmsfilter_active" : ""
+                          }`}
+                          href={`#${item.id}`}
+                        >
+                          <p>{item.label}</p>
+                        </a>
+                      </div>
+                    ))}
                   </div>
                 </div>
                 <div className="blogpost_content-column2">
@@ -95,6 +112,7 @@ export default function LicensePage() {
             </div>
           </div>
         </div>
+        <TemplateShowcase />
       </main>
       <SiteFooter />
       <ScrollUpButton />

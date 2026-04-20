@@ -3,6 +3,7 @@ import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
+import TemplateShowcase from "../sections/TemplateShowcase";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
 
@@ -117,6 +118,8 @@ export default function TermsOfPaidPostsPage() {
             </div>
           </div>
         </div>
+        </div>
+        <TemplateShowcase />
       </main>
       <SiteFooter />
       <ScrollUpButton />

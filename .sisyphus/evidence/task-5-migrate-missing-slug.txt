@@ -1,5 +1,0 @@
-
-> setproduct.com@1.0.0 migrate:blog
-> tsx scripts/migrate-blog-html-to-mdx.ts --slug=does-not-exist-zzz
-
-Slug "does-not-exist-zzz" not found in legacy-pages/blog/

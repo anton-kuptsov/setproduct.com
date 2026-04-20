@@ -1,3 +1,0 @@
-export const getStaticPaths: GetStaticPaths = async () => {
-export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-}: InferGetStaticPropsType<typeof getStaticProps>) {

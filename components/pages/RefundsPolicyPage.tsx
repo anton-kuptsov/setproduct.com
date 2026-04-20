@@ -25,8 +25,9 @@ export default function RefundsPolicyPage() {
             <div className="container">
               <div className="freebies_rich-text-component">
                 <div className="rich-text-18 w-richtext">
-                  <h1>Refunds policy</h1>
-                  <p>
+                  <h1 >Refunds policy</h1>
+
+                  <p className="pt-5.5">
                     If you&apos;re not satisfied with the product you&apos;ve purchased —{" "}
                     <a data-remodal-target="modal2" href="#">
                       contact us
