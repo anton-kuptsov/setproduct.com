@@ -28,34 +28,34 @@ export const orionContent = {
       "previewLink": "https://www.figma.com/file/zwaMS70qLA7Mx4opQC5Li7/Orion-UI-kit-preview-(light)",
       "items": [
         {
-          "image": "/images/01-min.webp"
+          "image": "/images/orion/01-min.webp"
         },
         {
-          "image": "/images/03-min.webp"
+          "image": "/images/orion/03-min.webp"
         },
         {
-          "image": "/images/02-min.webp"
+          "image": "/images/orion/02-min.webp"
         },
         {
-          "image": "/images/04-min.webp"
+          "image": "/images/orion/04-min.webp"
         },
         {
-          "image": "/images/05-min.png"
+          "image": "/images/orion/05-min.png"
         },
         {
-          "image": "/images/06-min.webp"
+          "image": "/images/orion/06-min.webp"
         },
         {
-          "image": "/images/07-min.webp"
+          "image": "/images/orion/07-min.webp"
         },
         {
-          "image": "/images/08-min.webp"
+          "image": "/images/orion/08-min.webp"
         },
         {
-          "image": "/images/09-min.webp"
+          "image": "/images/orion/09-min.webp"
         },
         {
-          "image": "/images/10.webp"
+          "image": "/images/orion/10.webp"
         }
       ]
     }
@@ -67,147 +67,147 @@ export const orionContent = {
       "previewLink": "https://www.figma.com/file/zwaMS70qLA7Mx4opQC5Li7/Orion-UI-kit-preview-(light)?node-id=427%3A15735",
       "items": [
         {
-          "image": "/images/1-World_hexagon_map_da.webp",
+          "image": "/images/orion/1-World_hexagon_map_da.webp",
           "title": "World Map (dark)"
         },
         {
-          "image": "/images/2-World_hexagon_map-mi.webp",
+          "image": "/images/orion/2-World_hexagon_map-mi.webp",
           "title": "World Map"
         },
         {
-          "image": "/images/3-Bubble_chart_dark-mi.webp",
+          "image": "/images/orion/3-Bubble_chart_dark-mi.webp",
           "title": "Bubble Chart (dark)"
         },
         {
-          "image": "/images/4-Bubble_chart-min.webp",
+          "image": "/images/orion/4-Bubble_chart-min.webp",
           "title": "Bubble Chart"
         },
         {
-          "image": "/images/5-Hexagon_planet_dashb.webp",
+          "image": "/images/orion/5-Hexagon_planet_dashb.webp",
           "title": "Planet Dashboard (dark)"
         },
         {
-          "image": "/images/6-Hexagon_planet_dashb.webp",
+          "image": "/images/orion/6-Hexagon_planet_dashb.webp",
           "title": "Planet Dashboard"
         },
         {
-          "image": "/images/7-Global_Statistic_dar.webp",
+          "image": "/images/orion/7-Global_Statistic_dar.webp",
           "title": "Global Statistics (dark)"
         },
         {
-          "image": "/images/8-Global_Statistic-min.webp",
+          "image": "/images/orion/8-Global_Statistic-min.webp",
           "title": "Global Statistics"
         },
         {
-          "image": "/images/9-Heat_map_dark-min.png",
+          "image": "/images/orion/9-Heat_map_dark-min.png",
           "title": "Heat Map (dark)"
         },
         {
-          "image": "/images/10-Heat_map-min.webp",
+          "image": "/images/orion/10-Heat_map-min.webp",
           "title": "Heat Map"
         },
         {
-          "image": "/images/11-Hexagon_map_dark-min.webp",
+          "image": "/images/orion/11-Hexagon_map_dark-min.webp",
           "title": "Hexagon (dark)"
         },
         {
-          "image": "/images/12-Hexagon_map-min.webp",
+          "image": "/images/orion/12-Hexagon_map-min.webp",
           "title": "Hexagon"
         },
         {
-          "image": "/images/13-Object_visualization.webp",
+          "image": "/images/orion/13-Object_visualization.webp",
           "title": "Object Visualization (dark)"
         },
         {
-          "image": "/images/14-Object_visualization.webp",
+          "image": "/images/orion/14-Object_visualization.webp",
           "title": "Object Visualization"
         },
         {
-          "image": "/images/15-Sales_dynamic_dark-m.webp",
+          "image": "/images/orion/15-Sales_dynamic_dark-m.webp",
           "title": "Sales Dynamic (dark)"
         },
         {
-          "image": "/images/16-Sales_dynamic-min.webp",
+          "image": "/images/orion/16-Sales_dynamic-min.webp",
           "title": "Sales Dynamic"
         },
         {
-          "image": "/images/17-ontinent_data_visual.webp",
+          "image": "/images/orion/17-ontinent_data_visual.webp",
           "title": "Continent Data (dark)"
         },
         {
-          "image": "/images/18-ontinent_data_visual.webp",
+          "image": "/images/orion/18-ontinent_data_visual.webp",
           "title": "Continent Data"
         },
         {
-          "image": "/images/19-Skill_tree_dark-min.webp",
+          "image": "/images/orion/19-Skill_tree_dark-min.webp",
           "title": "Skills Tree (dark)"
         },
         {
-          "image": "/images/20-Skill_tree-min.webp",
+          "image": "/images/orion/20-Skill_tree-min.webp",
           "title": "Skills Tree"
         },
         {
-          "image": "/images/21-Stellar_imaging_dark.webp",
+          "image": "/images/orion/21-Stellar_imaging_dark.webp",
           "title": "Stellar Imaging (dark)"
         },
         {
-          "image": "/images/22-Stellar_imaging-min.webp",
+          "image": "/images/orion/22-Stellar_imaging-min.webp",
           "title": "Stellar Imaging"
         },
         {
-          "image": "/images/23-3d_model_planet_info.webp",
+          "image": "/images/orion/23-3d_model_planet_info.webp",
           "title": "Planet Infographics (dark)"
         },
         {
-          "image": "/images/24-3d_model_planet_info.webp",
+          "image": "/images/orion/24-3d_model_planet_info.webp",
           "title": "Planet Infographics"
         },
         {
-          "image": "/images/25-Visualization_of_con.webp",
+          "image": "/images/orion/25-Visualization_of_con.webp",
           "title": "Visualization of Connections (dark)"
         },
         {
-          "image": "/images/26-Visualization_of_con.webp",
+          "image": "/images/orion/26-Visualization_of_con.webp",
           "title": "Visualization of Connections"
         },
         {
-          "image": "/images/27-Hexagon_big_planet_d.webp",
+          "image": "/images/orion/27-Hexagon_big_planet_d.webp",
           "title": "Planet Hexagon (dark)"
         },
         {
-          "image": "/images/28-Hexagon_big_planet_d.webp",
+          "image": "/images/orion/28-Hexagon_big_planet_d.webp",
           "title": "Planet Hexagon"
         },
         {
-          "image": "/images/29-Visualization_of_con.webp",
+          "image": "/images/orion/29-Visualization_of_con.webp",
           "title": "Visualization of Connections (dark)"
         },
         {
-          "image": "/images/30-Visualization_of_con.webp",
+          "image": "/images/orion/30-Visualization_of_con.webp",
           "title": "Visualization of Connections"
         },
         {
-          "image": "/images/31-Movement_infographic.webp",
+          "image": "/images/orion/31-Movement_infographic.webp",
           "title": "Worldmap Movement (dark)"
         },
         {
-          "image": "/images/32-Movement_infographic.webp",
+          "image": "/images/orion/32-Movement_infographic.webp",
           "title": "Worldmap Movement"
         },
         {
-          "image": "/images/33-World_hexagon_map_wi.webp",
+          "image": "/images/orion/33-World_hexagon_map_wi.webp",
           "title": "Worldmap Details Popup (dark)"
         },
         {
-          "image": "/images/34-World_hexagon_map_wi.webp",
+          "image": "/images/orion/34-World_hexagon_map_wi.webp",
           "title": "Worldmap Details Popup"
         },
         {
-          "image": "/images/35-omparison_chart_dark.webp",
+          "image": "/images/orion/35-omparison_chart_dark.webp",
           "title": "Comparison Chart (dark)"
         },
         {
-          "image": "/images/36-omparison_chart-min.webp",
+          "image": "/images/orion/36-omparison_chart-min.webp",
           "title": "Comparison Chart"
         }
       ]

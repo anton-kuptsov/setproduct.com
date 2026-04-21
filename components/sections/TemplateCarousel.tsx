@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import SliderPagination from "./SliderPagination";
 
 type CarouselItem = {
@@ -18,24 +18,60 @@ type Props = {
 export default function TemplateCarousel({ title, subtitle, previewLink, items }: Props) {
   const [activePage, setActivePage] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const isProgrammaticScrollRef = useRef(false);
+  const scrollEndTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const totalPages = items.length;
 
+  const scrollToPage = useCallback((page: number) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const child = track.children[page] as HTMLElement | undefined;
+    if (child) {
+      isProgrammaticScrollRef.current = true;
+      track.scrollTo({ left: child.offsetLeft, behavior: "smooth" });
+      if (scrollEndTimerRef.current) {
+        clearTimeout(scrollEndTimerRef.current);
+      }
+      scrollEndTimerRef.current = setTimeout(() => {
+        isProgrammaticScrollRef.current = false;
+      }, 800);
+    }
+    setActivePage(page);
+  }, []);
+
   useEffect(() => {
     const track = trackRef.current;
-    const container = containerRef.current;
-    if (!track || !container) return;
+    if (!track) return;
+    const onScroll = () => {
+      if (scrollEndTimerRef.current) {
+        clearTimeout(scrollEndTimerRef.current);
+      }
+      scrollEndTimerRef.current = setTimeout(() => {
+        isProgrammaticScrollRef.current = false;
+      }, 120);
 
-    const containerWidth = container.offsetWidth;
-    const slideWidth = containerWidth * 0.7;
-    track.style.transform = `translateX(-${activePage * slideWidth}px)`;
-  }, [activePage]);
+      if (isProgrammaticScrollRef.current) return;
+
+      const scrollLeft = track.scrollLeft;
+      const childWidth = (track.children[0] as HTMLElement)?.offsetWidth ?? 1;
+      const gap = 24;
+      const page = Math.round(scrollLeft / (childWidth + gap));
+      setActivePage(Math.min(page, totalPages - 1));
+    };
+    track.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      track.removeEventListener("scroll", onScroll);
+      if (scrollEndTimerRef.current) {
+        clearTimeout(scrollEndTimerRef.current);
+      }
+    };
+  }, [totalPages]);
 
   return (
     <div className="section is-overflow-hidden">
       <div className="section-padding top-80 bottom-80">
-        <div className="container" ref={containerRef}>
+        <div className="container">
           {(title || subtitle) && (
             <div className="heading-left-text-wr max-width-900">
               {title && (
@@ -62,38 +98,44 @@ export default function TemplateCarousel({ title, subtitle, previewLink, items }
           )}
           {(title || subtitle) && <div className="spacer-64" />}
 
-          <div className="splide image-gallery" >
-            <div className="splide__track no-pagination-on-mob">
-              <div
-                ref={trackRef}
-                className="splide__list is-image-gallery"
-                style={{
-                  display: "flex",
-                  transition: "transform 0.4s ease",
-                }}
-              >
-                {items.map((item, index) => (
-                  <div
-                    key={index}
-                    className="splide__slide is-image-gallery"
-                  >
-                    <img
-                      alt={item.alt || ""}
-                      className="image-contain"
-                      loading="lazy"
-                      src={item.image}
-                    />
-                  </div>
-                ))}
-              </div>
+        </div>
+        <div
+          ref={trackRef}
+          className="flex gap-6 overflow-x-auto pl-[max(24px,calc((100vw-1200px)/2))]"
+          style={{
+            scrollSnapType: "x mandatory",
+            scrollbarWidth: "none",
+            WebkitOverflowScrolling: "touch",
+          }}
+        >
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 rounded-3xl border border-black/10 overflow-hidden"
+              style={{
+                width: "40vw",
+                minWidth: "350px",
+                maxHeight: "560em",
+                scrollSnapAlign: "start",
+              }}
+            >
+              <img
+                alt={item.alt || ""}
+                loading="lazy"
+                src={item.image}
+                className="w-full h-full object-contain block"
+              />
             </div>
-            <SliderPagination
-              activePage={activePage}
-              totalPages={totalPages}
-              onGoTo={setActivePage}
-              keyPrefix="carousel"
-            />
-          </div>
+          ))}
+        </div>
+        <div className="container">
+
+          <SliderPagination
+            activePage={activePage}
+            totalPages={totalPages}
+            onGoTo={scrollToPage}
+            keyPrefix="carousel"
+          />
         </div>
       </div>
     </div>
