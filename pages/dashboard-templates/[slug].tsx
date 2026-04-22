@@ -1,32 +1,39 @@
-import type { GetServerSideProps } from "next";
-import LegacyPage from "../../components/LegacyPage";
-import { getCollectionPageData } from "../../lib/legacy-collections";
-import type { LegacyPageData } from "../../types/legacy";
+import type { GetStaticPaths, GetStaticProps } from "next";
+import DashboardTemplatePage from "../../components/pages/DashboardTemplatePage";
+import {
+  DASHBOARD_TEMPLATES,
+  getDashboardTemplateBySlug,
+} from "../../data/dashboard-templates";
+import type { DashboardTemplatePageData } from "../../data/dashboard-templates";
+import { PRODUCTS } from "../../data/products";
+import type { Product } from "../../types/data";
 
 type PageProps = {
-  pageData: LegacyPageData;
+  data: DashboardTemplatePageData;
+  products: Product[];
 };
 
 type SlugParams = {
   slug: string;
 };
 
-export const getServerSideProps: GetServerSideProps<PageProps, SlugParams> = async ({ params }) => {
-  if (!params?.slug) {
-    return { notFound: true };
-  }
+export const getStaticPaths: GetStaticPaths<SlugParams> = async () => ({
+  paths: DASHBOARD_TEMPLATES.map((d) => ({ params: { slug: d.slug } })),
+  fallback: false,
+});
 
-  try {
-    return {
-      props: {
-        pageData: getCollectionPageData("dashboard-templates", params.slug),
-      },
-    };
-  } catch {
-    return { notFound: true };
-  }
+export const getStaticProps: GetStaticProps<PageProps, SlugParams> = async ({ params }) => {
+  const slug = params?.slug;
+  if (!slug) return { notFound: true };
+
+  const data = getDashboardTemplateBySlug(slug);
+  if (!data) return { notFound: true };
+
+  const products = PRODUCTS.filter((p) => p.categories.includes("dashboards"));
+
+  return { props: { data, products } };
 };
 
-export default function DashboardTemplatePage({ pageData }: PageProps) {
-  return <LegacyPage {...pageData} />;
+export default function DashboardTemplateRoute({ data, products }: PageProps) {
+  return <DashboardTemplatePage data={data} products={products} />;
 }

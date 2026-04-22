@@ -7,11 +7,7 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "migrate:blog": "tsx scripts/migrate-blog-html-to-mdx.ts",
-    "analyze:blog-csv": "tsx scripts/analyze-blog-csv.ts",
-    "merge:blog-csv": "tsx scripts/merge-csv-into-mdx.ts",
-    "extract:related-slugs": "tsx scripts/extract-related-slugs.ts"
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -46,17 +42,10 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "^25.6.0",
-    "@types/node-fetch": "^2.6.11",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@types/turndown": "^5.0.5",
-    "cheerio": "^1.0.0",
-    "csv-parse": "^6.2.1",
-    "node-fetch": "^3.3.2",
     "postcss": "^8.5.10",
     "tailwindcss": "^4.2.2",
-    "tsx": "^4.19.0",
-    "turndown": "^7.2.0",
     "typescript": "^6.0.2"
   }
 }
