@@ -22,6 +22,8 @@
   "license": "ISC",
   "dependencies": {
     "@react-email/components": "^1.0.12",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
     "@tailwindcss/typography": "^0.5.15",
     "gray-matter": "^4.0.3",
     "next": "latest",

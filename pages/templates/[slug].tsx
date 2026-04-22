@@ -1,32 +1,48 @@
-import type { GetServerSideProps } from "next";
-import LegacyPage from "../../components/LegacyPage";
-import { getCollectionPageData } from "../../lib/legacy-collections";
-import type { LegacyPageData } from "../../types/legacy";
+import type { GetStaticPaths, GetStaticProps } from "next";
+import TemplateDetailPage from "../../components/pages/TemplateDetailPage";
+import ChartsTemplatePage from "../../components/pages/templates/ChartsTemplatePage";
+import GenericTemplatePage from "../../components/pages/templates/GenericTemplatePage";
+import { TEMPLATE_PRODUCTS } from "../../data/templates-listing";
+import { getTemplateContent } from "../../data/template-content";
+import type { TemplateItem } from "../../types/data";
 
 type PageProps = {
-  pageData: LegacyPageData;
+  item: TemplateItem;
+  content: Record<string, unknown> | null;
 };
 
-type SlugParams = {
-  slug: string;
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: TEMPLATE_PRODUCTS.map((p) => ({ params: { slug: p.slug } })),
+    fallback: false,
+  };
 };
 
-export const getServerSideProps: GetServerSideProps<PageProps, SlugParams> = async ({ params }) => {
-  if (!params?.slug) {
-    return { notFound: true };
+export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
+  const slug = params?.slug as string;
+  const item = TEMPLATE_PRODUCTS.find((p) => p.slug === slug);
+
+  if (!item) return { notFound: true };
+
+  // Charts uses dedicated component with its own content import
+  if (slug === "charts") {
+    return { props: { item, content: null } };
   }
 
-  try {
-    return {
-      props: {
-        pageData: getCollectionPageData("templates", params.slug),
-      },
-    };
-  } catch {
-    return { notFound: true };
-  }
+  // Load content for other templates
+  const content = await getTemplateContent(slug);
+
+  return { props: { item, content: content || null } };
 };
 
-export default function TemplateDetailPage({ pageData }: PageProps) {
-  return <LegacyPage {...pageData} />;
+export default function TemplateDetailRoute({ item, content }: PageProps) {
+  if (item.slug === "charts") {
+    return <ChartsTemplatePage item={item} />;
+  }
+
+  if (content) {
+    return <GenericTemplatePage item={item} content={content as Parameters<typeof GenericTemplatePage>[0]["content"]} />;
+  }
+
+  return <TemplateDetailPage item={item} />;
 }
