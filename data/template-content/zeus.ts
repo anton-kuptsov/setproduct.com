@@ -2,12 +2,11 @@ export const zeusContent = {
   "features": [],
   "carousels": [
     {
-      "title": "landing pages",
-      "subtitle": "We've included 10 web design templates for you to quickstart. Each page is based on 630+ wireframe blocks, which are easy to customize. Fonts, colors, shapes, corner radius. Easy to modify quick, or use as it is.",
-      "previewLink": "https://www.figma.com/file/ISADlj01Jn2p3uWiY473Wx/Zeus-UI-(preview)?node-id=907%3A508807",
+      "title": "Preview 630+ web blocks",
+      "subtitle": "Navigation, Hero, Features, Pricing, Testimonials, Logos, Team, Blog, FAQ, CTA, Footer and even more. All viewports considered.",
       "items": [
         {
-          "image": "/images/zeus/01_1.webp"
+          "image": "/images/01.webp"
         },
         {
           "image": "/images/zeus/02.webp"
@@ -180,5 +179,59 @@ export const zeusContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview landing pages",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Newsletter-min.webp",
+          "title": "Newsletter"
+        },
+        {
+          "image": "/images/2-Agency-min.webp",
+          "title": "Agency"
+        },
+        {
+          "image": "/images/3-SaaS-min.webp",
+          "title": "SaaS"
+        },
+        {
+          "image": "/images/4-App-min.webp",
+          "title": "Application"
+        },
+        {
+          "image": "/images/5-Blog-min.webp",
+          "title": "Blog"
+        },
+        {
+          "image": "/images/6-Finance-min.webp",
+          "title": "Finance"
+        },
+        {
+          "image": "/images/7-NFT-min.webp",
+          "title": "NFT"
+        },
+        {
+          "image": "/images/8-Portfolio-min.webp",
+          "title": "Portfolio"
+        },
+        {
+          "image": "/images/9-Product-min.webp",
+          "title": "Product"
+        },
+        {
+          "image": "/images/10-Restaraunt-min.webp",
+          "title": "Restaurant"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

@@ -36,6 +36,7 @@ type TemplateContent = {
     previewLink?: string;
     items: Array<{ image: string; title?: string }>;
   }>;
+  sectionOrder?: Array<"carousel" | "gallery">;
   tabsSection?: {
     title?: string;
     subtitle?: string;
@@ -183,27 +184,64 @@ export default function GenericTemplatePage({ item, content }: Props) {
           />
         )}
 
-        {/* Carousels */}
-        {content.carousels?.map((carousel, index) => (
-          <TemplateCarousel
-            key={`carousel-${index}`}
-            title={carousel.title}
-            subtitle={carousel.subtitle}
-            previewLink={carousel.previewLink}
-            items={carousel.items}
-          />
-        ))}
-
-        {/* Galleries */}
-        {content.galleries?.map((gallery, index) => (
-          <TemplateGallery
-            key={`gallery-${index}`}
-            title={gallery.title}
-            subtitle={gallery.subtitle}
-            previewLink={gallery.previewLink}
-            items={gallery.items}
-          />
-        ))}
+        {(() => {
+          const carousels = content.carousels ?? [];
+          const galleries = content.galleries ?? [];
+          const order = content.sectionOrder;
+          if (order && order.length === carousels.length + galleries.length) {
+            let cIdx = 0;
+            let gIdx = 0;
+            return order.map((kind, i) => {
+              if (kind === "carousel" && cIdx < carousels.length) {
+                const c = carousels[cIdx++];
+                return (
+                  <TemplateCarousel
+                    key={`sect-${i}-carousel`}
+                    title={c.title}
+                    subtitle={c.subtitle}
+                    previewLink={c.previewLink}
+                    items={c.items}
+                  />
+                );
+              }
+              if (kind === "gallery" && gIdx < galleries.length) {
+                const g = galleries[gIdx++];
+                return (
+                  <TemplateGallery
+                    key={`sect-${i}-gallery`}
+                    title={g.title}
+                    subtitle={g.subtitle}
+                    previewLink={g.previewLink}
+                    items={g.items}
+                  />
+                );
+              }
+              return null;
+            });
+          }
+          return (
+            <>
+              {carousels.map((carousel, index) => (
+                <TemplateCarousel
+                  key={`carousel-${index}`}
+                  title={carousel.title}
+                  subtitle={carousel.subtitle}
+                  previewLink={carousel.previewLink}
+                  items={carousel.items}
+                />
+              ))}
+              {galleries.map((gallery, index) => (
+                <TemplateGallery
+                  key={`gallery-${index}`}
+                  title={gallery.title}
+                  subtitle={gallery.subtitle}
+                  previewLink={gallery.previewLink}
+                  items={gallery.items}
+                />
+              ))}
+            </>
+          );
+        })()}
 
         {/* Tabs with Before/After Splitters */}
         {content.tabsSection && content.tabsSection.tabs.length > 0 && (

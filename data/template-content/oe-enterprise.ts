@@ -2,9 +2,8 @@ export const oe_enterpriseContent = {
   "features": [],
   "carousels": [
     {
-      "title": "3000+ components",
-      "subtitle": "Alerts, Avatars, Badges, Breadcrumbs, Buttons, Calendars, Cards, Checkboxes, Collapsed panels, Color styles, Comments, Dashboards, Datepickers, Drawers, Dropdowns, Headers, Inputs, Layouts, Modals",
-      "previewLink": "https://www.figma.com/file/sRPpErgDs6CKjqK8dU2owD/Ocean-Enterprise-DS-%F0%9F%92%A0-Token-Based?node-id=2383%3A53874&amp;t=frkKdFWMTB4m6RBK-1",
+      "title": "Preview desktop web app templates",
+      "subtitle": "Account, Authentication, Calendar, Dashboard, Development process, Gantt chart (Roadmap), Messenger, Multi-step form, News, Pricing, Password reset, Shopping, Table (Data grid), User profile and others",
       "items": [
         {
           "image": "/images/oe-enterprise/1-Gantt_chart-min.png"
@@ -172,5 +171,89 @@ export const oe_enterpriseContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 3000+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Colors-min.webp"
+        },
+        {
+          "image": "/images/2Text-min.webp"
+        },
+        {
+          "image": "/images/3Push_notification-mi.webp"
+        },
+        {
+          "image": "/images/4Side_menu-min.webp"
+        },
+        {
+          "image": "/images/5Tag-min.webp"
+        },
+        {
+          "image": "/images/6Upload-min.webp"
+        },
+        {
+          "image": "/images/7Alert-min.webp"
+        },
+        {
+          "image": "/images/8Breadcrumbs-min.webp"
+        },
+        {
+          "image": "/images/9Button_double-min.webp"
+        },
+        {
+          "image": "/images/10Button-min.webp"
+        },
+        {
+          "image": "/images/11Calendar-min.webp"
+        },
+        {
+          "image": "/images/12Card_block-min.webp"
+        },
+        {
+          "image": "/images/13Collapse-min.webp"
+        },
+        {
+          "image": "/images/21Notification_toast-m.webp"
+        },
+        {
+          "image": "/images/14Date_picker-min.webp"
+        },
+        {
+          "image": "/images/15Dropdown_menu-min.webp"
+        },
+        {
+          "image": "/images/16Dropdown-min.webp"
+        },
+        {
+          "image": "/images/17Input__Number-min.webp"
+        },
+        {
+          "image": "/images/18Input-min.webp"
+        },
+        {
+          "image": "/images/19Layout_-_Desktop-min.webp"
+        },
+        {
+          "image": "/images/20Multiselect_with_tag.webp"
+        },
+        {
+          "image": "/images/22Pagination-min.webp"
+        },
+        {
+          "image": "/images/23Popconfirm-min.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel",
+    "carousel"
+  ]
+
 };

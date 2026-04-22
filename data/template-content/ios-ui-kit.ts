@@ -7,9 +7,8 @@ export const ios_ui_kitContent = {
   },
   "carousels": [
     {
-      "title": "400+ components",
-      "subtitle": "Navigation bars, Bottom bars, Text fields, Selection controls, Icons, Buttons, Cards, Lists, Dialogs, Graphs, Social components, Datepickers, Empty states, Engagement, Filtering, Bottom sheets, Pickers and more",
-      "previewLink": "https://www.figma.com/file/dxGyRDU11DP0CKLDwKpj0R/Figma-iOS-UI-kit?node-id=38%3A16029",
+      "title": "Preview 240+ iOS layouts",
+      "subtitle": "Authentication, Cards layouts, Comments, Date selection, Filtering patterns, Home screens, Inputs combinations, Launch screens, Lists, Maps, Messages, Navigation, Profile, Subscription plans, Search, Settings, PIN input, Registration, Bottom sheets, Grids, Charts statistics, Data tables",
       "items": [
         {
           "image": "/images/ios-ui-kit/1-Home_Screens.webp"
@@ -48,7 +47,7 @@ export const ios_ui_kitContent = {
           "image": "/images/ios-ui-kit/12-Inputs.webp"
         },
         {
-          "image": "/images/ios-ui-kit/13-Lists_1.webp"
+          "image": "/images/13-Lists.webp"
         },
         {
           "image": "/images/ios-ui-kit/14-Maps.webp"
@@ -136,5 +135,79 @@ export const ios_ui_kitContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 400+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Text_Fields.webp",
+          "title": "Text fields"
+        },
+        {
+          "image": "/images/2-Buttons.webp",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/3-Pickers.webp",
+          "title": "Pickers"
+        },
+        {
+          "image": "/images/4-Tab_Bars.webp",
+          "title": "Tab Bars"
+        },
+        {
+          "image": "/images/15-Cards.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/6-Filtering.webp",
+          "title": "Filtering"
+        },
+        {
+          "image": "/images/7-Date__Time.webp",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/8-Graphs.webp",
+          "title": "Charts"
+        },
+        {
+          "image": "/images/9-Sheets.webp",
+          "title": "Sheets"
+        },
+        {
+          "image": "/images/10-Navigation_Bars.webp",
+          "title": "Navigation"
+        },
+        {
+          "image": "/images/11-Empty_States__Engage.webp",
+          "title": "Empty States"
+        },
+        {
+          "image": "/images/12-Segmented.webp",
+          "title": "Segmented Tabs"
+        },
+        {
+          "image": "/images/13-Lists.webp",
+          "title": "Lists"
+        },
+        {
+          "image": "/images/14-Social.webp",
+          "title": "Social Widgets"
+        },
+        {
+          "image": "/images/5-Dialogs.webp",
+          "title": "Dialogs"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

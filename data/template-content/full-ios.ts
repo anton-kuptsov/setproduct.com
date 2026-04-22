@@ -23,9 +23,8 @@ export const full_iosContent = {
   ],
   "carousels": [
     {
-      "title": "iOS components",
-      "subtitle": "Application bars, Headers, Buttons, Chips, Lists, Text fields, Inputs, Tabs, Segmented controls, Navigation, Datepickers, Cards, Tables, Grids, Modals, Menus and other native iOS bits",
-      "previewLink": "https://www.figma.com/file/Stjs7NQdPPiCa4Rv5xrU2P/iOS-design-system-(Preview)?node-id=29872%3A1427",
+      "title": "Preview 320 iOS templates",
+      "subtitle": "Based on components these detailed templates aimed to design iOS apps faster. Crafted into the 8 most popular categories. Light & Dark themed",
       "items": [
         {
           "image": "/images/full-ios/1-Login_04___Dark-min.png"
@@ -231,5 +230,103 @@ export const full_iosContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview iOS components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Action_Sheets-min.webp",
+          "title": "Action Sheets"
+        },
+        {
+          "image": "/images/2Alerts-min.png",
+          "title": "Alerts"
+        },
+        {
+          "image": "/images/3Browser_Bars-min.png",
+          "title": "Browser Bars"
+        },
+        {
+          "image": "/images/4Buttons-min.png",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/5Calendars-min.png",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/6Chips-min.png",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/7Edit_Menus-min.png",
+          "title": "Edit Menus"
+        },
+        {
+          "image": "/images/8Finance__Money-min.png",
+          "title": "Finance and Money"
+        },
+        {
+          "image": "/images/9Footers_Tabbars-min.webp",
+          "title": "Footers and Tab Bars"
+        },
+        {
+          "image": "/images/10Inputs-min.png",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/11Navbars-min.png",
+          "title": "Navbars"
+        },
+        {
+          "image": "/images/12Segmented_Controls-m.png",
+          "title": "Segmented Controls"
+        },
+        {
+          "image": "/images/13Keyboard_Overbars-mi.png",
+          "title": "Keyboards and Overbars"
+        },
+        {
+          "image": "/images/14Keys-min.png",
+          "title": "Keys"
+        },
+        {
+          "image": "/images/15Modal_View_Headers-m.png",
+          "title": "Modal View Headers"
+        },
+        {
+          "image": "/images/16Multimedia-min.webp",
+          "title": "Multimedia"
+        },
+        {
+          "image": "/images/17News_and_Reader-min.webp",
+          "title": "News and Readers"
+        },
+        {
+          "image": "/images/18Pull-Down_Menus-min.webp",
+          "title": "Pull Down Menus"
+        },
+        {
+          "image": "/images/19Selection_Controls-m.png",
+          "title": "Selection Controls"
+        },
+        {
+          "image": "/images/20Social-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/21Status_Bars-min.png",
+          "title": "Status Bars"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

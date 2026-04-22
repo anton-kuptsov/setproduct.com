@@ -23,8 +23,8 @@ export const pandaContent = {
   ],
   "carousels": [
     {
-      "title": "Preview 4,000+ variants of components & UI widgets",
-      "subtitle": "Over 250+ auto-layout drag & drop components accurately crafted with Variants support, including 250+ UI design widgets as ready-made blocks.",
+      "title": "",
+      "subtitle": "",
       "items": [
         {
           "image": "/images/panda/1Analytics_Light_Vers.png"
@@ -167,5 +167,99 @@ export const pandaContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 4,000+ variants of components & UI widgets",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Buttons_Light_Versio.webp",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/2-Avatar_Dark_Version-.webp",
+          "title": "Text"
+        },
+        {
+          "image": "/images/3-Chart_Dark_Version-m.png",
+          "title": "Dark Charts"
+        },
+        {
+          "image": "/images/4-Fields_Light_Version.webp",
+          "title": "Text Fields"
+        },
+        {
+          "image": "/images/6-Kanban_Card_Dark_Ver.webp",
+          "title": "Kanban Widgets"
+        },
+        {
+          "image": "/images/7-Kanban_Card_Dark_Ver.webp",
+          "title": "Kanban Cards"
+        },
+        {
+          "image": "/images/8-Kanban_Card_Light_Ve.webp",
+          "title": "Text"
+        },
+        {
+          "image": "/images/9-Order_Detail_Light_V.webp",
+          "title": "Checkout Widgets"
+        },
+        {
+          "image": "/images/10-Profile__Light_Versi.webp",
+          "title": "Profile Widgets"
+        },
+        {
+          "image": "/images/11-Profile_Dark_Version.webp",
+          "title": "Profile Dark"
+        },
+        {
+          "image": "/images/5-Icons_Buttons_Light_.webp",
+          "title": "Icon Buttons"
+        },
+        {
+          "image": "/images/12-Select_Controls_Ligh.png",
+          "title": "Selection Controls"
+        },
+        {
+          "image": "/images/13-Side_Menu_-_Open_Dar.webp",
+          "title": "Dark Menu"
+        },
+        {
+          "image": "/images/14-Side_Menu_-_Open_Lig.webp",
+          "title": "Side Menu"
+        },
+        {
+          "image": "/images/15-Table_Middle_Light_V.webp",
+          "title": "Data Tables"
+        },
+        {
+          "image": "/images/16-TimeLine_Vertical_Sm.png",
+          "title": "Timeline Dark"
+        },
+        {
+          "image": "/images/17-TimeLine_Vertical_Sm.png",
+          "title": "Timeline Widgets"
+        },
+        {
+          "image": "/images/18-Title_Light_Version-.png",
+          "title": "Title Headers"
+        },
+        {
+          "image": "/images/19-Chart_Diagram_Dark_V.webp",
+          "title": "Diagram Charts"
+        },
+        {
+          "image": "/images/20-Chart_Diagram_Light_.webp",
+          "title": "Diagram Charts"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

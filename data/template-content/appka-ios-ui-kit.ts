@@ -23,9 +23,8 @@ export const appka_ios_ui_kitContent = {
   ],
   "carousels": [
     {
-      "title": "4,100+ components",
-      "subtitle": "Avatars, Bars, Bottom Sheets, Buttons, Cards, Stories, Charts, Chips, Selection, Badges, Date & Time, Dividers, Image Grids, Messages, Progress Bars, Sliders, Table View, Lists, Steppers, Tabs, Segments, Inputs, Tooltips",
-      "previewLink": "https://www.figma.com/file/7ov6FPrFUJZAv2jY2QeICB/Appka-iOS-(Preview)?node-id=7560%3A75825",
+      "title": "Preview 280+ screens",
+      "subtitle": "Based on components these detailed templates aimed to release iOS apps faster. Paginated into the 14 most popular categories. Light & Dark themed",
       "items": [
         {
           "image": "/images/appka-ios-ui-kit/1light_1.webp"
@@ -201,5 +200,111 @@ export const appka_ios_ui_kitContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 4,100+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Avatar-min.webp",
+          "title": "Avatars"
+        },
+        {
+          "image": "/images/2-Badges-min.webp",
+          "title": "Badges"
+        },
+        {
+          "image": "/images/3-Bank_Card-min.webp",
+          "title": "Bank Cards"
+        },
+        {
+          "image": "/images/4-Bars-min.png",
+          "title": "App Bars"
+        },
+        {
+          "image": "/images/5-Bottom_Sheets-min.webp",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/6-Buttons-min.png",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/7-Cards-min.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/8-Charts-min.png",
+          "title": "Charts"
+        },
+        {
+          "image": "/images/9-Chips-min.png",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/10-Date_and_time_picker.png",
+          "title": "Date & Time"
+        },
+        {
+          "image": "/images/11-Divider-min.png",
+          "title": "Dividers"
+        },
+        {
+          "image": "/images/12-Image_Grid-min.webp",
+          "title": "Image Grids"
+        },
+        {
+          "image": "/images/13-Image_placeholders-m.webp",
+          "title": "Image Placeholders"
+        },
+        {
+          "image": "/images/14-Lists-min.png",
+          "title": "Lists"
+        },
+        {
+          "image": "/images/15-Messenger-min.webp",
+          "title": "Messenger"
+        },
+        {
+          "image": "/images/16-Selection-min.png",
+          "title": "Selection"
+        },
+        {
+          "image": "/images/17-Slider-min.webp",
+          "title": "Sliders"
+        },
+        {
+          "image": "/images/18-Snackbars-min.png",
+          "title": "Snackbars"
+        },
+        {
+          "image": "/images/19-Steps-min.png",
+          "title": "Steppers"
+        },
+        {
+          "image": "/images/20-Tab__Segmented_Contr.png",
+          "title": "Tabs & Segmented Controls"
+        },
+        {
+          "image": "/images/21-Text_elements-min.png",
+          "title": "Text Styles"
+        },
+        {
+          "image": "/images/22-Text_inputs_Custom-m.webp",
+          "title": "Text Fields"
+        },
+        {
+          "image": "/images/23-Tooltip-min.webp",
+          "title": "Tooltips"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

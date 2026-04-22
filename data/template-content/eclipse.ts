@@ -23,9 +23,8 @@ export const eclipseContent = {
   ],
   "carousels": [
     {
-      "title": "1,100+ components",
-      "subtitle": "Eclipse UI kit is easy to customize. Contains: components, auto-layout, trendy style guides, detailed desktop & mobile templates for quick start",
-      "previewLink": "https://www.figma.com/file/OWgr3F3ct3wPE85JV6HVM5/Eclipse-UI-kit-(preview)?node-id=815%3A15479",
+      "title": "Preview 74 templates",
+      "subtitle": "Kanban, Analytics, Crypto, Banking, Budget manager, Task tracker, Streaming, Video service, Investments and other popular patterns",
       "items": [
         {
           "image": "/images/eclipse/1-Analytical_Dashboard.webp"
@@ -40,7 +39,7 @@ export const eclipseContent = {
           "image": "/images/eclipse/4-mobile_15-min.webp"
         },
         {
-          "image": "/images/eclipse/BA1-Task_Timeline-min.webp"
+          "image": "/images/eclipse/5-Task_Timeline-min.webp"
         },
         {
           "image": "/images/eclipse/6-mobile_02-min.webp"
@@ -163,5 +162,73 @@ export const eclipseContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 1,100+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Typography_1600-min.png"
+        },
+        {
+          "image": "/images/2Colors_1600-min.webp"
+        },
+        {
+          "image": "/images/3Alert_banner_1600-mi.png"
+        },
+        {
+          "image": "/images/4Avatar_1600-min.webp"
+        },
+        {
+          "image": "/images/10Side_menu_1600-min.webp"
+        },
+        {
+          "image": "/images/5Badge_1600-min.png"
+        },
+        {
+          "image": "/images/6Dropdown_1600-min.webp"
+        },
+        {
+          "image": "/images/7Mobile_menu_1600-min.webp"
+        },
+        {
+          "image": "/images/8Radio_buttons_1600-m.png"
+        },
+        {
+          "image": "/images/9Search_1600-min.webp"
+        },
+        {
+          "image": "/images/11Widget_1600-min.webp"
+        },
+        {
+          "image": "/images/18Top_menu_1600-min.png"
+        },
+        {
+          "image": "/images/12Switch_1600-min.webp"
+        },
+        {
+          "image": "/images/13Tabs_1600-min.png"
+        },
+        {
+          "image": "/images/14Tag_1600-min.webp"
+        },
+        {
+          "image": "/images/15Text_area_1600-min.webp"
+        },
+        {
+          "image": "/images/16Text_input_1600-min.webp"
+        },
+        {
+          "image": "/images/17Tooltip_1600-min.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

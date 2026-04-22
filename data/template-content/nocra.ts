@@ -27,34 +27,44 @@ export const nocraContent = {
       "subtitle": "1200+ components and 44+ full-screen templates to help you ship AI products faster today, from onboarding to chat dashboards and libraries",
       "items": [
         {
-          "image": "/images/nocra/AI-hero-section2-min.jpg"
+          "image": "/images/nocra/AI-hero-section2-min.jpg",
+          "alt": "Nocra AI template for Figma: hero section"
         },
         {
-          "image": "/images/nocra/AI-Dashboard-min.jpg"
+          "image": "/images/nocra/AI-Dashboard-min.jpg",
+          "alt": "Nocra AI template for Figma: dashboard"
         },
         {
-          "image": "/images/nocra/Code-generation-min.jpg"
+          "image": "/images/nocra/Code-generation-min.jpg",
+          "alt": "Nocra AI template for Figma: code generation"
         },
         {
-          "image": "/images/nocra/Song-creating-min.jpg"
+          "image": "/images/nocra/Song-creating-min.jpg",
+          "alt": "Nocra AI template for Figma: song creating"
         },
         {
-          "image": "/images/nocra/Chat-min.jpg"
+          "image": "/images/nocra/Chat-min.jpg",
+          "alt": "Nocra AI template for Figma: chat layout"
         },
         {
-          "image": "/images/nocra/AI-Dashboard-dark-theme-min.jpg"
+          "image": "/images/nocra/AI-Dashboard-dark-theme-min.jpg",
+          "alt": "Nocra AI template for Figma: dashboard dark theme"
         },
         {
-          "image": "/images/nocra/AI-hero-section-dark-theme-min.jpg"
+          "image": "/images/nocra/AI-hero-section-dark-theme-min.jpg",
+          "alt": "Nocra AI template for Figma: VFX generation"
         },
         {
-          "image": "/images/nocra/Music-AI-Dashboard-new-layout-dark-mode-min.jpg"
+          "image": "/images/nocra/Music-AI-Dashboard-new-layout-dark-mode-min.jpg",
+          "alt": "Nocra AI template for Figma: music dashboards"
         },
         {
-          "image": "/images/nocra/Music-AI-Dashboard-new-layout-dark-theme-min.jpg"
+          "image": "/images/nocra/Music-AI-Dashboard-new-layout-dark-theme-min.jpg",
+          "alt": "Nocra AI template for Figma: music dashboard"
         },
         {
-          "image": "/images/nocra/AI-hero-section-dark-theme-min.jpg"
+          "image": "/images/nocra/AI-hero-section-dark-theme-min.jpg",
+          "alt": "Nocra AI template for Figma: VFX generation"
         }
       ]
     }
@@ -263,5 +273,10 @@ export const nocraContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "sectionOrder": [
+    "carousel",
+    "gallery"
   ]
+
 };

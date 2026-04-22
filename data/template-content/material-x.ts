@@ -18,9 +18,8 @@ export const material_xContent = {
   },
   "carousels": [
     {
-      "title": "1,100+ components",
-      "subtitle": "Accordions, App bars, Badges, Buttons, Calendars, Cards, Chips, Colors, Dialogs, Empty states, Headers, Inputs, Typography, Lists, Menus, Multiselect, Navigation, Pickers, Segments, Settings, Sliders, Snack bars, Steppers, Steps, Tabs, Tables, Tab bars, Tooltips and others",
-      "previewLink": "https://www.figma.com/file/w6E8nDfjxYpQHq4x5GtYJx/Material-X-v7?node-id=4021%3A31",
+      "title": "Preview desktop templates",
+      "subtitle": "",
       "items": [
         {
           "image": "/images/material-x/1Dashboard-3.webp"
@@ -107,5 +106,190 @@ export const material_xContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 1,100+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1_Headers.svg",
+          "title": "Headers"
+        },
+        {
+          "image": "/images/2_BTN_-_Default.svg",
+          "title": "Default Buttons"
+        },
+        {
+          "image": "/images/3_BTN_-_Fab_Ext.svg",
+          "title": "FAB Extended"
+        },
+        {
+          "image": "/images/4_BTN_-_Rectangle.svg",
+          "title": "Rectangle Buttons"
+        },
+        {
+          "image": "/images/5_Stepper.png",
+          "title": "Steppers"
+        },
+        {
+          "image": "/images/6_Chips.svg",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/7_Inputs.svg",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/8_Inputs-2.svg",
+          "title": "Input Templates"
+        },
+        {
+          "image": "/images/9_Multiselect.svg",
+          "title": "Multiselect"
+        },
+        {
+          "image": "/images/10_Segments.svg",
+          "title": "Segmented Controls"
+        },
+        {
+          "image": "/images/11_Tabs.svg",
+          "title": "Tabs"
+        },
+        {
+          "image": "/images/12_Menu.svg",
+          "title": "Menus"
+        },
+        {
+          "image": "/images/13_Settings_2.svg",
+          "title": "Settings"
+        },
+        {
+          "image": "/images/14_Table.svg",
+          "title": "Tables"
+        },
+        {
+          "image": "/images/15_Steps.svg",
+          "title": "Steppers"
+        },
+        {
+          "image": "/images/16_Navigation.svg",
+          "title": "Navigation"
+        },
+        {
+          "image": "/images/17_App_Bars_4.svg",
+          "title": "Application Bars"
+        },
+        {
+          "image": "/images/18_Calendars.svg",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/19_Pickers.svg",
+          "title": "Datepickers"
+        },
+        {
+          "image": "/images/20_Accordion.svg",
+          "title": "Accordions"
+        },
+        {
+          "image": "/images/21_Empty_States_2.svg",
+          "title": "Empty States"
+        },
+        {
+          "image": "/images/22_Snack_Bars.svg",
+          "title": "Snack Bars"
+        },
+        {
+          "image": "/images/23_Sliders.svg",
+          "title": "Sliders"
+        },
+        {
+          "image": "/images/24_Dialogs.svg",
+          "title": "Dialogs"
+        },
+        {
+          "image": "/images/25_Cards.svg",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/26_Cards-2.svg",
+          "title": "Cards"
+        }
+      ]
+    },
+    {
+      "title": "Mobile & Tablet templates",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Dashboard.webp"
+        },
+        {
+          "image": "/images/2-Dashboard-1.webp"
+        },
+        {
+          "image": "/images/3-inputs.webp"
+        },
+        {
+          "image": "/images/4-inputs-1.webp"
+        },
+        {
+          "image": "/images/5-Start.webp"
+        },
+        {
+          "image": "/images/6-Start-1.webp"
+        },
+        {
+          "image": "/images/7-Table.webp"
+        },
+        {
+          "image": "/images/8-crypto-03-min.webp"
+        },
+        {
+          "image": "/images/9-crypto-04-min.webp"
+        },
+        {
+          "image": "/images/10-settings-03-min.webp"
+        },
+        {
+          "image": "/images/11-settings-04-min.webp"
+        },
+        {
+          "image": "/images/12-settings-05-min.webp"
+        },
+        {
+          "image": "/images/13-Charts-1-min.webp"
+        },
+        {
+          "image": "/images/14-Charts-2-min.webp"
+        },
+        {
+          "image": "/images/15-Charts-min.png"
+        },
+        {
+          "image": "/images/16-Profile-1-min.webp"
+        },
+        {
+          "image": "/images/17-Profile-min.webp"
+        },
+        {
+          "image": "/images/18-Social-1-min.webp"
+        },
+        {
+          "image": "/images/19-Social-2-min.webp"
+        },
+        {
+          "image": "/images/20-Social-min.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel",
+    "gallery"
+  ]
+
 };

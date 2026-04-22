@@ -7,9 +7,8 @@ export const s8Content = {
   },
   "carousels": [
     {
-      "title": "60+ app layouts",
-      "subtitle": "Calendar, Dashboard, Filters, Forms, Landing page, Messenger, Navigation, Profile, Kanban, Search, Settings, Shopping, Tables and more to come...",
-      "previewLink": "https://www.figma.com/file/v3p1SAXaniDOGo2s1HL2H9/S8-design-system-(preview)?node-id=12%3A109",
+      "title": "From mobile to desktop",
+      "subtitle": "S8 Design System for Figma is dedicated to designing complex apps within the same components and instances. Scales from mobile to desktop easy as peasy. Responsive library based on modular web application ideas.",
       "items": [
         {
           "image": "/images/s8/Frame_2_rh-3.webp"
@@ -102,5 +101,49 @@ export const s8Content = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 60+ app layouts",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Dashboard-min.webp"
+        },
+        {
+          "image": "/images/Desktop_rh.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-1.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-2.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-3.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-4.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-6.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-5.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-1-6.webp"
+        },
+        {
+          "image": "/images/Desktop_rh-7.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

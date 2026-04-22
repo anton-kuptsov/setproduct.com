@@ -105,5 +105,255 @@ export const xela_swiftContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "carousels": []
+,
+  "galleries": [
+    {
+      "title": "Preview 2,000+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/x1Accordion-min.webp",
+          "title": "Accordions"
+        },
+        {
+          "image": "/images/x2Alerts-min.webp",
+          "title": "Alerts"
+        },
+        {
+          "image": "/images/x3Avatar-min.webp",
+          "title": "Avatars"
+        },
+        {
+          "image": "/images/x4Badge-min.webp",
+          "title": "Badges"
+        },
+        {
+          "image": "/images/x5Breadcrumbs-min.webp",
+          "title": "Breadcrumbs"
+        },
+        {
+          "image": "/images/x6Button-min.png",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/x7Charts-min.webp",
+          "title": "Charts"
+        },
+        {
+          "image": "/images/x8Checkbox-min.webp",
+          "title": "Checkboxes"
+        },
+        {
+          "image": "/images/x9Chips-min.webp",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/x19Select-min.webp",
+          "title": "Selection"
+        },
+        {
+          "image": "/images/x12Dialogs-min.webp",
+          "title": "Dialogs"
+        },
+        {
+          "image": "/images/x10Colors-min.webp",
+          "title": "Color Tokens"
+        },
+        {
+          "image": "/images/x11Date_picker-min.webp",
+          "title": "Datepickers"
+        },
+        {
+          "image": "/images/x13Number_input-min.png",
+          "title": "Numeric Inputs"
+        },
+        {
+          "image": "/images/x14Pagination-min.webp",
+          "title": "Pagination"
+        },
+        {
+          "image": "/images/x15Radio_Button-min.webp",
+          "title": "Radio Buttons"
+        },
+        {
+          "image": "/images/x16Range_Slider-min.webp",
+          "title": "Sliders Range"
+        },
+        {
+          "image": "/images/x17Rating-min.png",
+          "title": "Rating"
+        },
+        {
+          "image": "/images/x18Segmented_Controls-m.png",
+          "title": "Segmented Controls"
+        },
+        {
+          "image": "/images/x20Slider-min.webp",
+          "title": "Sliders"
+        },
+        {
+          "image": "/images/x21Steps-min.webp",
+          "title": "Steps"
+        },
+        {
+          "image": "/images/x22Switch_Toggle-min.webp",
+          "title": "Switches"
+        },
+        {
+          "image": "/images/x23Tables-min.webp",
+          "title": "Tables"
+        },
+        {
+          "image": "/images/x24Tabs-min.webp",
+          "title": "Tabs"
+        },
+        {
+          "image": "/images/x25Text_input-min.webp",
+          "title": "Text Inputs"
+        },
+        {
+          "image": "/images/x26Textarea-min.webp",
+          "title": "Textareas"
+        },
+        {
+          "image": "/images/x27Toast-min.webp",
+          "title": "Toasts"
+        },
+        {
+          "image": "/images/x28Tooltips-min.png",
+          "title": "Tooltips"
+        },
+        {
+          "image": "/images/x29Typography-min.png",
+          "title": "Typography"
+        }
+      ]
+    },
+    {
+      "title": "Preview 50+ templates",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Analytics_Mobile-1-m.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/2-Analytics_Mobile-min.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/3-Analytics-min.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/4-Checkout_Mobile-1-mi.png",
+          "title": "Checkout"
+        },
+        {
+          "image": "/images/5-Checkout_Mobile-min.png",
+          "title": "Checkout"
+        },
+        {
+          "image": "/images/6-Checkout-min.webp",
+          "title": "Checkout"
+        },
+        {
+          "image": "/images/7-Data_Table_Mobile-mi.png",
+          "title": "Data Table"
+        },
+        {
+          "image": "/images/8-Data_Table-min.webp",
+          "title": "Data Table"
+        },
+        {
+          "image": "/images/9-Ecommerce_Mobile-1-m.webp",
+          "title": "Ecommerce"
+        },
+        {
+          "image": "/images/10-Ecommerce_Mobile-min.webp",
+          "title": "Ecommerce"
+        },
+        {
+          "image": "/images/11-Ecommerce-min.webp",
+          "title": "Ecommerce"
+        },
+        {
+          "image": "/images/12-Job_Search_Mobile-1-.png",
+          "title": "Search Results"
+        },
+        {
+          "image": "/images/13-Job_Search_Mobile-mi.webp",
+          "title": "Search Results"
+        },
+        {
+          "image": "/images/14-Job_Search-min.png",
+          "title": "Search Results"
+        },
+        {
+          "image": "/images/15-Mailbox_Mobile-1-min.png",
+          "title": "Mailbox"
+        },
+        {
+          "image": "/images/16-Mailbox_Mobile-min.png",
+          "title": "Mailbox"
+        },
+        {
+          "image": "/images/17-Mailbox-min.png",
+          "title": "Mailbox"
+        },
+        {
+          "image": "/images/18-Music_Service_Mobile.png",
+          "title": "Media"
+        },
+        {
+          "image": "/images/19-Music_Service_Mobile.webp",
+          "title": "Segmented Controls"
+        },
+        {
+          "image": "/images/20-Music_Service-min.webp",
+          "title": "Media"
+        },
+        {
+          "image": "/images/21-Social_Mobile-1-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/22-Social_Mobile-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/23-Social-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/24-Task_Manager_Mobile-.png",
+          "title": "Task Manager"
+        },
+        {
+          "image": "/images/25-Task_Manager_Mobile-.webp",
+          "title": "Task Manager"
+        },
+        {
+          "image": "/images/26-Task_Manager-min.png",
+          "title": "Task Manager"
+        },
+        {
+          "image": "/images/27-Tasks_Projects_Mobil.webp",
+          "title": "Toasts"
+        },
+        {
+          "image": "/images/28-Tasks_Projects-min.webp",
+          "title": "Project Manager"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "gallery"
+  ]
+
 };

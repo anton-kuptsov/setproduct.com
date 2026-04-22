@@ -7,8 +7,68 @@ export const levitateContent = {
   },
   "carousels": [
     {
-      "title": "Preview desktop templates Levitate UI kit fits for web design, creating CTAs, covers and eye-catching presentations, like those: Pitch deck templates",
-      "subtitle": "Beautiful items around your pitch will catch an eye. Build 3D scenes without limits to visualize and impact your message, like here:",
+      "title": "Preview desktop templates",
+      "subtitle": "Levitate UI kit fits for web design, creating CTAs, covers and eye-catching presentations, like those:",
+      "items": [
+        {
+          "image": "/images/1Hero_image_5-min.webp"
+        },
+        {
+          "image": "/images/2Hero_image_7-min.webp"
+        },
+        {
+          "image": "/images/3Hero_image_16-min.webp"
+        },
+        {
+          "image": "/images/4Hero_image_1-min.webp"
+        },
+        {
+          "image": "/images/5Hero_image_18-min.webp"
+        },
+        {
+          "image": "/images/6Hero_image_14-min.webp"
+        },
+        {
+          "image": "/images/7Hero_image_2-min.webp"
+        },
+        {
+          "image": "/images/8Hero_image_3-min.webp"
+        },
+        {
+          "image": "/images/9Hero_image_4-min.webp"
+        },
+        {
+          "image": "/images/10Hero_image_6-min.webp"
+        },
+        {
+          "image": "/images/11Hero_image_9-min.webp"
+        },
+        {
+          "image": "/images/12Hero_image_13-min.webp"
+        },
+        {
+          "image": "/images/13Hero_image_11-min.webp"
+        },
+        {
+          "image": "/images/14Hero_image_17-min.webp"
+        },
+        {
+          "image": "/images/15Hero_image_19-min.webp"
+        },
+        {
+          "image": "/images/16Hero_image_20-min.webp"
+        },
+        {
+          "image": "/images/17Hero_image_8-min.webp"
+        },
+        {
+          "image": "/images/18Hero_image_15-min.webp"
+        }
+      ]
+    },
+    {
+      "title": "Mobile app templates",
+      "subtitle": "Levitate UI kit contains a huge amount of universal and reusable 3D items crafted in a high resolution. Create scenes for mobile screens, sign up sections, empty states and anywhere else to engage",
       "items": [
         {
           "image": "/images/levitate/1.Mobile_screen_3-min.webp"
@@ -124,5 +184,56 @@ export const levitateContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Pitch deck templates",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Presentation_slide_8.webp"
+        },
+        {
+          "image": "/images/2-Presentation_slide_9.webp"
+        },
+        {
+          "image": "/images/3-Presentation_slide_2.webp"
+        },
+        {
+          "image": "/images/4-Presentation_slide_3.webp"
+        },
+        {
+          "image": "/images/5-Presentation_slide_1.webp"
+        },
+        {
+          "image": "/images/6-Presentation_slide_7.webp"
+        },
+        {
+          "image": "/images/7-Presentation_slide_4.webp"
+        },
+        {
+          "image": "/images/8-Presentation_slide_6.webp"
+        },
+        {
+          "image": "/images/9-Presentation_slide_1.webp"
+        },
+        {
+          "image": "/images/10-Presentation_slide_1.webp"
+        },
+        {
+          "image": "/images/11-Presentation_slide_1.webp"
+        },
+        {
+          "image": "/images/12-Presentation_slide_5.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "carousel",
+    "gallery",
+    "carousel"
+  ]
+
 };

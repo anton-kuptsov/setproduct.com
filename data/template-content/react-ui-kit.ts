@@ -13,9 +13,8 @@ export const react_ui_kitContent = {
   ],
   "carousels": [
     {
-      "title": "3700+ components",
-      "subtitle": "Organized & named to match between design & code, made with Auto-layout & Variants. Easy to swap fonts, change colors or edit shapes.",
-      "previewLink": "https://www.figma.com/file/OEmjKyp62DPePMl9yIDuR5/Figma-React-UI-kit-(Preview)?node-id=8289%3A15011",
+      "title": "Preview 60+ templates",
+      "subtitle": "60 dashboard templates for Figma & React. All the viewports! Start screen, Analytics, Data grid, Profile, Settings, Inputs and others. Live in React →",
       "items": [
         {
           "image": "/images/react-ui-kit/01-home-min.webp"
@@ -87,5 +86,171 @@ export const react_ui_kitContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 3700+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Badge-min.webp",
+          "title": "Badges"
+        },
+        {
+          "image": "/images/2Breadcrumbs-min.png",
+          "title": "Breadcrumbs"
+        },
+        {
+          "image": "/images/3Button_Action-min.webp",
+          "title": "Action Buttons"
+        },
+        {
+          "image": "/images/4Button_Card-min.webp",
+          "title": "Card Buttons"
+        },
+        {
+          "image": "/images/5Button_Circle-min.webp",
+          "title": "Circle Buttons"
+        },
+        {
+          "image": "/images/6Button_Default-min.webp",
+          "title": "Default Buttons"
+        },
+        {
+          "image": "/images/7Callout-min.png",
+          "title": "Callouts"
+        },
+        {
+          "image": "/images/8Card-min.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/9Checkbox-min.png",
+          "title": "Text"
+        },
+        {
+          "image": "/images/10Chip-min.webp",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/11Colors-min.webp",
+          "title": "Color Tokens"
+        },
+        {
+          "image": "/images/12Counter-min.webp",
+          "title": "Counters"
+        },
+        {
+          "image": "/images/13Datepicker-min.webp",
+          "title": "Detepickers"
+        },
+        {
+          "image": "/images/14Datepicker_Years-min.png",
+          "title": "Yearpickers"
+        },
+        {
+          "image": "/images/15Dialog-min.webp",
+          "title": "Dialogs"
+        },
+        {
+          "image": "/images/16Divider-min.png",
+          "title": "Dividers"
+        },
+        {
+          "image": "/images/17Drawers-min.webp",
+          "title": "Drawers"
+        },
+        {
+          "image": "/images/18Dropdown-min.webp",
+          "title": "Dropdowns"
+        },
+        {
+          "image": "/images/19Footer-min.webp",
+          "title": "Footers"
+        },
+        {
+          "image": "/images/20Input_Search-min.webp",
+          "title": "Search Inputs"
+        },
+        {
+          "image": "/images/21Input-min.webp",
+          "title": "Default Inputs"
+        },
+        {
+          "image": "/images/22List-min.png",
+          "title": "Lists"
+        },
+        {
+          "image": "/images/23Menu-min.png",
+          "title": "Menus"
+        },
+        {
+          "image": "/images/24Navbar-min.webp",
+          "title": "Navigation Bars"
+        },
+        {
+          "image": "/images/25Radio-min.webp",
+          "title": "Radiobuttons"
+        },
+        {
+          "image": "/images/26Shadows-min.webp",
+          "title": "Shadow Tokens"
+        },
+        {
+          "image": "/images/27Slider-min.webp",
+          "title": "Sliders"
+        },
+        {
+          "image": "/images/28Spinner-min.webp",
+          "title": "Spinners"
+        },
+        {
+          "image": "/images/29Switch-min.webp",
+          "title": "Switches"
+        },
+        {
+          "image": "/images/30Tab_Default-min.png",
+          "title": "Text"
+        },
+        {
+          "image": "/images/31Tables-min.png",
+          "title": "Tables"
+        },
+        {
+          "image": "/images/32Tabs_Default-min.png",
+          "title": "Default Tabs"
+        },
+        {
+          "image": "/images/33Tabs_Segmented-min.webp",
+          "title": "Segmented Tabs"
+        },
+        {
+          "image": "/images/34Timepicker-min.png",
+          "title": "Timepickers"
+        },
+        {
+          "image": "/images/35Toast-min.png",
+          "title": "Toasts"
+        },
+        {
+          "image": "/images/36Tooltip-min.webp",
+          "title": "Tooltips"
+        },
+        {
+          "image": "/images/37Tree-min.png",
+          "title": "Trees"
+        },
+        {
+          "image": "/images/38Typography-min.png",
+          "title": "Typography Tokens"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

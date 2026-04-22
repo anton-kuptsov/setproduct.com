@@ -68,5 +68,163 @@ export const mobile_xContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "carousels": []
+,
+  "galleries": [
+    {
+      "title": "Preview 860+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-App_Bar_Items-min.webp",
+          "title": "App bar items"
+        },
+        {
+          "image": "/images/2-App_Bar_Primary-min.webp",
+          "title": "App bar primary"
+        },
+        {
+          "image": "/images/3-App_Bar_Secondary-mi.webp",
+          "title": "App bar secondary"
+        },
+        {
+          "image": "/images/4-Bar_Chart-min.webp",
+          "title": "Bar charts"
+        },
+        {
+          "image": "/images/19-Tab_Bars-min.webp",
+          "title": "Tab bars"
+        },
+        {
+          "image": "/images/5-Cards_1-min.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/6-Cards_2-min.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/7-Charts_Misc-min.webp",
+          "title": "Text"
+        },
+        {
+          "image": "/images/8-Clockface-min.webp",
+          "title": "Timepickers"
+        },
+        {
+          "image": "/images/9-Datagrid-min.png",
+          "title": "Tables mobile"
+        },
+        {
+          "image": "/images/10-Datepicker-min.webp",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/11-Input-min.webp",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/12-Line_Chart-min.webp",
+          "title": "Line charts"
+        },
+        {
+          "image": "/images/16-Sheet_Bottom-min.webp",
+          "title": "Bottom sheets"
+        },
+        {
+          "image": "/images/13-List-min.png",
+          "title": "Lists"
+        },
+        {
+          "image": "/images/14-Rating-min.png",
+          "title": "Rating"
+        },
+        {
+          "image": "/images/15-Segment-min.png",
+          "title": "Segmented controls"
+        },
+        {
+          "image": "/images/17-Slider-min.webp",
+          "title": "Sliders"
+        },
+        {
+          "image": "/images/18-Snackbar-min.webp",
+          "title": "Snackbars"
+        },
+        {
+          "image": "/images/20-Tab-min.png",
+          "title": "Tab items"
+        }
+      ]
+    },
+    {
+      "title": "Preview 150+ templates",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Start_6_screens_1-mi.webp",
+          "title": "Start (Home)"
+        },
+        {
+          "image": "/images/2Cards_12_screens_1-m.webp",
+          "title": "Cards (Content)"
+        },
+        {
+          "image": "/images/3Data_grid_3_screens_.webp",
+          "title": "Data grid (Checkout)"
+        },
+        {
+          "image": "/images/4Menu_6_screens_2-min.webp",
+          "title": "Menu (Drawers)"
+        },
+        {
+          "image": "/images/5Content_12_screens_1.webp",
+          "title": "Content (Product, Profile)"
+        },
+        {
+          "image": "/images/6Charts_12_screens_1-.webp",
+          "title": "Charts (Line, Bars)"
+        },
+        {
+          "image": "/images/7Dashboard_7_screens_.webp",
+          "title": "Dashboard (Analytics)"
+        },
+        {
+          "image": "/images/8Date__Time_9_screens.webp",
+          "title": "Date & Time (Calendar, Events)"
+        },
+        {
+          "image": "/images/9Inputs_18_screens_1-.webp",
+          "title": "Inputs (Register, PIN)"
+        },
+        {
+          "image": "/images/10Interests_3_screens_.webp",
+          "title": "Interests (Categories)"
+        },
+        {
+          "image": "/images/11Lists_36_screens_1-m.webp",
+          "title": "Lists (Table View)"
+        },
+        {
+          "image": "/images/12Player_3_screens_1-m.webp",
+          "title": "Media (Player)"
+        },
+        {
+          "image": "/images/13Settings_18_screens_.webp",
+          "title": "Settings (Slider, Switch)"
+        },
+        {
+          "image": "/images/14Sheets_12_screens_1-.webp",
+          "title": "Sheets (Popovers)"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "gallery"
+  ]
+
 };

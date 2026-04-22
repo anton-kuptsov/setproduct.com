@@ -86,5 +86,187 @@ export const hyper_chartsContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "carousels": []
+,
+  "galleries": [
+    {
+      "title": "Preview full Hyper Charts",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-min.webp",
+          "title": "Line Charts"
+        },
+        {
+          "image": "/images/2-min.webp",
+          "title": "Bar Charts"
+        },
+        {
+          "image": "/images/3-min.webp",
+          "title": "Stepped Line Charts"
+        },
+        {
+          "image": "/images/4-min.webp",
+          "title": "Pie Charts"
+        },
+        {
+          "image": "/images/5-min.webp",
+          "title": "Scatter Charts"
+        },
+        {
+          "image": "/images/6-min.webp",
+          "title": "Candlestick Charts"
+        },
+        {
+          "image": "/images/7-min.webp",
+          "title": "Radial Histograms"
+        },
+        {
+          "image": "/images/8-min.webp",
+          "title": "Radial Convergences"
+        },
+        {
+          "image": "/images/9-min.webp",
+          "title": "Dumbbell Plots"
+        },
+        {
+          "image": "/images/10-min.webp",
+          "title": "Parallel Coordinates"
+        },
+        {
+          "image": "/images/11-min.webp",
+          "title": "Bubble Charts"
+        },
+        {
+          "image": "/images/12-min.webp",
+          "title": "Bullet Graphs"
+        },
+        {
+          "image": "/images/13-min.webp",
+          "title": "Tree Charts"
+        },
+        {
+          "image": "/images/14-min.webp",
+          "title": "Sunburst Charts"
+        },
+        {
+          "image": "/images/15-min.webp",
+          "title": "Radar Charts"
+        },
+        {
+          "image": "/images/16-min.webp",
+          "title": "Heatmap Charts"
+        },
+        {
+          "image": "/images/17-min.webp",
+          "title": "Funnel Charts"
+        },
+        {
+          "image": "/images/18-min.webp",
+          "title": "Sankey Charts"
+        },
+        {
+          "image": "/images/19-min.webp",
+          "title": "Treemaps"
+        },
+        {
+          "image": "/images/20-min.webp",
+          "title": "Calendars"
+        },
+        {
+          "image": "/images/21-min.webp",
+          "title": "3D Charts"
+        }
+      ]
+    },
+    {
+      "title": "Full sections of charts",
+      "subtitle": "Discover the ultimate solution for your charting needs – Hyper Charts! Choose from a wide range of pre-designed graphs and personalize to your exact specifications. Enhance the look and functionality of your digital product while also developing your UI skills.",
+      "items": [
+        {
+          "image": "/images/1.webp",
+          "title": "3D Charts"
+        },
+        {
+          "image": "/images/2.webp",
+          "title": "Bar Charts"
+        },
+        {
+          "image": "/images/3.webp",
+          "title": "Bubble Charts"
+        },
+        {
+          "image": "/images/4.webp",
+          "title": "Bullet Graphs"
+        },
+        {
+          "image": "/images/5CANDLESTICK-min.webp",
+          "title": "Candlesticks"
+        },
+        {
+          "image": "/images/6DUMBBELL_PLOT-min.webp",
+          "title": "Dumbbell Plots"
+        },
+        {
+          "image": "/images/7HEATMAP-min.webp",
+          "title": "Heatmaps"
+        },
+        {
+          "image": "/images/8Light_theme-min.webp",
+          "title": "Funnel Charts"
+        },
+        {
+          "image": "/images/9LINE_CHARTS-min.webp",
+          "title": "Line Charts"
+        },
+        {
+          "image": "/images/10Parallel_Coordinates.webp",
+          "title": "Parallel Coordinates"
+        },
+        {
+          "image": "/images/11PIE_CHARTS-min.webp",
+          "title": "Pie Charts"
+        },
+        {
+          "image": "/images/12Radar_chart-min.webp",
+          "title": "Radar Charts"
+        },
+        {
+          "image": "/images/13Radial_Convergences-.webp",
+          "title": "Radial Convergences"
+        },
+        {
+          "image": "/images/14Radial_Histogram-min.webp",
+          "title": "Radial Histogram"
+        },
+        {
+          "image": "/images/15Sankey_chart-min.webp",
+          "title": "Sankey Charts"
+        },
+        {
+          "image": "/images/16Scatter_chart-min.webp",
+          "title": "Scatter Charts"
+        },
+        {
+          "image": "/images/17Stepped_line_graph-m.webp",
+          "title": "Stepped Line Graphs"
+        },
+        {
+          "image": "/images/18Tree_chart-min.webp",
+          "title": "Tree Charts"
+        },
+        {
+          "image": "/images/19Treemap_chart-min.webp",
+          "title": "Treemaps"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "gallery"
+  ]
+
 };

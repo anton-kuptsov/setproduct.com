@@ -127,5 +127,227 @@ export const material_youContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "carousels": []
+,
+  "galleries": [
+    {
+      "title": "Preview 2,600+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-avatars-min.webp",
+          "title": "Avatars"
+        },
+        {
+          "image": "/images/2Bottom_App_Bars.webp",
+          "title": "Bottom App Bars"
+        },
+        {
+          "image": "/images/3Bottom_Sheets.webp",
+          "title": "Bottom Sheets"
+        },
+        {
+          "image": "/images/4Buttons-min.webp",
+          "title": "Buttons"
+        },
+        {
+          "image": "/images/5Calendar.webp",
+          "title": "Calendar"
+        },
+        {
+          "image": "/images/6Cards-min.webp",
+          "title": "Cards"
+        },
+        {
+          "image": "/images/material-you/7-Global_Statistic_dar.webp",
+          "title": "Charts"
+        },
+        {
+          "image": "/images/8Chips-min.png",
+          "title": "Chips"
+        },
+        {
+          "image": "/images/10Date_Picker-min.png",
+          "title": "Date Pickers"
+        },
+        {
+          "image": "/images/13FAB-min.webp",
+          "title": "FAB"
+        },
+        {
+          "image": "/images/9Data_Tables-min.webp",
+          "title": "Data Tables"
+        },
+        {
+          "image": "/images/11Dialogs-min.webp",
+          "title": "Dialogs"
+        },
+        {
+          "image": "/images/12Dropdowns.webp",
+          "title": "Dropdowns"
+        },
+        {
+          "image": "/images/14Lists.webp",
+          "title": "Lists"
+        },
+        {
+          "image": "/images/15Menus.webp",
+          "title": "Menus"
+        },
+        {
+          "image": "/images/17Navigation_Drawer.webp",
+          "title": "Navigation Drawer"
+        },
+        {
+          "image": "/images/18Navigation_Rail.webp",
+          "title": "Navigation Rail"
+        },
+        {
+          "image": "/images/19Selection.webp",
+          "title": "Selection"
+        },
+        {
+          "image": "/images/21Snackbars-min.png",
+          "title": "Snackbars"
+        },
+        {
+          "image": "/images/20Sliders.webp",
+          "title": "Text"
+        },
+        {
+          "image": "/images/22Stories-min.webp",
+          "title": "Stories"
+        },
+        {
+          "image": "/images/16Navigation_Bar.webp",
+          "title": "Navigation Bar"
+        },
+        {
+          "image": "/images/23Tabs-min.png",
+          "title": "Tabs"
+        },
+        {
+          "image": "/images/24Text_Elements.webp",
+          "title": "Text Elements"
+        },
+        {
+          "image": "/images/25Text_Fields-min.webp",
+          "title": "Text Fields"
+        },
+        {
+          "image": "/images/26Top_App_Bars-min.webp",
+          "title": "Top App Bars"
+        }
+      ]
+    },
+    {
+      "title": "All the viewports!",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-analytics-min-1.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/2-analytics2-min.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/3-analytics3-min.png",
+          "title": "Analytics"
+        },
+        {
+          "image": "/images/4-cal1-min.png",
+          "title": "Calendar"
+        },
+        {
+          "image": "/images/5-cal2-min.png",
+          "title": "Calendar Navigation"
+        },
+        {
+          "image": "/images/6-defi1-min.webp",
+          "title": "DeFi"
+        },
+        {
+          "image": "/images/7-defi2-min.png",
+          "title": "DeFi"
+        },
+        {
+          "image": "/images/8-finance1-min.webp",
+          "title": "Finances"
+        },
+        {
+          "image": "/images/9-finance2-min.webp",
+          "title": "Finances Navigation"
+        },
+        {
+          "image": "/images/10-finance3-min.webp",
+          "title": "Finances Charts"
+        },
+        {
+          "image": "/images/11-inputs1-min.webp",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/12-inputs2-min.webp",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/13-inputs3-min.webp",
+          "title": "Dropdowns"
+        },
+        {
+          "image": "/images/14-inputs4-min.png",
+          "title": "Inputs & Sidebar"
+        },
+        {
+          "image": "/images/15-inputs5-min.webp",
+          "title": "Inputs"
+        },
+        {
+          "image": "/images/16-nft1-min.webp",
+          "title": "Navigation Drawer"
+        },
+        {
+          "image": "/images/17-nft2-min.webp",
+          "title": "NFTs & Bottom Sheet"
+        },
+        {
+          "image": "/images/18-proj1-min.webp",
+          "title": "Projects"
+        },
+        {
+          "image": "/images/19-proj2-min.webp",
+          "title": "Projects Navigation"
+        },
+        {
+          "image": "/images/20-social1-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/21-social2-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/22-social3-min.webp",
+          "title": "Social"
+        },
+        {
+          "image": "/images/23-swap1-min.png",
+          "title": "Swap Tokens"
+        },
+        {
+          "image": "/images/24-swap2-min.webp",
+          "title": "Text Elements"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "gallery"
+  ]
+
 };

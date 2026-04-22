@@ -28,9 +28,8 @@ export const material_desktopContent = {
   },
   "carousels": [
     {
-      "title": "500+ components",
+      "title": "Preview 500+ components",
       "subtitle": "Application bars, Headers, Buttons, Chips, Lists, Text fields, Inputs, Tabs, Segmented controls, Navigation, Datepickers, Cards, Tables, Grids, Modals, Menus and even Charts",
-      "previewLink": "https://www.figma.com/file/XMHdAa4XqPFITEaEccgkhO/Material-Dashboard-UI-kit?node-id=0%3A6395",
       "items": [
         {
           "image": "/images/material-desktop/s1_Appbars__Headers.webp"
@@ -123,5 +122,135 @@ export const material_desktopContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 48 templates",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1_Production-1.webp",
+          "title": "Production Dashboard"
+        },
+        {
+          "image": "/images/2_Profile-1.webp",
+          "title": "Profile"
+        },
+        {
+          "image": "/images/3_SEO-1.webp",
+          "title": "SEO Ranking"
+        },
+        {
+          "image": "/images/4_Repository.webp",
+          "title": "Git Repository"
+        },
+        {
+          "image": "/images/5_News.webp",
+          "title": "News Social Layout"
+        },
+        {
+          "image": "/images/6_Ecommerce.webp",
+          "title": "Ecommerce & Shopping"
+        },
+        {
+          "image": "/images/7_Calendar.webp",
+          "title": "Planner Web App"
+        },
+        {
+          "image": "/images/8_Calendar-1.webp",
+          "title": "Calendar"
+        },
+        {
+          "image": "/images/9_Dashboard-1.webp",
+          "title": "Dashboard Tables"
+        },
+        {
+          "image": "/images/10_Communication.webp",
+          "title": "Community Messaging"
+        },
+        {
+          "image": "/images/11_Ecommerce-1.webp",
+          "title": "Shopping & Ecommerce"
+        },
+        {
+          "image": "/images/12_Data_Table-1.webp",
+          "title": "Application Database"
+        },
+        {
+          "image": "/images/13_Application.webp",
+          "title": "Application Dashboard"
+        },
+        {
+          "image": "/images/14_Dashboard.webp",
+          "title": "Charts & Data Analytics"
+        },
+        {
+          "image": "/images/15_Application-1.webp",
+          "title": "Desktop Application"
+        },
+        {
+          "image": "/images/16_Finance-1.webp",
+          "title": "Financial Application"
+        },
+        {
+          "image": "/images/17_Data_Table.webp",
+          "title": "Table Based App"
+        },
+        {
+          "image": "/images/18_Communication-1.webp",
+          "title": "Slack Like Messenger"
+        },
+        {
+          "image": "/images/19_Finance.webp",
+          "title": "Trading App Template"
+        },
+        {
+          "image": "/images/20_News-1.webp",
+          "title": "Social Reddit Like"
+        },
+        {
+          "image": "/images/21_Productivity.webp",
+          "title": "Kanban Board"
+        },
+        {
+          "image": "/images/22_Productivity-1.webp",
+          "title": "Project management"
+        },
+        {
+          "image": "/images/23_Project_Management.webp",
+          "title": "Gantt Project Management"
+        },
+        {
+          "image": "/images/24_Project_Management-.webp",
+          "title": "Production Factory Dashboard"
+        },
+        {
+          "image": "/images/25_Production.webp",
+          "title": "Factory dashboard"
+        },
+        {
+          "image": "/images/26_Profile.webp",
+          "title": "User Account"
+        },
+        {
+          "image": "/images/27_Repository-1.webp",
+          "title": "Better than Guthub :)"
+        },
+        {
+          "image": "/images/28_SEO.webp",
+          "title": "Traffic Management"
+        },
+        {
+          "image": "/images/29_Flow.webp",
+          "title": "Flow App"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "carousel",
+    "gallery"
+  ]
+
 };

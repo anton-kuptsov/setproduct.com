@@ -2,9 +2,8 @@ export const mostContent = {
   "features": [],
   "carousels": [
     {
-      "title": "1K+ components",
-      "subtitle": "14+ categories: Header & Footer bars, Buttons & Chips, Segmented tabs, Lists & Table view, Inputs, Popovers, Calendars, Pickers and many more",
-      "previewLink": "https://www.figma.com/file/tQ8etHCaJYFiMTlaQsUv4J/iOS-13-Design-System?node-id=1498%3A307107",
+      "title": "Preview 600+ templates",
+      "subtitle": "Ready to use native Figma templates for iOS apps design. Layouts are easy to customize and reusable to fit better for your design mission.",
       "items": [
         {
           "image": "/images/most/1-Entert_07-min.webp"
@@ -184,5 +183,49 @@ export const mostContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 1K+ components",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-buttons.webp"
+        },
+        {
+          "image": "/images/2-chips.webp"
+        },
+        {
+          "image": "/images/3-System_Gradients.webp"
+        },
+        {
+          "image": "/images/4-Footer_Parts.webp"
+        },
+        {
+          "image": "/images/5-Header.webp"
+        },
+        {
+          "image": "/images/6-segmented.webp"
+        },
+        {
+          "image": "/images/7-System_Colors.webp"
+        },
+        {
+          "image": "/images/8-Table_View_Parts.webp"
+        },
+        {
+          "image": "/images/9-Text_Fields__Selecti.webp"
+        },
+        {
+          "image": "/images/10-Text_Styles.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

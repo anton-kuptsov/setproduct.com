@@ -23,9 +23,8 @@ export const orionContent = {
   ],
   "carousels": [
     {
-      "title": "charts widgets",
+      "title": "Preview charts widgets",
       "subtitle": "500+ components and 200+ charts widgets to let you build HQ dashboards and visualize the data in presentations or print materials",
-      "previewLink": "https://www.figma.com/file/zwaMS70qLA7Mx4opQC5Li7/Orion-UI-kit-preview-(light)",
       "items": [
         {
           "image": "/images/orion/01-min.webp"
@@ -62,9 +61,8 @@ export const orionContent = {
   ],
   "galleries": [
     {
-      "title": "35+ templates",
+      "title": "Preview 35+ templates",
       "subtitle": "Samples of desktop templates with eye-catching charts and visualization combinations. Dark & Light UI available as independent .FIG files",
-      "previewLink": "https://www.figma.com/file/zwaMS70qLA7Mx4opQC5Li7/Orion-UI-kit-preview-(light)?node-id=427%3A15735",
       "items": [
         {
           "image": "/images/orion/1-World_hexagon_map_da.webp",
@@ -265,5 +263,10 @@ export const orionContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "sectionOrder": [
+    "carousel",
+    "gallery"
   ]
+
 };

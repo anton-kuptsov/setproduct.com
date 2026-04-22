@@ -7,9 +7,8 @@ export const neolex_dashboardContent = {
   },
   "carousels": [
     {
-      "title": "600+ components and UI design widgets",
-      "subtitle": "Accordions, Alerts, Buttons, Tables, Tooltips, Userpics, Sliders, Ratings, Dividers, Badges, Switches, Checkboxes, Radio buttons, Progress bars, Tabs, Segmented controls, Lists, Inputs and others",
-      "previewLink": "https://www.figma.com/file/08XMKVchlw2A6sN51r51Mp/Neolex-design-system-(preview)?node-id=232%3A113",
+      "title": "Preview 25 desktop layouts",
+      "subtitle": "Authentication, Blog, Dashboard, Ecommerce, File Manager, Media, Kanban, Navigation, Pricing Plans, User's Profile, Settings, Social and more",
       "items": [
         {
           "image": "/images/neolex-dashboard/1-Desktop_Sample_1_2.webp"
@@ -147,5 +146,55 @@ export const neolex_dashboardContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Preview 600+ components and UI design widgets",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1Accordeon_Panels.png"
+        },
+        {
+          "image": "/images/2Buttons.webp"
+        },
+        {
+          "image": "/images/3Fonts_Encode.png"
+        },
+        {
+          "image": "/images/5Inputs.webp"
+        },
+        {
+          "image": "/images/4Fonts_Montserrat.png"
+        },
+        {
+          "image": "/images/6Lists.webp"
+        },
+        {
+          "image": "/images/7Selection.png"
+        },
+        {
+          "image": "/images/8Sliders.webp"
+        },
+        {
+          "image": "/images/9Tables.webp"
+        },
+        {
+          "image": "/images/10Tabs.png"
+        },
+        {
+          "image": "/images/11Icons_Pack_1.png"
+        },
+        {
+          "image": "/images/12Icons2.png"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery",
+    "carousel"
+  ]
+
 };

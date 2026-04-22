@@ -18,9 +18,8 @@ export const landingContent = {
   },
   "carousels": [
     {
-      "title": "100+ web blocks",
+      "title": "Preview 100+ web blocks",
       "subtitle": "Headers, Covers, Hero Images, Features, Mockups, Isometric Previews, Features, Subscription Forms, FAQ, Testimonials, Pricing Plans, Application Blocks, Promotion Blocks, Image Grids, Cards, Footers and others",
-      "previewLink": "https://www.figma.com/file/jxvS6sb7I0v84VqPGLsO0v/Figma-Landing-Pages-Library-2.0?node-id=162%3A5808",
       "items": [
         {
           "image": "/images/landing/1Hero_Cover_6.webp"
@@ -146,5 +145,94 @@ export const landingContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "galleries": [
+    {
+      "title": "Including mobile viewports",
+      "subtitle": "",
+      "items": [
+        {
+          "image": "/images/1-Hero_Cover_Mob_1.webp"
+        },
+        {
+          "image": "/images/2-Hero_Cover_Mob_2.webp"
+        },
+        {
+          "image": "/images/3-Hero_Cover_Mob_3.webp"
+        },
+        {
+          "image": "/images/4-Features_Mob_2.webp"
+        },
+        {
+          "image": "/images/5-Hero_Cover_Mob_4.webp"
+        },
+        {
+          "image": "/images/6-Hero_Cover_Mob_5.webp"
+        },
+        {
+          "image": "/images/7-Features_Mob_5.webp"
+        },
+        {
+          "image": "/images/8-Hero_Cover_Mob_6.webp"
+        },
+        {
+          "image": "/images/9-Hero_Cover_Mob_7.webp"
+        },
+        {
+          "image": "/images/10-Hero_Cover_Mob_8.webp"
+        },
+        {
+          "image": "/images/landing/12-Features_Mob_1.webp"
+        },
+        {
+          "image": "/images/13-Hero_Cover_Mob_9.webp"
+        },
+        {
+          "image": "/images/14-Features_Mob_4.webp"
+        },
+        {
+          "image": "/images/15-Features_Mob_6.webp"
+        },
+        {
+          "image": "/images/16-Features_Mob_7.webp"
+        },
+        {
+          "image": "/images/17-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/22-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/18-Features_Mob_8.webp"
+        },
+        {
+          "image": "/images/11-Features_Mob_3.webp"
+        },
+        {
+          "image": "/images/19-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/20-Features_Mob_9.webp"
+        },
+        {
+          "image": "/images/21-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/23-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/24-Faq_Testim_Plans_Mob.webp"
+        },
+        {
+          "image": "/images/landing/12-Features_Mob_1.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "carousel",
+    "gallery"
+  ]
+
 };

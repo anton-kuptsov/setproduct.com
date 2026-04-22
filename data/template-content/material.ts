@@ -63,5 +63,86 @@ export const materialContent = {
       "question": "I 💜 Your designs, but can I have a discount?",
       "answerHtml": "We provide discounts for those, who scrolled to the bottom and revealed our proposal. Just <a data-remodal-target=\"modal2\" href=\"#\"><span class=\"span-link\">drop us a message</span></a><span> </span>with a short story about how you plan to use our product and we will give you a ✨<strong>30% off coupon</strong> for the upcoming purchase. Please, provide a specific product name you've put your eye on."
     }
+  ],
+  "carousels": []
+,
+  "galleries": [
+    {
+      "title": "Preview 1K+ components and over 120 app templates",
+      "subtitle": "Application bars, Backdrops, Bottom navigation, Buttons, Cards, Chips, Dialogs, Expandable panels, Image grids, Lists, Menus, Navigation drawers, Onboarding layouts, Selection, Pickers, Sheets, Tables, Tabs and Text fields",
+      "items": [
+        {
+          "image": "/images/1Colors__Styles.webp"
+        },
+        {
+          "image": "/images/2Buttons.webp"
+        },
+        {
+          "image": "/images/3Chips.webp"
+        },
+        {
+          "image": "/images/4Text_fields.webp"
+        },
+        {
+          "image": "/images/5Lists.webp"
+        },
+        {
+          "image": "/images/6Menus.webp"
+        },
+        {
+          "image": "/images/14Grid_lists.webp"
+        },
+        {
+          "image": "/images/7App_bars.webp"
+        },
+        {
+          "image": "/images/8Nav_drawer.webp"
+        },
+        {
+          "image": "/images/9Backdrop.webp"
+        },
+        {
+          "image": "/images/10Bottom_Nav.webp"
+        },
+        {
+          "image": "/images/11Cards.webp"
+        },
+        {
+          "image": "/images/12Dialogs.webp"
+        },
+        {
+          "image": "/images/13Expansion_panels.webp"
+        },
+        {
+          "image": "/images/15Misc.webp"
+        },
+        {
+          "image": "/images/16Onboarding.webp"
+        },
+        {
+          "image": "/images/17Pickers_5.webp"
+        },
+        {
+          "image": "/images/18Selection.webp"
+        },
+        {
+          "image": "/images/19Sheets.webp"
+        },
+        {
+          "image": "/images/20Steppers.webp"
+        },
+        {
+          "image": "/images/21Tables.webp"
+        },
+        {
+          "image": "/images/22Tabs.webp"
+        }
+      ]
+    }
   ]
+,
+  "sectionOrder": [
+    "gallery"
+  ]
+
 };
