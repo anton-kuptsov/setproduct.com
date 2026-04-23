@@ -26,6 +26,18 @@ h1[id], h2[id], h3[id], h4[id] {
   scroll-margin-top: 100px;
 }
 
+/*
+ * Webflow's .rich-text-18 stylesheet applies `font-size: 18em` to both li and p.
+ * MDX "loose" lists render as <li><p>…</p></li>, so the size multiplied itself.
+ * Force descendant <p>/<li> to inherit instead of restacking the Webflow size.
+ */
+.rich-text-18 li > p,
+.rich-text-18 li > p:last-child {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 0;
+}
+
 @media (min-width: 991px) {
   .section.is-height-100vh {
     height: calc(100dvh - 70em);

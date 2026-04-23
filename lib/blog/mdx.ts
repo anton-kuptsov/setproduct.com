@@ -10,6 +10,28 @@ import { computeReadingTime } from "./reading-time";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
+function stripInlineMarkdown(raw: string): string {
+  return raw
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/(^|[^*])\*([^*]+)\*/g, "$1$2")
+    .replace(/(^|[^_])_([^_]+)_/g, "$1$2")
+    .replace(/~~([^~]+)~~/g, "$1")
+    .replace(/\\([\\`*_{}\[\]()#+\-.!])/g, "$1")
+    .trim();
+}
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+}
+
 function extractHeadings(content: string): BlogHeading[] {
   const headings: BlogHeading[] = [];
   const lines = content.split("\n");
@@ -17,21 +39,11 @@ function extractHeadings(content: string): BlogHeading[] {
     const h3 = line.match(/^###\s+(.+)$/);
     const h2 = !h3 && line.match(/^##\s+(.+)$/);
     if (h3) {
-      const text = h3[1].trim();
-      const id = text
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "")
-        .trim()
-        .replace(/\s+/g, "-");
-      headings.push({ id, text, level: 3 });
+      const text = stripInlineMarkdown(h3[1]);
+      headings.push({ id: slugify(text), text, level: 3 });
     } else if (h2) {
-      const text = h2[1].trim();
-      const id = text
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "")
-        .trim()
-        .replace(/\s+/g, "-");
-      headings.push({ id, text, level: 2 });
+      const text = stripInlineMarkdown(h2[1]);
+      headings.push({ id: slugify(text), text, level: 2 });
     }
   }
   return headings;
