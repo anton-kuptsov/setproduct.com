@@ -28,6 +28,18 @@ const STATIC_PATHS = [
 
 type Entry = { loc: string; lastmod?: string };
 
+function readPostDate(filePath: string): string | undefined {
+  try {
+    const { data } = matter(fs.readFileSync(filePath, "utf8"));
+    const date = (data as { date?: string }).date;
+    if (!date) return undefined;
+    const d = new Date(date);
+    return Number.isNaN(d.getTime()) ? undefined : d.toISOString().slice(0, 10);
+  } catch {
+    return undefined;
+  }
+}
+
 function readBlogEntries(): Entry[] {
   const dir = path.join(process.cwd(), "content", "blog");
   if (!fs.existsSync(dir)) return [];
@@ -35,19 +47,7 @@ function readBlogEntries(): Entry[] {
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith(".mdx")) continue;
     const slug = file.replace(/\.mdx$/, "");
-    let lastmod: string | undefined;
-    try {
-      const raw = fs.readFileSync(path.join(dir, file), "utf8");
-      const { data } = matter(raw);
-      const date = (data as { date?: string }).date;
-      if (date) {
-        const d = new Date(date);
-        if (!Number.isNaN(d.getTime())) lastmod = d.toISOString().slice(0, 10);
-      }
-    } catch {
-      // ignore malformed frontmatter
-    }
-    entries.push({ loc: `${SITE_URL}/blog/${slug}`, lastmod });
+    entries.push({ loc: `${SITE_URL}/blog/${slug}`, lastmod: readPostDate(path.join(dir, file)) });
   }
   entries.push({ loc: `${SITE_URL}/blog` });
   return entries;
