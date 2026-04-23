@@ -46,7 +46,7 @@ export default function CtaSubscribe() {
                   <div className="action-par-wr">
                     <p className="text-tiny-normal">
                       By clicking Sign Up you&apos;re confirming that you agree with our{" "}
-                      <a className="link-text-primary" href="/legal/terms-and-conditions">Terms and Conditions.</a>
+                      <a className="link-text-primary" href="/legal/license">Terms and Conditions.</a>
                     </p>
                   </div>
                 </div>

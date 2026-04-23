@@ -1,7 +1,14 @@
+// On Vercel preview deployments (VERCEL_ENV === "preview") the image
+// optimizer quota is easy to blow through, so serve raw files instead.
+const isVercelPreview = process.env.VERCEL_ENV === "preview";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
+  images: {
+    unoptimized: isVercelPreview,
+  },
   async redirects() {
     return [
       { source: "/index.html", destination: "/", permanent: true },
