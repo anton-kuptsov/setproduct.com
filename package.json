@@ -21,6 +21,7 @@
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide": "^4.1.4",
     "@tailwindcss/typography": "^0.5.15",
+    "fuse.js": "^7.3.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "next-mdx-remote": "^6.0.0",

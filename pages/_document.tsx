@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" data-scroll-behavior="smooth">
       <Head>
         <link
           href="/external/cdn.prod.website-files.com/64cc98fb252732dec5bda7e9/65cc9f6b13cfc5104fa9b88c_fav-32.jpg"
