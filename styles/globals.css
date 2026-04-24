@@ -160,3 +160,27 @@ h1[id], h2[id], h3[id], h4[id] {
     height: calc(100dvh - 70em);
   }
 }
+
+/* Navbar dropdown reveal: clip the panel via grid-rows transition.
+   Webflow's .w--open rule provides inset/overflow; we must replicate it on
+   the closed state too — otherwise the always-mounted absolute panel would
+   render at its "natural" absolute position and leak onto other pages. */
+@media (min-width: 991px) {
+  .navbar .nav_dropdown_list.w-dropdown-list {
+    display: grid;
+    grid-template-rows: 0fr;
+    inset: 0 0% auto;
+    overflow: hidden;
+    pointer-events: none;
+    transition: grid-template-rows 320ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .navbar .nav_dropdown_list.w-dropdown-list > * {
+    min-height: 0;
+  }
+
+  .navbar .nav_dropdown_list.w-dropdown-list.w--open {
+    grid-template-rows: 1fr;
+    pointer-events: auto;
+  }
+}

@@ -136,7 +136,7 @@ export default function SiteHeader() {
                     </div>
                     <nav
                       className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("tutorials") ? "w--open" : ""}`}
-                      style={{ display: isMenuOpen("tutorials") ? "block" : "none" }}
+                      aria-hidden={!isMenuOpen("tutorials")}
                     >
                       <div className="container">
                         <div className="form-block w-form">
@@ -206,7 +206,7 @@ export default function SiteHeader() {
                     </div>
                     <nav
                       className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("designKits") ? "w--open" : ""}`}
-                      style={{ display: isMenuOpen("designKits") ? "block" : "none" }}
+                      aria-hidden={!isMenuOpen("designKits")}
                     >
                       <div className="container">
                         <div className="form-block w-form">
@@ -272,7 +272,7 @@ export default function SiteHeader() {
                     </div>
                     <nav
                       className={`nav_dropdown_list w-dropdown-list ${isMenuOpen("information") ? "w--open" : ""}`}
-                      style={{ display: isMenuOpen("information") ? "block" : "none" }}
+                      aria-hidden={!isMenuOpen("information")}
                     >
                       <div className="container">
                         <div className="nav_dropdown-menu">

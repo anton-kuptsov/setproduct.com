@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import remarkGfm from "remark-gfm";
-import rehypePrettyCode from "rehype-pretty-code";
+import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import type { BlogFrontmatter, BlogHeading, BlogPost, BlogPostMeta } from "../../types/blog";
 import { computeReadingTime } from "./reading-time";
@@ -71,7 +71,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
         remarkPlugins: [remarkGfm],
         rehypePlugins: [
           rehypeSlug,
-          [rehypePrettyCode, { theme: "github-dark" }],
+          rehypeHighlight,
         ],
       },
     });

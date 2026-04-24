@@ -162,7 +162,7 @@ export default function SearchPage({ items }: Props) {
                     />
                   </div>
                 </form>
-                <div className="spacer-40" />
+                <div className="h-5" />
 
                 {showEmptyState && (
                   <div>
@@ -172,13 +172,7 @@ export default function SearchPage({ items }: Props) {
                       and {items.filter((i) => i.type === "blog").length} blog posts.
                     </p>
                     <div className="spacer-24" />
-                    <div
-                      style={{
-                        display: "flex",
-                        flexWrap: "wrap",
-                        gap: "12px",
-                      }}
-                    >
+                    <div className="flex flex-wrap gap-3">
                       {["dashboards", "charts", "mobile", "icons", "react", "figma"].map(
                         (suggestion) => (
                           <button
@@ -188,8 +182,7 @@ export default function SearchPage({ items }: Props) {
                               setInputValue(suggestion);
                               setQuery(suggestion);
                             }}
-                            className="blog_list-filters-item"
-                            style={{ cursor: "pointer" }}
+                            className="blog_list-filters-item cursor-pointer"
                           >
                             <span className="text-size-regular">{suggestion}</span>
                           </button>
@@ -230,90 +223,46 @@ export default function SearchPage({ items }: Props) {
                       const hidden = group.length - visible.length;
 
                       return (
-                        <section key={type} style={{ marginBottom: "48px" }}>
-                          <h2
-                            className="heading-style-h5"
-                            style={{ marginBottom: "16px" }}
-                          >
-                            {SEARCHABLE_TYPE_LABELS[type]}{" "}
-                            <span
-                              className="text-size-small"
-                              style={{ opacity: 0.6, fontWeight: 400 }}
-                            >
+                        <section key={type} className="mb-12">
+                          <p className="flex items-baseline gap-2 m
+                          pb-4 text-sm font-medium">
+                            {SEARCHABLE_TYPE_LABELS[type]}
+                            <span className="text-sm font-normal opacity-80">
                               ({group.length})
                             </span>
-                          </h2>
-                          <ul
-                            style={{
-                              listStyle: "none",
-                              padding: 0,
-                              margin: 0,
-                              display: "grid",
-                              gap: "20px",
-                            }}
-                          >
+                          </p>
+                          <ul className="list-none p-0 m-0 grid gap-5">
                             {visible.map((item) => (
-                              <li key={`${item.type}-${item.slug}`}>
+                              <li key={`${item.type}-${item.slug}`} className="group">
                                 <Link
                                   href={item.url}
-                                  style={{
-                                    display: "flex",
-                                    gap: "16px",
-                                    alignItems: "flex-start",
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                  }}
+                                  className="flex gap-4 items-start no-underline text-inherit"
                                 >
                                   {item.image && (
                                     <img
                                       alt=""
                                       loading="lazy"
                                       src={item.image}
-                                      style={{
-                                        width: "96px",
-                                        height: "72px",
-                                        objectFit: "cover",
-                                        borderRadius: "8px",
-                                        flexShrink: 0,
-                                      }}
+                                      className="w-32 h-24 object-cover rounded-lg shrink-0 m-auto group-hover:scale-105 transition-transform duration-300"
                                     />
                                   )}
-                                  <div style={{ minWidth: 0 }}>
-                                    <div
-                                      style={{
-                                        display: "flex",
-                                        gap: "8px",
-                                        alignItems: "center",
-                                        marginBottom: "4px",
-                                      }}
-                                    >
+                                  <div className="min-w-0">
+                                    <div className="flex gap-2 items-center mb-1">
                                       {item.category && (
-                                        <span
-                                          className="text-size-tiny text-weight-semibold"
-                                          style={{ opacity: 0.7 }}
-                                        >
+                                        <span className="text-size-tiny text-weight-semibold opacity-70">
                                           {item.category}
                                         </span>
                                       )}
                                       {item.price && (
-                                        <span
-                                          className="text-size-tiny text-weight-semibold"
-                                          style={{ opacity: 0.7 }}
-                                        >
+                                        <span className="text-size-tiny text-weight-semibold opacity-70">
                                           · {item.price}
                                         </span>
                                       )}
                                     </div>
-                                    <p
-                                      className="heading-style-h6 text-style-2lines"
-                                      style={{ margin: 0 }}
-                                    >
+                                    <p className="text-xl! font-semibold! leading-5! text-style-2lines m-0 group-hover:text-purple-700 transition-colors duration-300">
                                       {item.title}
                                     </p>
-                                    <p
-                                      className="text-size-small text-style-2lines"
-                                      style={{ margin: "4px 0 0", opacity: 0.8 }}
-                                    >
+                                    <p className="text-size-small text-style-2lines mt-1 mb-0 opacity-80">
                                       {item.description}
                                     </p>
                                   </div>
@@ -322,10 +271,7 @@ export default function SearchPage({ items }: Props) {
                             ))}
                           </ul>
                           {hidden > 0 && (
-                            <p
-                              className="text-size-small"
-                              style={{ marginTop: "12px", opacity: 0.6 }}
-                            >
+                            <p className="text-size-small mt-3 opacity-60">
                               +{hidden} more in {SEARCHABLE_TYPE_LABELS[type]}
                             </p>
                           )}

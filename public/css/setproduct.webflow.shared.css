@@ -92,7 +92,7 @@ pre {
   overflow: auto;
 }
 
-code, kbd, pre, samp {
+kbd, samp {
   font-family: monospace;
   font-size: 1em;
 }
