@@ -206,6 +206,65 @@ h1[id], h2[id], h3[id], h4[id] {
   }
 }
 
+/* Launch App callout — used by components/layout/LaunchAppCallout.tsx.
+ * `perspective(...)` is baked into the transform so the 3D rotation is
+ * visible (and the cubic-bezier overshoot reads as a swing) without needing
+ * the parent to set `perspective` separately. */
+@-webkit-keyframes swing-in-top-bck {
+  0% {
+    -webkit-transform: perspective(600px) rotateX(70deg);
+            transform: perspective(600px) rotateX(70deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: perspective(600px) rotateX(0deg);
+            transform: perspective(600px) rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-bck {
+  0% {
+    -webkit-transform: perspective(600px) rotateX(70deg);
+            transform: perspective(600px) rotateX(70deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: perspective(600px) rotateX(0deg);
+            transform: perspective(600px) rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+
+@keyframes launch-app-callout-fade-out {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-6px); }
+}
+
+.swing-in-top-bck {
+  -webkit-animation: swing-in-top-bck 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1s both;
+          animation: swing-in-top-bck 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1s both;
+}
+
+.launch-app-callout-fade-out {
+  animation: launch-app-callout-fade-out 260ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swing-in-top-bck,
+  .launch-app-callout-fade-out {
+    animation: none !important;
+    -webkit-animation: none !important;
+  }
+}
+
 /* Navbar dropdown reveal: animate max-height clip (slide-down, no fade).
    Inset is required on the closed state too — panel is always mounted and
    would otherwise render at its natural absolute position. */
