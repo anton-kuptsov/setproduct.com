@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import { BLOG_POSTS } from "../../data/blog-listing";
 import { useContactModal } from "../modals/ContactModalContext";
+import LaunchAppCallout from "./LaunchAppCallout";
 
 type KitPreview = {
   href: string;
@@ -422,9 +423,12 @@ export default function SiteHeader() {
                 <img alt="" className="search-icon" loading="lazy" src="/images/search.svg" />
               </div>
             </form>
-            <a className="button-small w-inline-block" href="https://app.setproduct.com/" rel="noreferrer" target="_blank">
-              <div className="text-size-medium text-weight-bold">Launch App</div>
-            </a>
+            <div className="relative inline-flex items-center">
+              <a className="button-small w-inline-block" href="https://app.setproduct.com/" rel="noreferrer" target="_blank">
+                <div className="text-size-medium text-weight-bold">Launch App</div>
+              </a>
+              <LaunchAppCallout />
+            </div>
           </div>
         </div>
       </div>
