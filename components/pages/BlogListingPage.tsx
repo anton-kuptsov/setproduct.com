@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from "./BlogListingPage.module.css";
 import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
@@ -16,8 +17,17 @@ const PAGE_SIZE = 8;
 
 export default function BlogListingPage() {
   const meta = PAGE_META.blog;
+  const router = useRouter();
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!router.isReady) return;
+    const raw = router.query.category;
+    const next = Array.isArray(raw) ? raw[0] : raw;
+    setActiveCategory(next ? String(next) : null);
+    setVisibleCount(PAGE_SIZE);
+  }, [router.isReady, router.query.category]);
 
   const filteredPosts = activeCategory
     ? BLOG_POSTS.filter((p) => p.category === activeCategory)
@@ -28,6 +38,13 @@ export default function BlogListingPage() {
   const handleCategory = (cat: string | null) => {
     setActiveCategory(cat);
     setVisibleCount(PAGE_SIZE);
+    const nextQuery = { ...router.query };
+    if (cat) {
+      nextQuery.category = cat;
+    } else {
+      delete nextQuery.category;
+    }
+    router.replace({ pathname: router.pathname, query: nextQuery }, undefined, { shallow: true, scroll: false });
   };
 
   return (

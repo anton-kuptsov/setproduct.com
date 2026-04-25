@@ -229,18 +229,22 @@ export default function SiteHeader() {
                                   <div className="text-size-regular">Categories</div>
                                 </div>
                                 <div className="nav-links is-1-column">
-                                   {NAV_BLOG_CATEGORIES.map((item) => (
-                                     <button
-                                       className={`nav_radio w-inline-block${activeBlogCategory === item.category ? " w--current" : ""}`}
-                                       key={item.label}
-                                       type="button"
-                                       onClick={() => setActiveBlogCategory(item.category)}
-                                       style={{ background: "none", border: "none", cursor: "pointer", textAlign: "left", width: "100%" }}
-                                     >
-                                       <p className={`text-size-regular${activeBlogCategory === item.category ? " text-color-primary" : ""}`}>{item.label}</p>
-                                     </button>
-                                   ))}
-                                 </div>
+                                  {NAV_BLOG_CATEGORIES.map((item) => {
+                                    const href = item.category
+                                      ? `/blog?category=${encodeURIComponent(item.category)}`
+                                      : "/blog";
+                                    return (
+                                      <a
+                                        className={`nav_radio w-inline-block${activeBlogCategory === item.category ? " w--current" : ""}`}
+                                        key={item.label}
+                                        href={href}
+                                        onMouseEnter={() => setActiveBlogCategory(item.category)}
+                                      >
+                                        <p className={`text-size-regular${activeBlogCategory === item.category ? " text-color-primary" : ""}`}>{item.label}</p>
+                                      </a>
+                                    );
+                                  })}
+                                </div>
                               </div>
                               <div className="nav_dropdown-list-wr">
                                 <div className="nav_tabs-list-wr w-dyn-list">
