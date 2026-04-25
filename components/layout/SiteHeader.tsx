@@ -20,6 +20,8 @@ const NAV_BLOG_CATEGORIES: Array<{ label: string; category: string | null }> = [
   { label: "Growth Hacking", category: "Growth Hacking" },
   { label: "Inspiration", category: "Inspiration" },
   { label: "Resources", category: "Resources" },
+  { label: "Technology", category: "Technology" },
+  { label: "Research", category: "Research" },
 ];
 
 const DESIGN_KITS = [
