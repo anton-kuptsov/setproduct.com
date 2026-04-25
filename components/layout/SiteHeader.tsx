@@ -48,7 +48,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $148",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/6581822fb4f818e3674d3801_pricing-orion-01.webp",
     title: "Orion UI kit",
-    description: "Figma library with 440+ full-width charts templates served in light and dark themes.",
+    description: "Figma library with 40+ full-width charts templates served in light & dark themes. Contains 200+ of dataviz widgets that look perfect on desktop & mobile screens.",
   },
   {
     href: "/templates/nocra",
@@ -56,7 +56,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $98",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/686262d49adba480c8298ccc_nocra-cover-min.jpg",
     title: "Nocra UI kit",
-    description: "Nocra is a design system for AI products. Built for startups harnessing AI generation.",
+    description: "Nocra is a design system for AI products. Built specifically for startups harnessing AI generation: images, video, audio, music, prompts, and beyond.",
   },
   {
     href: "/templates/charts",
@@ -64,7 +64,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $168",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/658c09d54cd3f40b33840524_pricing-charts-01.avif",
     title: "Figma Charts UI kit",
-    description: "Components-driven graphs design kit for dashboards, presentations and infographics.",
+    description: "Components-driven graphs design kit for dashboards, presentations, infographics & data visualisation. Includes 25+ charts types for all the viewports.",
   },
   {
     href: "/templates/nucleus-ui",
@@ -72,7 +72,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $89",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8cb274438ae24e0e9b32_65858952fbfba6f0b7c1727b_nucleus-cover-1920-m_(1).avif",
     title: "Nucleus UI",
-    description: "1000+ components and variants with 500+ mobile screens and 9 themes.",
+    description: "Nucleus UI contains 1000 components and variants with 500+ mobile screens designed for Figma (including 9 themes from Event, E-commerce, Finance, NFT, etc.).",
   },
   {
     href: "/templates/material-x",
@@ -80,7 +80,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $148",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8b3de9d92cd2717a31a9_6582e572f92ec39e162a49a8_pircing-mx-02_(1).avif",
     title: "Material X for Figma",
-    description: "Figma library with 1100+ components and 40 app templates beyond Material Design.",
+    description: "Figma library with 1100+ components & 40 app templates beyond Material Design. Powered by top-notch shapes and Manrope font. Customizable & Adjustable UI kit now available for Angular & Figma",
   },
   {
     href: "/templates/material-you",
@@ -88,7 +88,7 @@ const KIT_PREVIEWS: KitPreview[] = [
     buyLabel: "Buy $124",
     image: "/external/cdn.prod.website-files.com/64d1f4894b9a964bb3b26df9/660e8bd8e10b051b70a441f2_658189130000cb93c2db5936_pricing-materialme_(1).avif",
     title: "Material You UI kit",
-    description: "Figma + React library with 2600+ variants of 32 components and 220+ dashboards.",
+    description: "Figma & React library with 2600+ variants of 32 components compatible with Material Design 3. Plus 220+ dashboard templates for all the viewports. Now available for NextJS & TailwindCSS.",
   },
 ];
 
