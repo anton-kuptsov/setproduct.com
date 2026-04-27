@@ -5,8 +5,20 @@ import { serialize } from "next-mdx-remote/serialize";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
+import { visit } from "unist-util-visit";
 import type { BlogFrontmatter, BlogHeading, BlogPost, BlogPostMeta } from "../../types/blog";
 import { computeReadingTime } from "./reading-time";
+
+function rehypeCleanIds() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return (tree: any) => {
+    visit(tree, "element", (node: { tagName: string; properties?: { id?: string } }) => {
+      if (/^h[1-6]$/.test(node.tagName) && node.properties?.id) {
+        node.properties.id = node.properties.id.replace(/-+/g, "-").replace(/^-|-$/g, "");
+      }
+    });
+  };
+}
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
@@ -29,7 +41,8 @@ function slugify(text: string): string {
     .toLowerCase()
     .replace(/[^\w\s-]/g, "")
     .trim()
-    .replace(/\s+/g, "-");
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
 }
 
 function extractHeadings(content: string): BlogHeading[] {
@@ -71,6 +84,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
         remarkPlugins: [remarkGfm],
         rehypePlugins: [
           rehypeSlug,
+          rehypeCleanIds,
           rehypeHighlight,
         ],
       },
