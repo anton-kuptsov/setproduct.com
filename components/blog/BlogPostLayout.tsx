@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Head from "next/head";
 import { MDXRemote } from "next-mdx-remote";
 import SiteHeader from "../layout/SiteHeader";
@@ -23,6 +24,7 @@ type BlogPostLayoutProps = {
 
 export default function BlogPostLayout({ post, relatedPosts, postUrl }: BlogPostLayoutProps) {
   const { frontmatter, mdxSource, readingTimeText, readingTimeMinutes, headings } = post;
+  const contentSectionRef = useRef<HTMLDivElement>(null);
   const canonical = frontmatter.canonical ?? `${SITE_URL}/blog/${frontmatter.slug}`;
   const absoluteCoverUrl = frontmatter.coverImage?.startsWith("http")
     ? frontmatter.coverImage
@@ -65,11 +67,12 @@ export default function BlogPostLayout({ post, relatedPosts, postUrl }: BlogPost
         <div className="section">
           <div className="section-padding bottom-112">
             <div className="container">
-              <div className="blogpost_content-section">
+              <div className="blogpost_content-section" ref={contentSectionRef}>
                 <BlogSidebar
                   headings={headings}
                   postUrl={postUrl}
                   postTitle={frontmatter.title}
+                  containerRef={contentSectionRef}
                 />
                 <div
                   id="w-node-content"
