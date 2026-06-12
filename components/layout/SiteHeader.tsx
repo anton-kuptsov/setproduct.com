@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { useContactModal } from "../modals/ContactModalContext";
@@ -45,6 +46,38 @@ const INFORMATION_LINKS = [
 ];
 
 const NAV_BLOG_PREVIEW_COUNT = 6;
+
+const SEARCH_PLACEHOLDERS = [
+  "Search dashboards…",
+  "Search Figma kits…",
+  "Search blog posts…",
+  "Search AI UI examples…",
+];
+
+const SEARCH_PLACEHOLDER_INTERVAL_MS = 2500;
+
+const INSPIRATION_BADGE_STYLE: CSSProperties = {
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center",
+  marginLeft: "0.5em",
+  padding: "0.18em 0.5em",
+  borderRadius: "0.35em",
+  backgroundColor: "var(--primary)",
+  color: "var(--white)",
+  fontSize: "0.62em",
+  fontWeight: 700,
+  letterSpacing: "0.06em",
+  lineHeight: 1,
+};
+
+const LAUNCH_APP_SUBLABEL_STYLE: CSSProperties = {
+  marginTop: "0.15em",
+  fontSize: "0.7em",
+  fontWeight: 500,
+  opacity: 0.85,
+  letterSpacing: "0.01em",
+};
 
 const KIT_PREVIEWS: KitPreview[] = [
   {
@@ -105,6 +138,9 @@ export default function SiteHeader({ blogPosts = [] }: SiteHeaderProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [activeBlogCategory, setActiveBlogCategory] = useState<string | null>(null);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [searchPlaceholderIndex, setSearchPlaceholderIndex] = useState(0);
+  const [previousPlaceholderIndex, setPreviousPlaceholderIndex] =
+    useState<number | null>(null);
   const navbarRef = useRef<HTMLDivElement | null>(null);
   const { openContactModal } = useContactModal();
   const router = useRouter();
@@ -183,6 +219,36 @@ export default function SiteHeader({ blogPosts = [] }: SiteHeaderProps) {
     };
   }, [isMobileNavOpen]);
 
+  // Rotate the nav-search placeholder to hint that search covers kits, blog,
+  // dashboards and AI inspiration. Cross-fades the outgoing text with the
+  // incoming one by rendering two overlay spans for ~320ms.
+  // Respects prefers-reduced-motion.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const cleanupTimers: number[] = [];
+
+    const id = window.setInterval(() => {
+      setSearchPlaceholderIndex((current) => {
+        if (!reduceMotion) {
+          setPreviousPlaceholderIndex(current);
+          const t = window.setTimeout(() => {
+            setPreviousPlaceholderIndex(null);
+          }, 360);
+          cleanupTimers.push(t);
+        }
+        return (current + 1) % SEARCH_PLACEHOLDERS.length;
+      });
+    }, SEARCH_PLACEHOLDER_INTERVAL_MS);
+
+    return () => {
+      window.clearInterval(id);
+      cleanupTimers.forEach((t) => window.clearTimeout(t));
+    };
+  }, []);
+
   const filteredBlogPreviews = (activeBlogCategory
     ? blogPosts.filter((p) => p.category === activeBlogCategory)
     : blogPosts
@@ -208,8 +274,20 @@ export default function SiteHeader({ blogPosts = [] }: SiteHeaderProps) {
           >
             <div className="nav-menu-inner">
               <div className="nav-menu-links-wr">
-                <a className="nav-link-block w-inline-block" href="https://app.setproduct.com/" rel="noreferrer" target="_blank">
-                  <div className="text-size-regular">Inspiration</div>
+                <a
+                  className="nav-link-block w-inline-block"
+                  href="https://app.setproduct.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  aria-label="Inspiration — AI UI library"
+                >
+                  <div
+                    className="text-size-regular"
+                    style={{ display: "inline-flex", alignItems: "center" }}
+                  >
+                    Inspiration
+                    <span style={INSPIRATION_BADGE_STYLE} aria-hidden="true">AI</span>
+                  </div>
                 </a>
 
                 <div className="nav_dropdown-wr" onMouseEnter={() => openOnHover("tutorials")} onMouseLeave={closeOnHoverLeave}>
@@ -438,16 +516,48 @@ export default function SiteHeader({ blogPosts = [] }: SiteHeaderProps) {
           </button>
 
           <div className="nav-button-wr">
-            <form action="/search" className="search w-form">
-              <input className="text-input is-nav-search w-input" id="search" maxLength={256} name="query" placeholder="Search…" required type="search" />
+            <form action="/search" className="search w-form" style={{ position: "relative" }}>
+              <input
+                className="text-input is-nav-search w-input"
+                id="search"
+                maxLength={256}
+                name="query"
+                placeholder=""
+                required
+                type="search"
+              />
+              {previousPlaceholderIndex !== null && (
+                <span
+                  key={`leaving-${previousPlaceholderIndex}`}
+                  aria-hidden="true"
+                  className="nav-search-placeholder is-leaving"
+                >
+                  {SEARCH_PLACEHOLDERS[previousPlaceholderIndex]}
+                </span>
+              )}
+              <span
+                key={`entering-${searchPlaceholderIndex}`}
+                aria-hidden="true"
+                className="nav-search-placeholder is-entering"
+              >
+                {SEARCH_PLACEHOLDERS[searchPlaceholderIndex]}
+              </span>
               <input className="hide w-button" type="submit" value="Search" />
               <div className="search-icon-wr">
                 <img alt="" className="search-icon" loading="lazy" src="/images/search.svg" />
               </div>
             </form>
             <div className="relative inline-flex items-center">
-              <a className="button-small w-inline-block" href="https://app.setproduct.com/" rel="noreferrer" target="_blank">
-                <div className="text-size-medium text-weight-bold">Launch App</div>
+              <a
+                className="button-small w-inline-block"
+                href="https://app.setproduct.com/"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="Inspire me — open the AI UI library"
+                style={{ flexDirection: "column", alignItems: "center", lineHeight: 1.1 }}
+              >
+                <div className="text-size-medium text-weight-bold">Inspire me</div>
+                <div style={LAUNCH_APP_SUBLABEL_STYLE}>AI UI library →</div>
               </a>
               <LaunchAppCallout />
             </div>

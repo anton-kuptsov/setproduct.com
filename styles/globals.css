@@ -51,6 +51,78 @@ h1[id], h2[id], h3[id], h4[id] {
 }
 
 /*
+ * Reusable image text-wrap (float) for MDX posts.
+ * Opt-in via markdown title marker: ![alt](/path "float").
+ * The MDXImage component renders a <span class="blog-img-float ...">, which
+ * floats out of its wrapping <p> so the following paragraphs wrap around it.
+ * Place the "float" image directly BEFORE the paragraph it should wrap into.
+ */
+.blog-img-float {
+  display: block;
+}
+
+.blog-img-float--right {
+  float: right;
+  width: 40%;
+  margin: 0.25rem 0 1.25rem 1.75rem;
+}
+
+.blog-img-float--left {
+  float: left;
+  width: 40%;
+  margin: 0.25rem 1.75rem 1.25rem 0;
+}
+
+/*
+ * Only h2 (section starts) clear floats. h3 subsections intentionally do NOT
+ * clear, so one tall portrait image can wrap across several short h3
+ * subsections within a single H2 section instead of forcing each subheading
+ * to jump below the image (which left big empty gaps on the left).
+ */
+.rich-text-18 h2 {
+  clear: both;
+}
+
+/*
+ * Notifications post: every h3 subsection carries its OWN float image, so each
+ * heading must start on a clean line below the previous image. Without this,
+ * a short paragraph lets the next component's heading squeeze into the narrow
+ * column beside a still-floating image. Scoped by slug so it does not affect
+ * posts (e.g. tabs) where one image intentionally wraps across several h3s.
+ */
+.rich-text-18[data-post="notifications-ui-design"] h3 {
+  clear: both;
+}
+
+/* Mobile: drop the float, image spans the full column width. */
+@media (max-width: 767px) {
+  .blog-img-float--right,
+  .blog-img-float--left {
+    float: none;
+    width: 100%;
+    margin: 1.25rem 0;
+  }
+}
+
+/*
+ * Image captions inside MDX posts.
+ * IMPORTANT: this Webflow theme sets body { font-size: .0694445vw } (~1px at
+ * 1440) and sizes all rich-text via `font-size: 18em` (~18px). So font-size
+ * here MUST use the same `em` system (1em ~= 1px), NOT rem/em-of-parent:
+ * `15em` ~= 15px and stays consistent with the working body text. Scoped under
+ * .rich-text-18 with !important to beat the base `.rich-text-18 p` rule.
+ */
+.rich-text-18 p.blog-figcaption {
+  text-align: center !important;
+  font-style: italic !important;
+  color: #6b7280 !important;
+  font-size: 15em !important;
+  line-height: 150% !important;
+  margin-top: 0.8em !important;
+  margin-bottom: 1.8em !important;
+}
+
+/*
  * Tailwind Preflight removes list markers; MDX renders real <ul>/<ol>.
  * Restore visible bullets/numbers and proper indentation for rich-text content.
  */
@@ -165,6 +237,149 @@ h1[id], h2[id], h3[id], h4[id] {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   font-size: 0.9em;
+}
+
+/*
+ * GFM tables inside MDX blog posts — Material Design 3 data table style.
+ *
+ * ⚠️ TWO em scopes in this block — read carefully before editing.
+ *
+ * This project uses Webflow's "em as pixel" trick: body has
+ * font-size: 0.0694445vw (~1px on a 1440px viewport), so anywhere INSIDE
+ * .rich-text-18 (but BEFORE we set our own font-size), 1em ≈ 1px.
+ *
+ *   Scope A — `.rich-text-18 table { … }`
+ *     The table itself does NOT set its own font-size, so em values on
+ *     `margin`, `border-radius`, `border` here still resolve in the body
+ *     scope: 24em ≈ 24px, 12em ≈ 12px, 1em ≈ 1px. Use em-as-px.
+ *
+ *   Scope B — `.rich-text-18 table th, td { font-size: 16em; … }`
+ *     Once we set font-size on the cells, em-as-px is GONE inside this
+ *     rule and inside the cell's children. After font-size: 16em becomes
+ *     16px, every other em on this rule is computed against 16px:
+ *       0.875em = 14px, 1em = 16px, 1.25em = 20px, 0.0625em = 1px.
+ *     This is the normal CSS em ratio.
+ *
+ *   Previous bug: a single rule had `font-size: 16em` together with
+ *   `padding: 16em 20em` and `border-radius: 12em`. The padding turned
+ *   into 256×320px and the radius into 192px, blowing the table off
+ *   screen. Splitting into Scope A / Scope B fixes it.
+ *
+ * Material 3 design choices used below:
+ *   • No vertical cell borders, only hairline horizontal row dividers.
+ *   • No zebra striping (M3 prefers flat surface).
+ *   • Header: medium weight + tiny tint, on-surface-variant color.
+ *   • Hover row: 6% --primary as the state layer.
+ *   • Rounded outer container with a single 1px outline-variant border.
+ *
+ * The block-level wrapper with overflow-x: auto keeps wide tables from
+ * breaking the layout on narrow viewports.
+ */
+
+/* Scope A — em ≈ 1px (body context) */
+.rich-text-18 table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 24em 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border: 1em solid #e7e0ec;
+  border-radius: 12em;
+}
+
+.rich-text-18 table thead {
+  background-color: #f7f5fa;
+}
+
+/* Scope B — em ≈ 16px (cell font-size context) */
+.rich-text-18 table th,
+.rich-text-18 table td {
+  font-size: 16em;
+  line-height: 1.5;
+  padding: 0.875em 1.25em; /* 14px 20px */
+  border: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.rich-text-18 table th {
+  font-weight: 500;
+  color: #49454f;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.rich-text-18 table tbody tr + tr td {
+  border-top: 0.0625em solid #e7e0ec; /* 1px */
+}
+
+.rich-text-18 table tbody tr {
+  transition: background-color 120ms ease;
+}
+
+.rich-text-18 table tbody tr:hover {
+  background-color: rgba(124, 77, 255, 0.06);
+}
+
+.rich-text-18 table thead th:first-child,
+.rich-text-18 table tbody td:first-child {
+  padding-left: 1.5em; /* 24px */
+}
+
+.rich-text-18 table thead th:last-child,
+.rich-text-18 table tbody td:last-child {
+  padding-right: 1.5em; /* 24px */
+}
+
+/*
+ * Scoped override for narrow GFM tables that should fill the content width
+ * instead of shrinking to their content. Opt-in by wrapping the table in
+ * `<div class="blog-fit-table">` in MDX. The global rule sets the table to
+ * `display: block` for horizontal scrolling; for short tables that produces an
+ * empty gap on the right. Here the wrapper div carries the frame and rounded
+ * corners (overflow clips reliably on a block element), while the inner table
+ * switches back to the table box model so columns distribute across 100% width.
+ * Used only where explicitly added, so other posts are unaffected.
+ */
+.rich-text-18 .blog-fit-table {
+  margin: 24px 0;
+  background-color: #ffffff;
+  border: 1px solid #e7e0ec;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.rich-text-18 .blog-fit-table table {
+  display: table;
+  width: 100%;
+  table-layout: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+/*
+ * Mobile: on narrow screens the three text columns get crushed and become
+ * unreadable. Let the wrapper scroll horizontally and give the table a
+ * min-width so columns keep a comfortable size instead of squeezing.
+ * overflow-x is paired with overflow-y: hidden so the rounded corners still
+ * clip cleanly. Only applies inside the opt-in wrapper, so other tables and
+ * the desktop full-width behaviour above are untouched.
+ */
+@media (max-width: 767px) {
+  .rich-text-18 .blog-fit-table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .rich-text-18 .blog-fit-table table {
+    width: auto;
+    min-width: 600px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -447,5 +662,198 @@ h1[id], h2[id], h3[id], h4[id] {
 
   .navbar .menu-button.w-nav-button.w--open .menu-button-img.is-close {
     opacity: 1;
+  }
+}
+
+/* =========================================================================
+   Footer polish — hover refinements + typography rhythm
+   Variants 1 + 2 from the footer enhancement plan.
+   Scoped via .footer ancestor so nothing leaks to other pages.
+   ========================================================================= */
+
+/* --- Variant 1: hover refinements ---------------------------------------- */
+
+/* Smoother, slightly springy color transition + subtle horizontal shift
+   on column links. Webflow already sets `transition: color .2s` on
+   .link-block; we override it here without touching the base class. */
+.footer .link-block {
+  transition:
+    color 0.25s cubic-bezier(0.2, 0.8, 0.4, 1),
+    transform 0.25s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.footer .link-block:not(.footer-social-media):hover {
+  transform: translateX(2px);
+}
+
+/* Social icons: slightly darker default for better contrast on the
+   light-purple footer card, with a small scale-up on hover. */
+.footer .link-block.footer-social-media {
+  color: #7a7a7a;
+  transition:
+    color 0.2s ease,
+    transform 0.25s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.footer .link-block.footer-social-media:hover {
+  color: var(--primary);
+  transform: scale(1.12);
+}
+
+/* --- Variant 2: typography rhythm ---------------------------------------- */
+
+/* Add breathing room between a column title and its list of links.
+   .footer_column has grid-row-gap: 4em — bump the gap below the title only. */
+.footer .footer-link-title {
+  margin-bottom: 8em;
+  letter-spacing: 0.01em;
+}
+
+/* Slightly more open tracking for the small footer links improves
+   legibility at this font size. */
+.footer .footer-links .link-block {
+  letter-spacing: 0.005em;
+}
+
+/* Soften the newsletter description so it doesn't compete with the
+   "Subscribe to Setproduct" heading. */
+.footer .footer_cta-active p.text-size-small {
+  opacity: 0.7;
+}
+
+/* Copyright line: align its tone with the (also greyish) social icons
+   instead of full black. */
+.footer .footer_credits-text .text-size-small {
+  color: var(--grey);
+}
+
+/* --- Nav search: wider field, smaller font, cross-fading placeholder ---- */
+
+/* The Webflow base sets `.text-input { font-size: 18em }` (where body
+   font-size is ~0.07vw), which makes long placeholders like
+   "Search AI UI examples…" overflow the original 11.1em-wide nav-search
+   input. Shrink the font in the nav-search only, widen the field by 50%,
+   and compensate min-height and paddings so the outer height stays the
+   same as before. */
+.text-input.is-nav-search {
+  width: 16.6667em;          /* was 11.1111em — +50% wider */
+  font-size: 14em;
+  min-height: 3.214em;       /* preserves outer height: 2.5em * 18 / 14 */
+  padding-top: 0.771em;      /* preserves vertical padding: 0.6 * 18 / 14 */
+  padding-bottom: 0.771em;
+  padding-left: 3.143em;     /* preserves icon clearance: 2.44444 * 18 / 14 */
+}
+
+/* Rotating placeholder rendered as absolutely-positioned spans on top of
+   the input. The native placeholder attribute is left empty, so this
+   overlay is the only visible hint. Two overlapping spans are rendered
+   during a transition (one with .is-leaving, one with .is-entering) to
+   produce a cross-fade. */
+.nav-search-placeholder {
+  position: absolute;
+  left: 3.143em;             /* matches input's padding-left */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #1a191c99;          /* same color as native placeholder */
+  font-size: 14em;           /* matches the shrunken input font-size */
+  white-space: nowrap;
+  will-change: opacity;
+}
+
+.nav-search-placeholder.is-entering {
+  animation: nav-search-placeholder-in 320ms ease-out both;
+}
+
+.nav-search-placeholder.is-leaving {
+  animation: nav-search-placeholder-out 280ms ease-out both;
+}
+
+/* Hide the overlay as soon as the field is focused or has user-typed
+   text — at that point the real input value should take over visually. */
+.search:focus-within .nav-search-placeholder {
+  opacity: 0;
+  animation: none;
+}
+
+@keyframes nav-search-placeholder-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes nav-search-placeholder-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-search-placeholder.is-entering,
+  .nav-search-placeholder.is-leaving {
+    animation: none;
+  }
+  .nav-search-placeholder.is-leaving {
+    display: none;
+  }
+}
+
+/*
+ * FAQ accordion — smooth expand/collapse + animated plus/minus icon.
+ * The answer wrapper is always in the DOM and animates via the
+ * grid-template-rows 0fr -> 1fr technique (no JS height measurement).
+ */
+.faq_answer-grid {
+  display: grid;
+  grid-template-rows: 0fr;
+  /* Emphasized decelerate curve: quick start, soft settle (feels less linear). */
+  transition: grid-template-rows 320ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.faq_item-wrapper.is-open .faq_answer-grid {
+  grid-template-rows: 1fr;
+}
+
+.faq_answer-grid-inner {
+  overflow: hidden;
+  min-height: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+}
+
+.faq_item-wrapper.is-open .faq_answer-grid-inner {
+  opacity: 1;
+  transition: opacity 240ms ease-out 80ms;
+}
+
+/* Animated + -> - icon: two stroked lines, vertical one collapses on open. */
+.faq-toggle-icon {
+  width: 24em;
+  height: 24em;
+  display: block;
+}
+
+.faq-toggle-icon__line {
+  stroke: var(--black);
+  stroke-width: 2;
+  stroke-linecap: round;
+  transform-origin: center;
+}
+
+.faq-toggle-icon__line--v {
+  transition:
+    transform 240ms cubic-bezier(0.2, 0, 0, 1),
+    opacity 200ms ease-out;
+}
+
+.faq_item-wrapper.is-open .faq-toggle-icon__line--v {
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq_answer-grid,
+  .faq_answer-grid-inner,
+  .faq_item-wrapper.is-open .faq_answer-grid-inner,
+  .faq-toggle-icon__line--v {
+    transition: none;
   }
 }

@@ -82,7 +82,7 @@ export default function BlogPostLayout({ post, relatedPosts, postUrl, blogPosts 
                 >
                   <BlogAuthor authorSlug={frontmatter.author} />
                   <div className="spacer-16" />
-                  <div className="rich-text-18 w-richtext">
+                  <div className="rich-text-18 w-richtext" data-post={frontmatter.slug}>
                     <MDXRemote {...mdxSource} components={blogMdxComponents} />
                   </div>
                 </div>

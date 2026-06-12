@@ -88,7 +88,9 @@ export default function HomePage({ blogPosts = [] }: Props) {
           </div>
         </div>
 
-        {faq.length > 0 && <FaqSection items={faq} />}
+        {faq.length > 0 && (
+          <FaqSection items={faq} title="Your questions answered" />
+        )}
       </main>
       <SiteFooter />
       <ScrollUpButton />
