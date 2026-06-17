@@ -27,6 +27,8 @@ export type BlogFrontmatter = {
   inlineCta?: InlineCta;
   readingTimeText?: string;
   relatedSlugs?: string[];
+  /** ISO date 'YYYY-MM' or 'YYYY-MM-DD' of the last content refresh. Drives the freshness signal in BlogHero/BlogMeta (rendering TODO Wave 5). */
+  lastUpdated?: string;
 };
 
 export type BlogHeading = {

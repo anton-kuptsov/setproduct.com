@@ -382,6 +382,24 @@ h1[id], h2[id], h3[id], h4[id] {
   }
 }
 
+/*
+ * Constrain an infographic to a share of the content width and centre it.
+ * Opt-in by wrapping the image in `<div class="blog-img-narrow">` in MDX.
+ * MDXImage stretches to 100% of its container, so the wrapper width is what
+ * controls the rendered size. On mobile it falls back to full width so small
+ * screens are not wasted. Used only where explicitly added.
+ */
+.rich-text-18 .blog-img-narrow {
+  width: 75%;
+  margin: 24px auto;
+}
+
+@media (max-width: 767px) {
+  .rich-text-18 .blog-img-narrow {
+    width: 100%;
+  }
+}
+
 @media (min-width: 991px) {
   .section.is-height-100vh {
     height: calc(100dvh - 70em);
