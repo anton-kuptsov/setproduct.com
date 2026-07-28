@@ -1,4 +1,5 @@
-import { getAuthor } from "../../lib/blog/authors";
+import Link from "next/link";
+import { getAuthor, isRegisteredAuthor } from "../../lib/blog/authors";
 
 type BlogAuthorProps = {
   authorSlug: string;
@@ -6,8 +7,10 @@ type BlogAuthorProps = {
 
 export default function BlogAuthor({ authorSlug }: BlogAuthorProps) {
   const author = getAuthor(authorSlug);
-  return (
-    <a href="#" className="blogpost_author-wr w-inline-block">
+  const registered = isRegisteredAuthor(authorSlug);
+
+  const inner = (
+    <>
       <div className="blogpost_author-img">
         <img
           src={author.avatar}
@@ -20,6 +23,20 @@ export default function BlogAuthor({ authorSlug }: BlogAuthorProps) {
         />
       </div>
       <p className="text-size-regular text-weight-semibold">{author.name}</p>
-    </a>
+    </>
   );
+
+  if (registered) {
+    return (
+      <Link
+        href={`/authors/${author.slug}`}
+        className="blogpost_author-wr w-inline-block"
+        style={{ display: "inline-flex", width: "fit-content" }}
+      >
+        {inner}
+      </Link>
+    );
+  }
+
+  return <div className="blogpost_author-wr">{inner}</div>;
 }

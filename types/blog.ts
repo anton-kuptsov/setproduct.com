@@ -9,6 +9,21 @@ export type InlineCta = {
 
 export type BlogCategory = string;
 
+export type AuthorLinks = {
+  twitter?: string;
+  linkedin?: string;
+  website?: string;
+  gumroad?: string;
+};
+
+export type Author = {
+  slug: string;
+  name: string;
+  avatar: string;
+  role?: string;
+  links?: AuthorLinks;
+};
+
 export type BlogFrontmatter = {
   title: string;
   description: string;

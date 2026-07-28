@@ -1,0 +1,208 @@
+# Setproduct — full content index
+
+> Complete list of all blog articles on Setproduct, grouped by category. Each entry has a title, a short description, and a URL. Setproduct also sells Figma and coded UI kits; see https://www.setproduct.com/llms.txt for the compact overview and product catalog.
+
+Site: https://www.setproduct.com
+Blog: https://www.setproduct.com/blog
+
+## UI Design
+
+- [Form controls reference 2026 for product designers](https://www.setproduct.com/blog/form-controls-reference-2026): A practical reference to form controls in 2026 — anatomy, the right control for each input, validation, accessibility, libraries, and anti-patterns.
+- [Radio button UI design, from anatomy to accessible groups](https://www.setproduct.com/blog/radio-button-ui-design): Anatomy, 7 states, card-based selectors, ARIA radio groups, real SaaS examples, and a ship checklist.
+- [Date picker UI design, from anatomy to accessibility](https://www.setproduct.com/blog/date-picker-ui-design): Anatomy, 7 types, range selection, states, accessibility, i18n, and a ship checklist.
+- [Data table UI design reference guide for 2026](https://www.setproduct.com/blog/data-table-ui-design): Anatomy, cell types, density, sorting, filtering, pagination vs virtualization, accessibility, and a ship checklist.
+- [Dashboard UI design: From KPIs to layouts that convert](https://www.setproduct.com/blog/dashboard-ui-design): Anatomy, layout patterns, data visualization, mobile, and anti-patterns to avoid, with examples and FAQ.
+- [Designing AI chat interfaces: Anatomy, patterns, pitfalls](https://www.setproduct.com/blog/ai-chat-interface-ui-design): AI chat UI anatomy, message states, streaming pattern, mobile vs desktop layouts, accessibility, and anti-patterns.
+- [How to study SaaS dashboard UI patterns in the AI era](https://www.setproduct.com/blog/how-to-study-saas-dashboard-in-the-ai-era): Why recognizing strong SaaS dashboard patterns is still the real skill even as AI generates screens.
+- [Empty state UI design: turn blank screens into next steps](https://www.setproduct.com/blog/empty-state-ui-design): How to turn blank screens into guidance that drives the next action, with real examples.
+- [Steps UI design tutorial. Build better flows through visual guidance](https://www.setproduct.com/blog/steps-ui-design): Rules that make Steps UI guide users, reduce drop-offs, and remove friction across desktop and mobile.
+- [Tooltip UI design: Why most tooltips quietly hurt usability](https://www.setproduct.com/blog/tooltip-ui-design): The anatomy, timing, and accessibility rules that make tooltips quietly useful instead of annoying.
+- [Slider UI design: Single, range, anatomy, and accessibility](https://www.setproduct.com/blog/slider-ui-design): Anatomy, single vs range thumbs, snapping rules, accessibility, and mobile interactions.
+- [Toggle switch UI design: When to use it and when not to](https://www.setproduct.com/blog/toggle-switch-ui-design): When toggle switches beat checkboxes, plus anatomy, states, accessibility, and mobile patterns.
+- [Dialog windows: a complete tutorial for designers and developers](https://www.setproduct.com/blog/how-to-design-dialogs): Edge cases, layout rules, and UX best practices for dialogs across devices.
+- [Strikethrough text deserves more love in UI](https://www.setproduct.com/blog/strikethrough-text-deserves-more-love-in-ui): The role of strikethrough in e-commerce, productivity apps, and beyond.
+- [Stepper input UI design: The +/- quantity control done right](https://www.setproduct.com/blog/stepper-ui-design): Stepper anatomy, states, min/max limits, and mobile tap targets that prevent input errors.
+- [Breadcrumbs UI design: When they help and when they hurt UX](https://www.setproduct.com/blog/breadcrumbs-ui-design): When breadcrumbs help, when to skip them, plus anatomy, states, and mobile patterns.
+- [Battle-tested landing page structure guide for startups and MVPs](https://www.setproduct.com/blog/landing-page-design-tips-for-startups): The essential sections for a high-converting landing page after the hero.
+- [Pagination UI design: Offset vs keyset vs infinite scroll](https://www.setproduct.com/blog/pagination-ui-design): Compares offset, keyset, and infinite scroll with states, anatomy, and real use cases.
+- [Tab UI design rules: When tabs work and when they fail](https://www.setproduct.com/blog/tabs-ui-design): Tab anatomy, states, and mobile patterns that keep users oriented across desktop and mobile.
+- [Campaign marketing dashboards designed right](https://www.setproduct.com/blog/campaign-marketing-dashboards-guide): Design dashboards that reveal who engages with campaigns, where they are, and how to turn data into decisions.
+- [Marketing dashboard UI design: Campaigns, ROI, and funnels](https://www.setproduct.com/blog/marketing-dashboard-ui-design-guide): Which campaign metrics to surface, the right charts, and layouts that survive dev handoff.
+- [Pricing page UI design that converts more visitors](https://www.setproduct.com/blog/pricing-ui-design): Types, anatomy, and usability best practices for a pricing section that drives conversions.
+- [Button Group UI design guide](https://www.setproduct.com/blog/button-group-guide): Button Group design principles — usability, accessibility, and visual design.
+- [Best E-Commerce Dashboard Templates with Examples](https://www.setproduct.com/blog/e-commerce-dashboard-examples): Top e-commerce dashboard templates to streamline data analysis and store performance.
+- [Best SaaS Dashboard Examples and design templates](https://www.setproduct.com/blog/saas-dashboard-examples): Benefits, features, and best practices of SaaS dashboards for data-driven decisions.
+- [Best Analytics Dashboard Examples and Best Practices](https://www.setproduct.com/blog/best-analytics-dashboard-examples): Analytics dashboard examples and design practices that turn data into insights.
+- [Top Dashboard Design Examples and Ideas](https://www.setproduct.com/blog/top-dashboard-design-examples-ideas): Best practices and examples for effective dashboard designs and data visualization.
+- [Types of Dashboards. Main Categories Explained](https://www.setproduct.com/blog/types-of-dashboards-main-categories): Operational, analytical, and strategic dashboards and how they drive business success.
+- [Dashboard design principles: 8 rules that actually work](https://www.setproduct.com/blog/effective-dashboard-design-principles): Eight practical rules on KPIs, color, density, and update frequency.
+- [Checkbox UI design: Anatomy, states, and the indeterminate one](https://www.setproduct.com/blog/checkbox-ui-design): Checkbox anatomy, types, states, and styling rules that hold up in real forms.
+- [Input UI design: States, anatomy, and validation patterns](https://www.setproduct.com/blog/input-ui-design): Input anatomy, input types, and every state — focus, error, disabled — for forms that work.
+- [Notifications UI design: Why most apps annoy users instead](https://www.setproduct.com/blog/notifications-ui-design): The components, types, and timing rules that decide whether notifications engage or churn.
+- [Chip UI design: How chips, tags, and badges actually differ](https://www.setproduct.com/blog/chip-ui-design): Chip anatomy, states, customization, and seven real use cases.
+- [Settings UI design: Why users can't find what they need](https://www.setproduct.com/blog/settings-ui-design): How to structure preferences with the right layout, anatomy, and usability rules across web and mobile.
+- [Dropdown UI design: Standard, multi-select, searchable, and more](https://www.setproduct.com/blog/dropdown-ui-design): Compares 4 dropdown types with anatomy, states, and the rules that decide which one fits.
+- [Filter UI design: Sidebar vs top bar vs inline patterns](https://www.setproduct.com/blog/filter-ui-design): Filter anatomy, sidebar vs top bar layouts, mobile patterns, and rules that help users find what they want.
+- [Carousel UI design: When carousels actually work in 2026](https://www.setproduct.com/blog/carousel-ui-design): Carousel anatomy, types, usability rules, and the cases where a carousel wins.
+- [How to make a 3D animation effect as you scroll the page](https://www.setproduct.com/blog/how-to-3d-animate-scroll): Step-by-step tutorial to build an Apple AirPods-style interactive scroll effect.
+- [How to design a landing page to improve conversions](https://www.setproduct.com/blog/how-to-design-landing): Design rules and website structure for a high-converting landing page.
+- [Badge UI design: Notification, count, and status patterns](https://www.setproduct.com/blog/badge-ui-design): Badge anatomy, styling rules, a ship-ready checklist, and an FAQ.
+- [App bar UI design: Vs nav bar, header, and toolbar](https://www.setproduct.com/blog/appbar-ui-design): What an app bar really is, its anatomy, states, and Material vs iOS conventions.
+- [Accordion UI design: When to use it instead of tabs](https://www.setproduct.com/blog/accordion-ui-design): Accordion anatomy, states, and when to choose it over tabs or plain disclosure.
+- [Avatar UI design: What to show when there's no photo](https://www.setproduct.com/blog/avatar-ui-design): Fallback strategies, stacked groups, presence, and sizing rules for avatars.
+- [Visual dynamics for design layouts](https://www.setproduct.com/blog/design-tricks-for-static-prototypes): UI techniques to elevate designs and stand out on Dribbble.
+- [Tables for a design system. Cell-component from Figma to React](https://www.setproduct.com/blog/tables-design-system): Creating and implementing tables in a Figma design system with Storybook.
+- [Figma tables: Data grid design by a single cell-component](https://www.setproduct.com/blog/figma-tables-data-grid-design): Three approaches to table design for a flexible data grid using row, column, and cell components.
+- [Figma components tutorial: management for Instances](https://www.setproduct.com/blog/figma-tutorial-instances-management): Swapping hidden layers and detaching a component for a new master design.
+- [How to create a responsive mobile tab bar in Figma](https://www.setproduct.com/blog/figma-responsive-mobile-components): Elegant, flexible design solutions for responsive mobile tab bars in Figma.
+
+## Design Trends
+
+- [How neumorphism UI design works and where it quietly fails](https://www.setproduct.com/blog/neumorphism-design-guide): Dual soft shadows, monochrome surfaces, copy-paste CSS, and the accessibility fixes neumorphism needs.
+- [Claymorphism UI design: soft depth, pastel palettes, AI recipes](https://www.setproduct.com/blog/claymorphism-design-guide): Soft shadows, pastel depth, and a copy-paste CSS recipe for the claymorphism style.
+- [Glassmorphism, neumorphism, liquid glass: what to use in 2026](https://www.setproduct.com/blog/liquid-glass-vs-glassmorphism): A side-by-side breakdown of glass UI aesthetics and how to pick the right one.
+- [Retro and brutalist UI design: a 2026 field guide](https://www.setproduct.com/blog/retro-brutalist-ui-design-2026): The 2026 counter-trend to clean minimalism with examples, a comparison table, and a decision framework.
+- [Vercel aesthetic: a complete guide to Blueprint Grid design](https://www.setproduct.com/blog/complete-guide-to-blueprint-grid-design): The technical grid design trend from psychology to Figma setup and CSS code.
+- [Liquid glass design explained: a practical guide](https://www.setproduct.com/blog/liquid-glass-design-explained-a-practical-guide): Liquid glass as a layered surface that keeps the background perceptible and content stable.
+- [The absence of depth in iOS UI design](https://www.setproduct.com/blog/depth-in-ios-design): iOS 17 shadows and depth for a more immersive, tactile experience.
+
+## Technology
+
+- [Chinese AI models in 2026 compared by cost and quality](https://www.setproduct.com/blog/chinese-ai-models-vs-american-2026): Where Chinese AI models match GPT and Claude, where they don't, and what a real migration costs.
+- [How jaredfromsubway MEV bot lost $7.7M in one transaction](https://www.setproduct.com/blog/jaredfromsubway-mev-bot-hack-2026): How a counter-MEV honeypot worked, how to protect your swaps, and what it means.
+- [No KYC crypto card in 2026, 5 options compared](https://www.setproduct.com/blog/best-no-kyc-crypto-card-2026-compared): Five crypto cards compared on fees, funding, and KYC for spending USDT online in 2026.
+- [How to swap, lend, and earn with Jupiter on Solana](https://www.setproduct.com/blog/jupiter-solana-swap-lend-and-referral-guide): Swaps, stablecoin yield, fee comparisons, and a 3-tier referral program on Solana.
+- [How to pay for Claude Pro with USDT, USDC, or SOL in 4 steps](https://www.setproduct.com/blog/pay-for-claude-pro-with-usdt): Buying Claude Pro with crypto when credit cards are not accepted, no KYC required.
+- [Why some designers dislike AI, and why they may be right](https://www.setproduct.com/blog/why-some-designers-dislike-ai): Why hesitation around AI can be a rational response to shallower design decisions.
+- [SolCard review, the USDT virtual card I use for subscriptions](https://www.setproduct.com/blog/solcard-review-usdt-crypto-card-that-actually-helps-pay-for-online-subscriptions): What SolCard costs, what No KYC means, and how it compares to other USDT cards.
+- [State of crypto 2025 by a16z, a closer look](https://www.setproduct.com/blog/state-of-crypto-2025): Unpacking what the a16z State of Crypto report doesn't say behind the charts.
+- [AI can't replace the real UX thinking](https://www.setproduct.com/blog/ai-cant-replace-the-real-ux-thinking): Why knowing which design actually works is still a human skill.
+- [What is broken with Bitcoin? From P2P dream to speculation](https://www.setproduct.com/blog/bitcoin-adoption-today-speculative-reality): Bitcoin's shift from utility currency to speculative investment and diminishing returns.
+- [How to swap BTC to ETH without KYC while staying decentralized](https://www.setproduct.com/blog/how-to-swap-btc-to-eth-with-thorswap): How Thorswap enables fast, secure, private BTC to ETH swaps.
+- [Venice.ai: the guide to uncensored and private AI tools](https://www.setproduct.com/blog/venice-ai-tool-private-uncensored): Generating wireframes, code, and visuals with private AI models — no filters, no trackers.
+- [Best practices for keeping your inbox safe](https://www.setproduct.com/blog/how-to-enhance-email-security): Email security best practices, safe attachments, and secure communication.
+- [Understanding AI's impact on graphic design](https://www.setproduct.com/blog/ais-impact-on-graphic-design): Opportunities, challenges, and responsible practices in AI design with Adobe Firefly.
+- [How is my clock hidden behind a mountain?](https://www.setproduct.com/blog/ios-lock-screen-feature): The 3D-rendered mountain scenery and iOS lock screen depth by Apple.
+- [Adobe Creative Cloud steals your artwork to train the AI](https://www.setproduct.com/blog/adobe-stealing-designs): The issue of Adobe Creative Cloud and artwork used for AI training, and how to protect your work.
+
+## Startups & SaaS
+
+- [How to start a SaaS business with no money](https://www.setproduct.com/blog/start-a-saas-business-with-no-money): From Figma mockups to first paying users with zero funding.
+- [The UI designer who built a $50K-month template empire](https://www.setproduct.com/blog/the-ui-designer-who-built-a-50k-month-template-store): An unfiltered postmortem on building and losing a viral Figma template business.
+- [Using QuickBooks to calculate ROI on organic SaaS growth](https://www.setproduct.com/blog/using-quickbooks-to-calculate-saas-growth): Tracking content, SEO, community, and product-led SaaS growth ROI.
+- [How to market your SaaS with zero budget](https://www.setproduct.com/blog/how-to-market-your-saas-with-zero-budget): A survival guide to getting traction on a $0 marketing budget.
+- [Boring startup industries, but printing cash](https://www.setproduct.com/blog/startup-niches-always-money-printing): Startup pivoting strategies for wealth management, education, and unsexy niches.
+- [How to launch your dream SaaS with $0 investments](https://www.setproduct.com/blog/launching-saas-with-zero-investments): Useful resources for solo founders to launch and grow a SaaS.
+- [Onboarding your first 1000 users](https://www.setproduct.com/blog/getting-your-first-startup-users): Proven tips for startup growth from user acquisition to a solid UX foundation.
+
+## Growth Hacking
+
+- [Landing page optimization: 8 rules that move conversion](https://www.setproduct.com/blog/why-landing-page-optimization-is-essential): 8 CRO rules covering hero, social proof, forms, mobile, speed, and testing.
+- [How to replace onboarding with contextual help](https://www.setproduct.com/blog/how-to-replace-onboarding-with-contextual-help): Show small hints at friction moments to lift activation and time to first value.
+- [Link Building for Startups: Best Practices](https://www.setproduct.com/blog/link-building-for-startups): Top link building strategies to boost SEO, drive traffic, and grow presence.
+- [Life after 40: finding new energy and motivation](https://www.setproduct.com/blog/overcome-middle-age-burnout): How to overcome midlife crisis and find a new lease on life.
+- [How to get more graphic design clients](https://www.setproduct.com/blog/how-to-get-graphic-design-clients): Strategies for freelancers to attract and secure design clients.
+- [I fell victim to unpaid web design work](https://www.setproduct.com/blog/unpaid-design-work): Lessons learned from a web design client who refused to pay.
+- [Is your design career stagnating? How to pivot](https://www.setproduct.com/blog/design-career-stagnation): Revamp your portfolio with current trends and reignite your passion.
+- [Managing demands from unreasonable clients](https://www.setproduct.com/blog/most-stressful-design-phrases): How to manage client demands, set boundaries, and keep projects on track.
+- [Switch from fixed-price to an hourly rate as a freelancer](https://www.setproduct.com/blog/freelance-hourly-rate): Set a fair hourly rate to prevent scope creep and budget overruns.
+- [How to handle negative feedback and design revisions](https://www.setproduct.com/blog/difficult-design-clients): Tactics for managing challenging clients and avoiding unpaid extra revisions.
+
+## Research
+
+- [The UX decisions that make or break small business websites](https://www.setproduct.com/blog/the-ux-decisions-that-make-or-break-small-business-websites): The UX fundamentals that separate sites that convert from sites that just exist.
+- [Your startup's user persona is costing you](https://www.setproduct.com/blog/your-startups-user-persona-is-probably-wrong): Why founders freeze when asked exactly who is buying and why.
+- [Adobe is a monthly ransom: how I cancelled without fees](https://www.setproduct.com/blog/how-to-cancel-adobe-subscription-without-fees): A long-time Adobe user vents on the subscription model and cancellation fees.
+- [Guest Blogging Benefits: SEO success and brand growth](https://www.setproduct.com/blog/benefits-of-guest-blogging): How publishing on authoritative sites builds backlinks and rankings.
+- [Niche Edits vs Guest Post Links](https://www.setproduct.com/blog/guest-posts-vs-niche-edits): The differences between niche edits and guest posts and how to choose.
+- [How to Find Guest Posting Opportunities](https://www.setproduct.com/blog/guest-posting-opportunities): Finding guest posting opportunities via competitor analysis, SEO tools, and social media.
+- [What to Know Before Designing Your Website](https://www.setproduct.com/blog/know-before-designing-your-website): The benefits and important aspects of market research before building a website.
+- [Figma, stop taking my money](https://www.setproduct.com/blog/figma-stop-taking-my-money): How Figma's billing model affects designers.
+- [Auto-layout vs frames-only design mode in Figma](https://www.setproduct.com/blog/figma-auto-layout-debate): The benefits and drawbacks of Figma auto-layout for your workflow.
+- [Innovative Ideas For Video Creation](https://www.setproduct.com/blog/innovative-ideas-for-video-creation): Advanced editing, VFX integration, and animation strategies for visual storytelling.
+- [Top Email Marketing Visuals](https://www.setproduct.com/blog/visual-elements-in-email-marketing): Types, tips, and examples for the best visual email designs.
+- [Figma Fiasco: the dark side of recent Figma updates](https://www.setproduct.com/blog/dark-side-of-figmas-updates): Why recent Figma changes might not be as effective as you thought.
+- [Difference between Quality Control and Quality Assurance](https://www.setproduct.com/blog/quality-control-and-assurance-difference): How QC and QA impact product and service excellence.
+- [Tips for selecting the UI/UX agency](https://www.setproduct.com/blog/choosing-right-design-team): Finding the right web design and development agency for your application.
+- [Why your favorite apps' UX is getting worse](https://www.setproduct.com/blog/why-apps-ux-is-getting-worse): Enshittification and the decline of UX in Google Maps, Spotify, and Amazon.
+- [6 ways to generate side income for designers and developers](https://www.setproduct.com/blog/side-income-for-designers-and-developers): Turning a side project into a successful business.
+- [Remote and stuck: 9 tips to be more productive at home](https://www.setproduct.com/blog/remote-productivity): Effective time management techniques for productivity.
+- [For those 10 companies Figma was a starting point](https://www.setproduct.com/blog/figma-10-tech-companies): The proven worth of Figma, the tool of choice for Microsoft and Uber.
+
+## Career
+
+- [What gets designers to $300k, according to six who did it](https://www.setproduct.com/blog/what-gets-designers-to-300k): Five behaviors, not craft, that took six senior designers to $300k+ total comp.
+- [Pixels are easy. Navigating bullshit is the real UX](https://www.setproduct.com/blog/real-ux-work-in-tech-companies): The meetings, politics, and alignment battles that bootcamps never teach.
+- [Why designers are losing motivation and how to fix it](https://www.setproduct.com/blog/why-designers-are-loosing-motivation): How to break free from the cycle of burnout and find a fulfilling career.
+- [Insights from the hiring frontlines for a UX portfolio](https://www.setproduct.com/blog/hiring-frontlines-to-craft-a-portfolio): UX portfolio tips from hiring managers to land your dream job.
+- [The risks of using Figma to build your PDF resume](https://www.setproduct.com/blog/do-not-design-your-resume-in-figma): Common mistakes when using Figma for a resume and how to avoid them.
+- [My biggest UX career mistakes and lessons learned](https://www.setproduct.com/blog/my-ux-career-mistakes): UX lessons learned the hard way to avoid repeating them.
+- [My journey through tech's changing tides](https://www.setproduct.com/blog/navigating-the-job-market-storm): A developer's layoff and successful transition into UX/UI design.
+
+## SEO
+
+- [Top tips for new businesses to strengthen online presence](https://www.setproduct.com/blog/top-tips-for-new-businesses-looking-to-strengthen-their-online-presence): Core tactics that make the biggest difference early on.
+- [How I left Semrush for these 6 tools](https://www.setproduct.com/blog/seo-tools-compared): Honest reviews of SEO tools on UX, pricing, and AI features for early-stage products.
+- [White label SEO reseller platforms compared](https://www.setproduct.com/blog/white-label-seo-reseller-platforms): Comparing support, tools, and resources across white label SEO platforms.
+- [SEO strategies to make your design business stand out](https://www.setproduct.com/blog/seo-strategies-to-make-your-graphic-design-business-stand-out): Optimize your site, target the right audience, and attract more clients.
+- [Optimizing Digital Marketing Through Strategies](https://www.setproduct.com/blog/optimizing-digital-marketing): AI, personalization, and digital identity trends for your online presence.
+- [How Figma iOS kits help design your mobile app faster](https://www.setproduct.com/blog/choosing-right-ios-kit): The advantages of an iOS UI kit for consistency and UX.
+
+## Design & Code
+
+- [Best real estate app development companies compared](https://www.setproduct.com/blog/top-real-estate-app-development-companies-compared): How to find the right real estate app development partner before signing.
+- [How to design a UI kit foundation](https://www.setproduct.com/blog/how-to-design-a-ui-kit-foundation): Semantic tokens, theming, state coverage, and dev-ready component contracts.
+- [Mastering JavaScript: essential tricks and tips](https://www.setproduct.com/blog/mastering-javascript): Key functions, front-end and back-end development, and productivity tools.
+- [9 reasons to invest in a Material You UI kit with Next.js](https://www.setproduct.com/blog/material-nextjs-ui-kit): Why a Figma and Next.js library is a strong choice for web apps.
+- [Styling ideas for a React checkbox component](https://www.setproduct.com/blog/checkbox-react-component): Design ideas and code samples for a React checkbox, designed in Figma and styled in Chakra.
+
+## Inspiration
+
+- [What AI-generated UI can teach you about real design](https://www.setproduct.com/blog/how-to-get-better-at-ui-design-by-studying-ai-generated-examples): Read each AI example for one transferable move, then ship it.
+- [How to use AI UI inspiration to design faster](https://www.setproduct.com/blog/how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly): Choose references, apply constraints, and ship better UI faster without copying blindly.
+- [The art of logo design](https://www.setproduct.com/blog/the-art-of-logo-design): Strategies for crafting a lasting visual identity.
+- [Button UI design: Every detail that makes a button work](https://www.setproduct.com/blog/button-ui-design): Button anatomy, states, sizing, theming, and priority rules.
+- [Calendar vs date picker UI design: When to use each](https://www.setproduct.com/blog/calendar-ui-design): When to use each, plus anatomy, states, and range patterns for dates.
+- [8 stories of Indie Hackers going all-in](https://www.setproduct.com/blog/8-designers-developers-success): How 8 designers and developers bootstrapped their side projects to success.
+- [Your design asset will help someone speed up their work](https://www.setproduct.com/blog/how-to-sell-design-system): Boost productivity and earn rewards by selling design assets.
+- [Monetizing the design: a year of UI grinding](https://www.setproduct.com/blog/monetizing-the-design-one-year): 15 key insights for successful digital products from a UI designer.
+- [From Figma to React: material design buttons](https://www.setproduct.com/blog/figma-to-react-buttons): Enhancing Material Design components for performance, usability, and appeal.
+
+## Resources
+
+- [LiftKit: a free Figma UI kit obsessed with spacing](https://www.setproduct.com/blog/liftkit-open-source-design-system-for-figma-react): An open-sourced design system built over 18 months, free to use.
+- [Nocra: a design system built for AI startups](https://www.setproduct.com/blog/nocra-ui-kit-the-ai-design-system-with-templates): A Figma UI kit to help AI startups launch with a modern look.
+- [User profile design masterclass](https://www.setproduct.com/blog/user-profile-templates): Profile page structure, redesign strategies, and 12 Figma profile templates.
+- [Streamlining Website Development: essential agency tools](https://www.setproduct.com/blog/streamlining-website-development): Top CRM and project management tools for web development agencies.
+- [Black Friday specials on Figma templates](https://www.setproduct.com/blog/black-friday-2023): Exclusive Black Friday deals on Figma assets.
+- [18 latest resources to boost your efficiency](https://www.setproduct.com/blog/latest-18-resources-boost-efficiency): Texture and gradient generators, fonts, Figma plugins, and AI tools.
+- [Top 20 recent must-have design resources](https://www.setproduct.com/blog/top-20-recent-design-resources): Cool icons, powerful UI kits, and tools, plus a history of user interfaces.
+- [Summer Top 15 Figma resources released recently](https://www.setproduct.com/blog/figma-summer-top-15): The latest Figma UI kits, UX tools, design systems, icons, and illustrations.
+- [Top 11 recent tools to kickstart your side project](https://www.setproduct.com/blog/top-design-tools): The top ProductHunt launches of 2022's first quarter.
+- [16 fresh design resources for February 2021](https://www.setproduct.com/blog/design-resources-feb-2021): Icons, emojis, illustrations, color theory, and Figma plugins.
+- [14 recent useful design resources in January 2021](https://www.setproduct.com/blog/top-design-resources-jan-2021): Generators, inspiration sources, icons, and animation export tools.
+- [Significant releases of 2020 on the UI/UX scene](https://www.setproduct.com/blog/top-design-releases-2020): A summary of the major design events and trends of 2020.
+- [13 fresh and useful design resources of fall](https://www.setproduct.com/blog/useful-design-resources-fall-2020): Handpicked design industry resources for inspiration and efficiency.
+- [Newest 20 free Figma templates](https://www.setproduct.com/blog/figma-20-newest-templates): Figma freebies including UX wireframes, avatar systems, and UI kits.
+- [Top 14 Figma plugins for a productivity boost](https://www.setproduct.com/blog/figma-plugins-productivity-boost): Reviewed plugins including AutoGrid, Tracking, and Spacing Manager.
+- [Top 15 free Figma resources](https://www.setproduct.com/blog/figma-resources-review-1): Time-saving product design templates from the Figma community.
+- [Top 16 underrated Figma plugins](https://www.setproduct.com/blog/figma-plugins-review-2020): Tools for improving workflow, boosting productivity, and adding joy.
+
+## Case Studies
+
+- [Case study: image upload component for Cleeve](https://www.setproduct.com/blog/case-study-design-image-upload-component): Design iterations for an image upload UI, layout optimization, and hierarchy.
+- [Top 15 examples of ingenious user experience](https://www.setproduct.com/blog/genius-ux-design-inventions): Remarkable UX examples that transformed industries.
+- [Why we need UI kits: the GTrendz redesign case study](https://www.setproduct.com/blog/case-study-gtrendz): A GTrendz e-shop panel redesign using the Material-X UI kit.
+- [The Journey from UI kit to live mobile application](https://www.setproduct.com/blog/case-study-journeyapp): How a pre-made Figma UI kit enabled a popular app on the App Store and Play Market.
+
+## Presentation
+
+- [How to create marketing infographics with AI](https://www.setproduct.com/blog/ai-infographics-for-marketing-teams): A practical Venice.ai workflow for consistent, readable infographics.
+- [The complete guide to guest posting for web dev companies](https://www.setproduct.com/blog/guest-article-for-web-development): How web development companies create content and build backlinks.
+- [Submit a guest post to our blog](https://www.setproduct.com/blog/submit-a-guest-post): Guest posting guidelines for the Setproduct design and development blog.
+- [Commercial design systems for startups and organisations](https://www.setproduct.com/blog/design-system-for-business): Boost efficiency with a commercial design system for Figma or Sketch.
+- [The tiny UI details you won't notice till you get close](https://www.setproduct.com/blog/material-design-redesigned): The Material-X design system for Figma and its fresh UI tricks.
+
+## Typography
+
+- [The best fonts pairing for 2023 by Setproduct](https://www.setproduct.com/blog/best-fonts-pairing): The free fonts Outfit and Spline Sans, nominated for websites and dashboards.

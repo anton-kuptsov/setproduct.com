@@ -1,3 +1,5 @@
+import { getGumroadLinkProps } from "../../lib/gumroad";
+
 type Props = {
   title: string;
   description: string;
@@ -24,10 +26,8 @@ export default function TemplateHero({
               <p className="heading-style-h5">{description}</p>
               <div className="template_hero-btn-wr">
                 <a
-                  className="button secondary w-inline-block"
                   href={buyHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...getGumroadLinkProps(buyHref, "button secondary w-inline-block")}
                 >
                   <div className="text-size-large text-weight-bold">Get Started</div>
                 </a>

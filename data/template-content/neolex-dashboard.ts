@@ -1,5 +1,26 @@
 export const neolex_dashboardContent = {
-  "features": [],
+  "features": [
+    {
+      "title": "Mobile & Desktop templates",
+      "description": "Build responsive web apps by reusing the same components & instances",
+      "image": "/images/neolex-dashboard/feature-neolex-01.webp"
+    },
+    {
+      "title": "250 components and 80+ layouts",
+      "description": "Shopping, CRM, Tasks, Kanban, Planner, Stats, News, Tables and more",
+      "image": "/images/neolex-dashboard/feature-neolex-02.webp"
+    },
+    {
+      "title": "Figma UI kit based on 8dp grid",
+      "description": "Each component and template crafted with attention to 8dp indents",
+      "image": "/images/neolex-dashboard/feature-neolex-03.webp"
+    },
+    {
+      "title": "With ready to use UX patterns",
+      "description": "Includes clear and reusable UX patterns for your next serious project",
+      "image": "/images/neolex-dashboard/feature-neolex-04.webp"
+    }
+  ],
   "video": {
     "url": "https://www.youtube-nocookie.com/embed/cQ0vNd_zn2Y",
     "title": "‍Dashboard design patterns served as Neolex UI kit for mobile & desktop",

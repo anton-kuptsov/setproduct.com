@@ -1,7 +1,7 @@
 export const full_iosContent = {
   "features": [
     {
-      "title": "br/>the native UI",
+      "title": "Components for the native UI",
       "description": "3300+ variants for 100 perfect iOS components based on auto-layout",
       "image": "/images/full-ios/features-fullios-01.webp"
     },

@@ -5,6 +5,7 @@ import matter from "gray-matter";
 import { TEMPLATE_PRODUCTS } from "../data/templates-listing";
 import { FREEBIE_PRODUCTS } from "../data/freebies-listing";
 import { DASHBOARD_TEMPLATES } from "../data/dashboard-templates";
+import { AUTHORS } from "../lib/blog/authors";
 
 const SITE_URL = "https://www.setproduct.com";
 
@@ -76,6 +77,11 @@ function buildEntries(): Entry[] {
     lastmod: today,
   }));
 
+  const authorEntries: Entry[] = Object.keys(AUTHORS).map((slug) => ({
+    loc: `${SITE_URL}/authors/${slug}`,
+    lastmod: today,
+  }));
+
   const blogEntries = readBlogEntries();
 
   const all = [
@@ -84,6 +90,7 @@ function buildEntries(): Entry[] {
     ...templateEntries,
     ...freebieEntries,
     ...dashboardEntries,
+    ...authorEntries,
   ];
 
   const seen = new Set<string>();

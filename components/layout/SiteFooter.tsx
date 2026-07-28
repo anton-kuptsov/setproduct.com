@@ -132,7 +132,7 @@ export default function SiteFooter() {
               <div className="footer_logo-cta-wr">
                 <div className="footer_logo-wr">
                   <img alt="" className="footer_logo-img" height={56} loading="lazy" src="/images/Vectors-Wrapper_1.svg" width={137} />
-                  <a className="brand-link w-inline-block" href="/" />
+                  <a aria-label="Setproduct home" className="brand-link w-inline-block" href="/" />
                 </div>
                 <div className="footer_cta-wr">
                   <div className={`footer_cta-active${isSubscribed ? " hidden" : ""}`}>
@@ -143,7 +143,7 @@ export default function SiteFooter() {
                     <div className="form-block w-form">
                       <form className="form-cta" onSubmit={handleSubscribe}>
                         <input name="website" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
-                        <input className="text-input w-input" disabled={isSubmitting} maxLength={256} name="Email" placeholder="Enter your email" required type="email" />
+                        <input aria-label="Email address" className="text-input w-input" disabled={isSubmitting} maxLength={256} name="Email" placeholder="Enter your email" required type="email" />
                         <div className="button-form-wr">
                           <button className="button w-inline-block" disabled={isSubmitting} style={{ opacity: isSubmitting ? 0.7 : 1 }} type="submit">
                             {isSubmitting ? (

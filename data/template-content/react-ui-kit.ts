@@ -1,14 +1,24 @@
 export const react_ui_kitContent = {
   "features": [
     {
-      "title": "br/>",
-      "description": "Best practices from the most successful apps included in this kit",
-      "image": "/images/react-ui-kit/feature-react-01.svg"
+      "title": "Design system for Figma & React",
+      "description": "Swap between the native or custom style. Apply your styleguides faster",
+      "image": "/images/react-ui-kit/feature-react-02.webp"
     },
     {
-      "title": "p class=\"heading-style-h5 is-template-max-width\">60 dashboard templates",
+      "title": "3700+ variants of 31 components",
+      "description": "Best practices from the most successful apps included in this kit",
+      "image": "/images/react-ui-kit/feature-react-01.webp"
+    },
+    {
+      "title": "Ready for deep themification",
+      "description": "Named, organized and constrained iOS library to skip the pixel routine",
+      "image": "/images/react-ui-kit/feature-react-04.webp"
+    },
+    {
+      "title": "60 dashboard templates",
       "description": "Start screen, Analytics, Data grid, Profile, Settings, Inputs and more to come",
-      "image": "/images/react-ui-kit/feature-react-03.svg"
+      "image": "/images/react-ui-kit/feature-react-03.webp"
     }
   ],
   "carousels": [

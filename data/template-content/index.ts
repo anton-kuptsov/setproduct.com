@@ -1,5 +1,6 @@
 export { chartsContent } from "./charts";
 export { android_ui_kitContent } from "./android-ui-kit";
+export { clayloContent } from "./claylo";
 export { appka_ios_ui_kitContent } from "./appka-ios-ui-kit";
 export { eclipseContent } from "./eclipse";
 export { full_iosContent } from "./full-ios";
@@ -34,6 +35,7 @@ export { zeusContent } from "./zeus";
 export const templateContentMap: Record<string, unknown> = {
   "charts": undefined, // Uses dedicated ChartsTemplatePage
   "android-ui-kit": undefined,
+  "claylo": undefined,
   "appka-ios-ui-kit": undefined,
   "eclipse": undefined,
   "full-ios": undefined,
@@ -70,6 +72,8 @@ export async function getTemplateContent(slug: string) {
   switch (slug) {
     case "android-ui-kit":
       return (await import("./android-ui-kit")).android_ui_kitContent;
+    case "claylo":
+      return (await import("./claylo")).clayloContent;
     case "appka-ios-ui-kit":
       return (await import("./appka-ios-ui-kit")).appka_ios_ui_kitContent;
     case "eclipse":

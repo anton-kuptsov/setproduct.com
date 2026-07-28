@@ -1,5 +1,26 @@
 export const romeContent = {
-  "features": [],
+  "features": [
+    {
+      "title": "250+ components with Auto-layout",
+      "description": "Styled and detailed components based on Variants & Auto-layout",
+      "image": "/images/rome/feature-rome-01.webp"
+    },
+    {
+      "title": "30 templates for desktop & mobile",
+      "description": "The most popular patterns included. Ready to use as it is or remix for your own",
+      "image": "/images/rome/feature-rome-02.webp"
+    },
+    {
+      "title": "Scalable layouts for any viewport",
+      "description": "We craft our kits with a purpose to use for any viewports with ease",
+      "image": "/images/rome/feature-rome-03.webp"
+    },
+    {
+      "title": "Organized and ready-to-use",
+      "description": "Color & text styles, constraints, fine layer names and proper order",
+      "image": "/images/rome/feature-rome-04.webp"
+    }
+  ],
   "pricing": {
     "title": "Get started⚡",
     "subtitle": "Pay once & use forever this well-crafted Figma dashboard UI kit to build web apps 3x faster.",

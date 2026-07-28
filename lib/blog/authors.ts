@@ -1,8 +1,6 @@
-export type Author = {
-  name: string;
-  avatar: string;
-  slug: string;
-};
+import type { Author } from "../../types/blog";
+
+export type { Author };
 
 export const AUTHORS: Record<string, Author> = {
   "roman-kamushken": {
@@ -66,4 +64,14 @@ const FALLBACK_AUTHOR: Author = {
 export function getAuthor(slugOrName: string): Author {
   const normalized = slugOrName.toLowerCase().replace(/\s+/g, "-");
   return AUTHORS[normalized] ?? AUTHORS[slugOrName] ?? FALLBACK_AUTHOR;
+}
+
+/**
+ * True when the given author slug or name resolves to a registered AUTHORS
+ * entry (i.e. not the Setproduct Team fallback). Drives whether the byline
+ * links to an author page.
+ */
+export function isRegisteredAuthor(slugOrName: string): boolean {
+  const normalized = slugOrName.toLowerCase().replace(/\s+/g, "-");
+  return Boolean(AUTHORS[normalized] ?? AUTHORS[slugOrName]);
 }

@@ -1,6 +1,5 @@
-import { useRef, useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import { useState } from "react";
+import AppLightbox, { preloadLightbox } from "../ui/AppLightbox";
 
 type MDXImageProps = {
   src?: string;
@@ -21,26 +20,6 @@ export default function MDXImage({
   float,
 }: MDXImageProps) {
   const [open, setOpen] = useState(false);
-  // Remember the reading position so closing the lightbox returns the user
-  // exactly where they clicked. The lightbox locks body scroll while open
-  // (react-remove-scroll), and without this the page jumps to the top on close.
-  const scrollYRef = useRef(0);
-
-  const openLightbox = () => {
-    scrollYRef.current = window.scrollY;
-    setOpen(true);
-  };
-
-  const closeLightbox = () => {
-    setOpen(false);
-    const targetY = scrollYRef.current;
-    // Restore after the library releases its scroll lock (next frame).
-    // behavior: "instant" overrides the global `html { scroll-behavior: smooth }`
-    // so the jump back is immediate instead of a slow animated scroll.
-    requestAnimationFrame(() => {
-      window.scrollTo({ top: targetY, left: 0, behavior: "instant" });
-    });
-  };
 
   if (!src) return null;
 
@@ -57,7 +36,7 @@ export default function MDXImage({
       alt={alt}
       width={width || 1600}
       height={height || 900}
-      className="rounded-md"
+      className="rounded-3xl"
       style={{
         width: "100%",
         height: "auto",
@@ -65,18 +44,14 @@ export default function MDXImage({
         cursor: "zoom-in",
       }}
       loading="lazy"
-      onClick={openLightbox}
+      onClick={() => setOpen(true)}
+      onMouseEnter={preloadLightbox}
+      onTouchStart={preloadLightbox}
     />
   );
 
   const lightbox = (
-    <Lightbox
-      open={open}
-      close={closeLightbox}
-      slides={[{ src }]}
-      carousel={{ finite: true }}
-      render={{ buttonPrev: () => null, buttonNext: () => null }}
-    />
+    <AppLightbox open={open} close={() => setOpen(false)} slides={[{ src, alt }]} />
   );
 
   if (caption) {

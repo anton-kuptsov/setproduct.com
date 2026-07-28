@@ -1,5 +1,26 @@
 export const oe_enterpriseContent = {
-  "features": [],
+  "features": [
+    {
+      "title": "3000+ reusable components",
+      "description": "More than 50 categories of components to have on hand for every case",
+      "image": "/images/oe-enterprise/feature-oe-01.webp"
+    },
+    {
+      "title": "Powered by AL4 and Variants",
+      "description": "Every design item scales perfect to fit the layout. Design as easy as pie!",
+      "image": "/images/oe-enterprise/feature-oe-02.webp"
+    },
+    {
+      "title": "30+ desktop & mobile templates",
+      "description": "This layouts library helps to create complex and consistent apps",
+      "image": "/images/oe-enterprise/feature-oe-03.webp"
+    },
+    {
+      "title": "Global text & color styleguides",
+      "description": "Customizable UI kit to adjust fonts, colors or brand identity",
+      "image": "/images/oe-enterprise/feature-oe-04.webp"
+    }
+  ],
   "carousels": [
     {
       "title": "Preview desktop web app templates",

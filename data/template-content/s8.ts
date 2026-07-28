@@ -1,5 +1,26 @@
 export const s8Content = {
-  "features": [],
+  "features": [
+    {
+      "title": "Mobile & Desktop templates",
+      "description": "Build responsive web apps by reusing the same components & instances",
+      "image": "/images/s8/feature-s8-01.svg"
+    },
+    {
+      "title": "Organized UI kit with components",
+      "description": "Organized and labeled for a faster workflow. Just import to quickstart",
+      "image": "/images/s8/feature-s8-02.svg"
+    },
+    {
+      "title": "Two themes and font styles",
+      "description": "Powered by Red Hat and Inter fonts. Two color themes available",
+      "image": "/images/s8/feature-s8-03.svg"
+    },
+    {
+      "title": "Effective UX flows & patterns",
+      "description": "60+ clear and usable UX patterns which fit for every complex project",
+      "image": "/images/s8/feature-s8-04.svg"
+    }
+  ],
   "video": {
     "url": "https://www.youtube-nocookie.com/embed/RAOXQ6Je2TE",
     "title": "‍Well-made Figma UI design kit based on rounded shapes",

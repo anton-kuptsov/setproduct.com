@@ -3,14 +3,15 @@ import SiteHeader from "../../layout/SiteHeader";
 import SiteFooter from "../../layout/SiteFooter";
 import ScrollUpButton from "../../layout/ScrollUpButton";
 import Breadcrumbs from "../../sections/Breadcrumbs";
-import TemplateShowcase from "../../sections/TemplateShowcase";
 import TemplateVideo from "../../sections/TemplateVideo";
 import TemplateTabsWithSplitter from "../../sections/TemplateTabsWithSplitter";
 import TemplateImageSection from "../../sections/TemplateImageSection";
 import TemplatePricing from "../../sections/TemplatePricing";
 import TemplateCtaHire from "../../sections/TemplateCtaHire";
 import FaqSection from "../../sections/FaqSection";
+import TemplateStickyCta from "../../sections/TemplateStickyCta";
 import { chartsContent } from "../../../data/template-content/charts";
+import { getGumroadLinkProps } from "../../../lib/gumroad";
 import type { BlogPostPreview, TemplateItem } from "../../../types/data";
 
 type Props = {
@@ -51,10 +52,8 @@ export default function ChartsTemplatePage({ item, blogPosts = [] }: Props) {
                   <p className="heading-style-h5">{item.description}</p>
                   <div className="template_hero-btn-wr">
                     <a
-                      className="button secondary w-inline-block"
                       href={item.buyHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      {...getGumroadLinkProps(item.buyHref, "button secondary w-inline-block")}
                     >
                       <div className="text-size-large text-weight-bold">Get Started</div>
                     </a>
@@ -155,10 +154,13 @@ export default function ChartsTemplatePage({ item, blogPosts = [] }: Props) {
         {/* FAQ */}
         <FaqSection items={chartsContent.faq} />
 
-        {/* Related Templates */}
-        <TemplateShowcase />
       </main>
       <SiteFooter />
+      <TemplateStickyCta
+        item={item}
+        price={chartsContent.pricing.cards[0]?.price}
+        buyHref={chartsContent.pricing.cards[0]?.buyHref}
+      />
       <ScrollUpButton />
     </>
   );

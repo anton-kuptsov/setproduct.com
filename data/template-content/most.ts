@@ -1,5 +1,26 @@
 export const mostContent = {
-  "features": [],
+  "features": [
+    {
+      "title": "600+ native iOS components",
+      "description": "Organized, polished and based on auto-layout. Matches to Apple's GUI",
+      "image": "/images/most/feature-most-01.webp"
+    },
+    {
+      "title": "600+ mobile app templates",
+      "description": "414dp width. Each screen is reusable. Transform and mix to design yours",
+      "image": "/images/most/feature-most-02.webp"
+    },
+    {
+      "title": "2500+ icons as SF Symbols",
+      "description": "Provided in 3 sizes, each icon converted as the component in Figma",
+      "image": "/images/most/feature-most-03.webp"
+    },
+    {
+      "title": "Dark & Light iOS layouts",
+      "description": "Every template is styled as 100% compatible with Apple Human Interface",
+      "image": "/images/most/feature-most-04.webp"
+    }
+  ],
   "carousels": [
     {
       "title": "Preview 600+ templates",

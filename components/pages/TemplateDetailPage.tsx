@@ -4,8 +4,9 @@ import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
 import CtaSubscribe from "../sections/CtaSubscribe";
-import TemplateShowcase from "../sections/TemplateShowcase";
 import FaqSection from "../sections/FaqSection";
+import TemplateStickyCta from "../sections/TemplateStickyCta";
+import { getGumroadLinkProps } from "../../lib/gumroad";
 import type { BlogPostPreview, TemplateItem } from "../../types/data";
 
 type Props = {
@@ -46,10 +47,8 @@ export default function TemplateDetailPage({ item, blogPosts = [] }: Props) {
                   <p className="heading-style-h5">{item.description}</p>
                   <div className="template_hero-btn-wr">
                     <a
-                      className="button secondary w-inline-block"
                       href={item.buyHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      {...getGumroadLinkProps(item.buyHref, "button secondary w-inline-block")}
                     >
                       <div className="text-size-large text-weight-bold">Get Started</div>
                     </a>
@@ -115,12 +114,10 @@ export default function TemplateDetailPage({ item, blogPosts = [] }: Props) {
           </div>
         )}
 
-        {/* Related Templates */}
-        <TemplateShowcase />
-
         <CtaSubscribe />
       </main>
       <SiteFooter />
+      <TemplateStickyCta item={item} />
       <ScrollUpButton />
     </>
   );

@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import type { BlogPostPreview } from "../../types/data";
 import type { BlogFrontmatter } from "../../types/blog";
+import { getAuthor } from "./authors";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
@@ -10,6 +11,8 @@ type FrontmatterWithDate = BlogFrontmatter & { date?: string };
 
 type GetBlogPostPreviewsOptions = {
   maxPerCategory?: number;
+  /** When set, only posts whose author resolves to this registered slug are returned. */
+  authorSlug?: string;
 };
 
 export function getBlogPostPreviews(options: GetBlogPostPreviewsOptions = {}): BlogPostPreview[] {
@@ -34,6 +37,7 @@ export function getBlogPostPreviews(options: GetBlogPostPreviewsOptions = {}): B
       const image = frontmatter.coverImage ?? "";
       const thumbImage = frontmatter.thumbImage ?? image;
       const date = frontmatter.date ?? "";
+      const author = frontmatter.author ?? "";
 
       posts.push({
         slug,
@@ -42,6 +46,7 @@ export function getBlogPostPreviews(options: GetBlogPostPreviewsOptions = {}): B
         image,
         thumbImage,
         category,
+        author,
         __date: date,
       });
     } catch {
@@ -49,7 +54,12 @@ export function getBlogPostPreviews(options: GetBlogPostPreviewsOptions = {}): B
     }
   }
 
-  const sortedPosts = posts
+  const authorFilter = options.authorSlug;
+  const filteredPosts = authorFilter
+    ? posts.filter((post) => getAuthor(post.author ?? "").slug === authorFilter)
+    : posts;
+
+  const sortedPosts = filteredPosts
     .sort((a, b) => b.__date.localeCompare(a.__date))
     .map(({ __date: _date, ...post }) => post);
 

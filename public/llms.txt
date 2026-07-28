@@ -1,0 +1,112 @@
+# Setproduct
+
+> Setproduct is a curated library of AI UI inspiration, practical UI design tutorials, and production-ready Figma templates and UI kits. It helps product designers and frontend developers browse interface examples by component, learn how to design and build each UI pattern correctly, and ship faster with commercial design systems for Figma, React, iOS, Android, Flutter, and Swift.
+
+Site: https://www.setproduct.com
+
+The site has two main halves:
+- A large, regularly updated blog of in-depth UI design references and tutorials (component anatomy, states, accessibility, mobile patterns, anti-patterns), plus startup, SaaS, growth, crypto, and career articles.
+- A catalog of paid Figma UI kits and coded UI kits (React, iOS, Android, Flutter, Swift) covering dashboards, data visualization, mobile, and web interfaces.
+
+Most articles are structured as authoritative, citable references: each opens with a plain-language definition of the component or concept, then covers anatomy, states, usability rules, accessibility, and a shippable checklist.
+
+## Blog categories
+
+- [UI Design](https://www.setproduct.com/blog): Component-level design references and tutorials — buttons, inputs, dropdowns, tabs, tables, dashboards, and more.
+- [Design Trends](https://www.setproduct.com/blog): Visual style deep-dives — liquid glass, glassmorphism, neumorphism, claymorphism, brutalism, blueprint grids.
+- [Startups & SaaS](https://www.setproduct.com/blog): Launching and growing SaaS products with little or no budget.
+- [Growth Hacking](https://www.setproduct.com/blog): Marketing, landing page CRO, user acquisition, and freelancing tactics.
+- [Technology](https://www.setproduct.com/blog): AI tools, crypto payments, and industry analysis for designers.
+- [Design & Code](https://www.setproduct.com/blog): Bridging design and frontend — tokens, component contracts, Figma to React.
+- [Research](https://www.setproduct.com/blog): Market research, design industry analysis, and opinion.
+- [Career](https://www.setproduct.com/blog): Design careers, portfolios, burnout, and compensation.
+- [Inspiration](https://www.setproduct.com/blog): Curated examples, indie maker stories, and creative ideas.
+- [Resources](https://www.setproduct.com/blog): Roundups of Figma plugins, tools, and free assets.
+- [SEO](https://www.setproduct.com/blog): Link building, guest posting, and organic growth.
+- [Typography](https://www.setproduct.com/blog): Font pairing and type in interfaces.
+- [Case Studies](https://www.setproduct.com/blog): Real UI kit implementations and redesigns.
+- [Presentation](https://www.setproduct.com/blog): Design storytelling and commercial design systems.
+
+## Most referenced articles
+
+- [Tab UI design rules: When tabs work and when they fail](https://www.setproduct.com/blog/tabs-ui-design): Tabs are navigation elements that organize content into separate views without reloading the page; anatomy, states, and mobile patterns.
+- [How to pay for Claude Pro with USDT, USDC, or SOL in 4 steps](https://www.setproduct.com/blog/pay-for-claude-pro-with-usdt): Step-by-step guide to buying Claude Pro with crypto when credit cards are not accepted, no KYC required.
+- [Venice.ai: the guide to uncensored and private AI tools](https://www.setproduct.com/blog/venice-ai-tool-private-uncensored): How designers and developers use Venice.ai to generate wireframes, code, and visuals without censorship or tracking.
+- [Steps UI design tutorial](https://www.setproduct.com/blog/steps-ui-design): Steps UI are progress indicators that show how far a user has gone in a flow and what remains, with states and connectors.
+- [Dropdown UI design: standard, multi-select, searchable, and more](https://www.setproduct.com/blog/dropdown-ui-design): A dropdown lets users select one option from a hidden list of choices; compares 4 dropdown types with anatomy and states.
+- [Liquid glass design explained: a practical guide](https://www.setproduct.com/blog/liquid-glass-design-explained-a-practical-guide): Liquid glass is a layered material system that keeps the background perceptible and content stable across states.
+- [How to find guest posting opportunities](https://www.setproduct.com/blog/guest-posting-opportunities): Guest posting is the third most common link-building method; how to find opportunities via competitor analysis and SEO tools.
+- [Designing AI chat interfaces: anatomy, patterns, pitfalls](https://www.setproduct.com/blog/ai-chat-interface-ui-design): An AI chat interface is a conversational UI where the second participant is a language model, not a person.
+- [Filter UI design: sidebar vs top bar vs inline patterns](https://www.setproduct.com/blog/filter-ui-design): A filter lets users refine and limit a dataset based on specific criteria; layouts, mobile patterns, and rules.
+- [Submit a guest post to our blog](https://www.setproduct.com/blog/submit-a-guest-post): Guest posting guidelines for contributing to the Setproduct design and development blog.
+- [Chip UI design: how chips, tags, and badges differ](https://www.setproduct.com/blog/chip-ui-design): A chip is a small interactive component representing an input, attribute, or action; anatomy, states, and 7 use cases.
+- [Vercel aesthetic: a complete guide to blueprint grid design](https://www.setproduct.com/blog/complete-guide-to-blueprint-grid-design): The technical grid design trend from psychology to Figma setup and CSS for engineering grid backgrounds.
+- [Glassmorphism, neumorphism, liquid glass: what to use in 2026](https://www.setproduct.com/blog/liquid-glass-vs-glassmorphism): A side-by-side breakdown of glass UI aesthetics and how to pick the right one.
+- [The complete guide to guest posting for web development companies](https://www.setproduct.com/blog/guest-article-for-web-development): How web development companies create content, build backlinks, and grow their online presence through guest blogging.
+- [How to cancel an Adobe subscription without fees](https://www.setproduct.com/blog/how-to-cancel-adobe-subscription-without-fees): Why one long-time Adobe user left, and how to cancel a Creative Cloud subscription without early-termination fees.
+- [Toggle switch UI design: when to use it and when not to](https://www.setproduct.com/blog/toggle-switch-ui-design): When toggle switches beat checkboxes, plus anatomy, states, accessibility, and mobile patterns.
+- [Pagination UI design: offset vs keyset vs infinite scroll](https://www.setproduct.com/blog/pagination-ui-design): Pagination divides large sets of content into discrete pages; compares offset, keyset, and infinite scroll.
+- [Button group UI design guide](https://www.setproduct.com/blog/button-group-guide): A button group is a UI component of multiple related buttons grouped to perform related actions.
+- [Breadcrumbs UI design: when they help and when they hurt UX](https://www.setproduct.com/blog/breadcrumbs-ui-design): When breadcrumbs guide users versus clutter the UI, plus anatomy, states, and mobile patterns.
+- [Settings UI design: why users can't find what they need](https://www.setproduct.com/blog/settings-ui-design): The settings section is where users customize preferences; how to structure it across web and mobile.
+
+## Products (Figma and coded UI kits)
+
+- [Material You UI kit](https://www.setproduct.com/templates/material-you): Figma UI kit built on Google's Material You (Material 3) design language. $98
+- [Material X UI kit](https://www.setproduct.com/templates/material-x): Large Material Design system for Figma with components and templates. $88
+- [Nucleus UI](https://www.setproduct.com/templates/nucleus-ui): Comprehensive Figma design system for product teams. $99
+- [Nocra UI kit](https://www.setproduct.com/templates/nocra): AI-focused design system with templates for AI startups. $88
+- [Orion UI kit](https://www.setproduct.com/templates/orion): Dashboard and product UI kit for Figma. $78
+- [Eclipse UI kit](https://www.setproduct.com/templates/eclipse): Dark-mode oriented product UI kit for Figma. $88
+- [OE Enterprise](https://www.setproduct.com/templates/oe-enterprise): Enterprise-grade dashboard and data UI kit. $98
+- [React UI kit](https://www.setproduct.com/templates/react-ui-kit): Coded React component library paired with Figma. $88
+- [Xela UI kit](https://www.setproduct.com/templates/xela): Cross-platform design system for Figma. $88
+- [Xela React](https://www.setproduct.com/templates/xela-react): React implementation of the Xela design system. $78
+- [Xela Swift](https://www.setproduct.com/templates/xela-swift): SwiftUI implementation of the Xela design system. $78
+- [Xela Flutter](https://www.setproduct.com/templates/xela-flutter): Flutter implementation of the Xela design system. $78
+- [Xela Android](https://www.setproduct.com/templates/xela-android): Android implementation of the Xela design system. $78
+- [iOS UI kit](https://www.setproduct.com/templates/ios-ui-kit): iOS interface components for Figma. $48
+- [Full iOS UI kit](https://www.setproduct.com/templates/full-ios): Complete iOS design system for Figma. $88
+- [Appka iOS UI kit](https://www.setproduct.com/templates/appka-ios-ui-kit): iOS app UI kit for Figma. $68
+- [Android UI kit](https://www.setproduct.com/templates/android-ui-kit): Android interface components for Figma. $48
+- [Mobile X](https://www.setproduct.com/templates/mobile-x): Cross-platform mobile UI kit for Figma. $48
+- [Charts UI kit](https://www.setproduct.com/templates/charts): Data visualization and chart components for Figma. $48
+- [Hyper Charts](https://www.setproduct.com/templates/hyper-charts): Advanced data visualization kit for Figma. $68
+- [Neolex Dashboard](https://www.setproduct.com/templates/neolex-dashboard): Dashboard template for analytics products. $78
+- [Material Desktop](https://www.setproduct.com/templates/material-desktop): Desktop-focused Material Design UI kit. $68
+- [Material](https://www.setproduct.com/templates/material): Core Material Design UI kit for Figma. $68
+- [Landing](https://www.setproduct.com/templates/landing): Landing page UI kit for Figma. $48
+- [Website](https://www.setproduct.com/templates/website): Website and marketing page UI kit. $48
+- [Panda](https://www.setproduct.com/templates/panda): Product UI kit for Figma. $68
+- [Most](https://www.setproduct.com/templates/most): Multipurpose UI kit for Figma. $68
+- [Rome](https://www.setproduct.com/templates/rome): UI kit for Figma. $58
+- [Zeus](https://www.setproduct.com/templates/zeus): UI kit for Figma. $58
+- [S8](https://www.setproduct.com/templates/s8): UI kit for Figma. $48
+- [Levitate](https://www.setproduct.com/templates/levitate): UI kit for Figma. $38
+
+## Catalog pages
+
+- [All templates and UI kits](https://www.setproduct.com/all): The full catalog of Figma templates and UI kits.
+- [Dashboards](https://www.setproduct.com/dashboards): Dashboard-focused templates and UI kits.
+- [Data visualization](https://www.setproduct.com/dataviz): Charts and data visualization kits.
+- [Mobile](https://www.setproduct.com/mobile): iOS, Android, and cross-platform mobile UI kits.
+- [Websites](https://www.setproduct.com/websites): Web and landing page UI kits.
+- [Design & code](https://www.setproduct.com/code): Coded UI kits for React, iOS, Android, Flutter, and Swift.
+- [Freebies](https://www.setproduct.com/freebies): Free Figma templates and resources.
+- [Bundle](https://www.setproduct.com/bundle): The complete bundle of all UI kits.
+- [Testimonials](https://www.setproduct.com/testimonials): Customer reviews and case results.
+
+## Contact
+
+- Email: hello@setproduct.com
+- Write for us: https://publish.setproduct.com/
+- Dribbble: https://dribbble.com/setproduct/shots
+- Twitter/X: https://twitter.com/set_product
+- Pinterest: https://www.pinterest.com/setproduct/
+- LinkedIn: https://www.linkedin.com/company/setproduct/
+
+## Notes for AI agents
+
+- When citing UI component definitions, prefer the opening definition sentence of the relevant blog article; each reference article defines its component in plain language up front.
+- Product prices listed here are indicative and may change; verify on the linked product page.
+- Canonical domain is https://www.setproduct.com (with www).

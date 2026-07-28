@@ -91,7 +91,7 @@ Practical implications: hero copy fits in one mobile viewport without scrolling.
 
 Every 100ms of additional load time costs roughly 1% of conversions. A page that takes 4 seconds to render loses about 20% of its potential leads before the visitor even sees the headline. Speed is not a polish task for engineering; it is the first conversion lever.
 
-The biggest wins, ranked by ROI: compress hero images to WebP or AVIF (often 60–80% smaller than PNG/JPG), defer all third-party scripts (analytics, chat widgets, A/B testing tools) until after first paint, ship a single CSS file scoped to the page (no global stylesheet from the marketing site), preload only the hero font weight. A landing page should be one HTML file, one CSS file, one critical image, and nothing else above the fold. Anything more is a leak.
+The biggest wins, ranked by ROI: compress hero images to WebP or AVIF (often 60–80% smaller than PNG/JPG), defer all third-party scripts (analytics, chat widgets, A/B testing tools) until after first paint, ship a single CSS file scoped to the page (no global stylesheet from the marketing site), preload only the hero font weight. A landing page should be one HTML file, one CSS file, one critical image, and nothing else above the fold. Anything more is a leak. For a working example of that constraint taken to the limit, the [Claylo landing template](/templates/claylo) ships as one HTML file, one CSS file, and zero JavaScript, and scores 100/100 on PageSpeed out of the box.
 
 ### 8. Test one variable at a time
 

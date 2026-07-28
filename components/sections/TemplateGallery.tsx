@@ -1,10 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/styles.css";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import AppLightbox, { preloadLightbox } from "../ui/AppLightbox";
 
 type GalleryItem = {
   image: string;
@@ -15,10 +12,19 @@ type Props = {
   title?: string;
   subtitle?: string;
   previewLink?: string;
+  subtitleLinkText?: string;
+  subtitleLinkHref?: string;
   items: GalleryItem[];
 };
 
-export default function TemplateGallery({ title, subtitle, previewLink, items }: Props) {
+export default function TemplateGallery({
+  title,
+  subtitle,
+  previewLink,
+  subtitleLinkText,
+  subtitleLinkHref,
+  items,
+}: Props) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
@@ -54,7 +60,24 @@ export default function TemplateGallery({ title, subtitle, previewLink, items }:
                   )}
                 </h2>
               )}
-              {subtitle && <div className="heading-style-h5">{subtitle}</div>}
+              {subtitle && (
+                <div className="heading-style-h5">
+                  {subtitle}
+                  {subtitleLinkText && subtitleLinkHref && (
+                    <>
+                      {" "}
+                      <a
+                        className="span-link"
+                        href={subtitleLinkHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {subtitleLinkText}
+                      </a>
+                    </>
+                  )}
+                </div>
+              )}
             </div>
           )}
           {(title || subtitle) && <div className="spacer-64" />}
@@ -65,6 +88,8 @@ export default function TemplateGallery({ title, subtitle, previewLink, items }:
                 key={index}
                 className="template_img-gallery-item"
                 onClick={() => openLightbox(index)}
+                onMouseEnter={preloadLightbox}
+                onTouchStart={preloadLightbox}
                 style={{ cursor: "zoom-in" }}
               >
                 <div className="lightbox-link-with-text w-inline-block">
@@ -82,19 +107,12 @@ export default function TemplateGallery({ title, subtitle, previewLink, items }:
         </div>
       </div>
 
-      <Lightbox
+      <AppLightbox
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
         index={lightboxIndex}
         slides={slides}
-        plugins={[Thumbnails]}
-        thumbnails={{
-          position: "bottom",
-          width: 100,
-          height: 60,
-          gap: 8,
-          showToggle: false,
-        }}
+        thumbnails
       />
     </div>
   );

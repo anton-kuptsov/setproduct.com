@@ -2,6 +2,15 @@ import type { Product } from "../types/data";
 
 export const PRODUCTS: Product[] = [
   {
+    slug: "claylo",
+    title: "Claylo landing page",
+    description: "Claymorphism website HTML template. Zero JS, zero build, 100/100 PageSpeed, AI-agent ready. 13 sections in the pack, thoughtful UI animations, mobile-friendly. Rebrand it with Claude, Codex, or Cursor.",
+    image: "/images/claylo/clay-list-image.webp",
+    buyHref: "https://setproduct.gumroad.com/l/claymorphism-landing-page",
+    price: "28",
+    categories: ["websites", "code"],
+  },
+  {
     slug: "orion",
     title: "Orion UI kit",
     description: "Figma library with 40+ full-width charts templates served in light & dark themes. Contains 200+ of dataviz widgets that look perfect on desktop & mobile screens.",

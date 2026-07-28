@@ -6,7 +6,7 @@ export const mobile_xContent = {
       "image": "/images/mobile-x/feature-mobx-01.webp"
     },
     {
-      "title": "br/>",
+      "title": "157 app layouts to design in Figma",
       "description": "Cards, Charts, Date, Time, Forms, Tables, Lists, Grids, Menus, Sheets and more",
       "image": "/images/mobile-x/feature-mobx-02.webp"
     },
@@ -14,6 +14,11 @@ export const mobile_xContent = {
       "title": "Fits for Android & iOS applications",
       "description": "Templates are based on iOS specs adopted for 8dp Android grid. Adjust easy!",
       "image": "/images/mobile-x/feature-mobx-03.webp"
+    },
+    {
+      "title": "Dark theme made with Variants",
+      "description": "Easy to toggle theme for each component. Screens are light & dark available",
+      "image": "/images/mobile-x/feature-mobx-04.webp"
     }
   ],
   "pricing": {

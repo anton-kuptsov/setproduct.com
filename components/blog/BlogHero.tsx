@@ -9,6 +9,7 @@ type BlogHeroProps = {
   date: string;
   readingTimeText: string;
   category?: string;
+  lastUpdated?: string;
 };
 
 function formatDate(isoDate: string): string {
@@ -18,6 +19,18 @@ function formatDate(isoDate: string): string {
     month: "long",
     day: "numeric",
   }).format(new Date(year, month - 1, day));
+}
+
+// Accepts both "YYYY-MM" and "YYYY-MM-DD". When the day is missing
+// it renders just the month and year, e.g. "June 2026".
+function formatUpdated(isoDate: string): string {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  const date = day ? new Date(year, month - 1, day) : new Date(year, month - 1, 1);
+  return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    ...(day ? { day: "numeric" } : {}),
+  }).format(date);
 }
 
 function categoryLabel(cat: string): string {
@@ -32,6 +45,7 @@ export default function BlogHero({
   date,
   readingTimeText,
   category,
+  lastUpdated,
 }: BlogHeroProps) {
   return (
     <>
@@ -77,6 +91,12 @@ export default function BlogHero({
                 <p className="text-size-small">{formatDate(date)}</p>
                 <p className="text-size-small">|</p>
                 <p className="text-size-small">{readingTimeText}</p>
+                {lastUpdated && (
+                  <>
+                    <p className="text-size-small">|</p>
+                    <p className="text-size-small">Updated {formatUpdated(lastUpdated)}</p>
+                  </>
+                )}
               </div>
             </div>
             <div className="spacer-40" />

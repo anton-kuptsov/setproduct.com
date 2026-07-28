@@ -4,6 +4,21 @@ export const materialContent = {
       "title": "Material components",
       "description": "Scalable and adjustable components with resizing constraints set",
       "image": "/images/material/feature-material-01.svg"
+    },
+    {
+      "title": "Paired typography",
+      "description": "Use Roboto & Red Hat Display fonts for better product design",
+      "image": "/images/material/feature-material-02.svg"
+    },
+    {
+      "title": "Global styleguides",
+      "description": "Customize fonts, colors, shadows and other styles on-the-fly",
+      "image": "/images/material/feature-material-03.webp"
+    },
+    {
+      "title": "Light and dark themes",
+      "description": "Based on the latest material guidelines with dark mode",
+      "image": "/images/material/feature-material-04.svg"
     }
   ],
   "video": {

@@ -4,7 +4,7 @@ export default function CtaSubscribe() {
   const { isSubscribed, isSubmitting, handleSubscribe } = useSubscribe();
 
   return (
-    <div className="section background-color-light-primary">
+    <div className="section">
       <div className="section-padding top-80 bottom-80">
         <div className="container">
           <div className="main_cta-section">
@@ -21,6 +21,7 @@ export default function CtaSubscribe() {
                     <form className="form-cta" onSubmit={handleSubscribe}>
                       <input name="website" className="hidden" tabIndex={-1} autoComplete="off" />
                       <input
+                        aria-label="Email address"
                         className="text-input w-input"
                         disabled={isSubmitting}
                         maxLength={256}

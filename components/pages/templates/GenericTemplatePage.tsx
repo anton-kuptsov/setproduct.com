@@ -3,17 +3,19 @@ import SiteHeader from "../../layout/SiteHeader";
 import SiteFooter from "../../layout/SiteFooter";
 import ScrollUpButton from "../../layout/ScrollUpButton";
 import Breadcrumbs from "../../sections/Breadcrumbs";
-import TemplateShowcase from "../../sections/TemplateShowcase";
 import TemplateVideo from "../../sections/TemplateVideo";
 import TemplateTabsWithSplitter from "../../sections/TemplateTabsWithSplitter";
 import TemplatePricing from "../../sections/TemplatePricing";
 import TemplateCtaHire from "../../sections/TemplateCtaHire";
+import TemplateStickyCta from "../../sections/TemplateStickyCta";
 import TemplateCarousel from "../../sections/TemplateCarousel";
 import TemplateGallery from "../../sections/TemplateGallery";
 import FaqSection from "../../sections/FaqSection";
+import { getGumroadLinkProps } from "../../../lib/gumroad";
 import type { BlogPostPreview, TemplateItem } from "../../../types/data";
 
 type TemplateContent = {
+  previewLabel?: string;
   features?: Array<{
     title: string;
     description: string;
@@ -34,6 +36,8 @@ type TemplateContent = {
     title?: string;
     subtitle?: string;
     previewLink?: string;
+    subtitleLinkText?: string;
+    subtitleLinkHref?: string;
     items: Array<{ image: string; title?: string }>;
   }>;
   sectionOrder?: Array<"carousel" | "gallery">;
@@ -55,17 +59,24 @@ type TemplateContent = {
     cards: Array<{
       title: string;
       description: string;
+      descriptionHtml?: string;
       image: string;
+      imageFit?: "cover" | "contain";
       price?: string;
       buyHref: string;
       buyLabel: string;
       previewHref?: string;
+      previewLabel?: string;
     }>;
   };
   faq?: Array<{
     question: string;
     answerHtml: string;
   }>;
+  ctaHire?: {
+    title?: string;
+    subtitle?: string;
+  };
 };
 
 type Props = {
@@ -107,10 +118,8 @@ export default function GenericTemplatePage({ item, content, blogPosts = [] }: P
                   <p className="heading-style-h5">{item.description}</p>
                   <div className="template_hero-btn-wr">
                     <a
-                      className="button secondary w-inline-block"
                       href={item.buyHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      {...getGumroadLinkProps(item.buyHref, "button secondary w-inline-block")}
                     >
                       <div className="text-size-large text-weight-bold">Get Started</div>
                     </a>
@@ -120,7 +129,9 @@ export default function GenericTemplatePage({ item, content, blogPosts = [] }: P
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="text-size-large text-weight-bold">Preview in Figma</div>
+                      <div className="text-size-large text-weight-bold">
+                        {content.previewLabel ?? "Preview in Figma"}
+                      </div>
                     </a>
                   </div>
                 </div>
@@ -213,6 +224,8 @@ export default function GenericTemplatePage({ item, content, blogPosts = [] }: P
                     title={g.title}
                     subtitle={g.subtitle}
                     previewLink={g.previewLink}
+                    subtitleLinkText={g.subtitleLinkText}
+                    subtitleLinkHref={g.subtitleLinkHref}
                     items={g.items}
                   />
                 );
@@ -237,6 +250,8 @@ export default function GenericTemplatePage({ item, content, blogPosts = [] }: P
                   title={gallery.title}
                   subtitle={gallery.subtitle}
                   previewLink={gallery.previewLink}
+                  subtitleLinkText={gallery.subtitleLinkText}
+                  subtitleLinkHref={gallery.subtitleLinkHref}
                   items={gallery.items}
                 />
               ))}
@@ -260,21 +275,28 @@ export default function GenericTemplatePage({ item, content, blogPosts = [] }: P
             title={content.pricing.title}
             subtitle={content.pricing.subtitle}
             cards={content.pricing.cards}
+            previewLabel={content.previewLabel}
           />
         )}
 
         {/* Hire CTA */}
-        <TemplateCtaHire />
+        <TemplateCtaHire
+          title={content.ctaHire?.title}
+          subtitle={content.ctaHire?.subtitle}
+        />
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (
           <FaqSection items={content.faq} />
         )}
 
-        {/* Related Templates */}
-        <TemplateShowcase />
       </main>
       <SiteFooter />
+      <TemplateStickyCta
+        item={item}
+        price={content.pricing?.cards[0]?.price}
+        buyHref={content.pricing?.cards[0]?.buyHref}
+      />
       <ScrollUpButton />
     </>
   );

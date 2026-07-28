@@ -6,7 +6,6 @@ import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
 import CtaSubscribe from "../sections/CtaSubscribe";
-import TemplateShowcase from "../sections/TemplateShowcase";
 import FreebieTemplateCard from "../sections/FreebieTemplateCard";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
@@ -206,7 +205,6 @@ export default function FreebiesListingPage({ blogPosts = [] }: Props) {
           </div>
         </div>
         <CtaSubscribe />
-        <TemplateShowcase />
       </main>
       <SiteFooter />
       <ScrollUpButton />

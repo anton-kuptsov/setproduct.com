@@ -1,5 +1,26 @@
 export const zeusContent = {
-  "features": [],
+  "features": [
+    {
+      "title": "1600+ variants of 16 components",
+      "description": "Reusable collection of HQ components mostly common in web design",
+      "image": "/images/zeus/feature-zeus-01.webp"
+    },
+    {
+      "title": "630+ web design blocks for Figma",
+      "description": "CTA, Hero, Features, FAQ, Blog, Pricing, Testimonials, Team, Footer and others",
+      "image": "/images/zeus/feature-zeus-02.webp"
+    },
+    {
+      "title": "10 pre-designed landing pages",
+      "description": "For mobile and desktop. Use as it is, or remix and customize on your own",
+      "image": "/images/zeus/feature-zeus-03.webp"
+    },
+    {
+      "title": "Full-power web design system",
+      "description": "Variants & Auto-layout, Color tokens, Font styles. Zeus UI saves time!",
+      "image": "/images/zeus/feature-zeus-04.webp"
+    }
+  ],
   "carousels": [
     {
       "title": "Preview 630+ web blocks",

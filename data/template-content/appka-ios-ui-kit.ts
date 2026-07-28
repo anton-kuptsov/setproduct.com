@@ -1,7 +1,7 @@
 export const appka_ios_ui_kitContent = {
   "features": [
     {
-      "title": "br/>the perfect UI",
+      "title": "Components for the perfect UI",
       "description": "4100+ variants for iOS mobile components served in two themes",
       "image": "/images/appka-ios-ui-kit/feature-appka-01.webp"
     },

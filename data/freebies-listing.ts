@@ -2,6 +2,7 @@ import type { FreebieItem } from "../types/data";
 
 export const FREEBIES_CATEGORIES: string[] = [
   "All topics",
+  "Code",
   "Components",
   "Data visualization",
   "Desktop",
@@ -19,6 +20,20 @@ export const FREEBIES_CATEGORIES: string[] = [
 ];
 
 export const FREEBIE_PRODUCTS: FreebieItem[] = [
+  {
+    slug: "driver-js",
+    title: "Driver.js — product tours & onboarding",
+    description:
+      "Lightweight, vanilla JavaScript library for building powerful product tours, feature highlights, and contextual onboarding. No dependencies, just 5kb gzipped, fully customizable and accessible by default.",
+    thumb: "/freebies/thumbs/freebie-driver-js.webp",
+    image: "/freebies/freebie-driver-js.webp",
+    category: "Code",
+    previewHref: "/freebies/driver-js",
+    duplicateHref: "https://github.com/nilbuild/driver.js",
+    isFree: true,
+    ctaLabel: "View on GitHub ★",
+    menuCtaLabel: "Get the code",
+  },
   {
     slug: "invoice",
     title: "Free invoice template for Figma",

@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -26,6 +27,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <ContactModalProvider>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       {GA_TRACKING_ID ? (
         <>
           <Script
@@ -45,6 +49,13 @@ export default function App({ Component, pageProps }: AppProps) {
           </Script>
         </>
       ) : null}
+      {/* Gumroad overlay: gumroad.js intercepts clicks on plain gumroad.com
+          links (without target="_blank") and opens the product in an on-site
+          popup instead of a new tab. */}
+      <Script
+        src="https://gumroad.com/js/gumroad.js"
+        strategy="afterInteractive"
+      />
       <Component {...pageProps} />
     </ContactModalProvider>
   );

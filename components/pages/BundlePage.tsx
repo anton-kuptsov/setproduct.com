@@ -6,7 +6,6 @@ import Breadcrumbs from "../sections/Breadcrumbs";
 import BundleCard from "../sections/BundleCard";
 import CategoryTabs from "../sections/CategoryTabs";
 import CtaSubscribe from "../sections/CtaSubscribe";
-import TemplateShowcase from "../sections/TemplateShowcase";
 import FaqSection from "../sections/FaqSection";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
@@ -59,7 +58,6 @@ export default function BundlePage({ blogPosts = [] }: Props) {
           </div>
         </div>
         <CtaSubscribe />
-        <TemplateShowcase />
         <FaqSection items={faq} />
       </main>
       <SiteFooter />

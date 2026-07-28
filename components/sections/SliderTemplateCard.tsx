@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Product } from "../../types/data";
 import ArrowIcon from "./ArrowIcon";
+import { getGumroadLinkProps } from "../../lib/gumroad";
 
 type Props = { product: Product };
 
@@ -24,7 +25,7 @@ export default function SliderTemplateCard({ product }: Props) {
         <p className="text-size-regular text-style-2lines line-clamp-2">{product.description}</p>
       </div>
       <div className="template-list-btn-wr">
-        <a className="button-small w-inline-block" href={product.buyHref} target="_blank" rel="noopener noreferrer">
+        <a href={product.buyHref} {...getGumroadLinkProps(product.buyHref, "button-small w-inline-block")}>
           <div className="text-size-medium text-weight-bold">Buy ${product.price}</div>
           <div className="button-icon is-small w-embed"><ArrowIcon /></div>
         </a>

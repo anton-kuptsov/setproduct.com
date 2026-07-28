@@ -1,12 +1,12 @@
 export const nucleus_uiContent = {
   "features": [
     {
-      "title": "1k+ Components with variants",
+      "title": "1k+ components with variants",
       "description": "With Text properties, Nested instances and other latest features",
       "image": "/images/nucleus-ui/fea-01.svg"
     },
     {
-      "title": "br/>",
+      "title": "Variables & global styles",
       "description": "Light and dark templates via variables are now fully supported",
       "image": "/images/nucleus-ui/fea-02.svg"
     },
@@ -14,6 +14,11 @@ export const nucleus_uiContent = {
       "title": "Thoughtful UI kit architecture",
       "description": "Meticulously crafted components, designed with accessibility in mind",
       "image": "/images/nucleus-ui/fea-03.svg"
+    },
+    {
+      "title": "Nucleus layouts to start quickly",
+      "description": "Events, Food delivery, Healthcare, Financial, Travel, and more sections",
+      "image": "/images/nucleus-ui/fea-04.webp"
     }
   ],
   "faq": [

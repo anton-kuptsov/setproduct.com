@@ -7,7 +7,7 @@ slug: figma-tutorial-instances-management
 date: '2019-03-11'
 author: Roman Kamushken
 coverImage: /blog/covers/figma-tutorial-instances-management.webp
-coverImageAlt: 'Figma components tutorial: the management for Instances'
+coverImageAlt: "Explore the advantages and limitations of swapping hidden layers and detaching a component for a new master design, inspired by Userpic design item"
 tags: []
 canonical: 'https://www.setproduct.com/blog/figma-tutorial-instances-management'
 category: UI Design
@@ -48,7 +48,7 @@ This is the quickest example that may be used in a design project in several sta
 -   containing multiple faces for prototyping
 -   used in different dimensions on different screens without disconnecting
 
-![](/blog/assets/figma-tutorial-instances-management/img-1.webp)
+![Design example illustrating meet the userpic](/blog/assets/figma-tutorial-instances-management/img-1.webp)
 
 Obviously, we want to get all these states quickly and conveniently. In addition, we want to preserve a minimum of required components. Therefore, the question arises: shall we store all states as hidden layers in the master, or should each state be declared a separate component?
 
@@ -61,7 +61,7 @@ Especially in a large project with many pages. And, for instance, it\`s better t
 **Pros**: allows you to quickly switch instance states with many differences  
 **Cons**: there are obviously more components, it takes time to organise them
 
-![](/blog/assets/figma-tutorial-instances-management/img-2.webp)
+![Design example illustrating component by the instance](/blog/assets/figma-tutorial-instances-management/img-2.webp)
 
 ‍
 
@@ -83,7 +83,7 @@ Nowadays, Figma does a great job with hundreds of instances that contain 5–10 
 **Pros**: quickly getting the desired instance state by switching the layers visibility  
 **Cons**: if you switch 3+ layers and attach the new styles at the same time, there are too many actions
 
-![](/blog/assets/figma-tutorial-instances-management/img-3.webp)
+![Design example illustrating hidden layers inside the master component](/blog/assets/figma-tutorial-instances-management/img-3.webp)
 
 By creating a new rule, you may be improving your algorithm. I've chosen the following for myself: if creating a new state requires 3 or more layers to be switched to "Visible", it's better to predefine that state to a separate component that was an instance at first. Remember that you'll need to spend time organising, checking the naming of each layer (so that text elements don't lose content when switching), constraints, order… and much more!
 

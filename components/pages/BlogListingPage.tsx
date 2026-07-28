@@ -9,7 +9,6 @@ import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import ArrowIcon from "../sections/ArrowIcon";
 import CtaSubscribe from "../sections/CtaSubscribe";
-import TemplateShowcase from "../sections/TemplateShowcase";
 import { PAGE_META } from "../../data/pages-meta";
 import { BLOG_CATEGORIES } from "../../data/blog-categories";
 import type { BlogPostPreview } from "../../types/data";
@@ -173,7 +172,6 @@ export default function BlogListingPage({ blogPosts = [] }: Props) {
           </div>
         </div>
         <CtaSubscribe />
-        <TemplateShowcase />
       </main>
       <SiteFooter />
       <ScrollUpButton />

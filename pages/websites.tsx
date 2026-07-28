@@ -8,7 +8,7 @@ import { getBlogPostPreviews } from "../lib/blog/get-blog-post-previews";
 import type { BlogPostPreview } from "../types/data";
 
 const SLUG = "websites";
-const PRODUCT_SLUGS = ["zeus", "landing", "xela-react", "levitate", "website"];
+const PRODUCT_SLUGS = ["claylo", "zeus", "landing", "xela-react", "levitate", "website"];
 
 const productMap = new Map(PRODUCTS.map((p) => [p.slug, p]));
 const products = PRODUCT_SLUGS.map((s) => productMap.get(s)!);

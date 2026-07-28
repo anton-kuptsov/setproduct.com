@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
-    "thumbs:blog": "node scripts/generate-blog-thumbs.js"
+    "thumbs:blog": "node scripts/generate-blog-thumbs.js",
+    "scrape:inspiration": "node scripts/scrape-inspiration.mjs"
   },
   "repository": {
     "type": "git",

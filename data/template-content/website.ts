@@ -4,6 +4,21 @@ export const websiteContent = {
       "title": "140+ blocks with popular patterns",
       "description": "Ready to use Figma web design library to design eye-catching pages",
       "image": "/images/website/Feature1_2.svg"
+    },
+    {
+      "title": "Adjustable text and color styles",
+      "description": "Colors and Fonts are easy to customize. Attach any of guidelines and start",
+      "image": "/images/website/feature-website-02.svg"
+    },
+    {
+      "title": "Will-organized and constrained",
+      "description": "Every UI item is labeled, constrained and scalable to any resolution",
+      "image": "/images/website/feature-website-03.webp"
+    },
+    {
+      "title": "Light and dark web templates",
+      "description": "Two themes available. Create dark, light or mixed landing pages",
+      "image": "/images/website/feature-website-04.svg"
     }
   ],
   "video": {
@@ -119,6 +134,29 @@ export const websiteContent = {
       ]
     }
   ],
+  "pricing": {
+    "title": "Get started⚡",
+    "subtitle": "Pay once & use forever this well-crafted Figma web design library to build websites 3x faster.",
+    "cards": [
+      {
+        "title": "Figma Website templates UI kit",
+        "description": "Landing pages reusable templates kit based on most effective web design patterns. 140+ dark & light constrained design blocks.",
+        "image": "/images/website/website-pricing-01.webp",
+        "buyLabel": "Buy now",
+        "price": "$86",
+        "buyHref": "https://setproduct.gumroad.com/l/materialwebdesign",
+        "previewHref": "https://www.figma.com/file/nKFne7p6HWM9LJXJd7SlB8/Web-design-UI-kit?node-id=0%3A20524"
+      },
+      {
+        "title": "Buy a Bundle. Save 30%",
+        "description": "Recommended for designing any kind of websites by reusing provided web blocks. Included: Landing Pages kit + Web Design kit.",
+        "image": "/images/11-Web_Design_Bundle.webp",
+        "buyLabel": "Buy now",
+        "price": "$116",
+        "buyHref": "https://setproduct.gumroad.com/l/figmaweb"
+      }
+    ]
+  },
   "faq": [
     {
       "question": "How to start with this design system?",

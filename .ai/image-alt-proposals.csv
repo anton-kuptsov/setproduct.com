@@ -1,0 +1,740 @@
+post_slug,image_position,image_path,current_alt,status,proposed_alt,confidence,reasoning
+8-designers-developers-success,1,/blog/assets/8-designers-developers-success/img-1.webp,,missing,Denis Shepovalov design work featured in the article,high,Person name from heading
+8-designers-developers-success,2,/blog/assets/8-designers-developers-success/img-2.webp,,missing,Dennis Mueller design work featured in the article,high,Person name from heading
+8-designers-developers-success,3,/blog/assets/8-designers-developers-success/img-3.webp,,missing,Jan Losert design work featured in the article,high,Person name from heading
+8-designers-developers-success,4,/blog/assets/8-designers-developers-success/img-4.webp,,missing,Jim Raptis design work featured in the article,high,Person name from heading
+8-designers-developers-success,5,/blog/assets/8-designers-developers-success/img-5.webp,,missing,Mackenzie Child design work featured in the article,high,Person name from heading
+8-designers-developers-success,6,/blog/assets/8-designers-developers-success/img-6.webp,,missing,Tony Dinh design work featured in the article,high,Person name from heading
+8-designers-developers-success,7,/blog/assets/8-designers-developers-success/img-7.webp,,missing,Dan Rowden design work featured in the article,high,Person name from heading
+8-designers-developers-success,8,/blog/assets/8-designers-developers-success/img-8.webp,,missing,Gal Shir design work featured in the article,high,Person name from heading
+accordion-ui-design,1,/blog/assets/accordion-ui-design/img-1.webp,Accordion UI design tips,duplicate,Accordion example illustrating what is accordion?,medium,Generic heading-based alt
+accordion-ui-design,2,/blog/assets/accordion-ui-design/img-2.webp,Accordion UI design tips,duplicate,Accordion example illustrating states,medium,Generic heading-based alt
+accordion-ui-design,3,/blog/assets/accordion-ui-design/img-3.webp,Accordion UI design tips,duplicate,Accordion example illustrating chevrons placement,medium,Generic heading-based alt
+accordion-ui-design,4,/blog/assets/accordion-ui-design/img-4.webp,Accordion UI design tips,duplicate,Accordion example illustrating chevrons placement,medium,Generic heading-based alt
+accordion-ui-design,5,/blog/assets/accordion-ui-design/img-5.webp,Accordion UI design tips,duplicate,Accordion example illustrating additional icon,medium,Generic heading-based alt
+accordion-ui-design,6,/blog/assets/accordion-ui-design/img-6.webp,Accordion UI design tips,duplicate,Accordion example illustrating additional icon,medium,Generic heading-based alt
+accordion-ui-design,7,/blog/assets/accordion-ui-design/img-7.webp,Accordion UI design tips,duplicate,Accordion expanded item shown in example,high,State or variant from heading
+accordion-ui-design,8,/blog/assets/accordion-ui-design/img-8.webp,Accordion UI design tips,duplicate,Accordion expanded item shown in example,high,State or variant from heading
+accordion-ui-design,9,/blog/assets/accordion-ui-design/img-9.webp,Accordion UI design tips,duplicate,Accordion example illustrating contained accordion,medium,Generic heading-based alt
+accordion-ui-design,10,/blog/assets/accordion-ui-design/img-10.webp,Accordion UI design tips,duplicate,Accordion example illustrating separated accordion,medium,Generic heading-based alt
+accordion-ui-design,11,/blog/assets/accordion-ui-design/img-11.webp,Accordion UI design tips,duplicate,Accordion example illustrating subtitle to pre-know,medium,Generic heading-based alt
+accordion-ui-design,12,/blog/assets/accordion-ui-design/img-12.webp,Accordion UI design tips,duplicate,Accordion example illustrating badge to pre-know,medium,Generic heading-based alt
+accordion-ui-design,13,/blog/assets/accordion-ui-design/img-13.webp,Accordion UI design tips,duplicate,Accordion example illustrating helper text,medium,Generic heading-based alt
+accordion-ui-design,14,/blog/assets/accordion-ui-design/img-14.webp,Accordion UI design tips,duplicate,Accordion usage example showing full-width usage,medium,Use case heading
+accordion-ui-design,15,/blog/assets/accordion-ui-design/img-15.webp,Accordion UI design tips,duplicate,Accordion example illustrating side menu,medium,Generic heading-based alt
+accordion-ui-design,16,/blog/assets/accordion-ui-design/img-16.webp,Accordion UI design tips,duplicate,Accordion example illustrating filters,medium,Generic heading-based alt
+accordion-ui-design,17,/blog/assets/accordion-ui-design/img-17.webp,Accordion UI design tips,duplicate,Accordion example illustrating side menu,medium,Generic heading-based alt
+accordion-ui-design,18,/blog/assets/accordion-ui-design/img-18.webp,Accordion UI design tips,duplicate,Accordion example illustrating filters,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,1,/blog/assets/ai-infographics-for-marketing-teams/img-1.webp,,missing,Design example illustrating define the job: what “ai infographic for social media” really means,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,2,/blog/assets/ai-infographics-for-marketing-teams/img-2.webp,,missing,Design example illustrating client intake: what data you actually need to produce infographics,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,3,/blog/assets/ai-infographics-for-marketing-teams/img-3.webp,,missing,Design example illustrating turn raw numbers into a “visual spec” before prompting,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,4,/blog/assets/ai-infographics-for-marketing-teams/img-4.webp,,missing,"Design example illustrating build prompts like a system, not like poetry",medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,5,/blog/assets/ai-infographics-for-marketing-teams/img-5.webp,,missing,Design example illustrating generate variation intentionally: style lanes and selection rules,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,6,/blog/assets/ai-infographics-for-marketing-teams/img-6.webp,,missing,Design example illustrating production and delivery: how to ship results that clients can actually use,medium,Generic heading-based alt
+ai-infographics-for-marketing-teams,7,/blog/assets/ai-infographics-for-marketing-teams/img-7.webp,,missing,Design example illustrating before ai vs now: why this workflow wins for marketing,medium,Generic heading-based alt
+ais-impact-on-graphic-design,1,/blog/assets/ais-impact-on-graphic-design/img-1.webp,,missing,Matt Chinworth design work featured in the article,high,Person attribution detected
+appbar-ui-design,1,/blog/assets/appbar-ui-design/img-1.webp,Application Bar UI design tutorial,generic-templated,Now let's dive deeper into the App Bar UI design details ↓,low,Built from first sentence before image
+appbar-ui-design,2,/blog/assets/appbar-ui-design/img-2.webp,Application Bar UI design anatomy,duplicate,App bar anatomy diagram with key parts labeled,high,Anatomy heading
+appbar-ui-design,3,/blog/assets/appbar-ui-design/img-3.webp,Application Bar UI design anatomy,duplicate,App bar example illustrating left controls,medium,Generic heading-based alt
+appbar-ui-design,4,/blog/assets/appbar-ui-design/img-4.webp,Application Bar UI design anatomy,duplicate,App bar example illustrating left controls,medium,Generic heading-based alt
+appbar-ui-design,5,/blog/assets/appbar-ui-design/img-5.webp,Application Bar UI design desktop,duplicate,App bar example illustrating left controls,medium,Generic heading-based alt
+appbar-ui-design,6,/blog/assets/appbar-ui-design/img-6.webp,Application Bar UI design anatomy,duplicate,App bar example illustrating title,medium,Generic heading-based alt
+appbar-ui-design,7,/blog/assets/appbar-ui-design/img-7.webp,Application Bar UI design menu,duplicate,App bar example illustrating title,medium,Generic heading-based alt
+appbar-ui-design,13,/blog/assets/appbar-ui-design/img-13.webp,Application Bar UI design anatomy,duplicate,App bar example illustrating avatar,medium,Generic heading-based alt
+appbar-ui-design,15,/blog/assets/appbar-ui-design/img-15.webp,Application Bar UI design menu,duplicate,App bar example illustrating icons,medium,Generic heading-based alt
+appbar-ui-design,27,/blog/assets/appbar-ui-design/img-27.webp,Application Bar UI design desktop,duplicate,App bar example illustrating bottom positioning,medium,Generic heading-based alt
+avatar-ui-design,0,/blog/covers/avatar-ui-design.webp,"Userpic UI design: Tutorial for Avatar states, anatomy, usability",generic-templated,The hardest part of avatar design is the empty state,medium,Cover from frontmatter description
+avatar-ui-design,19,/blog/assets/avatar-ui-design/img-19.webp,,missing,Avatar example illustrating usability tips for avatar design,medium,Generic heading-based alt
+badge-ui-design,1,/blog/assets/badge-ui-design/img-1.webp,Badge UI design exploration,duplicate,Badge example illustrating what is a badge in ui,medium,Generic heading-based alt
+badge-ui-design,2,/blog/assets/badge-ui-design/img-2.webp,Badge UI design exploration,duplicate,Badge example illustrating purposes,medium,Generic heading-based alt
+badge-ui-design,3,/blog/assets/badge-ui-design/img-3.webp,Badge UI design exploration,duplicate,Badge example illustrating purposes,medium,Generic heading-based alt
+badge-ui-design,4,/blog/assets/badge-ui-design/img-4.webp,Badge UI design exploration,duplicate,Badge example illustrating purposes,medium,Generic heading-based alt
+badge-ui-design,5,/blog/assets/badge-ui-design/img-5.webp,Badge UI design exploration,duplicate,Badge example illustrating purposes,medium,Generic heading-based alt
+badge-ui-design,6,/blog/assets/badge-ui-design/img-6.webp,Badge UI design exploration,duplicate,Badge example illustrating behavior,medium,Generic heading-based alt
+badge-ui-design,7,/blog/assets/badge-ui-design/img-7.webp,Badge UI design exploration,duplicate,Badge example illustrating colors,medium,Generic heading-based alt
+badge-ui-design,8,/blog/assets/badge-ui-design/img-8.webp,Badge UI design exploration,duplicate,Badge example illustrating colors,medium,Generic heading-based alt
+badge-ui-design,9,/blog/assets/badge-ui-design/img-9.webp,Badge UI design exploration,duplicate,Badge example illustrating corner radius,medium,Generic heading-based alt
+badge-ui-design,10,/blog/assets/badge-ui-design/img-10.webp,Badge UI design exploration,duplicate,Badge example illustrating outline stroke,medium,Generic heading-based alt
+badge-ui-design,11,/blog/assets/badge-ui-design/img-11.webp,Badge UI design exploration,duplicate,Badge example illustrating using shadow,medium,Generic heading-based alt
+badge-ui-design,12,/blog/assets/badge-ui-design/img-12.webp,Badge UI design exploration,duplicate,Badge example illustrating messaging,medium,Generic heading-based alt
+badge-ui-design,13,/blog/assets/badge-ui-design/img-13.webp,Badge UI design exploration,duplicate,Badge example illustrating filtering,medium,Generic heading-based alt
+badge-ui-design,14,/blog/assets/badge-ui-design/img-14.webp,Badge UI design exploration,duplicate,Badge example illustrating ecommerce,medium,Generic heading-based alt
+badge-ui-design,15,/blog/assets/badge-ui-design/img-15.webp,Badge UI design exploration,duplicate,Badge example illustrating social,medium,Generic heading-based alt
+badge-ui-design,16,/blog/assets/badge-ui-design/img-16.webp,Badge UI design exploration,duplicate,Badge example illustrating social,medium,Generic heading-based alt
+badge-ui-design,17,/blog/assets/badge-ui-design/img-17.webp,Badge UI design exploration,duplicate,Badge example illustrating marketing,medium,Generic heading-based alt
+badge-ui-design,18,/blog/assets/badge-ui-design/img-18.webp,Badge UI design exploration,duplicate,Badge example illustrating categorizing,medium,Generic heading-based alt
+badge-ui-design,19,/blog/assets/badge-ui-design/img-19.webp,Badge UI design exploration,duplicate,Badge example illustrating categorizing,medium,Generic heading-based alt
+badge-ui-design,20,/blog/assets/badge-ui-design/img-20.webp,Badge UI design exploration,duplicate,Badge example illustrating tagging,medium,Generic heading-based alt
+best-analytics-dashboard-examples,1,/blog/assets/best-analytics-dashboard-examples/img-1.webp,,missing,Design example illustrating what is an analytics dashboard?,medium,Generic heading-based alt
+best-analytics-dashboard-examples,2,/blog/assets/best-analytics-dashboard-examples/img-2.webp,,missing,Design example illustrating react ui kit,medium,Generic heading-based alt
+best-analytics-dashboard-examples,3,/blog/assets/best-analytics-dashboard-examples/img-3.webp,,missing,Material Design System design work featured in the article,high,Person name from heading
+best-analytics-dashboard-examples,4,/blog/assets/best-analytics-dashboard-examples/img-4.webp,,missing,Design example illustrating xela,medium,Generic heading-based alt
+best-analytics-dashboard-examples,5,/blog/assets/best-analytics-dashboard-examples/img-5.webp,,missing,Design example illustrating neolex dashboard ui kit,medium,Generic heading-based alt
+best-analytics-dashboard-examples,6,/blog/assets/best-analytics-dashboard-examples/img-6.webp,,missing,Design example illustrating material-x,medium,Generic heading-based alt
+bitcoin-adoption-today-speculative-reality,1,/blog/assets/bitcoin-adoption-today-speculative-reality/img-1.webp,,missing,Design example illustrating bitcoin’s early cycles,medium,Generic heading-based alt
+bitcoin-adoption-today-speculative-reality,2,/blog/assets/bitcoin-adoption-today-speculative-reality/img-2.webp,,missing,Design example illustrating how speculation overshadowed utility,medium,Generic heading-based alt
+bitcoin-adoption-today-speculative-reality,3,/blog/assets/bitcoin-adoption-today-speculative-reality/img-3.webp,,missing,Design example illustrating bitcoin returns is diminishing,medium,Generic heading-based alt
+bitcoin-adoption-today-speculative-reality,4,/blog/assets/bitcoin-adoption-today-speculative-reality/img-4.webp,,missing,Design example illustrating the trump (bad) factor,medium,Generic heading-based alt
+bitcoin-adoption-today-speculative-reality,5,/blog/assets/bitcoin-adoption-today-speculative-reality/img-5.webp,,missing,Design example illustrating bitcoin is losing dollar value,medium,Generic heading-based alt
+breadcrumbs-ui-design,0,/blog/covers/breadcrumbs-ui-design.webp,"Breadcrumbs UI design exploration: Anatomy, UX tips, use cases overview",generic-templated,Breadcrumbs can guide users or just clutter the UI,medium,Cover from frontmatter description
+breadcrumbs-ui-design,1,/blog/assets/breadcrumbs-ui-design/img-1.webp,,missing,Breadcrumbs example illustrating links and wrappers,medium,Generic heading-based alt
+breadcrumbs-ui-design,2,/blog/assets/breadcrumbs-ui-design/img-2.webp,,missing,Breadcrumbs example illustrating separators: tiny but mighty,medium,Generic heading-based alt
+breadcrumbs-ui-design,3,/blog/assets/breadcrumbs-ui-design/img-3.webp,,missing,Breadcrumbs example illustrating icons inside breadcrumbs,medium,Generic heading-based alt
+breadcrumbs-ui-design,4,/blog/assets/breadcrumbs-ui-design/img-4.webp,,missing,Breadcrumbs active state shown in example,high,State or variant from heading
+breadcrumbs-ui-design,5,/blog/assets/breadcrumbs-ui-design/img-5.webp,,missing,Breadcrumbs hover state shown in example,high,State or variant from heading
+breadcrumbs-ui-design,6,/blog/assets/breadcrumbs-ui-design/img-6.webp,,missing,Breadcrumbs disabled state shown in example,high,State or variant from heading
+breadcrumbs-ui-design,7,/blog/assets/breadcrumbs-ui-design/img-7.webp,,missing,Breadcrumbs focus state (keyboard navigation) shown in example,high,State or variant from heading
+breadcrumbs-ui-design,8,/blog/assets/breadcrumbs-ui-design/img-8.webp,,missing,Breadcrumbs example illustrating filled backgrounds for interaction states,medium,Generic heading-based alt
+breadcrumbs-ui-design,9,/blog/assets/breadcrumbs-ui-design/img-9.webp,,missing,Breadcrumbs example illustrating stroke instead of fill (alternative approach),medium,Generic heading-based alt
+breadcrumbs-ui-design,10,/blog/assets/breadcrumbs-ui-design/img-10.webp,,missing,Breadcrumbs example illustrating corner radius matters more than you think,medium,Generic heading-based alt
+breadcrumbs-ui-design,11,/blog/assets/breadcrumbs-ui-design/img-11.webp,,missing,Breadcrumbs example illustrating the “home” link is more than just tradition,medium,Generic heading-based alt
+breadcrumbs-ui-design,12,/blog/assets/breadcrumbs-ui-design/img-12.webp,,missing,Breadcrumbs example illustrating breadcrumbs with popovers: actions on click,medium,Generic heading-based alt
+breadcrumbs-ui-design,13,/blog/assets/breadcrumbs-ui-design/img-13.webp,,missing,Breadcrumbs hover-triggered submenus shown in example,high,State or variant from heading
+breadcrumbs-ui-design,14,/blog/assets/breadcrumbs-ui-design/img-14.webp,,missing,Breadcrumbs example illustrating truncated breadcrumbs with ellipsis popover,medium,Generic heading-based alt
+breadcrumbs-ui-design,15,/blog/assets/breadcrumbs-ui-design/img-15.webp,,missing,Breadcrumbs example illustrating long breadcrumb labels with hard truncation,medium,Generic heading-based alt
+breadcrumbs-ui-design,16,/blog/assets/breadcrumbs-ui-design/img-16.webp,,missing,Breadcrumbs anatomy diagram with key parts labeled,high,Anatomy heading
+breadcrumbs-ui-design,17,/blog/assets/breadcrumbs-ui-design/img-17.webp,,missing,Breadcrumbs mobile-friendly collapsed breadcrumbs shown in example,high,State or variant from heading
+breadcrumbs-ui-design,18,/blog/assets/breadcrumbs-ui-design/img-18.webp,,missing,Breadcrumbs example illustrating tokens for color consistency,medium,Generic heading-based alt
+breadcrumbs-ui-design,19,/blog/assets/breadcrumbs-ui-design/img-19.webp,,missing,Breadcrumbs example illustrating theme application across ui systems,medium,Generic heading-based alt
+breadcrumbs-ui-design,20,/blog/assets/breadcrumbs-ui-design/img-20.webp,,missing,Breadcrumbs example illustrating token palettes as visual references,medium,Generic heading-based alt
+breadcrumbs-ui-design,21,/blog/assets/breadcrumbs-ui-design/img-21.webp,,missing,Breadcrumbs example illustrating breadcrumbs with dismiss buttons,medium,Generic heading-based alt
+breadcrumbs-ui-design,22,/blog/assets/breadcrumbs-ui-design/img-22.webp,,missing,Breadcrumbs example illustrating breadcrumbs with status indicators (badges),medium,Generic heading-based alt
+button-group-guide,0,/blog/covers/button-group-guide.webp,Button Group UI design guide,generic-templated,Master button group UI design with top tips and practices,medium,Cover from frontmatter description
+button-group-guide,1,/blog/assets/button-group-guide/img-1.webp,,missing,Button Group example illustrating benefits of button groups,medium,Generic heading-based alt
+button-group-guide,2,/blog/assets/button-group-guide/img-2.webp,,missing,Bunin Dmitriy design work featured in the article,high,Person attribution detected
+button-group-guide,3,/blog/assets/button-group-guide/img-3.webp,,missing,Farrel Putra design work featured in the article,high,Person attribution detected
+button-group-guide,4,/blog/assets/button-group-guide/img-4.webp,,missing,Kevin Dukkon design work featured in the article,high,Person attribution detected
+button-group-guide,5,/blog/assets/button-group-guide/img-5.webp,,missing,Vasile Labici design work featured in the article,high,Person attribution detected
+button-group-guide,6,/blog/assets/button-group-guide/img-6.webp,,missing,Button Group example illustrating direction,medium,Generic heading-based alt
+button-group-guide,7,/blog/assets/button-group-guide/img-7.webp,,missing,Farrel Putra design work featured in the article,high,Person attribution detected
+button-group-guide,8,/blog/assets/button-group-guide/img-8.webp,,missing,Orman Clark design work featured in the article,high,Person attribution detected
+button-ui-design,3,/blog/assets/button-ui-design/img-3.svg,Buttons UI design shadow CSS,duplicate,Button example illustrating button shadows,medium,Generic heading-based alt
+button-ui-design,4,/blog/assets/button-ui-design/img-4.webp,,missing,Button usage example showing icons usage,medium,Use case heading
+button-ui-design,7,/blog/assets/button-ui-design/img-7.webp,Buttons UI design shadow CSS,duplicate,Button example illustrating inner shadow,medium,Generic heading-based alt
+button-ui-design,10,/blog/assets/button-ui-design/img-10.webp,Buttons UI design shadow CSS,duplicate,Aaron Iker design work featured in the article,high,Person attribution detected
+button-ui-design,11,/blog/assets/button-ui-design/img-11.webp,Buttons UI design shadow CSS,duplicate,Button example illustrating split button,medium,Generic heading-based alt
+button-ui-design,13,/blog/assets/button-ui-design/img-13.svg,Buttons UI design shadow CSS,duplicate,Button example illustrating button group,medium,Generic heading-based alt
+button-ui-design,14,/blog/assets/button-ui-design/img-14.webp,Buttons UI design shadow CSS,duplicate,Button example illustrating speed dial,medium,Generic heading-based alt
+calendar-ui-design,0,/blog/covers/calendar-ui-design.webp,Calendar UI design – Date picker best practices & inspiration,generic-templated,Calendar and date picker UX often get confused,medium,Cover from frontmatter description
+calendar-ui-design,1,/blog/assets/calendar-ui-design/img-1.webp,,missing,Calendar vs date picker example illustrating calendar or date picker?,medium,Generic heading-based alt
+calendar-ui-design,2,/blog/assets/calendar-ui-design/img-2.webp,,missing,Calendar vs date picker anatomy diagram with key parts labeled,high,Anatomy heading
+calendar-ui-design,3,/blog/assets/calendar-ui-design/img-3.webp,,missing,Calendar vs date picker anatomy diagram with key parts labeled,high,Anatomy heading
+calendar-ui-design,4,/blog/assets/calendar-ui-design/img-4.webp,Calendar & date picker UI design inspiration mobile desktop,duplicate,Calendar vs date picker example illustrating calendar,medium,Generic heading-based alt
+calendar-ui-design,5,/blog/assets/calendar-ui-design/img-5.webp,Calendar & date picker UI design inspiration mobile desktop,duplicate,Calendar vs date picker example illustrating datepicker,medium,Generic heading-based alt
+campaign-marketing-dashboards-guide,1,/blog/assets/campaign-marketing-dashboards-guide/img-1.webp,,missing,Design example illustrating demographic dashboards that don’t stereotype,medium,Generic heading-based alt
+campaign-marketing-dashboards-guide,2,/blog/assets/campaign-marketing-dashboards-guide/img-2.webp,,missing,Design example illustrating demographic dashboards that don’t stereotype,medium,Generic heading-based alt
+campaign-marketing-dashboards-guide,3,/blog/assets/campaign-marketing-dashboards-guide/img-3.webp,,missing,Design example illustrating stalking your audience behavior (legally),medium,Generic heading-based alt
+campaign-marketing-dashboards-guide,4,/blog/assets/campaign-marketing-dashboards-guide/img-4.webp,,missing,"Design example illustrating avoid ""creepy"" factor in audience analytics",medium,Generic heading-based alt
+campaign-marketing-dashboards-guide,5,/blog/assets/campaign-marketing-dashboards-guide/img-5.webp,,missing,Design example illustrating making data engineers love you (handoff),medium,Generic heading-based alt
+carousel-ui-design,0,/blog/covers/carousel-ui-design.webp,Carousel UI design best practices,generic-templated,"Carousels are controversial UX — sometimes essential, often misused",medium,Cover from frontmatter description
+carousel-ui-design,1,/blog/assets/carousel-ui-design/img-1.webp,Carousel Anatomy,short,Carousel anatomy diagram with key parts labeled,high,Anatomy heading
+case-study-gtrendz,1,/blog/assets/case-study-gtrendz/img-1.webp,,missing,Why do we need example illustrating dashboard screen,medium,Generic heading-based alt
+case-study-gtrendz,2,/blog/assets/case-study-gtrendz/img-2.webp,,missing,Why do we need example illustrating orders screen,medium,Generic heading-based alt
+case-study-gtrendz,3,/blog/assets/case-study-gtrendz/img-3.webp,,missing,Why do we need example illustrating products screen,medium,Generic heading-based alt
+case-study-gtrendz,4,/blog/assets/case-study-gtrendz/img-4.webp,,missing,Why do we need example illustrating products screen,medium,Generic heading-based alt
+case-study-gtrendz,5,/blog/assets/case-study-gtrendz/img-5.webp,,missing,Why do we need example illustrating earnings screen,medium,Generic heading-based alt
+case-study-gtrendz,6,/blog/assets/case-study-gtrendz/img-6.webp,,missing,Why do we need example illustrating account screen,medium,Generic heading-based alt
+case-study-gtrendz,7,/blog/assets/case-study-gtrendz/img-7.webp,,missing,Why do we need example illustrating reports screen,medium,Generic heading-based alt
+case-study-gtrendz,8,/blog/assets/case-study-gtrendz/img-8.webp,,missing,Why do we need example illustrating inventory screen,medium,Generic heading-based alt
+case-study-journeyapp,1,/blog/assets/case-study-journeyapp/img-1.webp,,missing,Design example illustrating working on user flow,medium,Generic heading-based alt
+case-study-journeyapp,2,/blog/assets/case-study-journeyapp/img-2.webp,,missing,Design example illustrating working on screens,medium,Generic heading-based alt
+case-study-journeyapp,3,/blog/assets/case-study-journeyapp/img-3.webp,,missing,Design example illustrating conclusions and problems,medium,Generic heading-based alt
+checkbox-react-component,2,/blog/assets/checkbox-react-component/img-2.webp,,missing,Design example illustrating corners radius,medium,Generic heading-based alt
+checkbox-react-component,4,/blog/assets/checkbox-react-component/img-4.webp,,missing,Design example illustrating checkbox redesign,medium,Generic heading-based alt
+checkbox-react-component,6,/blog/assets/checkbox-react-component/img-6.webp,,missing,Design example illustrating styled background,medium,Generic heading-based alt
+checkbox-react-component,8,/blog/assets/checkbox-react-component/img-8.webp,,missing,Design example illustrating color themes,medium,Generic heading-based alt
+checkbox-ui-design,1,/blog/assets/checkbox-ui-design/img-1.svg,Checkbox Container UI design tutorial,generic-templated,Checkbox example illustrating container,medium,Generic heading-based alt
+checkbox-ui-design,2,/blog/assets/checkbox-ui-design/img-2.svg,Checkbox label UI design tutorial,generic-templated,Checkbox example illustrating label,medium,Generic heading-based alt
+checkbox-ui-design,3,/blog/assets/checkbox-ui-design/img-3.svg,Checkbox input UI design tutorial,generic-templated,Checkbox example illustrating input,medium,Generic heading-based alt
+checkbox-ui-design,4,/blog/assets/checkbox-ui-design/img-4.svg,Checkbox checkmark UI design tutorial,generic-templated,Checkbox example illustrating tick mark,medium,Generic heading-based alt
+checkbox-ui-design,16,/blog/assets/checkbox-ui-design/img-16.webp,Checkbox UI design tutorial – Customizing the Box,generic-templated,Checkbox example illustrating customizing the box,medium,Generic heading-based alt
+checkbox-ui-design,17,/blog/assets/checkbox-ui-design/img-17.webp,Checkbox UI design tutorial – Label Styling,generic-templated,Checkbox example illustrating label styling,medium,Generic heading-based alt
+checkbox-ui-design,18,/blog/assets/checkbox-ui-design/img-18.webp,Checkbox UI design tutorial – Checkmark Design,generic-templated,Checkbox example illustrating checkmark design,medium,Generic heading-based alt
+checkbox-ui-design,19,/blog/assets/checkbox-ui-design/img-19.webp,Checkbox UI design tutorial – Theme and Color,generic-templated,Checkbox example illustrating theme and color,medium,Generic heading-based alt
+checkbox-ui-design,20,/blog/assets/checkbox-ui-design/img-20.webp,Checkbox UI design tutorial – Hover and Focus Effects,generic-templated,Checkbox hover and focus effects shown in example,high,State or variant from heading
+checkbox-ui-design,21,/blog/assets/checkbox-ui-design/img-21.webp,Checkbox UI design tutorial – Adjacent Elements,generic-templated,Checkbox example illustrating adjacent elements,medium,Generic heading-based alt
+chip-ui-design,0,/blog/covers/chip-ui-design.webp,Chips UI Design – An essential tutorial for optimal UX & usability,generic-templated,Chips look like tags and badges but solve different problems,medium,Cover from frontmatter description
+chip-ui-design,1,/blog/assets/chip-ui-design/img-1.svg,Chips UI UX design tutorial – Chip Container,generic-templated,Chip example illustrating chip container,medium,Generic heading-based alt
+chip-ui-design,2,/blog/assets/chip-ui-design/img-2.svg,Chips UI UX design tutorial – Label,generic-templated,Chip example illustrating label,medium,Generic heading-based alt
+chip-ui-design,3,/blog/assets/chip-ui-design/img-3.svg,Chips UI UX design tutorial – Border,generic-templated,Chip example illustrating border,medium,Generic heading-based alt
+chip-ui-design,4,/blog/assets/chip-ui-design/img-4.svg,Chips UI UX design tutorial – Icon,generic-templated,Chip example illustrating icon,medium,Generic heading-based alt
+chip-ui-design,5,/blog/assets/chip-ui-design/img-5.svg,Chips UI UX design tutorial – Close/Remove Button,generic-templated,Chip example illustrating close/remove button,medium,Generic heading-based alt
+chip-ui-design,6,/blog/assets/chip-ui-design/img-6.webp,Chips UI UX design tutorial – Userpic,generic-templated,Chip example illustrating userpic,medium,Generic heading-based alt
+chip-ui-design,7,/blog/assets/chip-ui-design/img-7.svg,Chips UI UX design tutorial – Counter,generic-templated,Chip example illustrating counter,medium,Generic heading-based alt
+chip-ui-design,8,/blog/assets/chip-ui-design/img-8.svg,Chips UI UX design tutorial – Default State,generic-templated,Chip default state shown in example,high,State or variant from heading
+chip-ui-design,9,/blog/assets/chip-ui-design/img-9.svg,Chips UI UX design tutorial – Hover State,generic-templated,Chip hover state shown in example,high,State or variant from heading
+chip-ui-design,10,/blog/assets/chip-ui-design/img-10.webp,Chips UI UX design tutorial – Selected State,generic-templated,Chip selected state shown in example,high,State or variant from heading
+chip-ui-design,11,/blog/assets/chip-ui-design/img-11.webp,Chips UI UX design tutorial – Disabled State,generic-templated,Chip disabled state shown in example,high,State or variant from heading
+chip-ui-design,12,/blog/assets/chip-ui-design/img-12.webp,Chips UI UX design tutorial – Active State,generic-templated,Chip active state shown in example,high,State or variant from heading
+chip-ui-design,13,/blog/assets/chip-ui-design/img-13.svg,Chips UI UX design tutorial – Background Fill,generic-templated,Chip example illustrating background fill,medium,Generic heading-based alt
+chip-ui-design,14,/blog/assets/chip-ui-design/img-14.svg,Chips UI UX design tutorial – Border Style,generic-templated,Chip example illustrating border style,medium,Generic heading-based alt
+chip-ui-design,15,/blog/assets/chip-ui-design/img-15.svg,Chips UI UX design tutorial – Corner Radius,generic-templated,Chip example illustrating corner radius,medium,Generic heading-based alt
+chip-ui-design,16,/blog/assets/chip-ui-design/img-16.svg,Chips UI UX design tutorial – Using Shadows,generic-templated,Chip example illustrating using shadows,medium,Generic heading-based alt
+chip-ui-design,17,/blog/assets/chip-ui-design/img-17.svg,Chips UI UX design tutorial – Adding Gradients,generic-templated,Chip example illustrating adding gradients,medium,Generic heading-based alt
+chip-ui-design,18,/blog/assets/chip-ui-design/img-18.svg,Chips UI UX design tutorial – Content Filtering,generic-templated,Chip example illustrating content filtering,medium,Generic heading-based alt
+chip-ui-design,19,/blog/assets/chip-ui-design/img-19.svg,Chips UI UX design tutorial – Tagging,generic-templated,Chip example illustrating tagging,medium,Generic heading-based alt
+chip-ui-design,20,/blog/assets/chip-ui-design/img-20.webp,Chips UI UX design tutorial – Product Attributes,generic-templated,Chip example illustrating product attributes,medium,Generic heading-based alt
+chip-ui-design,21,/blog/assets/chip-ui-design/img-21.svg,Chips UI UX design tutorial – Autocomplete,generic-templated,Chip example illustrating autocomplete,medium,Generic heading-based alt
+chip-ui-design,22,/blog/assets/chip-ui-design/img-22.svg,Chips UI UX design tutorial – Marketing Purposes,generic-templated,Chip example illustrating marketing purposes,medium,Generic heading-based alt
+chip-ui-design,23,/blog/assets/chip-ui-design/img-23.webp,Chips UI UX design tutorial – Multiple Recipients,generic-templated,Chip example illustrating multiple recipients,medium,Generic heading-based alt
+chip-ui-design,24,/blog/assets/chip-ui-design/img-24.svg,Chips UI UX design tutorial – Size and Spacing,generic-templated,Chip example illustrating size and spacing,medium,Generic heading-based alt
+chip-ui-design,25,/blog/assets/chip-ui-design/img-25.svg,Chips UI UX design tutorial – Use Hover & Active States,generic-templated,Chip use hover & active states shown in example,high,State or variant from heading
+chip-ui-design,26,/blog/assets/chip-ui-design/img-26.svg,Chips UI UX design tutorial – Clear Selection State,generic-templated,Chip clear selection state shown in example,high,State or variant from heading
+chip-ui-design,27,/blog/assets/chip-ui-design/img-27.svg,Chips UI UX design tutorial – Enable Chip Removal,generic-templated,Chip example illustrating enable chip removal,medium,Generic heading-based alt
+chip-ui-design,28,/blog/assets/chip-ui-design/img-28.webp,Chips UI UX design tutorial – Use Micro-interactions,generic-templated,Chip example illustrating use micro-interactions,medium,Generic heading-based alt
+chip-ui-design,29,/blog/assets/chip-ui-design/img-29.svg,Chips UI UX design tutorial – Multiline Chip Handling,generic-templated,Chip example illustrating multiline chip handling,medium,Generic heading-based alt
+choosing-right-design-team,0,/blog/covers/choosing-right-design-team.webp,Tips for selecting the UI / UX agency for application design and development,duplicate,Find the perfect web design and development agency for your application to ensure the success of your product,medium,Cover from frontmatter description
+choosing-right-design-team,1,/blog/assets/choosing-right-design-team/img-1.webp,Tips for selecting the UI / UX agency for application design and development,duplicate,Tips for selecting the example illustrating checking the portfolio,medium,Generic heading-based alt
+choosing-right-design-team,2,/blog/assets/choosing-right-design-team/img-2.webp,Tips for selecting the UI / UX agency for application design and development,duplicate,Tips for selecting the example illustrating evaluating agency's process,medium,Generic heading-based alt
+choosing-right-ios-kit,1,/blog/assets/choosing-right-ios-kit/img-1.webp,Tips for selecting the UI / UX agency for application design and development,duplicate,Design example illustrating ‍tl/dr,medium,Generic heading-based alt
+choosing-right-ios-kit,2,/blog/assets/choosing-right-ios-kit/img-2.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Design example illustrating why use such a ui kit in figma for ios design?type=design)?,medium,Generic heading-based alt
+choosing-right-ios-kit,3,/blog/assets/choosing-right-ios-kit/img-3.svg,,missing,Design example illustrating advantages of the ui kit,medium,Generic heading-based alt
+complete-guide-to-blueprint-grid-design,0,/blog/covers/vercel-easthetic-guide-cover-2.webp,Vercel aesthetic: a complete guide to blueprint grid style design,generic-templated,Everything you need to know about the technical grid design trend,medium,Cover from frontmatter description
+design-resources-feb-2021,1,/blog/assets/design-resources-feb-2021/img-1.webp,,missing,Free Emoji Pack design work featured in the article,high,Person name from heading
+design-resources-feb-2021,2,/blog/assets/design-resources-feb-2021/img-2.webp,,missing,Illustration Kit design work featured in the article,high,Person name from heading
+design-resources-feb-2021,3,/blog/assets/design-resources-feb-2021/img-3.webp,,missing,Design example illustrating pfolios,medium,Generic heading-based alt
+design-resources-feb-2021,4,/blog/assets/design-resources-feb-2021/img-4.webp,,missing,Akar Icons design work featured in the article,high,Person name from heading
+design-resources-feb-2021,5,/blog/assets/design-resources-feb-2021/img-5.webp,,missing,Design example illustrating color within constraints,medium,Generic heading-based alt
+design-resources-feb-2021,6,/blog/assets/design-resources-feb-2021/img-6.webp,,missing,Design example illustrating building complex figma variants,medium,Generic heading-based alt
+design-resources-feb-2021,7,/blog/assets/design-resources-feb-2021/img-7.webp,,missing,Design example illustrating morph,medium,Generic heading-based alt
+design-resources-feb-2021,8,/blog/assets/design-resources-feb-2021/img-8.webp,,missing,Design example illustrating stylelist,medium,Generic heading-based alt
+design-resources-feb-2021,9,/blog/assets/design-resources-feb-2021/img-9.webp,,missing,Angel Match design work featured in the article,high,Person name from heading
+design-resources-feb-2021,10,/blog/assets/design-resources-feb-2021/img-10.webp,,missing,Vector Pattern Generator design work featured in the article,high,Person name from heading
+design-resources-feb-2021,11,/blog/assets/design-resources-feb-2021/img-11.webp,,missing,Design example illustrating iconduck,medium,Generic heading-based alt
+design-resources-feb-2021,12,/blog/assets/design-resources-feb-2021/img-12.webp,,missing,Tweek Calendar design work featured in the article,high,Person name from heading
+design-resources-feb-2021,13,/blog/assets/design-resources-feb-2021/img-13.webp,,missing,Design example illustrating mac utilities that i can't live without,medium,Generic heading-based alt
+design-resources-feb-2021,14,/blog/assets/design-resources-feb-2021/img-14.webp,,missing,Design example illustrating uppbeat,medium,Generic heading-based alt
+design-resources-feb-2021,15,/blog/assets/design-resources-feb-2021/img-15.webp,,missing,Text Gradients design work featured in the article,high,Person name from heading
+design-resources-feb-2021,16,/blog/assets/design-resources-feb-2021/img-16.webp,,missing,Design example illustrating designing better data tables for enterprise ux,medium,Generic heading-based alt
+design-system-for-business,5,/blog/assets/design-system-for-business/img-5.webp,,missing,Design example illustrating ‍kanban,medium,Generic heading-based alt
+design-system-for-business,8,/blog/assets/design-system-for-business/img-8.webp,,missing,Design example illustrating messenger,medium,Generic heading-based alt
+design-system-for-business,10,/blog/assets/design-system-for-business/img-10.webp,Figma design system - Navigation UI kit,duplicate,Design example illustrating navigation,medium,Generic heading-based alt
+design-system-for-business,11,/blog/assets/design-system-for-business/img-11.webp,Figma design system - Navigation UI kit,duplicate,Design example illustrating navigation,medium,Generic heading-based alt
+difficult-design-clients,1,/blog/assets/difficult-design-clients/img-1.webp,,missing,Design example illustrating conclusion,medium,Generic heading-based alt
+dropdown-ui-design,0,/blog/covers/dropdown-ui-design.webp,"Dropdown UI design – A guide for Anatomy, UX tips, and Use cases",generic-templated,"Standard, searchable, multi-select, or multi-level",medium,Cover from frontmatter description
+dropdown-ui-design,1,/blog/assets/dropdown-ui-design/img-1.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating types of dropdowns,medium,Generic heading-based alt
+dropdown-ui-design,2,/blog/assets/dropdown-ui-design/img-2.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating types of dropdowns,medium,Generic heading-based alt
+dropdown-ui-design,3,/blog/assets/dropdown-ui-design/img-3.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating types of dropdowns,medium,Generic heading-based alt
+dropdown-ui-design,4,/blog/assets/dropdown-ui-design/img-4.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating types of dropdowns,medium,Generic heading-based alt
+dropdown-ui-design,5,/blog/assets/dropdown-ui-design/img-5.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating key elements and their functions,medium,Generic heading-based alt
+dropdown-ui-design,6,/blog/assets/dropdown-ui-design/img-6.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating key elements and their functions,medium,Generic heading-based alt
+dropdown-ui-design,7,/blog/assets/dropdown-ui-design/img-7.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating key elements and their functions,medium,Generic heading-based alt
+dropdown-ui-design,8,/blog/assets/dropdown-ui-design/img-8.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating key elements and their functions,medium,Generic heading-based alt
+dropdown-ui-design,9,/blog/assets/dropdown-ui-design/img-9.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating key elements and their functions,medium,Generic heading-based alt
+dropdown-ui-design,10,/blog/assets/dropdown-ui-design/img-10.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,11,/blog/assets/dropdown-ui-design/img-11.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,12,/blog/assets/dropdown-ui-design/img-12.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,13,/blog/assets/dropdown-ui-design/img-13.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,14,/blog/assets/dropdown-ui-design/img-14.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,15,/blog/assets/dropdown-ui-design/img-15.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating dropdown states and interactions,medium,Generic heading-based alt
+dropdown-ui-design,16,/blog/assets/dropdown-ui-design/img-16.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating corner radius,medium,Generic heading-based alt
+dropdown-ui-design,17,/blog/assets/dropdown-ui-design/img-17.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating border style,medium,Generic heading-based alt
+dropdown-ui-design,18,/blog/assets/dropdown-ui-design/img-18.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating using shadows,medium,Generic heading-based alt
+dropdown-ui-design,19,/blog/assets/dropdown-ui-design/img-19.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating container color,medium,Generic heading-based alt
+dropdown-ui-design,20,/blog/assets/dropdown-ui-design/img-20.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating applying gradients,medium,Generic heading-based alt
+dropdown-ui-design,21,/blog/assets/dropdown-ui-design/img-21.webp,Dropdown UI design tutorial and UX usability tips,duplicate,Vitaly Silkin design work featured in the article,high,Person attribution detected
+dropdown-ui-design,22,/blog/assets/dropdown-ui-design/img-22.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating using in navigation menus,medium,Generic heading-based alt
+dropdown-ui-design,23,/blog/assets/dropdown-ui-design/img-23.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating language selection,medium,Generic heading-based alt
+dropdown-ui-design,24,/blog/assets/dropdown-ui-design/img-24.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating data input forms,medium,Generic heading-based alt
+dropdown-ui-design,25,/blog/assets/dropdown-ui-design/img-25.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating filter and sorting options,medium,Generic heading-based alt
+dropdown-ui-design,26,/blog/assets/dropdown-ui-design/img-26.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating configuration settings,medium,Generic heading-based alt
+dropdown-ui-design,27,/blog/assets/dropdown-ui-design/img-27.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating selection of single/multiple items,medium,Generic heading-based alt
+dropdown-ui-design,28,/blog/assets/dropdown-ui-design/img-28.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ux & usability tips,medium,Generic heading-based alt
+dropdown-ui-design,29,/blog/assets/dropdown-ui-design/img-29.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ‍logical and intuitive organization,medium,Generic heading-based alt
+dropdown-ui-design,30,/blog/assets/dropdown-ui-design/img-30.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ‍keyboard accessibility,medium,Generic heading-based alt
+dropdown-ui-design,31,/blog/assets/dropdown-ui-design/img-31.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ‍selected option feedback,medium,Generic heading-based alt
+dropdown-ui-design,32,/blog/assets/dropdown-ui-design/img-32.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ‍color contrast and visual accessibility,medium,Generic heading-based alt
+dropdown-ui-design,33,/blog/assets/dropdown-ui-design/img-33.svg,Dropdown UI design tutorial and UX usability tips,duplicate,Dropdown example illustrating ‍limiting number of options and incorporating search functionality,medium,Generic heading-based alt
+e-commerce-dashboard-examples,1,/blog/assets/e-commerce-dashboard-examples/img-1.webp,,missing,Design example illustrating rome ui kit,medium,Generic heading-based alt
+e-commerce-dashboard-examples,2,/blog/assets/e-commerce-dashboard-examples/img-2.webp,,missing,Design example illustrating material desktop ui kit,medium,Generic heading-based alt
+e-commerce-dashboard-examples,3,/blog/assets/e-commerce-dashboard-examples/img-3.webp,,missing,Panda Design System design work featured in the article,high,Person name from heading
+e-commerce-dashboard-examples,4,/blog/assets/e-commerce-dashboard-examples/img-4.webp,,missing,Design example illustrating material-you,medium,Generic heading-based alt
+e-commerce-dashboard-examples,5,/blog/assets/e-commerce-dashboard-examples/img-5.webp,,missing,Design example illustrating eclipse ui kit,medium,Generic heading-based alt
+empty-state-ui-design,9,/blog/assets/empty-state-ui-design/img-9.webp,,missing,Empty state example illustrating rules for using illustrations,medium,Generic heading-based alt
+figma-10-tech-companies,1,/blog/assets/figma-10-tech-companies/img-1.webp,,missing,Design example illustrating notion,medium,Generic heading-based alt
+figma-10-tech-companies,2,/blog/assets/figma-10-tech-companies/img-2.webp,,missing,Design example illustrating dribbble,medium,Generic heading-based alt
+figma-10-tech-companies,3,/blog/assets/figma-10-tech-companies/img-3.webp,,missing,Design example illustrating bulb,medium,Generic heading-based alt
+figma-10-tech-companies,4,/blog/assets/figma-10-tech-companies/img-4.webp,,missing,Design example illustrating gusto,medium,Generic heading-based alt
+figma-10-tech-companies,5,/blog/assets/figma-10-tech-companies/img-5.webp,,missing,Design example illustrating github,medium,Generic heading-based alt
+figma-10-tech-companies,6,/blog/assets/figma-10-tech-companies/img-6.webp,,missing,Design example illustrating zoom,medium,Generic heading-based alt
+figma-10-tech-companies,7,/blog/assets/figma-10-tech-companies/img-7.webp,,missing,Design example illustrating deliveroo,medium,Generic heading-based alt
+figma-10-tech-companies,8,/blog/assets/figma-10-tech-companies/img-8.webp,,missing,Design example illustrating airbnb,medium,Generic heading-based alt
+figma-10-tech-companies,9,/blog/assets/figma-10-tech-companies/img-9.webp,,missing,Design example illustrating uber,medium,Generic heading-based alt
+figma-10-tech-companies,10,/blog/assets/figma-10-tech-companies/img-10.webp,,missing,Design example illustrating microsoft,medium,Generic heading-based alt
+figma-20-newest-templates,1,/blog/assets/figma-20-newest-templates/img-1.webp,,missing,Design example illustrating instagram mockup 2020,medium,Generic heading-based alt
+figma-20-newest-templates,2,/blog/assets/figma-20-newest-templates/img-2.webp,,missing,Design example illustrating redlines,medium,Generic heading-based alt
+figma-20-newest-templates,3,/blog/assets/figma-20-newest-templates/img-3.webp,,missing,Design example illustrating coolicons,medium,Generic heading-based alt
+figma-20-newest-templates,4,/blog/assets/figma-20-newest-templates/img-4.webp,,missing,Design example illustrating ant ux wireframes,medium,Generic heading-based alt
+figma-20-newest-templates,5,/blog/assets/figma-20-newest-templates/img-5.webp,,missing,Design example illustrating investor pitch presentation template,medium,Generic heading-based alt
+figma-20-newest-templates,6,/blog/assets/figma-20-newest-templates/img-6.webp,,missing,Slide Toolkit design work featured in the article,high,Person name from heading
+figma-20-newest-templates,7,/blog/assets/figma-20-newest-templates/img-7.webp,,missing,Design example illustrating lucent ui design system,medium,Generic heading-based alt
+figma-20-newest-templates,8,/blog/assets/figma-20-newest-templates/img-8.webp,,missing,Simple Deck Template design work featured in the article,high,Person name from heading
+figma-20-newest-templates,9,/blog/assets/figma-20-newest-templates/img-9.webp,,missing,Design example illustrating ex-out illustrations & graphics,medium,Generic heading-based alt
+figma-20-newest-templates,10,/blog/assets/figma-20-newest-templates/img-10.webp,,missing,Avatar Illustration System design work featured in the article,high,Person name from heading
+figma-20-newest-templates,11,/blog/assets/figma-20-newest-templates/img-11.webp,,missing,Smart Animate Tutorial design work featured in the article,high,Person name from heading
+figma-20-newest-templates,12,/blog/assets/figma-20-newest-templates/img-12.webp,,missing,Wireframe Kit design work featured in the article,high,Person name from heading
+figma-20-newest-templates,13,/blog/assets/figma-20-newest-templates/img-13.webp,,missing,Design example illustrating creatures,medium,Generic heading-based alt
+figma-20-newest-templates,14,/blog/assets/figma-20-newest-templates/img-14.webp,,missing,Design example illustrating u.s. web design system,medium,Generic heading-based alt
+figma-20-newest-templates,15,/blog/assets/figma-20-newest-templates/img-15.webp,,missing,Design example illustrating ios keyboards & browser ui kit,medium,Generic heading-based alt
+figma-20-newest-templates,16,/blog/assets/figma-20-newest-templates/img-16.webp,,missing,Remote Design Sprinting design work featured in the article,high,Person name from heading
+figma-20-newest-templates,17,/blog/assets/figma-20-newest-templates/img-17.webp,,missing,Clarity Icons design work featured in the article,high,Person name from heading
+figma-20-newest-templates,18,/blog/assets/figma-20-newest-templates/img-18.webp,,missing,Bright Kit design work featured in the article,high,Person name from heading
+figma-20-newest-templates,19,/blog/assets/figma-20-newest-templates/img-19.webp,,missing,Design example illustrating browk ui kit,medium,Generic heading-based alt
+figma-20-newest-templates,20,/blog/assets/figma-20-newest-templates/img-20.webp,,missing,Brainstorming Design System design work featured in the article,high,Person name from heading
+figma-auto-layout-debate,0,/blog/covers/figma-auto-layout-debate.webp,"Figma auto-layout debate: Benefits, drawbacks, and best practices",generic-templated,Explore the pros and cons of Figma’s auto-layout vs,medium,Cover from frontmatter description
+figma-plugins-productivity-boost,1,/blog/assets/figma-plugins-productivity-boost/img-1.webp,,missing,Design example illustrating sitemap,medium,Generic heading-based alt
+figma-plugins-productivity-boost,2,/blog/assets/figma-plugins-productivity-boost/img-2.webp,,missing,Design example illustrating halftones,medium,Generic heading-based alt
+figma-plugins-productivity-boost,3,/blog/assets/figma-plugins-productivity-boost/img-3.webp,,missing,Design example illustrating flipbook,medium,Generic heading-based alt
+figma-plugins-productivity-boost,4,/blog/assets/figma-plugins-productivity-boost/img-4.webp,,missing,Spell Inspector design work featured in the article,high,Person name from heading
+figma-plugins-productivity-boost,5,/blog/assets/figma-plugins-productivity-boost/img-5.webp,,missing,Design focus css shown in example,high,State or variant from heading
+figma-plugins-productivity-boost,6,/blog/assets/figma-plugins-productivity-boost/img-6.webp,,missing,Design example illustrating tracking,medium,Generic heading-based alt
+figma-plugins-productivity-boost,7,/blog/assets/figma-plugins-productivity-boost/img-7.webp,,missing,Design example illustrating filter,medium,Generic heading-based alt
+figma-plugins-productivity-boost,8,/blog/assets/figma-plugins-productivity-boost/img-8.webp,,missing,Design example illustrating swiftui inspector,medium,Generic heading-based alt
+figma-plugins-productivity-boost,9,/blog/assets/figma-plugins-productivity-boost/img-9.webp,,missing,Design example illustrating geometric,medium,Generic heading-based alt
+figma-plugins-productivity-boost,10,/blog/assets/figma-plugins-productivity-boost/img-10.webp,,missing,Spacing Manager design work featured in the article,high,Person name from heading
+figma-plugins-productivity-boost,11,/blog/assets/figma-plugins-productivity-boost/img-11.webp,,missing,Design example illustrating find & replace colors,medium,Generic heading-based alt
+figma-plugins-productivity-boost,12,/blog/assets/figma-plugins-productivity-boost/img-12.webp,,missing,Batch Styler design work featured in the article,high,Person name from heading
+figma-plugins-productivity-boost,13,/blog/assets/figma-plugins-productivity-boost/img-13.webp,,missing,Style Organizer design work featured in the article,high,Person name from heading
+figma-plugins-productivity-boost,14,/blog/assets/figma-plugins-productivity-boost/img-14.webp,,missing,Design example illustrating autogrid,medium,Generic heading-based alt
+figma-plugins-review-2020,1,/blog/assets/figma-plugins-review-2020/img-1.webp,Figma design system - Datepicker template,duplicate,Design example illustrating coda for figma,medium,Generic heading-based alt
+figma-plugins-review-2020,2,/blog/assets/figma-plugins-review-2020/img-2.webp,Figma design system - Datepicker template,duplicate,Design example illustrating lilgrid,medium,Generic heading-based alt
+figma-plugins-review-2020,3,/blog/assets/figma-plugins-review-2020/img-3.webp,Figma design system - Datepicker template,duplicate,Table Paste design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,4,/blog/assets/figma-plugins-review-2020/img-4.webp,Figma design system - Datepicker template,duplicate,Design System Organizer design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,5,/blog/assets/figma-plugins-review-2020/img-5.webp,Figma design system - Datepicker template,duplicate,Movie Posters design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,6,/blog/assets/figma-plugins-review-2020/img-6.webp,Figma design system - Datepicker template,duplicate,Dot Grid design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,7,/blog/assets/figma-plugins-review-2020/img-7.webp,Figma design system - Datepicker template,duplicate,Design example illustrating giffycanvas,medium,Generic heading-based alt
+figma-plugins-review-2020,8,/blog/assets/figma-plugins-review-2020/img-8.webp,Figma design system - Datepicker template,duplicate,Design example illustrating beatflyer lite,medium,Generic heading-based alt
+figma-plugins-review-2020,9,/blog/assets/figma-plugins-review-2020/img-9.webp,Figma design system - Datepicker template,duplicate,Color Kit design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,10,/blog/assets/figma-plugins-review-2020/img-10.webp,Figma design system - Datepicker template,duplicate,Material Palette design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,11,/blog/assets/figma-plugins-review-2020/img-11.webp,Figma design system - Datepicker template,duplicate,Wire Box design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,12,/blog/assets/figma-plugins-review-2020/img-12.webp,Figma design system - Datepicker template,duplicate,Vector Maps design work featured in the article,high,Person name from heading
+figma-plugins-review-2020,13,/blog/assets/figma-plugins-review-2020/img-13.webp,Figma design system - Datepicker template,duplicate,Design example illustrating webgradients,medium,Generic heading-based alt
+figma-plugins-review-2020,14,/blog/assets/figma-plugins-review-2020/img-14.webp,Figma design system - Datepicker template,duplicate,Design example illustrating lottiefiles,medium,Generic heading-based alt
+figma-plugins-review-2020,15,/blog/assets/figma-plugins-review-2020/img-15.webp,Figma design system - Datepicker template,duplicate,Design example illustrating tinyimage compressor,medium,Generic heading-based alt
+figma-plugins-review-2020,16,/blog/assets/figma-plugins-review-2020/img-16.webp,Figma design system - Datepicker template,duplicate,Design Lint design work featured in the article,high,Person name from heading
+figma-resources-review-1,1,/blog/assets/figma-resources-review-1/img-1.webp,,missing,Design example illustrating acid brutal ui concept,medium,Generic heading-based alt
+figma-resources-review-1,2,/blog/assets/figma-resources-review-1/img-2.webp,,missing,Design example illustrating capture - landing page template,medium,Generic heading-based alt
+figma-resources-review-1,3,/blog/assets/figma-resources-review-1/img-3.webp,,missing,Design example illustrating visual studio code icons,medium,Generic heading-based alt
+figma-resources-review-1,4,/blog/assets/figma-resources-review-1/img-4.webp,,missing,Design example illustrating figma starter kit,medium,Generic heading-based alt
+figma-resources-review-1,5,/blog/assets/figma-resources-review-1/img-5.webp,,missing,Design example illustrating figma design system,medium,Generic heading-based alt
+figma-resources-review-1,6,/blog/assets/figma-resources-review-1/img-6.webp,,missing,Design example illustrating pulse heartbeat atomic components,medium,Generic heading-based alt
+figma-resources-review-1,7,/blog/assets/figma-resources-review-1/img-7.webp,,missing,Design example illustrating neolex dashboard kit,medium,Generic heading-based alt
+figma-resources-review-1,8,/blog/assets/figma-resources-review-1/img-8.webp,,missing,Design example illustrating figma system for data table,medium,Generic heading-based alt
+figma-resources-review-1,9,/blog/assets/figma-resources-review-1/img-9.webp,,missing,Core Design System design work featured in the article,high,Person name from heading
+figma-resources-review-1,10,/blog/assets/figma-resources-review-1/img-10.webp,,missing,Design example illustrating microsoft power platform kit,medium,Generic heading-based alt
+figma-resources-review-1,11,/blog/assets/figma-resources-review-1/img-11.webp,,missing,Open Peeps design work featured in the article,high,Person name from heading
+figma-resources-review-1,12,/blog/assets/figma-resources-review-1/img-12.webp,,missing,Design example illustrating bootstrap 4 gui,medium,Generic heading-based alt
+figma-resources-review-1,13,/blog/assets/figma-resources-review-1/img-13.webp,,missing,Design example illustrating clarity ui system,medium,Generic heading-based alt
+figma-resources-review-1,14,/blog/assets/figma-resources-review-1/img-14.webp,,missing,Design example illustrating building blocks ui framework,medium,Generic heading-based alt
+figma-resources-review-1,15,/blog/assets/figma-resources-review-1/img-15.webp,,missing,Design example illustrating eui — elastic ui kit,medium,Generic heading-based alt
+figma-responsive-mobile-components,1,/blog/assets/figma-responsive-mobile-components/img-1.webp,,missing,Design example illustrating could we have it responsive?,medium,Generic heading-based alt
+figma-responsive-mobile-components,2,/blog/assets/figma-responsive-mobile-components/img-2.webp,,missing,Design example illustrating the problem is the icons,medium,Generic heading-based alt
+figma-responsive-mobile-components,3,/blog/assets/figma-responsive-mobile-components/img-3.webp,,missing,Design example illustrating immediately detach icons,medium,Generic heading-based alt
+figma-responsive-mobile-components,4,/blog/assets/figma-responsive-mobile-components/img-4.webp,,missing,Design example illustrating keep 2 types of icons in the system,medium,Generic heading-based alt
+figma-summer-top-15,1,/blog/assets/figma-summer-top-15/img-1.webp,,missing,Vector Character Illustrations design work featured in the article,high,Person name from heading
+figma-summer-top-15,2,/blog/assets/figma-summer-top-15/img-2.webp,,missing,Design example illustrating realistic canon 70-200mm f/2.8,medium,Generic heading-based alt
+figma-summer-top-15,3,/blog/assets/figma-summer-top-15/img-3.webp,,missing,Design example illustrating 3d models for your app design,medium,Generic heading-based alt
+figma-summer-top-15,4,/blog/assets/figma-summer-top-15/img-4.webp,,missing,Flamingo Design System design work featured in the article,high,Person name from heading
+figma-summer-top-15,5,/blog/assets/figma-summer-top-15/img-5.webp,,missing,Design usage example showing figma animation examples,medium,Use case heading
+figma-summer-top-15,6,/blog/assets/figma-summer-top-15/img-6.webp,,missing,Design example illustrating teenyicons,medium,Generic heading-based alt
+figma-summer-top-15,7,/blog/assets/figma-summer-top-15/img-7.webp,,missing,Design example illustrating segment ui kit,medium,Generic heading-based alt
+figma-summer-top-15,8,/blog/assets/figma-summer-top-15/img-8.webp,,missing,Interactive Journey Map design work featured in the article,high,Person name from heading
+figma-summer-top-15,9,/blog/assets/figma-summer-top-15/img-9.webp,,missing,Design example illustrating ux templates,medium,Generic heading-based alt
+figma-summer-top-15,10,/blog/assets/figma-summer-top-15/img-10.webp,,missing,Design example illustrating airtable blocks ui kit,medium,Generic heading-based alt
+figma-summer-top-15,11,/blog/assets/figma-summer-top-15/img-11.webp,,missing,Design example illustrating figma charts & infographics,medium,Generic heading-based alt
+figma-summer-top-15,12,/blog/assets/figma-summer-top-15/img-12.webp,,missing,Design example illustrating templatery,medium,Generic heading-based alt
+figma-summer-top-15,13,/blog/assets/figma-summer-top-15/img-13.webp,,missing,Design example illustrating exo kit design system for figma,medium,Generic heading-based alt
+figma-summer-top-15,14,/blog/assets/figma-summer-top-15/img-14.webp,,missing,Design example illustrating pajamas ui kit – gitlab's component library,medium,Generic heading-based alt
+figma-summer-top-15,15,/blog/assets/figma-summer-top-15/img-15.webp,,missing,Radius Design Kit design work featured in the article,high,Person name from heading
+figma-tables-data-grid-design,0,/blog/covers/figma-tables-data-grid-design.webp,Table UI design tutorial – Figma data grid within single cell-component,generic-templated,"Learn about the 3 different approaches to table design for creating a flexible data grid using row, column, and cell components",medium,Cover from frontmatter description
+figma-tables-data-grid-design,1,/blog/assets/figma-tables-data-grid-design/img-1.webp,,missing,Design example illustrating classic style,medium,Generic heading-based alt
+figma-tables-data-grid-design,2,/blog/assets/figma-tables-data-grid-design/img-2.webp,,missing,Design example illustrating contrast heading,medium,Generic heading-based alt
+figma-tables-data-grid-design,3,/blog/assets/figma-tables-data-grid-design/img-3.webp,,missing,Design example illustrating material table,medium,Generic heading-based alt
+figma-tables-data-grid-design,4,/blog/assets/figma-tables-data-grid-design/img-4.webp,,missing,Design example illustrating patchwork,medium,Generic heading-based alt
+figma-tables-data-grid-design,5,/blog/assets/figma-tables-data-grid-design/img-5.webp,,missing,Design example illustrating minimalism,medium,Generic heading-based alt
+figma-tables-data-grid-design,6,/blog/assets/figma-tables-data-grid-design/img-6.webp,,missing,Design example illustrating row-component,medium,Generic heading-based alt
+figma-tables-data-grid-design,7,/blog/assets/figma-tables-data-grid-design/img-7.webp,,missing,Design example illustrating row-component,medium,Generic heading-based alt
+figma-tables-data-grid-design,8,/blog/assets/figma-tables-data-grid-design/img-8.webp,,missing,Design example illustrating column-component,medium,Generic heading-based alt
+figma-tables-data-grid-design,9,/blog/assets/figma-tables-data-grid-design/img-9.webp,,missing,Design example illustrating cell-component,medium,Generic heading-based alt
+figma-tables-data-grid-design,10,https://www.figma.com/file/ARYvgo05kkUhHF5PltU7l1/iOS-tables,**‍**,short,Design example illustrating cell-component,medium,Generic heading-based alt
+figma-to-react-buttons,1,/blog/assets/figma-to-react-buttons/img-1.webp,,missing,Default Buttons design work featured in the article,high,Person name from heading
+figma-to-react-buttons,2,/blog/assets/figma-to-react-buttons/img-2.webp,,missing,Round Buttons design work featured in the article,high,Person name from heading
+figma-to-react-buttons,3,/blog/assets/figma-to-react-buttons/img-3.webp,,missing,Square Buttons design work featured in the article,high,Person name from heading
+figma-to-react-buttons,4,/blog/assets/figma-to-react-buttons/img-4.webp,,missing,Action Buttons design work featured in the article,high,Person name from heading
+figma-tutorial-instances-management,0,/blog/covers/figma-tutorial-instances-management.webp,Figma components tutorial: the management for Instances,generic-templated,"Explore the advantages and limitations of swapping hidden layers and detaching a component for a new master design, inspired by Userpic design item",medium,Cover from frontmatter description
+figma-tutorial-instances-management,1,/blog/assets/figma-tutorial-instances-management/img-1.webp,,missing,Design example illustrating meet the userpic,medium,Generic heading-based alt
+figma-tutorial-instances-management,2,/blog/assets/figma-tutorial-instances-management/img-2.webp,,missing,Design example illustrating component by the instance,medium,Generic heading-based alt
+figma-tutorial-instances-management,3,/blog/assets/figma-tutorial-instances-management/img-3.webp,,missing,Design example illustrating hidden layers inside the master component,medium,Generic heading-based alt
+filter-ui-design,0,/blog/covers/filter-ui-design.webp,Filter UI Design: Tips and best practices for filtering UX flow,generic-templated,"A practical guide to filter UI: anatomy, sidebar vs top bar layouts, mobile patterns, and the rules that decide whether users find what they want",medium,Cover from frontmatter description
+filter-ui-design,1,/blog/assets/filter-ui-design/img-1.svg,Filters UI UX design anatomy components prototyping,duplicate,Filter example illustrating input fields,medium,Generic heading-based alt
+filter-ui-design,2,/blog/assets/filter-ui-design/img-2.svg,Filters UI UX design anatomy components prototyping,duplicate,Material Me design work featured in the article,high,Person attribution detected
+filter-ui-design,3,/blog/assets/filter-ui-design/img-3.svg,Filters UI UX design anatomy components prototyping,duplicate,Filter example illustrating checkboxes,medium,Generic heading-based alt
+filter-ui-design,4,/blog/assets/filter-ui-design/img-4.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating radio buttons,medium,Generic heading-based alt
+filter-ui-design,5,/blog/assets/filter-ui-design/img-5.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating sliders,medium,Generic heading-based alt
+filter-ui-design,6,/blog/assets/filter-ui-design/img-6.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating toggle switches,medium,Generic heading-based alt
+filter-ui-design,7,/blog/assets/filter-ui-design/img-7.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating chips,medium,Generic heading-based alt
+filter-ui-design,8,/blog/assets/filter-ui-design/img-8.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating counters,medium,Generic heading-based alt
+filter-ui-design,9,/blog/assets/filter-ui-design/img-9.svg,Tips for selecting the UI / UX agency for application design and development,duplicate,Filter example illustrating clear/reset buttons,medium,Generic heading-based alt
+freelance-hourly-rate,0,/blog/covers/freelance-hourly-rate.webp,Freelancer guide: how to switch from Fixed-Price to a Hourly Rate,generic-templated,Set a fair hourly rate to prevent scope creep and ensure projects stay within budget despite client changes,medium,Cover from frontmatter description
+freelance-hourly-rate,1,/blog/assets/freelance-hourly-rate/img-1.webp,How to design a landing page - Call to action,duplicate,Design example illustrating pros and cons of a hourly rate,medium,Generic heading-based alt
+freelance-hourly-rate,2,/blog/assets/freelance-hourly-rate/img-2.webp,How to design a landing page - Call to action,duplicate,Design example illustrating calculating a minimum hourly rate,medium,Generic heading-based alt
+genius-ux-design-inventions,1,/blog/assets/genius-ux-design-inventions/img-1.webp,Snapchat's Story,short,Design example illustrating snapchat's story,medium,Generic heading-based alt
+genius-ux-design-inventions,3,/blog/assets/genius-ux-design-inventions/img-3.webp,Online Payment Systems,short,Online Payment Systems design work featured in the article,high,Person name from heading
+guest-article-for-web-development,0,/blog/covers/guest-article-for-web-development.webp,The Complete Guide to Guest Posting for Web Development Companies,generic-templated,Learn how to leverage guest posting for web development companies,medium,Cover from frontmatter description
+guest-posting-opportunities,0,/blog/covers/guest-posting-opportunities.webp,How to Find Guest Posting Opportunities in 2025: A Comprehensive Guide,generic-templated,Learn effective ways for finding guest posting opportunities in 2025,medium,Cover from frontmatter description
+guest-posting-opportunities,1,/blog/assets/guest-posting-opportunities/img-1.webp,,missing,,needs-human-review,Insufficient context for safe generation
+guest-posting-opportunities,2,/blog/assets/guest-posting-opportunities/img-2.webp,,missing,Brian Dean design work featured in the article,high,Person attribution detected
+guest-posting-opportunities,3,/blog/assets/guest-posting-opportunities/img-3.webp,,missing,Design example illustrating what is guest posting?,medium,Generic heading-based alt
+guest-posting-opportunities,4,/blog/assets/guest-posting-opportunities/img-4.webp,,missing,Competitor Backlink Analysis design work featured in the article,high,Person name from heading
+guest-posting-opportunities,5,/blog/assets/guest-posting-opportunities/img-5.webp,,missing,Competitor Backlink Analysis design work featured in the article,high,Person name from heading
+how-to-3d-animate-scroll,1,/blog/assets/how-to-3d-animate-scroll/img-1.webp,,missing,Design example illustrating the basic concept of such animation,medium,Generic heading-based alt
+how-to-3d-animate-scroll,2,/blog/assets/how-to-3d-animate-scroll/img-2.webp,,missing,Design example illustrating step 3. the final touch –preloading images,medium,Generic heading-based alt
+how-to-cancel-adobe-subscription-without-fees,0,/blog/covers/how-to-cancel-adobe-subscription-without-fees.webp,How to cancel Adobe subscription without fees,duplicate,Adobe is holding designers hostage with their subscription fees,medium,Cover from frontmatter description
+how-to-cancel-adobe-subscription-without-fees,1,/blog/assets/how-to-cancel-adobe-subscription-without-fees/img-1.webp,How to cancel Adobe subscription without fees,duplicate,Design example illustrating adobe has turned into a hostage situation,medium,Generic heading-based alt
+how-to-cancel-adobe-subscription-without-fees,2,/blog/assets/how-to-cancel-adobe-subscription-without-fees/img-2.webp,,missing,Design example illustrating the trick to cancel adobe without paying the fee,medium,Generic heading-based alt
+how-to-design-a-ui-kit-foundation,8,/blog/assets/how-to-design-a-ui-kit-foundation/img-8.webp,UI kit style guide: Density and layout rules for real SaaS screens,generic-templated,How to design a example illustrating layout scaffolding,medium,Generic heading-based alt
+how-to-design-dialogs,1,/blog/assets/how-to-design-dialogs/img-1.webp,,missing,Design anatomy diagram with key parts labeled,high,Anatomy heading
+how-to-design-dialogs,3,/blog/assets/how-to-design-dialogs/img-3.webp,,missing,Design example illustrating destructive flows: safe design for dangerous actions,medium,Generic heading-based alt
+how-to-design-dialogs,4,/blog/assets/how-to-design-dialogs/img-4.webp,,missing,"Design error dialogs: recovery, not blame shown in example",high,State or variant from heading
+how-to-design-dialogs,5,/blog/assets/how-to-design-dialogs/img-5.webp,,missing,Design example illustrating update and progress dialogs,medium,Generic heading-based alt
+how-to-design-dialogs,6,/blog/assets/how-to-design-dialogs/img-6.webp,,missing,Design example illustrating confirmation dialogs after update,medium,Generic heading-based alt
+how-to-design-dialogs,7,/blog/assets/how-to-design-dialogs/img-7.webp,,missing,Design example illustrating dialogs for preferences or settings,medium,Generic heading-based alt
+how-to-enhance-email-security,0,/blog/covers/how-to-enhance-email-security.webp,Best practices for keeping your inbox safe and enhance email security,generic-templated,Protect your inbox with top email security best practices,medium,Cover from frontmatter description
+how-to-enhance-email-security,2,/blog/assets/how-to-enhance-email-security/img-2.webp,Phishing account concept,short,Design example illustrating be careful with attachments and suspicious links,medium,Generic heading-based alt
+how-to-get-graphic-design-clients,0,/blog/covers/how-to-get-graphic-design-clients.webp,How To Get More Graphic Design Clients: A Step-by-step Guide for Freelancers ,generic-templated,Learn how to get graphic design clients with this step-by-step guide for freelancers,medium,Cover from frontmatter description
+how-to-replace-onboarding-with-contextual-help,1,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-1.webp,,missing,Design example illustrating why touch onboarding at all,medium,Generic heading-based alt
+how-to-replace-onboarding-with-contextual-help,2,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-2.webp,,missing,Design example illustrating the mistake: treating learning as a gate,medium,Generic heading-based alt
+how-to-replace-onboarding-with-contextual-help,3,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-3.webp,,missing,"Design example illustrating the principle: help on demand, in context",medium,Generic heading-based alt
+how-to-replace-onboarding-with-contextual-help,4,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-4.webp,,missing,Design example illustrating the help ladder: three levels that scale,medium,Generic heading-based alt
+how-to-replace-onboarding-with-contextual-help,5,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-5.webp,,missing,Design example illustrating triggers: how to show hints only when needed,medium,Generic heading-based alt
+how-to-replace-onboarding-with-contextual-help,6,/blog/assets/how-to-replace-onboarding-with-contextual-help/img-6.webp,,missing,Design example illustrating measurement: keep it out of opinion land,medium,Generic heading-based alt
+how-to-study-saas-dashboard-in-the-ai-era,1,/blog/assets/how-to-study-saas-dashboard-in-the-ai-era/img-1.webp,,missing,How to study SaaS dashboard usage example showing why saas dashboard examples matter more today,medium,Use case heading
+how-to-study-saas-dashboard-in-the-ai-era,2,/blog/assets/how-to-study-saas-dashboard-in-the-ai-era/img-2.webp,,missing,How to study SaaS dashboard example illustrating what makes a saas dashboard worth studying,medium,Generic heading-based alt
+how-to-study-saas-dashboard-in-the-ai-era,3,/blog/assets/how-to-study-saas-dashboard-in-the-ai-era/img-3.webp,,missing,How to study SaaS dashboard example illustrating how to study dashboard patterns with more intent,medium,Generic heading-based alt
+how-to-study-saas-dashboard-in-the-ai-era,4,/blog/assets/how-to-study-saas-dashboard-in-the-ai-era/img-4.webp,,missing,How to study SaaS dashboard example illustrating seven dimensions that deserve the most attention,medium,Generic heading-based alt
+how-to-study-saas-dashboard-in-the-ai-era,5,/blog/assets/how-to-study-saas-dashboard-in-the-ai-era/img-5.webp,,missing,How to study SaaS dashboard example illustrating why ai makes pattern literacy even more valuable,medium,Generic heading-based alt
+how-to-swap-btc-to-eth-with-thorswap,3,/blog/assets/how-to-swap-btc-to-eth-with-thorswap/img-3.webp,,missing,Design example illustrating thorswap is for cross-chain swaps in thorchain,medium,Generic heading-based alt
+how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly,4,/blog/assets/how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly/img-4.webp,,missing,"How to use AI example illustrating rebuild in figma, stress test it after",medium,Generic heading-based alt
+how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly,5,/blog/assets/how-to-use-ai-ui-inspiration-to-design-faster-without-copying-blindly/img-5.webp,,missing,"How to use AI example illustrating use ai inspiration for speed, then decide like a human",medium,Generic heading-based alt
+input-ui-design,1,/blog/assets/input-ui-design/img-1.svg,Input UI UX design tutorial – Label,generic-templated,Input anatomy diagram with key parts labeled,high,Anatomy heading
+input-ui-design,2,/blog/assets/input-ui-design/img-2.svg,Input UI UX design tutorial – Placeholder,generic-templated,Input example illustrating label,medium,Generic heading-based alt
+input-ui-design,3,/blog/assets/input-ui-design/img-3.svg,Input UI UX design tutorial – Icons usage,generic-templated,Input example illustrating placeholder,medium,Generic heading-based alt
+input-ui-design,4,/blog/assets/input-ui-design/img-4.svg,Input UI UX design tutorial – Input Box,generic-templated,Input example illustrating icon,medium,Generic heading-based alt
+input-ui-design,5,/blog/assets/input-ui-design/img-5.svg,Input UI UX design tutorial – Reset Control,generic-templated,Input example illustrating input box,medium,Generic heading-based alt
+input-ui-design,6,/blog/assets/input-ui-design/img-6.svg,Input UI UX design tutorial – Help/Hint Text,generic-templated,Input example illustrating reset control,medium,Generic heading-based alt
+input-ui-design,7,/blog/assets/input-ui-design/img-7.svg,Input UI UX design tutorial – Character Counter,generic-templated,Input example illustrating help/hint text,medium,Generic heading-based alt
+input-ui-design,8,/blog/assets/input-ui-design/img-8.svg,Input Field UI UX design tutorial – Default State,generic-templated,Input default state shown in example,high,State or variant from heading
+input-ui-design,9,/blog/assets/input-ui-design/img-9.svg,Input Field UI UX design tutorial – Hovered State,generic-templated,Input hovered state shown in example,high,State or variant from heading
+input-ui-design,10,/blog/assets/input-ui-design/img-10.svg,Input Field UI UX design tutorial – Focused State,generic-templated,Input focused state shown in example,high,State or variant from heading
+input-ui-design,11,/blog/assets/input-ui-design/img-11.svg,Input Field UI UX design tutorial – Success State,generic-templated,Input success state shown in example,high,State or variant from heading
+input-ui-design,12,/blog/assets/input-ui-design/img-12.svg,Input Field UI UX design tutorial – Error State,generic-templated,Input error state shown in example,high,State or variant from heading
+input-ui-design,13,/blog/assets/input-ui-design/img-13.svg,Input Field UI UX design tutorial – Disabled State,generic-templated,Input disabled state shown in example,high,State or variant from heading
+landing-page-design-tips-for-startups,2,/blog/assets/landing-page-design-tips-for-startups/img-2.webp,,missing,Design example illustrating exposition - tell people what your product is and what it does,medium,Generic heading-based alt
+landing-page-design-tips-for-startups,3,/blog/assets/landing-page-design-tips-for-startups/img-3.webp,,missing,Design example illustrating results - show what people get when they use it,medium,Generic heading-based alt
+landing-page-design-tips-for-startups,4,/blog/assets/landing-page-design-tips-for-startups/img-4.webp,,missing,Design example illustrating call to action - make it easy to act,medium,Generic heading-based alt
+landing-page-design-tips-for-startups,5,/blog/assets/landing-page-design-tips-for-startups/img-5.webp,,missing,Design anatomy diagram with key parts labeled,high,Anatomy heading
+latest-18-resources-boost-efficiency,1,/blog/assets/latest-18-resources-boost-efficiency/img-1.webp,,missing,"Design example illustrating hey, designers and developers",medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,2,/blog/assets/latest-18-resources-boost-efficiency/img-2.webp,,missing,Design usage example showing simple css button examples,medium,Use case heading
+latest-18-resources-boost-efficiency,3,/blog/assets/latest-18-resources-boost-efficiency/img-3.webp,,missing,Design example illustrating freelancer's annual income report,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,4,/blog/assets/latest-18-resources-boost-efficiency/img-4.webp,,missing,More Graphics design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,5,/blog/assets/latest-18-resources-boost-efficiency/img-5.webp,,missing,Primer Prism design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,6,/blog/assets/latest-18-resources-boost-efficiency/img-6.webp,,missing,Design example illustrating mona & hubot sans ofl,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,7,/blog/assets/latest-18-resources-boost-efficiency/img-7.webp,,missing,Design example illustrating html.to.design plugin,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,8,/blog/assets/latest-18-resources-boost-efficiency/img-8.webp,,missing,Lucide Icon Toolkit design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,9,/blog/assets/latest-18-resources-boost-efficiency/img-9.webp,,missing,Doodle Icons design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,10,/blog/assets/latest-18-resources-boost-efficiency/img-10.webp,,missing,Design example illustrating chromeography,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,11,/blog/assets/latest-18-resources-boost-efficiency/img-11.webp,,missing,Design example illustrating palette,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,12,/blog/assets/latest-18-resources-boost-efficiency/img-12.webp,,missing,Nolibox Creator design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,13,/blog/assets/latest-18-resources-boost-efficiency/img-13.webp,,missing,Design example illustrating tylify,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,14,/blog/assets/latest-18-resources-boost-efficiency/img-14.webp,,missing,Atlas Icons design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,15,/blog/assets/latest-18-resources-boost-efficiency/img-15.webp,,missing,Design example illustrating startups.fyi,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,16,/blog/assets/latest-18-resources-boost-efficiency/img-16.webp,,missing,Design example illustrating confluence.vc,medium,Generic heading-based alt
+latest-18-resources-boost-efficiency,17,/blog/assets/latest-18-resources-boost-efficiency/img-17.webp,,missing,Frontend Mini Challenges design work featured in the article,high,Person name from heading
+latest-18-resources-boost-efficiency,18,/blog/assets/latest-18-resources-boost-efficiency/img-18.webp,,missing,Open Sauce Fonts design work featured in the article,high,Person name from heading
+launching-saas-with-zero-investments,1,/blog/assets/launching-saas-with-zero-investments/img-1.webp,Keep Pushing Forward,short,Design example illustrating the bottom line: keep pushing forward,medium,Generic heading-based alt
+link-building-for-startups,0,/blog/covers/link-building-for-startups.webp,Link Building for Startups: Best Practices to Follow in 2025,generic-templated,Discover the best link building strategies for startups in 2025,medium,Cover from frontmatter description
+liquid-glass-design-explained-a-practical-guide,0,/blog/covers/liquid-glass-design-explained-a-practical-guide.webp,Liquid glass design explained: a practical guide,generic-templated,"Liquid glass is a layered surface that keeps the background perceptible, keeps content stable, and behaves predictably across tiers, states, and stress tests",medium,Cover from frontmatter description
+liquid-glass-design-explained-a-practical-guide,12,/blog/assets/liquid-glass-design-explained-a-practical-guide/img-12.webp,,missing,Design example illustrating get the liquid glass ui playbook,medium,Generic heading-based alt
+marketing-dashboard-ui-design-guide,0,/blog/covers/marketing-dashboard-ui-design-guide.webp,"Marketing dashboard UI design guide: Layouts, chart types, and mobile optimization",generic-templated,Build marketing dashboards that show ROI at a glance,medium,Cover from frontmatter description
+marketing-dashboard-ui-design-guide,1,/blog/assets/marketing-dashboard-ui-design-guide/img-1.webp,,missing,Marketing dashboard example illustrating why dashboard design matters,medium,Generic heading-based alt
+marketing-dashboard-ui-design-guide,2,/blog/assets/marketing-dashboard-ui-design-guide/img-2.webp,,missing,Marketing dashboard anatomy diagram with key parts labeled,high,Anatomy heading
+marketing-dashboard-ui-design-guide,4,/blog/assets/marketing-dashboard-ui-design-guide/img-4.webp,,missing,Bayu Sasmita design work featured in the article,high,Person attribution detected
+marketing-dashboard-ui-design-guide,5,/blog/assets/marketing-dashboard-ui-design-guide/img-5.webp,,missing,Delisa Agency design work featured in the article,high,Person attribution detected
+marketing-dashboard-ui-design-guide,6,/blog/assets/marketing-dashboard-ui-design-guide/img-6.webp,,missing,Vetrick Wilsen design work featured in the article,high,Person attribution detected
+marketing-dashboard-ui-design-guide,7,/blog/assets/marketing-dashboard-ui-design-guide/img-7.webp,,missing,Juliette Lagache design work featured in the article,high,Person attribution detected
+mastering-javascript,1,/blog/assets/mastering-javascript/img-1.webp,Javascript Date And Time code,duplicate,Design example illustrating javascript date and time,medium,Generic heading-based alt
+mastering-javascript,2,/blog/assets/mastering-javascript/img-2.webp,Javascript Date And Time code,duplicate,Design example illustrating javascript date and time,medium,Generic heading-based alt
+mastering-javascript,3,/blog/assets/mastering-javascript/img-3.webp,Javascript Date And Time code,duplicate,Design example illustrating javascript date and time,medium,Generic heading-based alt
+mastering-javascript,4,/blog/assets/mastering-javascript/img-4.webp,String Manipulation Functions,duplicate,String Manipulation Functions design work featured in the article,high,Person name from heading
+mastering-javascript,5,/blog/assets/mastering-javascript/img-5.webp,String Manipulation Functions,duplicate,String Manipulation Functions design work featured in the article,high,Person name from heading
+mastering-javascript,6,/blog/assets/mastering-javascript/img-6.webp,String Manipulation Functions,duplicate,String Manipulation Functions design work featured in the article,high,Person name from heading
+mastering-javascript,7,/blog/assets/mastering-javascript/img-7.webp,The Foreach Function,short,The Foreach Function design work featured in the article,high,Person name from heading
+mastering-javascript,9,/blog/assets/mastering-javascript/img-9.webp,Image from React,short,Design example illustrating front-end development,medium,Generic heading-based alt
+material-design-redesigned,1,/blog/assets/material-design-redesigned/img-1.webp,,missing,The tiny example illustrating it's time to material design redesign,medium,Generic heading-based alt
+material-design-redesigned,2,/blog/assets/material-design-redesigned/img-2.webp,,missing,The tiny example illustrating a modern typeface,medium,Generic heading-based alt
+material-design-redesigned,3,/blog/assets/material-design-redesigned/img-3.webp,,missing,The tiny example illustrating ‍shadows with reflections,medium,Generic heading-based alt
+material-design-redesigned,4,/blog/assets/material-design-redesigned/img-4.webp,,missing,The tiny example illustrating ‍buttons with presets,medium,Generic heading-based alt
+material-design-redesigned,5,/blog/assets/material-design-redesigned/img-5.webp,,missing,The tiny example illustrating non-standard rounding,medium,Generic heading-based alt
+material-design-redesigned,6,/blog/assets/material-design-redesigned/img-6.webp,,missing,The tiny example illustrating tab bars with adjustable fab,medium,Generic heading-based alt
+material-design-redesigned,7,/blog/assets/material-design-redesigned/img-7.webp,,missing,The tiny example illustrating inputs for all occasions,medium,Generic heading-based alt
+material-design-redesigned,8,/blog/assets/material-design-redesigned/img-8.webp,,missing,The tiny example illustrating inputs for all occasions,medium,Generic heading-based alt
+material-design-redesigned,9,/blog/assets/material-design-redesigned/img-9.webp,,missing,The tiny example illustrating detailed and fancy tables,medium,Generic heading-based alt
+material-design-redesigned,10,/blog/assets/material-design-redesigned/img-10.webp,,missing,The tiny example illustrating stylized pickers,medium,Generic heading-based alt
+material-design-redesigned,11,/blog/assets/material-design-redesigned/img-11.webp,,missing,The tiny example illustrating lots of ready-made presets,medium,Generic heading-based alt
+material-design-redesigned,12,/blog/assets/material-design-redesigned/img-12.webp,,missing,The tiny example illustrating on the widgets page,medium,Generic heading-based alt
+material-design-redesigned,13,/blog/assets/material-design-redesigned/img-13.webp,,missing,The tiny example illustrating on the templates page,medium,Generic heading-based alt
+material-nextjs-ui-kit,1,/blog/assets/material-nextjs-ui-kit/img-1.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating highly customizable,medium,Generic heading-based alt
+material-nextjs-ui-kit,2,/blog/assets/material-nextjs-ui-kit/img-2.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating fast load times,medium,Generic heading-based alt
+material-nextjs-ui-kit,3,/blog/assets/material-nextjs-ui-kit/img-3.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating seo friendly,medium,Generic heading-based alt
+notifications-ui-design,0,/blog/covers/notifications-ui-design.webp,"Notifications UI Design: Best practices, UX tips and popular use cases",generic-templated,Notifications drive engagement when designed right and churn when not,medium,Cover from frontmatter description
+notifications-ui-design,18,/blog/assets/notifications-ui-design/img-18.svg,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating placement and visibility,medium,Generic heading-based alt
+notifications-ui-design,19,/blog/assets/notifications-ui-design/img-19.svg,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating let users personalize,medium,Generic heading-based alt
+notifications-ui-design,20,/blog/assets/notifications-ui-design/img-20.svg,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating use meaningful icons,medium,Generic heading-based alt
+notifications-ui-design,21,/blog/assets/notifications-ui-design/img-21.svg,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating timing and frequency,medium,Generic heading-based alt
+notifications-ui-design,22,/blog/assets/notifications-ui-design/img-22.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating close the loop with feedback,medium,Generic heading-based alt
+notifications-ui-design,23,/blog/assets/notifications-ui-design/img-23.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating use motion with intent,medium,Generic heading-based alt
+notifications-ui-design,24,/blog/assets/notifications-ui-design/img-24.webp,Notifications UI UX design tutorial and best practices,duplicate,Arthur Arapov design work featured in the article,high,Person attribution detected
+notifications-ui-design,25,/blog/assets/notifications-ui-design/img-25.webp,Notifications UI UX design tutorial and best practices,duplicate,Oleg Frolov design work featured in the article,high,Person attribution detected
+notifications-ui-design,26,/blog/assets/notifications-ui-design/img-26.webp,Notifications UI UX design tutorial and best practices,duplicate,Miguel Serra design work featured in the article,high,Person attribution detected
+notifications-ui-design,27,/blog/assets/notifications-ui-design/img-27.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating permission requests,medium,Generic heading-based alt
+notifications-ui-design,28,/blog/assets/notifications-ui-design/img-28.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating onboarding and welcome,medium,Generic heading-based alt
+notifications-ui-design,29,/blog/assets/notifications-ui-design/img-29.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating progress and completion,medium,Generic heading-based alt
+notifications-ui-design,30,/blog/assets/notifications-ui-design/img-30.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating update available,medium,Generic heading-based alt
+notifications-ui-design,31,/blog/assets/notifications-ui-design/img-31.webp,Notifications UI UX design tutorial and best practices,duplicate,Notifications example illustrating upcoming event,medium,Generic heading-based alt
+optimizing-digital-marketing,2,/blog/assets/optimizing-digital-marketing/img-2.webp,Image from Patagonia,short,Design example illustrating identifying demographics and psychographics,medium,Generic heading-based alt
+optimizing-digital-marketing,4,/blog/assets/optimizing-digital-marketing/img-4.webp,Content Creation,short,Design example illustrating search engine optimization (seo),medium,Generic heading-based alt
+pagination-ui-design,0,/blog/covers/pagination-ui-design.webp,Pagination UI design tutorial,generic-templated,Pagination decides whether users keep browsing or bounce,medium,Cover from frontmatter description
+pagination-ui-design,2,/blog/assets/pagination-ui-design/img-2.webp,Pagination Best Practices by Uxcel.Learn how to bunch content in logical groups using pagination best practices,generic-templated,Pagination anatomy diagram with key parts labeled,high,Anatomy heading
+pagination-ui-design,3,/blog/assets/pagination-ui-design/img-3.webp,,missing,Pagination anatomy diagram with key parts labeled,high,Anatomy heading
+pagination-ui-design,5,/blog/assets/pagination-ui-design/img-5.webp,,missing,"Pagination states of pagination: active, disabled, and hover shown in example",high,State or variant from heading
+pagination-ui-design,11,/blog/assets/pagination-ui-design/img-11.webp,https://www.heroui.com/docs/components/pagination,short,Pagination example illustrating usability tips for seamless navigation,medium,Generic heading-based alt
+pricing-ui-design,0,/blog/covers/pricing-ui-design.webp,Pricing section UI design guide,generic-templated,Extensive tutorial how to design a pricing section that drives sales and conversions,medium,Cover from frontmatter description
+pricing-ui-design,3,/blog/assets/pricing-ui-design/img-3.webp,G-Core pricing template,short,Pricing page example illustrating pricing page types,medium,Generic heading-based alt
+pricing-ui-design,4,/blog/assets/pricing-ui-design/img-4.webp,ClarityLabs pricing cards,short,Dominik Tyka design work featured in the article,high,Person attribution detected
+pricing-ui-design,5,/blog/assets/pricing-ui-design/img-5.webp,Flowbase pricing section,short,Pricing page example illustrating crm software,medium,Generic heading-based alt
+real-ux-work-in-tech-companies,1,/blog/assets/real-ux-work-in-tech-companies/img-1.webp,,missing,Design example illustrating chapter 1: the hidden job nobody told you about,medium,Generic heading-based alt
+real-ux-work-in-tech-companies,2,/blog/assets/real-ux-work-in-tech-companies/img-2.webp,,missing,Design example illustrating chapter 3: when a button takes 18 months,medium,Generic heading-based alt
+real-ux-work-in-tech-companies,3,/blog/assets/real-ux-work-in-tech-companies/img-3.webp,,missing,Design example illustrating chapter 4: you are not an artist and that’s ok,medium,Generic heading-based alt
+remote-productivity,1,/blog/assets/remote-productivity/img-1.webp,,missing,Design example illustrating plan your workday in advance,medium,Generic heading-based alt
+remote-productivity,2,/blog/assets/remote-productivity/img-2.webp,,missing,Design example illustrating wake up early and tackle your most hard tasks first,medium,Generic heading-based alt
+remote-productivity,3,/blog/assets/remote-productivity/img-3.webp,,missing,Design example illustrating create a focused environment around you,medium,Generic heading-based alt
+remote-productivity,4,/blog/assets/remote-productivity/img-4.webp,,missing,Design example illustrating work in short bursts of intense productivity,medium,Generic heading-based alt
+remote-productivity,5,/blog/assets/remote-productivity/img-5.webp,,missing,Design example illustrating take care of your health,medium,Generic heading-based alt
+remote-productivity,6,/blog/assets/remote-productivity/img-6.webp,,missing,Design example illustrating optimize your workspace,medium,Generic heading-based alt
+remote-productivity,7,/blog/assets/remote-productivity/img-7.webp,,missing,Design example illustrating surround yourself with proactive people,medium,Generic heading-based alt
+remote-productivity,8,/blog/assets/remote-productivity/img-8.webp,,missing,Design example illustrating forget about multitasking,medium,Generic heading-based alt
+remote-productivity,9,/blog/assets/remote-productivity/img-9.webp,,missing,Design example illustrating begin learning,medium,Generic heading-based alt
+saas-dashboard-examples,1,/blog/assets/saas-dashboard-examples/img-1.webp,,missing,Design example illustrating definition of saas dashboards,medium,Generic heading-based alt
+saas-dashboard-examples,2,/blog/assets/saas-dashboard-examples/img-2.webp,,missing,Design example illustrating material-x,medium,Generic heading-based alt
+saas-dashboard-examples,3,/blog/assets/saas-dashboard-examples/img-3.webp,,missing,Design example illustrating material desktop ui kit,medium,Generic heading-based alt
+saas-dashboard-examples,4,/blog/assets/saas-dashboard-examples/img-4.webp,,missing,Design example illustrating eclipse ui kit,medium,Generic heading-based alt
+saas-dashboard-examples,5,/blog/assets/saas-dashboard-examples/img-5.webp,,missing,Design example illustrating rome ui kit,medium,Generic heading-based alt
+saas-dashboard-examples,6,/blog/assets/saas-dashboard-examples/img-6.webp,,missing,Material Design System design work featured in the article,high,Person name from heading
+seo-tools-compared,1,/blog/assets/seo-tools-compared/img-1.webp,,missing,Design example illustrating let’s start with ahrefs‍,medium,Generic heading-based alt
+seo-tools-compared,2,/blog/assets/seo-tools-compared/img-2.webp,,missing,"Design example illustrating next, moz surprised me",medium,Generic heading-based alt
+seo-tools-compared,3,/blog/assets/seo-tools-compared/img-3.webp,,missing,Design example illustrating ubersuggest was a letdown,medium,Generic heading-based alt
+seo-tools-compared,4,/blog/assets/seo-tools-compared/img-4.webp,,missing,Design example illustrating then came a tool i hadn’t heard of: frizerly‍,medium,Generic heading-based alt
+seo-tools-compared,5,/blog/assets/seo-tools-compared/img-5.webp,,missing,Design example illustrating let’s talk about screaming frog‍,medium,Generic heading-based alt
+seo-tools-compared,6,/blog/assets/seo-tools-compared/img-6.webp,,missing,"Design example illustrating now, here's my wildcard: neuronwriter‍",medium,Generic heading-based alt
+settings-ui-design,1,/blog/assets/settings-ui-design/img-1.webp,"Settings UI design tutorial, UX tips and inspiration: Header",generic-templated,Settings example illustrating header,medium,Generic heading-based alt
+settings-ui-design,2,/blog/assets/settings-ui-design/img-2.webp,"Settings UI design tutorial, UX tips and inspiration: Side Navigation",generic-templated,Settings example illustrating side navigation,medium,Generic heading-based alt
+settings-ui-design,3,/blog/assets/settings-ui-design/img-3.webp,"Settings UI design tutorial, UX tips and inspiration: Tabs",generic-templated,Settings example illustrating tabs,medium,Generic heading-based alt
+settings-ui-design,4,/blog/assets/settings-ui-design/img-4.webp,"Settings UI design tutorial, UX tips and inspiration: Text Fields",generic-templated,Settings example illustrating form fields,medium,Generic heading-based alt
+settings-ui-design,5,/blog/assets/settings-ui-design/img-5.webp,"Settings UI design tutorial, UX tips and inspiration: Checkboxes",generic-templated,Material Me design work featured in the article,high,Person attribution detected
+settings-ui-design,6,/blog/assets/settings-ui-design/img-6.webp,"Settings UI design tutorial, UX tips and inspiration: Radio Buttons",generic-templated,Settings example illustrating radio buttons,medium,Generic heading-based alt
+settings-ui-design,7,/blog/assets/settings-ui-design/img-7.webp,"Settings UI design tutorial, UX tips and inspiration: Buttons Group",generic-templated,Settings example illustrating buttons group,medium,Generic heading-based alt
+settings-ui-design,8,/blog/assets/settings-ui-design/img-8.webp,"Settings UI design tutorial, UX tips and inspiration: Dropdowns",generic-templated,Material Me design work featured in the article,high,Person attribution detected
+settings-ui-design,9,/blog/assets/settings-ui-design/img-9.webp,"Settings UI design tutorial, UX tips and inspiration: Toggle Switches",generic-templated,Settings example illustrating toggle switches,medium,Generic heading-based alt
+settings-ui-design,10,/blog/assets/settings-ui-design/img-10.webp,"Settings UI design tutorial, UX tips and inspiration: Sliders",generic-templated,Settings example illustrating sliders,medium,Generic heading-based alt
+settings-ui-design,11,/blog/assets/settings-ui-design/img-11.webp,"Settings UI design tutorial, UX tips and inspiration: Save Button",generic-templated,Settings example illustrating save button,medium,Generic heading-based alt
+settings-ui-design,12,/blog/assets/settings-ui-design/img-12.svg,"Settings UI design tutorial, UX tips and inspiration: Single Page Layout",generic-templated,Settings example illustrating single page layout,medium,Generic heading-based alt
+settings-ui-design,13,/blog/assets/settings-ui-design/img-13.svg,"Settings UI design tutorial, UX tips and inspiration: Tabbed Layout",generic-templated,Settings example illustrating tabbed layout,medium,Generic heading-based alt
+settings-ui-design,14,/blog/assets/settings-ui-design/img-14.svg,"Settings UI design tutorial, UX tips and inspiration: Accordion Layout",generic-templated,Settings example illustrating accordion layout,medium,Generic heading-based alt
+settings-ui-design,15,/blog/assets/settings-ui-design/img-15.svg,"Settings UI design tutorial, UX tips and inspiration: Card Layout",generic-templated,Settings example illustrating card layout,medium,Generic heading-based alt
+settings-ui-design,16,/blog/assets/settings-ui-design/img-16.svg,"Settings UI design tutorial, UX tips and inspiration: Side Navigation Layout",generic-templated,Settings example illustrating side navigation layout,medium,Generic heading-based alt
+settings-ui-design,17,/blog/assets/settings-ui-design/img-17.svg,"Settings UI design tutorial, UX tips and inspiration: Step-by-Step Layout",generic-templated,Settings example illustrating step-by-step layout,medium,Generic heading-based alt
+settings-ui-design,18,/blog/assets/settings-ui-design/img-18.svg,Settings UI design tutorial – Contextual Search and Filtering,generic-templated,Settings example illustrating contextual search and filtering,medium,Generic heading-based alt
+settings-ui-design,19,/blog/assets/settings-ui-design/img-19.svg,Settings UI design tutorial – Confirmation Dialogs and Error Prevention,generic-templated,Settings confirmation dialogs and error prevention shown in example,high,State or variant from heading
+settings-ui-design,20,/blog/assets/settings-ui-design/img-20.svg,Settings UI design tutorial – Guided Setup and Orientation,generic-templated,Settings example illustrating guided setup and orientation,medium,Generic heading-based alt
+settings-ui-design,21,/blog/assets/settings-ui-design/img-21.svg,Settings UI design tutorial – Progressive Disclosure of Features,generic-templated,Settings example illustrating progressive disclosure of features,medium,Generic heading-based alt
+settings-ui-design,22,/blog/assets/settings-ui-design/img-22.svg,Settings UI design tutorial – Personalization Options,generic-templated,Settings example illustrating personalization options,medium,Generic heading-based alt
+settings-ui-design,23,/blog/assets/settings-ui-design/img-23.svg,Settings UI design tutorial – Custom Theme Options,generic-templated,Settings example illustrating custom theme options,medium,Generic heading-based alt
+settings-ui-design,24,/blog/assets/settings-ui-design/img-24.svg,Settings UI design tutorial – Intuitive/Breadcrumbs Navigation,generic-templated,Settings example illustrating intuitive/breadcrumbs navigation,medium,Generic heading-based alt
+settings-ui-design,25,/blog/assets/settings-ui-design/img-25.svg,Settings UI design tutorial – Support Keyboard Shortcuts,generic-templated,Settings example illustrating support keyboard shortcuts,medium,Generic heading-based alt
+settings-ui-design,26,/blog/assets/settings-ui-design/img-26.webp,Settings Use Cases in UI design - Collaboration tools,duplicate,Monty Hayton design work featured in the article,high,Person attribution detected
+settings-ui-design,27,/blog/assets/settings-ui-design/img-27.webp,Settings Use Cases in UI design - Collaboration tools,duplicate,Settings example illustrating health & wellness,medium,Generic heading-based alt
+settings-ui-design,28,/blog/assets/settings-ui-design/img-28.webp,Settings UI design inspiration – Productivity tool,duplicate,Rasyid Shadiq design work featured in the article,high,Person attribution detected
+settings-ui-design,29,/blog/assets/settings-ui-design/img-29.webp,Settings UI design inspiration – Productivity tool,duplicate,Settings example illustrating project management,medium,Generic heading-based alt
+settings-ui-design,30,/blog/assets/settings-ui-design/img-30.webp,Settings UI design inspiration – Productivity tool,duplicate,Settings example illustrating scheduling tools,medium,Generic heading-based alt
+settings-ui-design,31,/blog/assets/settings-ui-design/img-31.webp,Settings UI design inspiration – Productivity tool,duplicate,Settings example illustrating finance,medium,Generic heading-based alt
+settings-ui-design,32,/blog/assets/settings-ui-design/img-32.webp,Settings UI design inspiration – Productivity tool,duplicate,Settings example illustrating social networking,medium,Generic heading-based alt
+side-income-for-designers-and-developers,1,/blog/assets/side-income-for-designers-and-developers/img-1.webp,,missing,Design example illustrating creating digital products,medium,Generic heading-based alt
+side-income-for-designers-and-developers,2,/blog/assets/side-income-for-designers-and-developers/img-2.webp,,missing,Design example illustrating creating physical products,medium,Generic heading-based alt
+side-income-for-designers-and-developers,3,/blog/assets/side-income-for-designers-and-developers/img-3.webp,,missing,Design example illustrating start blogging,medium,Generic heading-based alt
+side-income-for-designers-and-developers,4,/blog/assets/side-income-for-designers-and-developers/img-4.webp,,missing,Design example illustrating release online courses,medium,Generic heading-based alt
+side-income-for-designers-and-developers,5,/blog/assets/side-income-for-designers-and-developers/img-5.webp,,missing,Design example illustrating become a design consultant,medium,Generic heading-based alt
+side-income-for-designers-and-developers,6,/blog/assets/side-income-for-designers-and-developers/img-6.webp,,missing,Design example illustrating write a book about design or development,medium,Generic heading-based alt
+slider-ui-design,1,/blog/assets/slider-ui-design/img-1.webp,,missing,Slider example illustrating introduction: why sliders matter,medium,Generic heading-based alt
+slider-ui-design,2,/blog/assets/slider-ui-design/img-2.webp,,missing,Slider anatomy diagram with key parts labeled,high,Anatomy heading
+slider-ui-design,3,/blog/assets/slider-ui-design/img-3.webp,,missing,Slider usage example showing choosing the right slider use case,medium,Use case heading
+slider-ui-design,4,/blog/assets/slider-ui-design/img-4.webp,,missing,Slider example illustrating single vs. double thumb sliders,medium,Generic heading-based alt
+slider-ui-design,5,/blog/assets/slider-ui-design/img-5.webp,,missing,"Slider example illustrating step increments, snapping, and precision",medium,Generic heading-based alt
+slider-ui-design,6,/blog/assets/slider-ui-design/img-6.webp,,missing,Slider example illustrating accessibility and keyboard support,medium,Generic heading-based alt
+slider-ui-design,7,/blog/assets/slider-ui-design/img-7.webp,,missing,Slider example illustrating styling sliders with brand consistency,medium,Generic heading-based alt
+slider-ui-design,8,/blog/assets/slider-ui-design/img-8.webp,,missing,Slider example illustrating responsiveness and mobile adaptation,medium,Generic heading-based alt
+slider-ui-design,9,/blog/assets/slider-ui-design/img-9.webp,,missing,Slider example illustrating usability tips from real-world products,medium,Generic heading-based alt
+slider-ui-design,10,/blog/assets/slider-ui-design/img-10.webp,,missing,Slider example illustrating development concerns and handoff guidance,medium,Generic heading-based alt
+slider-ui-design,11,/blog/assets/slider-ui-design/img-11.webp,,missing,Slider example illustrating testing and iteration,medium,Generic heading-based alt
+slider-ui-design,12,/blog/assets/slider-ui-design/img-12.webp,,missing,Slider example illustrating appendix: generate slider ui design variants with ai,medium,Generic heading-based alt
+start-a-saas-business-with-no-money,0,/blog/covers/start-a-saas-business-with-no-money.webp,Start a SaaS business with no money – UX tips for solo founders,generic-templated,"No budget, no problem",medium,Cover from frontmatter description
+start-a-saas-business-with-no-money,2,/blog/assets/start-a-saas-business-with-no-money/img-2.webp,,missing,Design example illustrating step 4: ask the right questions (not to sound like a brochure),medium,Generic heading-based alt
+state-of-crypto-2025,1,/blog/assets/state-of-crypto-2025/img-1.webp,,missing,Design example illustrating centralization wrapped in decentralization branding,medium,Generic heading-based alt
+state-of-crypto-2025,2,/blog/assets/state-of-crypto-2025/img-2.webp,,missing,Design example illustrating the ai + crypto fusion: vision or vaporware?,medium,Generic heading-based alt
+stepper-ui-design,0,/blog/covers/stepper-ui-design.webp,Stepper UI design tips and best practices,generic-templated,The stepper is the +/− control for quantities and counts,medium,Cover from frontmatter description
+stepper-ui-design,2,/blog/assets/stepper-ui-design/img-2.webp,,missing,Stepper input example illustrating component purpose and context,medium,Generic heading-based alt
+stepper-ui-design,3,/blog/assets/stepper-ui-design/img-3.webp,,missing,Stepper input anatomy diagram with key parts labeled,high,Anatomy heading
+stepper-ui-design,4,/blog/assets/stepper-ui-design/img-4.webp,,missing,Stepper input example illustrating component states,medium,Generic heading-based alt
+stepper-ui-design,5,/blog/assets/stepper-ui-design/img-5.webp,,missing,Stepper input example illustrating usability considerations,medium,Generic heading-based alt
+stepper-ui-design,6,/blog/assets/stepper-ui-design/img-6.webp,,missing,Stepper input example illustrating mobile-specific behavior,medium,Generic heading-based alt
+stepper-ui-design,7,/blog/assets/stepper-ui-design/img-7.webp,,missing,Stepper input example illustrating design variants and theming,medium,Generic heading-based alt
+stepper-ui-design,8,/blog/assets/stepper-ui-design/img-8.webp,,missing,Stepper input example illustrating stepper component faq,medium,Generic heading-based alt
+steps-ui-design,0,/blog/covers/steps-ui-design.webp,Steps UI design best practices,generic-templated,"Learn how to design accessible, responsive and visually clear Steps UI for web flows like onboarding, checkout, KYC, and surveys",medium,Cover from frontmatter description
+steps-ui-design,3,/blog/assets/steps-ui-design/img-3.webp,,missing,Steps anatomy diagram with key parts labeled,high,Anatomy heading
+strikethrough-text-deserves-more-love-in-ui,1,/blog/assets/strikethrough-text-deserves-more-love-in-ui/img-1.webp,,missing,,needs-human-review,Insufficient context for safe generation
+strikethrough-text-deserves-more-love-in-ui,2,/blog/assets/strikethrough-text-deserves-more-love-in-ui/img-2.webp,,missing,Strikethrough text deserves more love in usage example showing common use cases across interfaces,medium,Use case heading
+strikethrough-text-deserves-more-love-in-ui,3,/blog/assets/strikethrough-text-deserves-more-love-in-ui/img-3.webp,,missing,Strikethrough text deserves more love in usage example showing common use cases across interfaces,medium,Use case heading
+strikethrough-text-deserves-more-love-in-ui,4,/blog/assets/strikethrough-text-deserves-more-love-in-ui/img-4.webp,,missing,Strikethrough text deserves more love in example illustrating common questions about strikethrough,medium,Generic heading-based alt
+strikethrough-text-deserves-more-love-in-ui,5,/blog/assets/strikethrough-text-deserves-more-love-in-ui/img-5.webp,,missing,Strikethrough text deserves more love in example illustrating conclusion: a tiny line with oversized impact,medium,Generic heading-based alt
+submit-a-guest-post,1,/blog/assets/submit-a-guest-post/img-1.webp,Guest Posting Guidelines,short,Guest Posting Guidelines design work featured in the article,high,Person name from heading
+tables-design-system,1,/blog/assets/tables-design-system/img-1.webp,,missing,Design example illustrating themification of tables,medium,Generic heading-based alt
+tables-design-system,2,/blog/assets/tables-design-system/img-2.webp,,missing,Design example illustrating cell-component composition,medium,Generic heading-based alt
+tables-design-system,3,/blog/assets/tables-design-system/img-3.webp,,missing,Design example illustrating icon-l/r,medium,Generic heading-based alt
+tables-design-system,4,/blog/assets/tables-design-system/img-4.webp,,missing,Design example illustrating icon-l/r,medium,Generic heading-based alt
+tables-design-system,5,/blog/assets/tables-design-system/img-5.webp,,missing,Design example illustrating borders,medium,Generic heading-based alt
+tables-design-system,6,/blog/assets/tables-design-system/img-6.webp,,missing,Design example illustrating caption,medium,Generic heading-based alt
+tables-design-system,7,/blog/assets/tables-design-system/img-7.webp,,missing,Design example illustrating background,medium,Generic heading-based alt
+tables-design-system,8,/blog/assets/tables-design-system/img-8.webp,,missing,Design example illustrating styling and implementation,medium,Generic heading-based alt
+tables-design-system,9,/blog/assets/tables-design-system/img-9.webp,,missing,Design example illustrating color specs,medium,Generic heading-based alt
+tables-design-system,10,/blog/assets/tables-design-system/img-10.webp,,missing,Design example illustrating color specs,medium,Generic heading-based alt
+tabs-ui-design,0,/blog/covers/tabs-ui-design.webp,"Tabs UI design – A guide for anatomy, UX tips, and use cases",generic-templated,Tabs look simple but break in subtle ways,medium,Cover from frontmatter description
+tabs-ui-design,7,/blog/assets/tabs-ui-design/img-7.webp,,missing,Tab focus state shown in example,high,State or variant from heading
+tabs-ui-design,16,/blog/assets/tabs-ui-design/img-16.webp,Example of how smart badges could be applied with Tabs. Learn more in Notifications tutorial,generic-templated,Tab example illustrating smart badges for multi-layer events,medium,Generic heading-based alt
+tabs-ui-design,17,/blog/assets/tabs-ui-design/img-17.webp,,missing,Tab example illustrating contextual tooltips for icon-only tabs,medium,Generic heading-based alt
+the-art-of-logo-design,1,/blog/assets/the-art-of-logo-design/img-1.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating think beyond imagery,medium,Generic heading-based alt
+the-art-of-logo-design,2,/blog/assets/the-art-of-logo-design/img-2.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design focus on fonts shown in example,high,State or variant from heading
+the-art-of-logo-design,3,/blog/assets/the-art-of-logo-design/img-3.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating consider context,medium,Generic heading-based alt
+the-art-of-logo-design,4,/blog/assets/the-art-of-logo-design/img-4.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating play with visual hooks,medium,Generic heading-based alt
+the-art-of-logo-design,5,/blog/assets/the-art-of-logo-design/img-5.webp,Material UI Kit Built with Next.js and Tailwind CSS,duplicate,Design example illustrating showcase with mockups,medium,Generic heading-based alt
+toggle-switch-ui-design,0,/blog/covers/toggle-switch-ui-design.webp,"Toggle Switch UI design – A guide for Anatomy, UX tips, and Use cases",generic-templated,A toggle isn't always the right control,medium,Cover from frontmatter description
+toggle-switch-ui-design,1,/blog/assets/toggle-switch-ui-design/img-1.webp,"Toggle Switch UI Design: A Complete Guide for Designers, Developers, and PMs",generic-templated,,needs-human-review,Insufficient context for safe generation
+toggle-switch-ui-design,2,/blog/assets/toggle-switch-ui-design/img-2.webp,,missing,Toggle switch anatomy diagram with key parts labeled,high,Anatomy heading
+toggle-switch-ui-design,3,/blog/assets/toggle-switch-ui-design/img-3.webp,,missing,Toggle switch example illustrating states & behaviors,medium,Generic heading-based alt
+toggle-switch-ui-design,4,/blog/assets/toggle-switch-ui-design/img-4.webp,,missing,Toggle switch example illustrating visual alignment and spacing,medium,Generic heading-based alt
+toggle-switch-ui-design,5,/blog/assets/toggle-switch-ui-design/img-5.webp,,missing,Toggle switch example illustrating when to use (or not use) a toggle,medium,Generic heading-based alt
+toggle-switch-ui-design,6,/blog/assets/toggle-switch-ui-design/img-6.webp,,missing,Toggle switch example illustrating usability tips,medium,Generic heading-based alt
+toggle-switch-ui-design,7,/blog/assets/toggle-switch-ui-design/img-7.webp,,missing,Toggle switch example illustrating mobile vs desktop behavior,medium,Generic heading-based alt
+toggle-switch-ui-design,8,/blog/assets/toggle-switch-ui-design/img-8.webp,,missing,Toggle switch example illustrating micro-interactions,medium,Generic heading-based alt
+toggle-switch-ui-design,9,/blog/assets/toggle-switch-ui-design/img-9.webp,,missing,Toggle switch example illustrating toggle switch in design systems,medium,Generic heading-based alt
+toggle-switch-ui-design,10,/blog/assets/toggle-switch-ui-design/img-10.webp,,missing,Toggle switch example illustrating appendix: generate toggle ui variants with ai,medium,Generic heading-based alt
+tooltip-ui-design,0,/blog/covers/tooltip-ui-design.webp,"Tooltip UI design – A tutorial with anatomy, usability tips, and when to use",generic-templated,"Most tooltips appear too fast, too small, or in the wrong place",medium,Cover from frontmatter description
+top-20-recent-design-resources,1,/blog/assets/top-20-recent-design-resources/img-1.webp,Addy Codes Toolkit,short,"Design example illustrating hey, creative people!",medium,Generic heading-based alt
+top-20-recent-design-resources,2,/blog/assets/top-20-recent-design-resources/img-2.webp,Bueno NFT,short,Design example illustrating [addy codes toolkit,medium,Generic heading-based alt
+top-20-recent-design-resources,3,/blog/assets/top-20-recent-design-resources/img-3.webp,Shift,short,Design example illustrating bueno,medium,Generic heading-based alt
+top-20-recent-design-resources,8,/blog/assets/top-20-recent-design-resources/img-8.webp,Web Design Templates,short,Design example illustrating vector icons pack 200+,medium,Generic heading-based alt
+top-20-recent-design-resources,9,/blog/assets/top-20-recent-design-resources/img-9.webp,ArtBeats,short,Web Design Templates design work featured in the article,high,Person name from heading
+top-20-recent-design-resources,10,/blog/assets/top-20-recent-design-resources/img-10.webp,UIverse,short,Design example illustrating artbeats,medium,Generic heading-based alt
+top-20-recent-design-resources,12,/blog/assets/top-20-recent-design-resources/img-12.webp,Heazy SVG Creator,short,Design example illustrating 100 css button designs,medium,Generic heading-based alt
+top-20-recent-design-resources,13,/blog/assets/top-20-recent-design-resources/img-13.webp,SVG Spinners,short,Design example illustrating heazy svg creator,medium,Generic heading-based alt
+top-20-recent-design-resources,14,/blog/assets/top-20-recent-design-resources/img-14.webp,Untools,short,Design example illustrating svg spinners,medium,Generic heading-based alt
+top-20-recent-design-resources,16,/blog/assets/top-20-recent-design-resources/img-16.webp,DesignStripe,short,Design example illustrating the history of ui,medium,Generic heading-based alt
+top-20-recent-design-resources,17,/blog/assets/top-20-recent-design-resources/img-17.webp,Horizon UI,short,Design example illustrating designstripe,medium,Generic heading-based alt
+top-20-recent-design-resources,18,/blog/assets/top-20-recent-design-resources/img-18.webp,Figma Components,short,Design example illustrating [horizon ui,medium,Generic heading-based alt
+top-20-recent-design-resources,19,/blog/assets/top-20-recent-design-resources/img-19.webp,BeFront,short,Design example illustrating figma components,medium,Generic heading-based alt
+top-20-recent-design-resources,20,/blog/assets/top-20-recent-design-resources/img-20.webp,Untitled UI icons,short,Design example illustrating befront,medium,Generic heading-based alt
+top-dashboard-design-examples-ideas,1,/blog/assets/top-dashboard-design-examples-ideas/img-1.webp,,missing,Design example illustrating purpose of dashboards,medium,Generic heading-based alt
+top-dashboard-design-examples-ideas,2,/blog/assets/top-dashboard-design-examples-ideas/img-2.webp,,missing,Operational Dashboards design work featured in the article,high,Person name from heading
+top-dashboard-design-examples-ideas,3,/blog/assets/top-dashboard-design-examples-ideas/img-3.webp,,missing,Strategic Dashboards design work featured in the article,high,Person name from heading
+top-dashboard-design-examples-ideas,4,/blog/assets/top-dashboard-design-examples-ideas/img-4.webp,,missing,Analytical Dashboards design work featured in the article,high,Person name from heading
+top-dashboard-design-examples-ideas,5,/blog/assets/top-dashboard-design-examples-ideas/img-5.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,6,/blog/assets/top-dashboard-design-examples-ideas/img-6.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,7,/blog/assets/top-dashboard-design-examples-ideas/img-7.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,8,/blog/assets/top-dashboard-design-examples-ideas/img-8.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,9,/blog/assets/top-dashboard-design-examples-ideas/img-9.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,10,/blog/assets/top-dashboard-design-examples-ideas/img-10.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-dashboard-design-examples-ideas,11,/blog/assets/top-dashboard-design-examples-ideas/img-11.webp,,missing,Design usage example showing 7 best examples of dashboard by choice of the client,medium,Use case heading
+top-design-releases-2020,1,/blog/assets/top-design-releases-2020/img-1.webp,,missing,Design example illustrating protopie has strengthened its position in the prototypes world,medium,Generic heading-based alt
+top-design-releases-2020,2,/blog/assets/top-design-releases-2020/img-2.webp,,missing,Design example illustrating notion - towards better productivity,medium,Generic heading-based alt
+top-design-releases-2020,3,/blog/assets/top-design-releases-2020/img-3.webp,,missing,Design example illustrating sketch launched cloud inspector and online-collaboration,medium,Generic heading-based alt
+top-design-releases-2020,4,/blog/assets/top-design-releases-2020/img-4.webp,,missing,Design example illustrating 3d segment is one of the most popular in 2020,medium,Generic heading-based alt
+top-design-releases-2020,5,/blog/assets/top-design-releases-2020/img-5.webp,,missing,Design example illustrating the rise of ar/vr,medium,Generic heading-based alt
+top-design-releases-2020,6,/blog/assets/top-design-releases-2020/img-6.webp,,missing,Design example illustrating apple released macos big sur redesigned,medium,Generic heading-based alt
+top-design-releases-2020,7,/blog/assets/top-design-releases-2020/img-7.webp,,missing,Design example illustrating framer goes to web and follows figma's footsteps,medium,Generic heading-based alt
+top-design-releases-2020,8,/blog/assets/top-design-releases-2020/img-8.webp,,missing,Design example illustrating miro is the solid brainstorming tool,medium,Generic heading-based alt
+top-design-releases-2020,9,/blog/assets/top-design-releases-2020/img-9.webp,,missing,Design example illustrating figma is the design tool of choice of the year,medium,Generic heading-based alt
+top-design-releases-2020,10,/blog/assets/top-design-releases-2020/img-10.webp,,missing,Design example illustrating creative cloud released new products and updated existing ones,medium,Generic heading-based alt
+top-design-resources-jan-2021,1,/blog/assets/top-design-resources-jan-2021/img-1.webp,,missing,Design example illustrating vektors,medium,Generic heading-based alt
+top-design-resources-jan-2021,2,/blog/assets/top-design-resources-jan-2021/img-2.webp,,missing,Pattern Generator design work featured in the article,high,Person name from heading
+top-design-resources-jan-2021,3,/blog/assets/top-design-resources-jan-2021/img-3.webp,,missing,Design example illustrating gumaffiliates,medium,Generic heading-based alt
+top-design-resources-jan-2021,4,/blog/assets/top-design-resources-jan-2021/img-4.webp,,missing,Parametric Color Mixer design work featured in the article,high,Person name from heading
+top-design-resources-jan-2021,5,/blog/assets/top-design-resources-jan-2021/img-5.webp,,missing,Design example illustrating game ui database,medium,Generic heading-based alt
+top-design-resources-jan-2021,6,/blog/assets/top-design-resources-jan-2021/img-6.webp,,missing,Design example illustrating gifrun,medium,Generic heading-based alt
+top-design-resources-jan-2021,7,/blog/assets/top-design-resources-jan-2021/img-7.webp,,missing,Doodle Strudel design work featured in the article,high,Person name from heading
+top-design-resources-jan-2021,8,/blog/assets/top-design-resources-jan-2021/img-8.webp,,missing,Design example illustrating scale,medium,Generic heading-based alt
+top-design-resources-jan-2021,9,/blog/assets/top-design-resources-jan-2021/img-9.webp,,missing,Design example illustrating ux database,medium,Generic heading-based alt
+top-design-resources-jan-2021,10,/blog/assets/top-design-resources-jan-2021/img-10.webp,,missing,Pattern Collect design work featured in the article,high,Person name from heading
+top-design-resources-jan-2021,11,/blog/assets/top-design-resources-jan-2021/img-11.webp,,missing,Design example illustrating flow,medium,Generic heading-based alt
+top-design-resources-jan-2021,12,/blog/assets/top-design-resources-jan-2021/img-12.webp,,missing,Byte Dance Icons design work featured in the article,high,Person name from heading
+top-design-resources-jan-2021,13,/blog/assets/top-design-resources-jan-2021/img-13.webp,,missing,Design example illustrating best of product hunt,medium,Generic heading-based alt
+top-design-resources-jan-2021,14,/blog/assets/top-design-resources-jan-2021/img-14.webp,,missing,Design the state of design systems 2020 shown in example,high,State or variant from heading
+top-design-tools,1,/blog/assets/top-design-tools/img-1.webp,,missing,Design example illustrating drawkit 3d builder for figma,medium,Generic heading-based alt
+top-design-tools,2,/blog/assets/top-design-tools/img-2.webp,,missing,Design example illustrating iconscout for canva,medium,Generic heading-based alt
+top-design-tools,3,/blog/assets/top-design-tools/img-3.webp,,missing,Design example illustrating toools.design,medium,Generic heading-based alt
+top-design-tools,4,/blog/assets/top-design-tools/img-4.webp,,missing,Design example illustrating makers.so,medium,Generic heading-based alt
+top-design-tools,5,/blog/assets/top-design-tools/img-5.webp,,missing,Design example illustrating nextui,medium,Generic heading-based alt
+top-design-tools,6,/blog/assets/top-design-tools/img-6.webp,,missing,Design example illustrating shottr,medium,Generic heading-based alt
+top-design-tools,7,/blog/assets/top-design-tools/img-7.webp,,missing,Design example illustrating mesh,medium,Generic heading-based alt
+top-design-tools,8,/blog/assets/top-design-tools/img-8.webp,,missing,Simplified Design design work featured in the article,high,Person name from heading
+top-design-tools,9,/blog/assets/top-design-tools/img-9.webp,,missing,Design example illustrating breshna,medium,Generic heading-based alt
+top-design-tools,10,/blog/assets/top-design-tools/img-10.webp,,missing,Framer Sites Beta design work featured in the article,high,Person name from heading
+top-design-tools,11,/blog/assets/top-design-tools/img-11.webp,,missing,Design example illustrating presentations by pitch,medium,Generic heading-based alt
+top-tips-for-new-businesses-looking-to-strengthen-their-online-presence,1,/blog/assets/top-tips-for-new-businesses-looking-to-strengthen-their-online-presence/img-1.webp,,missing,Design example illustrating the new digital front door,medium,Generic heading-based alt
+top-tips-for-new-businesses-looking-to-strengthen-their-online-presence,2,/blog/assets/top-tips-for-new-businesses-looking-to-strengthen-their-online-presence/img-2.webp,,missing,Design example illustrating social media as a search channel,medium,Generic heading-based alt
+types-of-dashboards-main-categories,1,/blog/assets/types-of-dashboards-main-categories/img-1.webp,,missing,Operational Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,2,/blog/assets/types-of-dashboards-main-categories/img-2.webp,,missing,Analytical Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,3,/blog/assets/types-of-dashboards-main-categories/img-3.webp,,missing,Strategic Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,4,/blog/assets/types-of-dashboards-main-categories/img-4.webp,,missing,Financial Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,5,/blog/assets/types-of-dashboards-main-categories/img-5.webp,,missing,Marketing Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,6,/blog/assets/types-of-dashboards-main-categories/img-6.webp,,missing,Sales Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,7,/blog/assets/types-of-dashboards-main-categories/img-7.webp,,missing,Project Management Dashboards design work featured in the article,high,Person name from heading
+types-of-dashboards-main-categories,8,/blog/assets/types-of-dashboards-main-categories/img-8.webp,,missing,Operational Dashboards design work featured in the article,high,Person name from heading
+useful-design-resources-fall-2020,1,/blog/assets/useful-design-resources-fall-2020/img-1.webp,,missing,Font Of Web design work featured in the article,high,Person name from heading
+useful-design-resources-fall-2020,2,/blog/assets/useful-design-resources-fall-2020/img-2.webp,,missing,Design example illustrating making layout grids work for you,medium,Generic heading-based alt
+useful-design-resources-fall-2020,3,/blog/assets/useful-design-resources-fall-2020/img-3.webp,,missing,Design example illustrating screenbean,medium,Generic heading-based alt
+useful-design-resources-fall-2020,4,/blog/assets/useful-design-resources-fall-2020/img-4.webp,,missing,Design example illustrating delightful micro-interactions,medium,Generic heading-based alt
+useful-design-resources-fall-2020,5,/blog/assets/useful-design-resources-fall-2020/img-5.webp,,missing,Glyphs Icons design work featured in the article,high,Person name from heading
+useful-design-resources-fall-2020,6,/blog/assets/useful-design-resources-fall-2020/img-6.webp,,missing,Phosphor Icons design work featured in the article,high,Person name from heading
+useful-design-resources-fall-2020,7,/blog/assets/useful-design-resources-fall-2020/img-7.webp,,missing,Layoutit Grid design work featured in the article,high,Person name from heading
+useful-design-resources-fall-2020,8,/blog/assets/useful-design-resources-fall-2020/img-8.webp,,missing,Design example illustrating ui coach,medium,Generic heading-based alt
+useful-design-resources-fall-2020,9,/blog/assets/useful-design-resources-fall-2020/img-9.webp,,missing,Design example illustrating style guides inspiration,medium,Generic heading-based alt
+useful-design-resources-fall-2020,10,/blog/assets/useful-design-resources-fall-2020/img-10.webp,,missing,Design example illustrating ux tools survey 2020,medium,Generic heading-based alt
+useful-design-resources-fall-2020,11,/blog/assets/useful-design-resources-fall-2020/img-11.webp,,missing,Design example illustrating aspectapp web tool,medium,Generic heading-based alt
+useful-design-resources-fall-2020,12,/blog/assets/useful-design-resources-fall-2020/img-12.webp,,missing,Design example illustrating kolumna grid generator,medium,Generic heading-based alt
+useful-design-resources-fall-2020,13,/blog/assets/useful-design-resources-fall-2020/img-13.webp,,missing,Design example illustrating responsive grid: ultimate guide,medium,Generic heading-based alt
+using-quickbooks-to-calculate-saas-growth,1,/blog/assets/using-quickbooks-to-calculate-saas-growth/img-1.webp,,missing,Design example illustrating understanding organic saas growth: a strategic deep dive,medium,Generic heading-based alt
+venice-ai-tool-private-uncensored,0,/blog/covers/venice-ai-tool-private-uncensored.webp,Venice.ai: The designer’s and developer’s guide to uncensored and private AI tools,generic-templated,"Generate wireframes, code, and edgy visuals without censorship",medium,Cover from frontmatter description
+venice-ai-tool-private-uncensored,1,/blog/assets/venice-ai-tool-private-uncensored/img-1.webp,,missing,Design example illustrating the $vvv token is more than just crypto hype,medium,Generic heading-based alt
+venice-ai-tool-private-uncensored,2,/blog/assets/venice-ai-tool-private-uncensored/img-2.webp,,missing,"Design example illustrating made for developers, by developers",medium,Generic heading-based alt
+visual-elements-in-email-marketing,1,/blog/assets/visual-elements-in-email-marketing/img-1.webp,,missing,Design example illustrating the importance of visual elements in email marketing,medium,Generic heading-based alt
+visual-elements-in-email-marketing,2,/blog/assets/visual-elements-in-email-marketing/img-2.webp,,missing,Design example illustrating animated gifs,medium,Generic heading-based alt
+visual-elements-in-email-marketing,3,/blog/assets/visual-elements-in-email-marketing/img-3.webp,,missing,Design example illustrating call-to-action buttons,medium,Generic heading-based alt
+visual-elements-in-email-marketing,4,/blog/assets/visual-elements-in-email-marketing/img-4.webp,,missing,Design example illustrating images and icons,medium,Generic heading-based alt
+visual-elements-in-email-marketing,5,/blog/assets/visual-elements-in-email-marketing/img-5.webp,,missing,Design example illustrating videos,medium,Generic heading-based alt
+visual-elements-in-email-marketing,6,/blog/assets/visual-elements-in-email-marketing/img-6.webp,,missing,Social Media Embeds design work featured in the article,high,Person name from heading
+visual-elements-in-email-marketing,7,/blog/assets/visual-elements-in-email-marketing/img-7.webp,,missing,Design example illustrating qr codes,medium,Generic heading-based alt
+visual-elements-in-email-marketing,8,/blog/assets/visual-elements-in-email-marketing/img-8.webp,,missing,Design example illustrating infographics,medium,Generic heading-based alt
+why-apps-ux-is-getting-worse,1,/blog/assets/why-apps-ux-is-getting-worse/img-1.webp,,missing,Design where focus shifted to die (iphone photos) shown in example,high,State or variant from heading
+why-designers-are-loosing-motivation,1,/blog/assets/why-designers-are-loosing-motivation/img-1.webp,,missing,Design example illustrating this pressure to keep learning,medium,Generic heading-based alt
+why-designers-are-loosing-motivation,2,/blog/assets/why-designers-are-loosing-motivation/img-2.webp,,missing,Design example illustrating exploring new career paths,medium,Generic heading-based alt
+why-some-designers-dislike-ai,1,/blog/assets/why-some-designers-dislike-ai/img-1.webp,,missing,Design example illustrating where ai is genuinely useful,medium,Generic heading-based alt
+your-startups-user-persona-is-probably-wrong,0,/blog/covers/your-startups-user-persona-is-probably-wrong.webp,Your startup’s user persona is probably wrong (and it’s costing you),duplicate,"Why most startup user personas fail, and how to build one that truly drives product decisions",medium,Cover from frontmatter description
+your-startups-user-persona-is-probably-wrong,1,/blog/assets/your-startups-user-persona-is-probably-wrong/img-1.webp,Your startup’s user persona is probably wrong (and it’s costing you),duplicate,Design usage example showing example: hamster cage accessories,medium,Use case heading

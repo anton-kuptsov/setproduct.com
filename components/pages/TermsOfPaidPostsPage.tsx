@@ -3,7 +3,6 @@ import SiteHeader from "../layout/SiteHeader";
 import SiteFooter from "../layout/SiteFooter";
 import ScrollUpButton from "../layout/ScrollUpButton";
 import Breadcrumbs from "../sections/Breadcrumbs";
-import TemplateShowcase from "../sections/TemplateShowcase";
 import { PAGE_META } from "../../data/pages-meta";
 import { PAGE_BREADCRUMBS } from "../../data/breadcrumbs";
 import type { BlogPostPreview } from "../../types/data";
@@ -123,7 +122,6 @@ export default function TermsOfPaidPostsPage({ blogPosts = [] }: Props) {
             </div>
           </div>
         </div>
-        <TemplateShowcase />
       </main>
       <SiteFooter />
       <ScrollUpButton />

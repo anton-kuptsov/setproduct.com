@@ -7,7 +7,7 @@ slug: stepper-ui-design
 date: '2025-09-10'
 author: Roman Kamushken
 coverImage: /blog/covers/stepper-ui-design.webp
-coverImageAlt: Stepper UI design tips and best practices
+coverImageAlt: "The stepper is the +/− control for quantities and counts"
 tags: []
 canonical: 'https://www.setproduct.com/blog/stepper-ui-design'
 category: UI Design
@@ -51,7 +51,7 @@ A typical Stepper includes:
 
 Variants may include unit labels (e.g., px, kg), icons instead of text, or alternate layouts for compact interfaces. These follow common UI patterns found across [modern design systems](https://www.setproduct.com/bundle).
 
-![](/blog/assets/stepper-ui-design/img-2.webp)
+![Stepper input example illustrating component purpose and context](/blog/assets/stepper-ui-design/img-2.webp)
 
 This component was AI-generated with [Venice.ai](https://venice.ai/chat?ref=ybiJ6R). Their recently integrated HiDream image model is designing UI stuff better and faster than your chatGPT.
 
@@ -69,7 +69,7 @@ Layouts must ensure legibility, touch precision, and clear interactive affordanc
 Accessibility is critical. Users must be able to navigate between buttons and the value using a keyboard.  
 Focus states must be visible and follow platform conventions.
 
-![](/blog/assets/stepper-ui-design/img-3.webp)
+![Stepper input anatomy diagram with key parts labeled](/blog/assets/stepper-ui-design/img-3.webp)
 
 ## Component states
 
@@ -90,7 +90,7 @@ Each Stepper must include clear visual and functional states to improve usabilit
 Edge cases such as decimals, negative values, or unit suffixes must be handled with consistent logic and formatting.  
 The component must not shift layout when value length changes.
 
-![](/blog/assets/stepper-ui-design/img-4.webp)
+![Stepper input example illustrating component states](/blog/assets/stepper-ui-design/img-4.webp)
 
 ## Usability considerations
 
@@ -107,7 +107,7 @@ Below are key design and behavior guidelines rooted in UX best practices:
 -   If editable, validate on blur or Enter key.
 -   Use semantic roles (_spinbutton_) and _aria-_ attributes for accessibility.
 
-![](/blog/assets/stepper-ui-design/img-5.webp)
+![Stepper input example illustrating usability considerations](/blog/assets/stepper-ui-design/img-5.webp)
 
 ## Mobile-specific behavior
 
@@ -126,7 +126,7 @@ On mobile devices, touch interaction requires additional considerations.
 The component must remain usable in both portrait and landscape layouts.  
 Avoid placing steppers too close to screen edges or other controls.
 
-![](/blog/assets/stepper-ui-design/img-6.webp)
+![Stepper input example illustrating mobile-specific behavior](/blog/assets/stepper-ui-design/img-6.webp)
 
 ## Design variants and theming
 
@@ -141,11 +141,11 @@ While aesthetic freedom is possible, it should never compromise clarity, contras
 
 Avoid replacing buttons with gestures unless paired with visual indicators. Maintain discoverability.
 
-![](/blog/assets/stepper-ui-design/img-7.webp)
+![Stepper input example illustrating design variants and theming](/blog/assets/stepper-ui-design/img-7.webp)
 
 ## Stepper component FAQ
 
-![](/blog/assets/stepper-ui-design/img-8.webp)
+![Stepper input example illustrating stepper component faq](/blog/assets/stepper-ui-design/img-8.webp)
 
 **1\. Is it mandatory to allow typing into the Stepper value?**  
 No, but it's recommended when the range is large or precision is needed.

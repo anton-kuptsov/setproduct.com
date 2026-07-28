@@ -1,5 +1,6 @@
 import type { BundleItem } from "../../data/bundles";
 import ArrowIcon from "./ArrowIcon";
+import { getGumroadLinkProps } from "../../lib/gumroad";
 
 type Props = { item: BundleItem };
 
@@ -26,10 +27,8 @@ export default function BundleCard({ item }: Props) {
       </div>
       <div className="template-list-btn-wr">
         <a
-          className="button-small w-inline-block"
           href={item.buyHref}
-          target="_blank"
-          rel="noopener noreferrer"
+          {...getGumroadLinkProps(item.buyHref, "button-small w-inline-block")}
         >
           <div className="text-size-medium text-weight-bold">
             Buy {item.price}

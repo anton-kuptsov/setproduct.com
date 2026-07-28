@@ -6,9 +6,19 @@ export const landingContent = {
       "image": "/images/landing/features-landing-01.webp"
     },
     {
-      "title": "p class=\"heading-style-h5 is-template-max-width\">Mobile and desktop layouts",
-      "description": "Two variants available for every template to build responsive websites",
+      "title": "Customizable colors and styles",
+      "description": "Colors and Fonts are easy to customize. Apply your guidelines and start",
       "image": "/images/landing/features-landing-02.webp"
+    },
+    {
+      "title": "Will-organized and constrained",
+      "description": "Every UI item is labeled, constrained and scalable to any resolution",
+      "image": "/images/landing/features-landing-03.webp"
+    },
+    {
+      "title": "Mobile and desktop layouts",
+      "description": "Two variants available for every template to build responsive websites",
+      "image": "/images/landing/features-landing-04.webp"
     }
   ],
   "video": {

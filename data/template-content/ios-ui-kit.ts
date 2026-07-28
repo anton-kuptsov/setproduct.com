@@ -2,8 +2,8 @@ export const ios_ui_kitContent = {
   "features": [],
   "video": {
     "url": "https://www.youtube-nocookie.com/embed/644arNoc8xs",
-    "title": "Well-styled Figma library to design iOS apps faster Ready to use Figma templates for mobile apps design. A variety of styles available for each screen. Dark & Light themes. All the layouts are easy to customize. Preview 400+ components",
-    "subtitle": "Navigation bars, Bottom bars, Text fields, Selection controls, Icons, Buttons, Cards, Lists, Dialogs, Graphs, Social components, Datepickers, Empty states, Engagement, Filtering, Bottom sheets, Pickers and more"
+    "title": "Well-styled Figma library to design iOS apps faster",
+    "subtitle": "Ready to use Figma templates for mobile apps design. A variety of styles available for each screen. Dark & Light themes. All the layouts are easy to customize."
   },
   "carousels": [
     {
@@ -139,7 +139,7 @@ export const ios_ui_kitContent = {
   "galleries": [
     {
       "title": "Preview 400+ components",
-      "subtitle": "",
+      "subtitle": "Navigation bars, Bottom bars, Text fields, Selection controls, Icons, Buttons, Cards, Lists, Dialogs, Graphs, Social components, Datepickers, Empty states, Engagement, Filtering, Bottom sheets, Pickers and more",
       "items": [
         {
           "image": "/images/1-Text_Fields.webp",

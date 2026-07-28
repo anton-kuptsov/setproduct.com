@@ -38,6 +38,7 @@ export type BlogPostPreview = {
   image: string;
   thumbImage: string;
   category: string;
+  author?: string;
 };
 
 export type FreebieItem = {
@@ -50,6 +51,8 @@ export type FreebieItem = {
   previewHref: string;
   duplicateHref: string;
   isFree: boolean;
+  ctaLabel?: string;
+  menuCtaLabel?: string;
 };
 
 export type Testimonial = {
@@ -138,4 +141,20 @@ export type DashboardTemplateItem = {
   previewHref: string;
   features: TemplateFeature[];
   sections: TemplateSection[];
+};
+
+// AI inspiration item scraped from app.setproduct.com component pages.
+// Generated into data/inspiration.ts by scripts/scrape-inspiration.mjs.
+export type InspirationItem = {
+  id: string;
+  componentType: string; // slug, e.g. "button" — matches INSPIRATION_CATEGORIES
+  title: string;
+  description: string; // start of the AI prompt (trimmed)
+  image: string; // absolute Supabase image URL
+  href: string; // absolute app.setproduct.com detail URL (no UTM; added at render)
+};
+
+export type InspirationCategory = {
+  slug: string; // componentType slug
+  label: string; // sentence-case label for the Categories column
 };

@@ -8,7 +8,7 @@ slug: figma-tables-data-grid-design
 date: '2019-04-28'
 author: Roman Kamushken
 coverImage: /blog/covers/figma-tables-data-grid-design.webp
-coverImageAlt: Table UI design tutorial – Figma data grid within single cell-component
+coverImageAlt: "Learn about the 3 different approaches to table design for creating a flexible data grid using row, column, and cell components"
 tags: []
 canonical: 'https://www.setproduct.com/blog/figma-tables-data-grid-design'
 category: UI Design
@@ -53,31 +53,31 @@ When I created my design-systems in Figma which were not the first, I reviewed h
 
 Horizontal and vertical borders are clearly visible, headings are bold and separated from the cells with content. Literally, the Excel-style:
 
-![](/blog/assets/figma-tables-data-grid-design/img-1.webp)
+![Design example illustrating classic style](/blog/assets/figma-tables-data-grid-design/img-1.webp)
 
 ### **Contrast heading**
 
 There may not be separators or they may only be horizontal. Thanks to intensive headings, such data grid is quickly separated by a glance if there are many of them on one dashboard:
 
-![](/blog/assets/figma-tables-data-grid-design/img-2.webp)
+![Design example illustrating contrast heading](/blog/assets/figma-tables-data-grid-design/img-2.webp)
 
 ### **Material table**
 
 Data-first approach. Such tables can be found in material design. A more intense upper separator and a single-pixel internal ones qualitatively separate the data:
 
-![](/blog/assets/figma-tables-data-grid-design/img-3.webp)
+![Design example illustrating material table](/blog/assets/figma-tables-data-grid-design/img-3.webp)
 
 ### **Patchwork**
 
 These tables are straight from the past, but to this day the use of alternating grey and white rows is often found in modern products:
 
-![](/blog/assets/figma-tables-data-grid-design/img-4.webp)
+![Design example illustrating patchwork](/blog/assets/figma-tables-data-grid-design/img-4.webp)
 
 ### **Minimalism**
 
 Nothing but the data! This is justified on thick desktop interfaces where each pixel counts.
 
-![](/blog/assets/figma-tables-data-grid-design/img-5.webp)
+![Design example illustrating minimalism](/blog/assets/figma-tables-data-grid-design/img-5.webp)
 
 ## Using components to create a table
 
@@ -87,13 +87,13 @@ All 5 styles I've shown above are collected from one cell-component, the differe
 
 Use a row with cells of a predefined quantity. Thus, the table is quickly made by simply cloning from top to bottom. Then the width and height of each row are adjusted.
 
-![](/blog/assets/figma-tables-data-grid-design/img-6.webp)
+![Design example illustrating row-component](/blog/assets/figma-tables-data-grid-design/img-6.webp)
 
 **Cons:** low degree of flexibility, the cells are always proportionally scaled. You will have to keep many components in the system with a different set of cells, and then create new states for each set, which can complicate the organisation.**‍**
 
 **Pros**: Row height is convenient to adjust. Ideal for dashboard projects where the horizontal states in the project often change: onhover, selected, focused and so on, and the development specifics require frequent switching between them:  
 
-![](/blog/assets/figma-tables-data-grid-design/img-7.webp)
+![Design example illustrating row-component](/blog/assets/figma-tables-data-grid-design/img-7.webp)
 
 An example of switching the horizontal states via the Instances menu
 
@@ -101,7 +101,7 @@ An example of switching the horizontal states via the Instances menu
 
 This idea came to my mind for the first time a little more than a year ago and I implemented it in later versions of [Figma Material You System](https://www.setproduct.com/templates/material-you). It would be convenient to make the table from the component-columns, inside of which the number of rows is predetermined and multiplied, and all the extra ones would be cut off outside the frame through the Clip Content option. Then it would be enough to pull the frame down by the bottom border to show more additional cells in the column:
 
-![](/blog/assets/figma-tables-data-grid-design/img-8.webp)
+![Design example illustrating column-component](/blog/assets/figma-tables-data-grid-design/img-8.webp)
 
 An example of cloning and scaling the columns
 
@@ -117,7 +117,7 @@ An example of cloning and scaling the columns
 
 The use of a cell-component gives maximum flexibility in styling the table. Of course, such a project rarely requires the use of both Material-style and classic one. But if you're a freelancer who regularly creates new dashboards for your customers from your own or commercial component base, then you'd better start with the cell from which you'll create tables brick-by-brick. Then it will be enough to enclose 4 lines, press them on the sides of the cell, place constraints and generate new styles.
 
-![](/blog/assets/figma-tables-data-grid-design/img-9.webp)
+![Design example illustrating cell-component](/blog/assets/figma-tables-data-grid-design/img-9.webp)
 
 FYI, in [iOS design kit](https://www.setproduct.com/templates/ios-ui-kit) for Figma, I can turn everything upside down through a component :) By the way, it is on the basis of templates from this product that the materials for this article were made
 
@@ -125,6 +125,6 @@ FYI, in [iOS design kit](https://www.setproduct.com/templates/ios-ui-kit) for Fi
 
 **Pros**: maximum flexibility, ability to control the grid with a single component, adjust separators, background, nested icons and more.
 
-I'll consider the detailed composition of such a super-cell in the next issue. Follow me on Twitter, there will be all announcements![**‍**](https://www.figma.com/file/ARYvgo05kkUhHF5PltU7l1/iOS-tables)
+I'll consider the detailed composition of such a super-cell in the next issue. Follow me on Twitter, there will be all announcements![Design example illustrating cell-component](https://www.figma.com/file/ARYvgo05kkUhHF5PltU7l1/iOS-tables)
 
 [**Sample Figma file**](https://www.figma.com/file/ARYvgo05kkUhHF5PltU7l1/iOS-tables) with the cell-components for your experiments.

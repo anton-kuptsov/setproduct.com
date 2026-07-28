@@ -115,6 +115,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                   <div className="modal_form-item">
                     <p className="text-size-regular">Email</p>
                     <input
+                      aria-label="Email"
                       className="text-input w-input"
                       disabled={isSubmitting}
                       maxLength={256}
@@ -127,6 +128,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                   <div className="modal_form-item">
                     <p className="text-size-regular">Message</p>
                     <textarea
+                      aria-label="Message"
                       className="textarea-input w-input"
                       disabled={isSubmitting}
                       maxLength={5000}

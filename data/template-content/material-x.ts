@@ -6,9 +6,19 @@ export const material_xContent = {
       "image": "/images/material-x/features-mx-01.svg"
     },
     {
-      "title": "p class=\"heading-style-h5 is-template-max-width\">Ready-to-use app templates",
-      "description": "40 ready layouts for desktop, tablet and mobile",
+      "title": "Served as a design system",
+      "description": "Atomic principles, design tokens, styled-components",
       "image": "/images/material-x/features-mx-02.svg"
+    },
+    {
+      "title": "Design & code library for Angular",
+      "description": "Get developer's bundle to release web apps faster",
+      "image": "/images/material-x/features-mx-03.webp"
+    },
+    {
+      "title": "Ready-to-use app templates",
+      "description": "40 ready layouts for desktop, tablet and mobile",
+      "image": "/images/material-x/features-mx-04.svg"
     }
   ],
   "video": {

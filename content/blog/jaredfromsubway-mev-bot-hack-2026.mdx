@@ -1,0 +1,124 @@
+---
+title: "How jaredfromsubway MEV bot lost $7.7M in one transaction"
+description: "The jaredfromsubway MEV bot extracted millions for years, then lost $7.7M in one trap. What this reversal really teaches every crypto holder."
+slug: jaredfromsubway-mev-bot-hack-2026
+date: "2026-06-21"
+author: Jeff Flipper
+coverImage: /blog/covers/jaredfromsubway-mev-bot-hack-2026.webp
+coverImageAlt: "The jaredfromsubway MEV bot drained by a counter-MEV honeypot trap"
+canonical: "https://www.setproduct.com/blog/jaredfromsubway-mev-bot-hack-2026"
+category: Technology
+subtitle: "A predator that fed on thousands of traders walked into a trap built from its own logic"
+metaTitle: "jaredfromsubway MEV bot hack and its $7.7M loss"
+cardDescription: "A counter-MEV honeypot drained the jaredfromsubway bot of $7.7M. How it worked, how to protect your swaps, and what it really means."
+thumbImage: /blog/covers/thumbs/jaredfromsubway-mev-bot-hack-2026.webp
+relatedSlugs:
+  - state-of-crypto-2025
+  - how-to-swap-btc-to-eth-with-thorswap
+  - liquid-glass-design-explained-a-practical-guide
+---
+
+For years, jaredfromsubway.eth was the thing you feared on every Uniswap swap. The most notorious MEV bot on Ethereum, it quietly skimmed value from thousands of traders. Then, in a single transaction, it lost around $7.7M to a trap built entirely from its own logic. The hunter became the meal. Here is what actually happened, and why it matters more than the money.
+
+## What jaredfromsubway.eth actually is
+
+If you have ever swapped tokens on a DEX and watched your output come in slightly worse than the quote, you have met something like jaredfromsubway.eth. It is not a person. It is an industrial machine for extracting value.
+
+Here is the mechanism in plain terms. When you submit a swap, your transaction does not execute instantly. It sits in the **mempool**, the public waiting room of unconfirmed transactions. Anyone can read it. A **sandwich attack** works like this → the bot sees your pending buy, jumps in front with its own buy to push the price up, lets your order execute at the worse price, then sells right after to pocket the difference. You are the filling. The bot is the bread.
+
+This is one slice of **MEV**, or maximal extractable value, the profit that comes from reordering, inserting, or censoring transactions before they are finalized. jaredfromsubway.eth industrialized it. By most estimates it accounted for up to 70% of sandwich activity on Ethereum and bled around $60M a year out of traders' pockets. It was never breaking any rule. It was the rule, working as designed.
+
+## How it happened, step by step
+
+The attacker did not find a clever exploit in some smart contract. They used the bot's own greed as the weapon. According to [Blockaid](https://www.blockaid.io/), who attributed the attack, the setup took weeks.
+
+**❶ Deploy the traps.** The attacker deployed 66 fake token contracts mimicking WETH, USDC, and USDT. Each was wired to a fake liquidity pool engineered to look like an extremely profitable arbitrage opportunity. To a scanning bot, this was a field of free money.
+
+**❷ Set the bait.** The bot does exactly what it was built to do. It scans the mempool and jumps into anything that signals profit. It saw the juicy swaps in those fake pools and moved to sandwich them. To execute, it had to grant `approve` permissions to helper contracts it treated as trusted. Standard pipeline behavior.
+
+**❸ The dangling approval.** Here is the bug. After a fake or failed trade, the bot never revoked the approvals it had handed out. They just stayed live. A **dangling approval** is exactly that, a permission to spend your tokens that you forgot to cancel. The bot's logic assumed these grants were single-use inside one transaction. They never were. And those "helper" contracts belonged to the attacker. The bot had signed power of attorney over its own ETH, USDC, and USDT.
+
+**❹ Drain in one transaction.** Once all 66 traps held live approvals, the attacker called backdoor functions across every contract in a single transaction and swept it clean → approximately 1,583.5 ETH (around $2.75M), $2.87M in USDC, and $2.09M in USDT. Roughly $7.7M, immediately swapped into about 4,427 ETH and pushed into Tornado Cash, with 1,000 ETH already moved by the time analysts looked.
+
+## Why MEV bots are the perfect target
+
+A bot like this is not unlucky. It is structurally exposed, for four reasons.
+
+☞ **Speed kills review.** It has to act in milliseconds. There is no time to manually vet a contract before interacting with it.
+
+☞ **It talks to strangers by design.** Interacting with unknown contracts is the entire job. You cannot whitelist when the whole game is finding new opportunities first.
+
+☞ **It runs on a forgeable signal.** "Expected profit" is its only compass, and expected profit is trivial to fake with synthetic liquidity.
+
+☞ **The surface kept growing.** The account was delegated through [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702), the MetaMask Delegator standard that lets an externally owned account act like a smart contract. It expanded what the bot could execute, and what an attacker could reach.
+
+The attacker fed greedy automation fake food, and in exchange the bot handed over the keys to its own vault.
+
+## Why the hole stayed open for years
+
+The fix is almost embarrassing. The bot never enforced the invariant "nothing should be left dangling after we are done." In normal operation that never mattered. It was sandwiching humans and printing money, so no one looked under the hood. The flaw was invisible precisely because the machine was winning. It took an attacker willing to spend weeks deploying 66 separate traps and waiting for the bot to bite on all of them to turn an ignored detail into a $7.7M lesson. Profit is a fantastic anesthetic for risk.
+
+## The defense playbook for your own swaps
+
+You are not a $7.7M bot, but the underlying exposure is identical. The attack on Jared was a dangling approval. The same thing drains regular wallets every day. Never swap meaningful size through the public mempool with default settings. That is carrying cash through a dark alley wearing a sign that reads "$50k here."
+
+Here is the full ladder, from a 30-second fix to institutional-grade.
+
+| Level | Tool | Effort | Sandwich protection | When to use |
+|---|---|---|---|---|
+| Private RPC | [Flashbots Protect](https://protect.flashbots.net/), [MEV Blocker](https://mevblocker.io/) | 30 sec | ~90% | Always, baseline |
+| Tight slippage | Wallet setting 0.1–0.3% | 10 sec | High | Every liquid-pair swap |
+| Split orders | TWAP, manual chunks | Medium | Medium | Orders that move price >1% |
+| Intent-based | [CoW Swap](https://cow.fi/), [UniswapX](https://uniswap.org/), 1inch Fusion | Low | Very high | Swaps above $5k–10k |
+| OTC / dark pool | Exchange OTC desks, Renegade | High | Total | $100k and above |
+| Wallet hygiene | [revoke.cash](https://revoke.cash/) | Monthly | Indirect | Ongoing, everyone |
+| Better wallet | Rabby | One-time | Indirect | Pre-sign simulation |
+
+A few notes on the top of the ladder. A **private RPC** keeps your transaction out of the public mempool entirely. If Jared cannot see it, Jared cannot sandwich it. **Intent-based** venues flip the model → you sign the result you want, and a solver competes to fill it, which makes sandwiching impossible by design. If you are moving size between chains rather than within one, the same logic applies to your route; our walkthrough on [how to swap BTC to ETH with ThorSwap](/blog/how-to-swap-btc-to-eth-with-thorswap) covers keeping cross-chain swaps clean.
+
+The practical minimum, in order → switch your MetaMask RPC to Flashbots Protect or MEV Blocker, route swaps over $5k through CoW Swap or UniswapX, keep slippage at 0.1–0.5% on liquid pairs, and clear old approvals on revoke.cash once a month. That alone stops you from being a profitable target.
+
+## What this really means, one attack at three scales
+
+Now step back from "victim, attacker, defense" and look at the whole thing at once. This is not three different stories. It is one story, told at three levels of scale. This is the part that actually matters.
+
+**Scale one.** A trader swaps on Uniswap. Their transaction glows in the public mempool. Jared sees it, knows its exact parameters, and the trader does not know Jared is watching. Information asymmetry becomes extracted value. That is the $60M-a-year business.
+
+**Scale two.** Jared scans the mempool and reacts automatically to profit signals. The attacker knows Jared's logic, because a bot is transparent and predictable by nature, and Jared does not know the 66 pools are bait. Same asymmetry, same mechanism. The predator is now the prey.
+
+**Scale three.** Every defense recommendation collapses into a single principle → stop leaking signals. Private RPC means do not broadcast your intent. Intent-based DEX means do not sign a transaction, sign an outcome. Tight slippage means do not tell the bot how far it can push you. Revoking approvals means do not leave a dangling power of attorney. User defense and bot vulnerability are mirror images of one rule.
+
+This is the **dark forest** Dan Robinson described back in 2020. Ethereum is a transparent environment where information is literally money. Everyone who leaves a readable trace (an intent, an approval, a predictable pattern) pays rent to whoever can read it. The chain structurally punishes the slow and the loud, and rewards the fast and the hidden. Jared thought he was the hunter. He was just the loudest animal in the forest.
+
+There is a moral-economic inversion hiding here too. On paper this was a $7.7M theft. In terms of total welfare, the attacker destroyed a machine that was destroying value for thousands of users on a loop. One "theft" confiscated less than two months of Jared's future income, and set a precedent. Counter-MEV honeypots are now a known strategy, which forces every sandwich bot to add defenses that slow it down. This was a redistributive event wearing the costume of an exploit. The attacker was an antibody, burning out a parasite with the parasite's own method.
+
+## What this means for the future of MEV
+
+The defense checklist is a local patch. The global solution is the direction Ethereum is already drifting → intent-based architectures (CoW, UniswapX, 1inch Fusion), encrypted mempools like SUAVE and Shutter, and private orderflow by default. In that world a sandwich is not merely discouraged, it is physically impossible, because there is no exposed information to build it on.
+
+Jared's fall is not a curiosity. It is a symptom of a phase transition. The public-mempool AMM as the dominant model is dying. The niche is being exhausted, the parasite can no longer feed, and a higher-order predator showed up to eat it. If you want the broader map of where this leaves the market, our [state of crypto 2025](/blog/state-of-crypto-2025) breakdown traces the same forces across the rest of the ecosystem.
+
+The long game will not be won by whoever defends best. It will be won by the protocols that make defense unnecessary by default.
+
+## FAQ
+
+**What is jaredfromsubway.eth?**
+It is one of Ethereum's best-known MEV bots, specialized in sandwich attacks. By most estimates it ran up to 70% of sandwich activity on the network and extracted around $60M a year from traders.
+
+**How much did the jaredfromsubway bot lose?**
+Approximately $7.7M, roughly 1,583.5 ETH plus $2.87M in USDC and $2.09M in USDT. The funds were swapped into about 4,427 ETH and laundered through Tornado Cash.
+
+**Can the stolen funds be recovered?**
+Realistically no. The proceeds were routed through Tornado Cash, a mixer designed to break the on-chain link between source and destination. On-chain theft of this kind is almost never reversed.
+
+**What is a dangling approval?**
+It is a token-spending permission you granted to a contract and never revoked. As long as it stays live, that contract can move the approved tokens. The bot's downfall was leaving 66 of them open to attacker-controlled contracts.
+
+**How do I protect my own swaps from sandwich attacks?**
+Switch your wallet RPC to a private one like Flashbots Protect or MEV Blocker, route larger swaps through intent-based venues like CoW Swap or UniswapX, keep slippage tight, and clear stale approvals monthly on revoke.cash.
+
+**Is a counter-MEV honeypot legal?**
+It sits in a deep gray zone. No contract was hacked in the traditional sense. The bot voluntarily approved the attacker's contracts. But sweeping the funds is still unauthorized in intent, which is why the proceeds were laundered rather than claimed openly.
+
+**Does this mean MEV bots are finished?**
+They are cornered rather than finished. The incident makes sandwich bots add defensive checks that reduce their profitability, while the ecosystem moves toward encrypted mempools and intent-based execution that remove the exposed information sandwiching depends on.
